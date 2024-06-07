@@ -1,0 +1,35 @@
+[
+    {
+        "day": "monday",
+        "location": [
+        {
+            "location_id": 1,
+            "location_name": "bleik",
+            "starttime": "2024-09-19T09:00Z",
+            "tests": [
+                {
+                    "id": "1.1.1",
+                    "test_contact": "Tomas Levin (NPRA)",
+                    "duration_m": 2,
+                    "power_w": 1,
+                    "comment": ""
+                },
+                {
+                    "id": "0.1.1",
+                    "test_contact": "",
+                    "duration_m": 2,
+                    "power_w": 1,
+                    "comment": "Grace period"
+                },
+                {
+                    "id": "0.1.1",
+                    "test_contact": "",
+                    "duration_m": 2,
+                    "power_w": 1,
+                    "comment": "Lunch Grace period"
+                }
+            ]
+        }
+        ]
+    }
+]
