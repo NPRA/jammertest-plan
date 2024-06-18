@@ -7,6 +7,7 @@ def escape(strng):
     #\ \textbackslash
     if not isinstance(strng, str):
         return strng
+    #strng = strng.replace("µ", "\mu")
     strng = strng.replace("&","\&")
     strng = strng.replace("%","\%")
     strng = strng.replace("$","\$")
@@ -40,11 +41,13 @@ def create_testgroup(fp, type_id, test_group):
     fp.write(f'\\section{{{tgroup_title}}}\n\n')
     fp.write(f'\\subsection*{{Rationale}}\n\n')
     fp.write(f'{rationale}\n\n')
-    fp.write(f'\\subsection*{{Test description}}\n\n')
-    fp.write(f'{description}\n\n')
-    fp.write(f'\\subsubsection*{{Additional information}}\n\n')
-    fp.write(f'{comment}\n\n')
-    fp.write(f'\\section*{{Test within this testgroup}}\n\n')
+    if description.strip() != '':
+        fp.write(f'\\subsection*{{Test description}}\n\n')
+        fp.write(f'{description}\n\n')
+    if comment.strip() != '':
+        fp.write(f'\\subsection*{{Additional information}}\n\n')
+        fp.write(f'{comment}\n\n')
+    fp.write('\\section*{Test within this testgroup}\n\n')
 
     # This section generates information on each test
     for test in test_group['tests']:
@@ -55,8 +58,8 @@ def create_testgroup(fp, type_id, test_group):
         t_bands = escape(test["constellation_bands"])
         t_equipment =  escape(test["equipment"])
 
-        fp.write(f'\\subsection*{{{tid}}}\n\n')
-        fp.write('\\noindent\\rule[0.5ex]{\linewidth}{1pt} \n')
+        fp.write(f'\\subsection{{{tid}}}\n\n')
+        fp.write('\\textcolor{lightgray}{\\noindent\\rule[0.5ex]{\linewidth}{1pt} }\n')
         
         
         fp.write(f'{t_text}\n')
@@ -67,13 +70,14 @@ def create_testgroup(fp, type_id, test_group):
         fp.write(f'{t_bands}\n'.replace('[','').replace(']',''))
         fp.write(f'\\subsubsection*{{Transmitter equpment}}\n')
         fp.write(f'{t_equipment}\n'.replace('[','').replace(']',''))
+        fp.write('\\\\')
 
        
 def create_testtype(fp, testtype):
     type_id = escape(testtype["type_id"])
     type_name = escape(testtype["type"])
-    type_title = f"{type_id}: {type_name}"
-    fp.write(f'\\section{{{type_title}}}\n\n')
+    type_title = f"{type_id} {type_name}"
+    fp.write(f'\\chapter{{{type_title}}}\n\n')
     for tg in testtype["test_groups"]:
         create_testgroup(fp, type_id, tg)
 

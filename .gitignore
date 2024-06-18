@@ -4,3 +4,4 @@ Latex/*.fls
 Latex/*.log
 Latex/*.out
 Latex/*.gz
+Latex/*.bbl

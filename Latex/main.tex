@@ -1,8 +1,37 @@
-\documentclass{book}
-%% Fix so sections are manually numbered
+\documentclass[a4paper]{book}
+
+\usepackage[]{xcolor}
+
+%% Fix so sections/chapters are manually numbered
+\usepackage{tocloft}
+\renewcommand\numberline[1]{}
 \setcounter{secnumdepth}{0}
+%\setcounter{chapter}{0}
+
+% remove "Chapter N" at the start of chapters:
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge} 
+
+% shrink margins:
+\usepackage[left=2.5cm, right=3cm, bottom=2.5cm, top=2.5cm]{geometry}
+
+% remove "Chapter N" crap in page header/footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrule}{\hbox to \headwidth{\color{blue}\leaders\hrule height \footrulewidth\hfill}}
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[RE]{\tiny\rightmark}
+\fancyfoot[LO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+
 %% Stop text from indenting
 \setlength\parindent{0pt}
+
 
 %% Graphics are stored in the graphics path
 \usepackage{graphicx}
@@ -57,7 +86,7 @@ For those wanting more information or have feedback about the test group a techn
 
 For each test group a set of tests and test varieties are listed with their unique identification number and and name, a text that describes the test. An approximate power number for the transmission. If the test is an automated ramp test then the power range is given. A time estimate of how long the test takes to conclude is given in minutes. Between tests there are also grace periods to allow systems to regain normal operation. These are not given as they are dependent on equipment and needs to be discussed with participants beforehand. The actual grace time will be calculated from the transmission log. The location of the transmitter equipment is also given in the test, this is a coarse human readable description of where the transmitting antenna is located. All participants are encouraged to make their own notes on the location of the transmitting antenna if detailed information is needed. There is also a comment field that can be used to document any other relevant information related to the specific test. 
 
-\chapter{Description of tests}
+%\chapter{Description of tests}
 \input{./Latex/tests}
 \end{document}
 

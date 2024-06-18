@@ -238,7 +238,7 @@
                                 "L1",
                                 " L2"
                             ],
-                            "description": "Test: Jammer H1.1 - high power, GPS L1+L2, wideband modulation. Will be activated in high power mode, for GPS L1 and L2 with modulation set for wideband.",
+                            "description": "Jammer H1.1 - high power, GPS L1+L2, wideband modulation. Will be activated in high power mode, for GPS L1 and L2 with modulation set for wideband.",
                             "equipment": [
                                 "H1.1"
                             ],
@@ -253,7 +253,7 @@
                                 " E1",
                                 " B1C"
                             ],
-                            "description": "Test: Jammer H1.2",
+                            "description": "Jammer H1.2",
                             "equipment": [
                                 "H1.2"
                             ],
@@ -269,7 +269,7 @@
                                 " B1C",
                                 " B1l"
                             ],
-                            "description": "Test: Jammer H3.1",
+                            "description": "Jammer H3.1",
                             "equipment": [
                                 "H3.1"
                             ],
@@ -285,7 +285,7 @@
                                 " B1C",
                                 " B1l"
                             ],
-                            "description": "Test: Jammer H3.2",
+                            "description": "Jammer H3.2",
                             "equipment": [
                                 "H3.2"
                             ],
@@ -304,7 +304,7 @@
                                 " E5a",
                                 " B2a"
                             ],
-                            "description": "Test: Jammer H3.3",
+                            "description": "Jammer H3.3",
                             "equipment": [
                                 "H3.3"
                             ],
@@ -331,7 +331,7 @@
                                 " B2a",
                                 " E5a/b"
                             ],
-                            "description": "Test: Jammer H4.1",
+                            "description": "Jammer H4.1",
                             "equipment": [
                                 "H4.1"
                             ],
@@ -346,7 +346,7 @@
                                 " E1",
                                 " B1C"
                             ],
-                            "description": "Test: Jammer H6.1",
+                            "description": "Jammer H6.1",
                             "equipment": [
                                 "H6.1"
                             ],
@@ -372,7 +372,7 @@
                                 " E5b",
                                 " E6"
                             ],
-                            "description": "Test: Jammer H6.2",
+                            "description": "Jammer H6.2",
                             "equipment": [
                                 "H6.2"
                             ],
@@ -398,7 +398,7 @@
                                 " E5b",
                                 " E6"
                             ],
-                            "description": "Test: Jammer H6.3",
+                            "description": "Jammer H6.3",
                             "equipment": [
                                 "H6.3"
                             ],
@@ -422,7 +422,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.4",
+                            "description": "Jammer H6.4",
                             "equipment": [
                                 "H6.4"
                             ],
@@ -446,7 +446,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.5",
+                            "description": "Jammer H6.5",
                             "equipment": [
                                 "H6.5"
                             ],
@@ -470,7 +470,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -487,7 +487,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H8.1",
+                            "description": "Jammer H8.1",
                             "equipment": [
                                 "H8.1"
                             ],
@@ -512,7 +512,7 @@
                                 " E5a",
                                 " B2a"
                             ],
-                            "description": "Test: Jammer F6.1 - Full power antenna F2 to F6",
+                            "description": "Jammer F6.1 - Full power antenna F2 to F6",
                             "equipment": [
                                 "F6.1"
                             ],
@@ -527,7 +527,7 @@
                                 " E1",
                                 " B1C"
                             ],
-                            "description": "Test: Jammer H1.3",
+                            "description": "Jammer H1.3",
                             "equipment": [
                                 "H1.3"
                             ],
@@ -543,7 +543,7 @@
                                 " B1C",
                                 " L2"
                             ],
-                            "description": "Test: Jammer H2.1",
+                            "description": "Jammer H2.1",
                             "equipment": [
                                 "H2.1"
                             ],
@@ -559,7 +559,7 @@
                                 " B1C",
                                 " L2"
                             ],
-                            "description": "Test: Jammer H2.2",
+                            "description": "Jammer H2.2",
                             "equipment": [
                                 "H2.2"
                             ],
@@ -572,7 +572,7 @@
                 },
                 {
                     "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-                    "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+                    "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The use of a 20W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
                     "group_id": 2,
                     "group_name": "Continuous stationary high-power jamming with CW",
                     "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data.",
@@ -581,13 +581,13 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: 20 W CW: L1",
+                            "description": "20W CW: L1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W CW: L1",
+                            "name": "20W CW: L1",
                             "test_id": 1
                         },
                         {
@@ -595,13 +595,13 @@
                                 "L1",
                                 " G1"
                             ],
-                            "description": "Test: 20 W CW: L1, G1",
+                            "description": "20W CW: L1, G1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W CW: L1, G1",
+                            "name": "20W CW: L1, G1",
                             "test_id": 2
                         },
                         {
@@ -610,13 +610,13 @@
                                 " G1",
                                 " L2"
                             ],
-                            "description": "Test: 20 W CW: L1, G1, L2",
+                            "description": "20W CW: L1, G1, L2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W CW: L1, G1, L2",
+                            "name": "20W CW: L1, G1, L2",
                             "test_id": 3
                         },
                         {
@@ -626,20 +626,20 @@
                                 " L2",
                                 " L5"
                             ],
-                            "description": "Test: 20 W CW: L1, G1, L2, L5",
+                            "description": "20W CW: L1, G1, L2, L5",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W CW: L1, G1, L2, L5",
+                            "name": "20W CW: L1, G1, L2, L5",
                             "test_id": 4
                         }
                     ]
                 },
                 {
                     "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-                    "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a sweep/chirp modulation using Right Hand Circular Polarized (RHCP) antennas. Sweep/chirp modulation means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for your GNSS receiving system.",
+                    "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a sweep/chirp modulation using Right Hand Circular Polarized (RHCP) antennas. Sweep/chirp modulation means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The use of a 20W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for your GNSS receiving system.",
                     "group_id": 3,
                     "group_name": "Continuous stationary high-power jamming with sweep/chirp",
                     "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data.",
@@ -648,13 +648,13 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: 20 W chirp: L1",
+                            "description": "20W chirp: L1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W chirp: L1",
+                            "name": "20W chirp: L1",
                             "test_id": 1
                         },
                         {
@@ -662,13 +662,13 @@
                                 "L1",
                                 " G1"
                             ],
-                            "description": "Test: 20 W chirp: L1, G1",
+                            "description": "20W chirp: L1, G1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W chirp: L1, G1",
+                            "name": "20W chirp: L1, G1",
                             "test_id": 2
                         },
                         {
@@ -677,13 +677,13 @@
                                 " G1",
                                 " L2"
                             ],
-                            "description": "Test: 20 W chirp: L1, G1, L2",
+                            "description": "20W chirp: L1, G1, L2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W chirp: L1, G1, L2",
+                            "name": "20W chirp: L1, G1, L2",
                             "test_id": 3
                         },
                         {
@@ -693,20 +693,20 @@
                                 " L2",
                                 " L5"
                             ],
-                            "description": "Test: 20 W chirp: L1, G1, L2, L5",
+                            "description": "20W chirp: L1, G1, L2, L5",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W chirp: L1, G1, L2, L5",
+                            "name": "20W chirp: L1, G1, L2, L5",
                             "test_id": 4
                         }
                     ]
                 },
                 {
                     "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-                    "description": "The use of continuous high-power jamming will block out a large area at the event. The attendees may therefore test the range of such a high-power jammer. There will be transmitted with a Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the specific GNSS band. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for your GNSS receiving system.",
+                    "description": "The use of continuous high-power jamming will block out a large area at the event. The attendees may therefore test the range of such a high-power jammer. There will be transmitted with a Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the specific GNSS band. The use of a 20W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for your GNSS receiving system.",
                     "group_id": 4,
                     "group_name": "Continuous stationary high-power jamming with PRN",
                     "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data.",
@@ -715,13 +715,13 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: 20 W PRN: L1",
+                            "description": "20W PRN: L1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: L1",
+                            "name": "20W PRN: L1",
                             "test_id": 1
                         },
                         {
@@ -729,13 +729,13 @@
                                 "L1",
                                 " G1"
                             ],
-                            "description": "Test: 20 W PRN: L1, G1",
+                            "description": "20W PRN: L1, G1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: L1, G1",
+                            "name": "20W PRN: L1, G1",
                             "test_id": 2
                         },
                         {
@@ -744,13 +744,13 @@
                                 " G1",
                                 " L2"
                             ],
-                            "description": "Test: 20 W PRN: L1, G1, L2",
+                            "description": "20W PRN: L1, G1, L2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: L1, G1, L2",
+                            "name": "20W PRN: L1, G1, L2",
                             "test_id": 3
                         },
                         {
@@ -760,13 +760,13 @@
                                 " L2",
                                 " L5"
                             ],
-                            "description": "Test: 20 W PRN: L1, G1, L2, L5",
+                            "description": "20W PRN: L1, G1, L2, L5",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: L1, G1, L2, L5",
+                            "name": "20W PRN: L1, G1, L2, L5",
                             "test_id": 4
                         }
                     ]
@@ -782,26 +782,26 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: 20 W: L1, PRN (BPSK-modulated with 3 Mbaud symbolrate)",
+                            "description": "20W: L1, PRN (BPSK-modulated with 3 Mbaud symbolrate)",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W: L1, PRN (BPSK-modulated with 3 Mbaud symbolrate)",
+                            "name": "20W: L1, PRN (BPSK-modulated with 3 Mbaud symbolrate)",
                             "test_id": 1
                         },
                         {
                             "constellation_bands": [
                                 "G1"
                             ],
-                            "description": "Test: 20 W: G1, PRN (BPSK-modulated with 10 Mbaud symbolrate)",
+                            "description": "20W: G1, PRN (BPSK-modulated with 10 Mbaud symbolrate)",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W: G1, PRN (BPSK-modulated with 10 Mbaud symbolrate)",
+                            "name": "20W: G1, PRN (BPSK-modulated with 10 Mbaud symbolrate)",
                             "test_id": 2
                         }
                     ]
@@ -817,13 +817,13 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1",
+                            "description": "0.1µW to 20W, 2 dB increments PRN: L1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1",
+                            "name": "0.1µW to 20W, 2 dB increments PRN: L1",
                             "test_id": 1
                         },
                         {
@@ -831,13 +831,13 @@
                                 "L1",
                                 "G1"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1, G1",
+                            "description": "0.1µW to 20W, 2 dB increments PRN: L1, G1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1, G1",
+                            "name": "0.1µW to 20W, 2 dB increments PRN: L1, G1",
                             "test_id": 2
                         },
                         {
@@ -846,13 +846,13 @@
                                 "G1",
                                 "L2"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1, G1, L2",
+                            "description": "0.1µW to 20W, 2 dB increments PRN: L1, G1, L2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1, G1, L2",
+                            "name": "0.1µW to 20W, 2 dB increments PRN: L1, G1, L2",
                             "test_id": 3
                         },
                         {
@@ -862,13 +862,13 @@
                                 "L2",
                                 "L5"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1, G1, L2, L5",
+                            "description": "0.1µW to 20W, 2 dB increments PRN: L1, G1, L2, L5",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments PRN: L1, G1, L2, L5",
+                            "name": "0.1µW to 20W, 2 dB increments PRN: L1, G1, L2, L5",
                             "test_id": 4
                         }
                     ]
@@ -884,13 +884,13 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1",
+                            "description": "0.1µW to 20W, 2 dB increments CW: L1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1",
+                            "name": "0.1µW to 20W, 2 dB increments CW: L1",
                             "test_id": 1
                         },
                         {
@@ -898,13 +898,13 @@
                                 "L1",
                                 "G1"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1, G1",
+                            "description": "0.1µW to 20W, 2 dB increments CW: L1, G1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1, G1",
+                            "name": "0.1µW to 20W, 2 dB increments CW: L1, G1",
                             "test_id": 2
                         },
                         {
@@ -913,13 +913,13 @@
                                 "G1",
                                 "L2"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1, G1, L2",
+                            "description": "0.1µW to 20W, 2 dB increments CW: L1, G1, L2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1, G1, L2",
+                            "name": "0.1µW to 20W, 2 dB increments CW: L1, G1, L2",
                             "test_id": 3
                         },
                         {
@@ -929,13 +929,13 @@
                                 "L2",
                                 "L5"
                             ],
-                            "description": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1, G1, L2, L5",
+                            "description": "0.1µW to 20W, 2 dB increments CW: L1, G1, L2, L5",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 1E-07,
-                            "name": "Test: 0.1 µW to 20 W, 2 dB increments CW: L1, G1, L2, L5",
+                            "name": "0.1µW to 20W, 2 dB increments CW: L1, G1, L2, L5",
                             "test_id": 4
                         }
                     ]
@@ -951,13 +951,13 @@
                             "constellation_bands": [
                                 "E6"
                             ],
-                            "description": "Test: 20 W PRN: E6",
+                            "description": "20W PRN: E6",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6",
+                            "name": "20W PRN: E6",
                             "test_id": 1
                         },
                         {
@@ -965,13 +965,13 @@
                                 "E6",
                                 "E5b"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b",
+                            "description": "20W PRN: E6, E5b",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b",
+                            "name": "20W PRN: E6, E5b",
                             "test_id": 2
                         },
                         {
@@ -980,13 +980,13 @@
                                 "E5b",
                                 "L5"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b, L5",
+                            "description": "20W PRN: E6, E5b, L5",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b, L5",
+                            "name": "20W PRN: E6, E5b, L5",
                             "test_id": 3
                         },
                         {
@@ -996,13 +996,13 @@
                                 "L5",
                                 "G2"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b, L5, G2",
+                            "description": "20W PRN: E6, E5b, L5, G2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b, L5, G2",
+                            "name": "20W PRN: E6, E5b, L5, G2",
                             "test_id": 4
                         },
                         {
@@ -1013,13 +1013,13 @@
                                 "G2",
                                 "L2"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b, L5, G2, L2",
+                            "description": "20W PRN: E6, E5b, L5, G2, L2",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b, L5, G2, L2",
+                            "name": "20W PRN: E6, E5b, L5, G2, L2",
                             "test_id": 5
                         },
                         {
@@ -1031,13 +1031,13 @@
                                 "L2",
                                 "B1l"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b, L5, G2, L2, B1l",
+                            "description": "20W PRN: E6, E5b, L5, G2, L2, B1l",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b, L5, G2, L2, B1l",
+                            "name": "20W PRN: E6, E5b, L5, G2, L2, B1l",
                             "test_id": 6
                         },
                         {
@@ -1050,13 +1050,13 @@
                                 "B1l",
                                 "G1"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b, L5, G2, L2, B1l, G1",
+                            "description": "20W PRN: E6, E5b, L5, G2, L2, B1l, G1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b, L5, G2, L2, B1l, G1",
+                            "name": "20W PRN: E6, E5b, L5, G2, L2, B1l, G1",
                             "test_id": 7
                         },
                         {
@@ -1070,13 +1070,13 @@
                                 "G1",
                                 "L1"
                             ],
-                            "description": "Test: 20 W PRN: E6, E5b, L5, G2, L2, B1l, G1, L1",
+                            "description": "20W PRN: E6, E5b, L5, G2, L2, B1l, G1, L1",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E6, E5b, L5, G2, L2, B1l, G1, L1",
+                            "name": "20W PRN: E6, E5b, L5, G2, L2, B1l, G1, L1",
                             "test_id": 8
                         }
                     ]
@@ -1099,13 +1099,13 @@
                                 "G1",
                                 "L1"
                             ],
-                            "description": "Test: 20 W PRN: E5b, L5, E6, G2, L2, B1l, G1, L1 The test will start with removing L1 and continue removing bands according to the list in the test name until only E5b remains. The test will continue by adding the bands back in the reverse order ending with L1.",
+                            "description": "20W PRN: E5b, L5, E6, G2, L2, B1l, G1, L1 The test will start with removing L1 and continue removing bands according to the list in the test name until only E5b remains. The test will continue by adding the bands back in the reverse order ending with L1.",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 20,
                             "min_power_w": 20,
-                            "name": "Test: 20 W PRN: E5b, L5, E6, G2, L2, B1l, G1, L1",
+                            "name": "20W PRN: E5b, L5, E6, G2, L2, B1l, G1, L1",
                             "test_id": 1
                         }
                     ]
@@ -1534,7 +1534,7 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: Jammer H8.1",
+                            "description": "Jammer H8.1",
                             "equipment": [
                                 "H8.1"
                             ],
@@ -1547,7 +1547,7 @@
                             "constellation_bands": [
                                 "L1"
                             ],
-                            "description": "Test: Jammer H8.1",
+                            "description": "Jammer H8.1",
                             "equipment": [
                                 "H8.1"
                             ],
@@ -1561,7 +1561,7 @@
                                 "L1",
                                 " L2"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -1575,7 +1575,7 @@
                                 "L1",
                                 " L2"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -1599,7 +1599,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -1623,7 +1623,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -1647,7 +1647,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -1671,7 +1671,7 @@
                                 " B1l",
                                 " G1"
                             ],
-                            "description": "Test: Jammer H6.6",
+                            "description": "Jammer H6.6",
                             "equipment": [
                                 "H6.6"
                             ],
@@ -1699,7 +1699,7 @@
                             ],
                             "max_power_w": 200,
                             "min_power_w": 1E-07,
-                            "name": "0.1 µW to 200 W, 2 dB increments PRN: L1",
+                            "name": "0.1µW to 200 W, 2 dB increments PRN: L1",
                             "test_id": 1
                         },
                         {
@@ -1713,7 +1713,7 @@
                             ],
                             "max_power_w": 200,
                             "min_power_w": 1E-07,
-                            "name": "0.1 µW to 200 W, 2 dB increments PRN: L1, G1",
+                            "name": "0.1µW to 200 W, 2 dB increments PRN: L1, G1",
                             "test_id": 2
                         },
                         {
@@ -1728,7 +1728,7 @@
                             ],
                             "max_power_w": 200,
                             "min_power_w": 1E-07,
-                            "name": "0.1 µW to 200 W, 2 dB increments PRN: L1, G1, L2",
+                            "name": "0.1µW to 200 W, 2 dB increments PRN: L1, G1, L2",
                             "test_id": 3
                         },
                         {
@@ -1744,7 +1744,7 @@
                             ],
                             "max_power_w": 200,
                             "min_power_w": 1E-07,
-                            "name": "0.1 µW to 200 W, 2 dB increments PRN: L1, G1, L2, L5",
+                            "name": "0.1µW to 200 W, 2 dB increments PRN: L1, G1, L2, L5",
                             "test_id": 4
                         }
                     ]
@@ -2479,13 +2479,13 @@
                                 "L1",
                                 "L2"
                             ],
-                            "description": "0.1 W meaconing preceded by jamming (20 W PRN L1 , L2, L5 and G1)",
+                            "description": "0.1 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.1,
-                            "name": "0.1 W meaconing preceded by jamming (20 W PRN L1 , L2, L5 and G1)",
+                            "name": "0.1 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
                             "test_id": 2
                         },
                         {
@@ -2507,13 +2507,13 @@
                                 "L1",
                                 "L2"
                             ],
-                            "description": "10 W meaconing preceded by jamming (20 W PRN L1 , L2, L5 and G1)",
+                            "description": "10 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
                             "equipment": [
                                 "F8.1"
                             ],
                             "max_power_w": 10,
                             "min_power_w": 10,
-                            "name": "10 W meaconing preceded by jamming (20 W PRN L1 , L2, L5 and G1)",
+                            "name": "10 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
                             "test_id": 4
                         }
                     ]
