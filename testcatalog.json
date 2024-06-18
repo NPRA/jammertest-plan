@@ -238,7 +238,7 @@
                                 "L1",
                                 " L2"
                             ],
-                            "description": "Test: Jammer H1.1 – high power, GPS L1+L2, wideband modulation. Will be activated in high power mode, for GPS L1 and L2 with modulation set for wideband.",
+                            "description": "Test: Jammer H1.1 - high power, GPS L1+L2, wideband modulation. Will be activated in high power mode, for GPS L1 and L2 with modulation set for wideband.",
                             "equipment": [
                                 "H1.1"
                             ],
@@ -512,7 +512,7 @@
                                 " E5a",
                                 " B2a"
                             ],
-                            "description": "Test: Jammer F6.1 – Full power antenna F2 to F6",
+                            "description": "Test: Jammer F6.1 - Full power antenna F2 to F6",
                             "equipment": [
                                 "F6.1"
                             ],
@@ -571,7 +571,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
                     "group_id": 2,
                     "group_name": "Continuous stationary high-power jamming with CW",
@@ -638,7 +638,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a sweep/chirp modulation using Right Hand Circular Polarized (RHCP) antennas. Sweep/chirp modulation means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for your GNSS receiving system.",
                     "group_id": 3,
                     "group_name": "Continuous stationary high-power jamming with sweep/chirp",
@@ -705,7 +705,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The use of continuous high-power jamming will block out a large area at the event. The attendees may therefore test the range of such a high-power jammer. There will be transmitted with a Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the specific GNSS band. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for your GNSS receiving system.",
                     "group_id": 4,
                     "group_name": "Continuous stationary high-power jamming with PRN",
@@ -772,10 +772,10 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The tests will be performed with BPSK modulation with a pseudo random symbol rate of 3 Mbaud at GPS L1 and 10.23 Mbaud at Glonass G1. The test cases refer to which centre frequency the signal will be centred at, based on the named GNSS bands.",
                     "group_id": 5,
-                    "group_name": "Continuous stationary high-power jamming with “real world” PRN",
+                    "group_name": "Continuous stationary high-power jamming with \"real world\" PRN",
                     "rationale": "The type of jamming employed in this test is the same as real world signals observed in Europe, where the jammer parameters were found after demodulating a captured baseband stream.",
                     "tests": [
                         {
@@ -807,7 +807,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT. Comparing the ramping tests from different sites, will give the opportunity to compare signals arriving from different angles and also to see the difference between signals going along earth/ground and coming from above.",
                     "group_id": 6,
                     "group_name": "Stationary high-power jamming, ramp power with PRN",
@@ -874,7 +874,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
                     "group_id": 7,
                     "group_name": "Stationary high-power jamming, ramp power with CW",
@@ -941,7 +941,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The jamming is performed with PRN modulation. The tests will jam most GNSS bands, incrementally adding bands to the list of jammed signals, then removing them in the reverse order. After the last test, a break should be added to allow receivers to default back to normal.",
                     "group_id": 8,
                     "group_name": "Stationary pyramid jamming with PRN for all GNSS bands sequentially",
@@ -1082,7 +1082,7 @@
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
                     "description": "The jamming is performed with PRN modulation. The tests will jam most GNSS bands, incrementally removing bands to the list of jammed signals, then adding them in the reverse order. The test will start with removing L1 and continue removing bands according to the list in the test name until only E5b remains. The test will continue by adding the bands back in the reverse order ending with L1. After the last test, a break should be added to allow receivers to default back to normal.",
                     "group_id": 9,
                     "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
@@ -1134,7 +1134,7 @@
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.0316,
-                            "name": "Driving while passing a parked car with GPS (L1 & L2) jammer – jammer S2.1",
+                            "name": "Driving while passing a parked car with GPS (L1 & L2) jammer - jammer S2.1",
                             "test_id": 1
                         },
                         {
@@ -1158,7 +1158,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Driving while passing a parked car with multi-band jammer – jammer H6.4",
+                            "name": "Driving while passing a parked car with multi-band jammer - jammer H6.4",
                             "test_id": 2
                         },
                         {
@@ -1178,7 +1178,7 @@
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.0316,
-                            "name": "Vehicle starting in GPS (L1 & L2) denied environment – jammer S2.1",
+                            "name": "Vehicle starting in GPS (L1 & L2) denied environment - jammer S2.1",
                             "test_id": 3
                         },
                         {
@@ -1202,7 +1202,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Vehicle starting in multi-band denied environment – jammer H6.4",
+                            "name": "Vehicle starting in multi-band denied environment - jammer H6.4",
                             "test_id": 4
                         }
                     ]
@@ -1231,7 +1231,7 @@
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.0316,
-                            "name": "Driving with GPS (L1 & L2) jammer in test vehicle – jammer S2.1",
+                            "name": "Driving with GPS (L1 & L2) jammer in test vehicle - jammer S2.1",
                             "test_id": 1
                         },
                         {
@@ -1251,7 +1251,7 @@
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.0316,
-                            "name": "Driving with GPS (L1 & L2) jammer in vehicle in front of the test vehicle – jammer S2.1",
+                            "name": "Driving with GPS (L1 & L2) jammer in vehicle in front of the test vehicle - jammer S2.1",
                             "test_id": 2
                         },
                         {
@@ -1271,7 +1271,7 @@
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.0316,
-                            "name": "Driving with GPS (L1 & L2) jammer in vehicle behind the test vehicle – jammer S2.1",
+                            "name": "Driving with GPS (L1 & L2) jammer in vehicle behind the test vehicle - jammer S2.1",
                             "test_id": 3
                         },
                         {
@@ -1291,7 +1291,7 @@
                             ],
                             "max_power_w": 0.1,
                             "min_power_w": 0.0316,
-                            "name": "Driving with GPS (L1 & L2) jammer in vehicle overtaking the test vehicle – jammer S2.1",
+                            "name": "Driving with GPS (L1 & L2) jammer in vehicle overtaking the test vehicle - jammer S2.1",
                             "test_id": 4
                         },
                         {
@@ -1335,7 +1335,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Driving with multi-band jammer in test vehicle – jammer H6.4",
+                            "name": "Driving with multi-band jammer in test vehicle - jammer H6.4",
                             "test_id": 6
                         },
                         {
@@ -1359,7 +1359,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Driving with multi-band jammer in vehicle in front of the test vehicle – jammer H6.4",
+                            "name": "Driving with multi-band jammer in vehicle in front of the test vehicle - jammer H6.4",
                             "test_id": 7
                         },
                         {
@@ -1383,7 +1383,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Driving with multi-band jammer in vehicle behind the test vehicle – jammer H6.4",
+                            "name": "Driving with multi-band jammer in vehicle behind the test vehicle - jammer H6.4",
                             "test_id": 8
                         },
                         {
@@ -1407,7 +1407,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Driving with multi-band jammer in vehicle overtaking the test vehicle – jammer H6.4",
+                            "name": "Driving with multi-band jammer in vehicle overtaking the test vehicle - jammer H6.4",
                             "test_id": 9
                         },
                         {
@@ -1431,7 +1431,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Driving with multi-band jammer in vehicle being overtaken by the test vehicle –jammer H6.4",
+                            "name": "Driving with multi-band jammer in vehicle being overtaken by the test vehicle -jammer H6.4",
                             "test_id": 10
                         }
                     ]
@@ -1441,7 +1441,7 @@
                     "description": "The test will use three multiband jammers, spaced out in the terrain in different places. Attendees can move around or station themselves so that they can experience the different constellation and observe how their equipment and systems behave in a complicated GNSS RFI environment.",
                     "group_id": 12,
                     "group_name": "Low power jamming with commercially available multi-band jammers in different placements in the terrain",
-                    "rationale": "The main objective is to simulate meeting several “more dangerous” jammers, multi-band jammers.",
+                    "rationale": "The main objective is to simulate meeting several \"more dangerous\" jammers, multi-band jammers.",
                     "tests": [
                         {
                             "constellation_bands": [
@@ -1605,7 +1605,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Mobile jammer (H6.6) (multi-band) – on the car deck outside car",
+                            "name": "Mobile jammer (H6.6) (multi-band) - on the car deck outside car",
                             "test_id": 5
                         },
                         {
@@ -1629,7 +1629,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Mobile jammer (H6.6) (multi-band) – on the car deck inside car",
+                            "name": "Mobile jammer (H6.6) (multi-band) - on the car deck inside car",
                             "test_id": 6
                         },
                         {
@@ -1653,7 +1653,7 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Mobile jammer (H6.6) (multi-band) – on deck close to the ship’s antennas (by the bridge)",
+                            "name": "Mobile jammer (H6.6) (multi-band) - on deck close to the ship’s antennas (by the bridge)",
                             "test_id": 7
                         },
                         {
@@ -1677,13 +1677,13 @@
                             ],
                             "max_power_w": 1.58,
                             "min_power_w": 1,
-                            "name": "Mobile jammer (H6.6) (multi-band) – inside public areas of boat (under the bridge)",
+                            "name": "Mobile jammer (H6.6) (multi-band) - inside public areas of boat (under the bridge)",
                             "test_id": 8
                         }
                     ]
                 },
                 {
-                    "comment": "The jammer employed will be “Porcus Major” F8.1, see appendix A. The last step, from 52 dBm to 53.0103 dBm (200 W), will be a 1.0103 dB increment, not a 2 dB increment.",
+                    "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A. The last step, from 52 dBm to 53.0103 dBm (200 W), will be a 1.0103 dB increment, not a 2 dB increment.",
                     "description": "The jammer will be placed at a mountainside. This will allow for attendees to evaluate the difference between signals arriving from in the horizontal plane and signals arriving with some elevation above the horizontal. Each test will last for 15.67 minutes, with a 15-minute break between each test.",
                     "group_id": 14,
                     "group_name": "Stationary high-power jamming, ramp power with PRN - Ramnan (200 W)",
@@ -1943,7 +1943,7 @@
                                 "E5a",
                                 "E5b"
                             ],
-                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \nSimulated position: North end of the football field – 69.27701401, 15.969328354, 45 m hae. (Height Above Ellipsoid) \nSimulated start time: 01.10.2023 12:00",
+                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae. (Height Above Ellipsoid) \nSimulated start time: 01.10.2023 12:00",
                             "equipment": [
                                 "N/A"
                             ],
@@ -1961,7 +1961,7 @@
                                 "E5a",
                                 "E5b"
                             ],
-                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: North end of the football field – 69.27701401, 15.96932835, 45 m hae. (Height Above Ellipsoid) \nSimulated start time: Referenced to live GPS-signals",
+                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: North end of the football field - 69.27701401, 15.96932835, 45 m hae. (Height Above Ellipsoid) \nSimulated start time: Referenced to live GPS-signals",
                             "equipment": [
                                 "N/A"
                             ],
@@ -1985,7 +1985,7 @@
                             ],
                             "max_power_w": 100,
                             "min_power_w": 1,
-                            "name": "Flying (route 2) – “helicopter scenario”",
+                            "name": "Flying (route 2) - \"helicopter scenario\"",
                             "test_id": 4
                         },
                         {
@@ -1997,7 +1997,7 @@
                                 "E5a",
                                 "E5b"
                             ],
-                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: Cemetery – 69.2824699, 15.9906568, 48 m hae. (Height Above Ellipsoid) \nSimulated start time: Referenced to live GPS-signals",
+                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: Cemetery - 69.2824699, 15.9906568, 48 m hae. (Height Above Ellipsoid) \nSimulated start time: Referenced to live GPS-signals",
                             "equipment": [
                                 "N/A"
                             ],
@@ -2143,7 +2143,7 @@
                             ],
                             "max_power_w": 100,
                             "min_power_w": 1,
-                            "name": "Flying (route 4) – “drone scenario”",
+                            "name": "Flying (route 4) - \"drone scenario\"",
                             "test_id": 7
                         },
                         {
@@ -2161,7 +2161,7 @@
                             ],
                             "max_power_w": 100,
                             "min_power_w": 1,
-                            "name": "Sailing (route 5) – “ship scenario”",
+                            "name": "Sailing (route 5) - \"ship scenario\"",
                             "test_id": 8
                         }
                     ]
@@ -2196,7 +2196,7 @@
                                 "E5a",
                                 "E5b"
                             ],
-                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming. \nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \nTime offset is + 15 minutes (900 seconds), so “into the future”. \nSpoofing power ramp –35 dBm to +15 dBm in steps of 5 dB every two minutes.",
+                            "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming. \nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \nTime offset is + 15 minutes (900 seconds), so \"into the future\". \nSpoofing power ramp -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
                             "equipment": [
                                 "N/A"
                             ],
@@ -2214,7 +2214,7 @@
                                 "E5a",
                                 "E5b"
                             ],
-                            "description": "Signals:\nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming. \nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \nTime offset is - 3 minutes (180 seconds), so “back into the past”. \nSpoofing power will start at -20 dBm and be stepped up to 15 dBm in one step.",
+                            "description": "Signals:\nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming. \nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \nTime offset is - 3 minutes (180 seconds), so \"back into the past\". \nSpoofing power will start at -20 dBm and be stepped up to 15 dBm in one step.",
                             "equipment": [
                                 "N/A"
                             ],
@@ -2306,7 +2306,7 @@
                                 "L1",
                                 "E1"
                             ],
-                            "description": "Signals: \nGPS L1 C/A \nGalileo E1 \n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed.\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \nSpoofing power ramp –35 dBm to +15 dBm in steps of 5 dB every two minutes.",
+                            "description": "Signals: \nGPS L1 C/A \nGalileo E1 \n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed.\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \nSpoofing power ramp -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
                             "equipment": [
                                 "N/A"
                             ],
@@ -2338,7 +2338,7 @@
                                 "E5a",
                                 "E5b"
                             ],
-                            "description": "Signals: \nGPS L1 C/A, L2C, L5\nGalileo E1, E5\nNo jamming. \nFixed spoofed position: Bleik harbour \nTime offset is + 15 minutes (900 seconds), so “into the future”.",
+                            "description": "Signals: \nGPS L1 C/A, L2C, L5\nGalileo E1, E5\nNo jamming. \nFixed spoofed position: Bleik harbour \nTime offset is + 15 minutes (900 seconds), so \"into the future\".",
                             "equipment": [
                                 "N/A"
                             ],
@@ -2354,7 +2354,7 @@
                     "description": "There will be a break between each test to allow receivers to reacquire fix onto real satellite signals (total of 50 min for each test). The spoofed signals will be on GPS L1 only. All spoofing tests will be combined with jamming on Glonass G1.",
                     "group_id": 6,
                     "group_name": "Incoherent GPS position and time spoofing from mobile spoofer",
-                    "rationale": "The objective is to simulate a vehicle-borne spoofing device “out in the wild”, so that attendees can experience how a mobile spoofing source affects their (stationary or mobile) equipment and systems.",
+                    "rationale": "The objective is to simulate a vehicle-borne spoofing device \"out in the wild\", so that attendees can experience how a mobile spoofing source affects their (stationary or mobile) equipment and systems.",
                     "tests": [
                         {
                             "constellation_bands": [
@@ -2428,7 +2428,7 @@
                             ],
                             "max_power_w": 100,
                             "min_power_w": 0.1,
-                            "name": "Pos=True; Time=2 years backwards, Jam_initial=All; Jam_cont=all except L1/E1; Scenario=Static+motion",
+                            "name": "Pos=True, Time=2 years backwards, Jamming=True, Scenario=Static+motion",
                             "test_id": 1
                         },
                         {
@@ -2442,7 +2442,7 @@
                             ],
                             "max_power_w": 100,
                             "min_power_w": 0.1,
-                            "name": "Pos=True; Time=2 years forward, Jam_initial=All; Jam_cont=all except L1/E1; Scenario=Static+motion",
+                            "name": "Pos=True, Time=2 years forward, Jamming=True, Scenario=Static+motion",
                             "test_id": 2
                         }
                     ]
@@ -2454,7 +2454,7 @@
         {
             "test_groups": [
                 {
-                    "comment": "The jammer employed will be F8.1 “Porcus Major”, see appendix A. Power levels denoted in the specific tests below are indications and will only be known during setup the days before Jammertest. Information will be provided during daily pre-test morning briefings.",
+                    "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. Power levels denoted in the specific tests below are indications and will only be known during setup the days before Jammertest. Information will be provided during daily pre-test morning briefings.",
                     "description": "GNSS re-transmission of real live sky signals, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt only (To re-transmitt on other GNSS bands requires an extensive filterbank to exclude all signals outside GNSS frequencies.) the GPS L1 and L2 bands. The re-transmitted signals needs a lot of amplification, with the added risk of amplifying background noise. Therefore, it is hard to give precise estimates of effective power levels and range. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels and varying degrees of time exposure to the meaconed signal. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result on the total output. The tests are performed with constant power outputs (0.1 W or 1 W), and with varying lengths of transmission times [see above for power levels]. There are planned a 15-minute break between each test. Many tests will be performed twice, so that it is possible to try to detect differences between stationary and mobile test objects.\nThe meaconed position is 69.2803484 N, 16.0074695 E.",
                     "group_id": 1,
                     "group_name": "Stationary meaconing with varying power and time exposure",

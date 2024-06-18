@@ -1,0 +1,28 @@
+name: Build LaTeX document
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+    # Runs a python script 
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+      - name: Run the python script to generate latex from JSON testfile
+        run: python .github/workflows/create_testplan_PDF.py
+        #Starting to build environment with latex in it and comple
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: ./Latex/main.tex
+      # Code to commit the file created by the python script 
+      - name: Commit changes
+        run: |
+          cp main.pdf Testplan.pdf
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add Testplan.pdf
+          git commit -m "[skip actions] Updated Jammertest testfile"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
