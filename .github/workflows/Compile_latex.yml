@@ -1,5 +1,10 @@
 name: Build LaTeX document
-on: [push]
+on: #[push]
+  push:
+    paths:
+      - ".github/workflows/create_testcatalog_PDF.py"
+      - "Latex/main.tex"
+      - "testcatalog.json"
 jobs:
   build_latex:
     runs-on: ubuntu-latest
