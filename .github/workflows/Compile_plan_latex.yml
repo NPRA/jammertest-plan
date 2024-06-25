@@ -22,7 +22,7 @@ jobs:
       # Code to commit the file created by the python script 
       - name: Commit changes
         run: |
-          cp plan-main.pdf Transmissionplan.pdf
+          cp main.pdf Transmissionplan.pdf
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
           git add Transmissionplan.pdf
