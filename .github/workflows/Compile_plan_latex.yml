@@ -2,6 +2,7 @@ name: Build Plan LaTeX document
 on: #[push]
   push:
     paths:
+      - ".github/workflows/Compile_plan_latex.yml"
       - ".github/workflows/create_testplan_PDF.py"
       - "Latex/transmissionplan/plan-main.tex"
       - "plan-**.json"
@@ -18,11 +19,11 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: ./Latex/main.tex
+          root_file: ./Latex/transmissionplan/plan-main.tex
       # Code to commit the file created by the python script 
       - name: Commit changes
         run: |
-          cp main.pdf Transmissionplan.pdf
+          cp plan-main.pdf Transmissionplan.pdf
           git config --global user.email "no-reply@github.com"
           git config --global user.name "GitHub Actions"
           git add Transmissionplan.pdf
