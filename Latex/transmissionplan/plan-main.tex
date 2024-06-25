@@ -1,0 +1,77 @@
+\documentclass[a4paper]{book}
+
+\usepackage[table,x11names,dvipsnames]{xcolor}
+\usepackage{tabularray}
+\usepackage{pdflscape}
+
+%% Fix so sections/chapters are manually numbered
+\usepackage{tocloft}
+\renewcommand\numberline[1]{}
+\setcounter{secnumdepth}{0}
+%\setcounter{chapter}{0}
+
+% remove "Chapter N" at the start of chapters:
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge} 
+
+% shrink margins:
+\usepackage[left=.5cm, right=.5cm, bottom=2cm, top=2cm]{geometry}
+
+% remove "Chapter N" crap in page header/footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrule}{\hbox to \headwidth{\color{blue}\leaders\hrule height \footrulewidth\hfill}}
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[RE]{\leftmark}
+\fancyfoot[LO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+
+%% Stop text from indenting
+\setlength\parindent{0pt}
+
+
+%% Graphics are stored in the graphics path
+\usepackage{graphicx}
+\graphicspath{ {./Latex} }
+
+%% Making hyperlinks in the table of contents
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=black
+}
+
+\usepackage{titlepic}
+\usepackage{datetime2}
+
+%\titlepic{\includegraphics[scale=0.2]{graphics/jampin.png}}
+\title{\includegraphics[scale=0.2]{graphics/jampin.png}\\ Jammertest 2024 \\ \huge{Transmission Plan}}
+\author{Jammertest Consortium}
+\date{\today \\ \DTMcurrenttime}
+
+\begin{document}
+\maketitle
+
+\newgeometry{left=3cm,right=2.5cm,top=2cm,bottom=2.5cm}
+\tableofcontents
+\restoregeometry
+
+
+
+\colorlet{lightlightgray}{lightgray!30!}
+\begin{landscape}
+\chapter{Monday}
+\Large Location 1 Bleik \\
+Monday morning before lunch will be used for setting up equipment and checking that all systems are operational. After lunch the testing will start with high power jamming.
+%\addcontentsline{toc}{chapter}{Monday}
+\include{./Latex/plan-monday}
+\end{landscape}
+\end{document}

@@ -5,3 +5,11 @@ Latex/*.log
 Latex/*.out
 Latex/*.gz
 Latex/*.bbl
+
+Latex/*/*.aux
+Latex/*/*.fdb_latexmk
+Latex/*/*.fls
+Latex/*/*.log
+Latex/*/*.out
+Latex/*/*.gz
+Latex/*/*.bbl

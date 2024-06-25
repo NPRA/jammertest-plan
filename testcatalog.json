@@ -3,6 +3,41 @@
         {
             "test_groups": [
                 {
+                    "comment": "Mandatory!",
+                    "description": "These are the mandatory safety briefings. These briefings will also be used to go through the plan for the day and the afternoon brief will contain important observations from the day.",
+                    "group_id": 0,
+                    "group_name": "Mandatory briefings",
+                    "rationale": "In order for everyone to have a good time and ensure a safe event, there will be mandatory briefings.",
+                    "tests": [
+                        {
+                            "constellation_bands": [
+                                "N/A"
+                            ],
+                            "description": "No RF interference expected.",
+                            "equipment": [
+                                "N/A"
+                            ],
+                            "max_power_w": 0,
+                            "min_power_w": 0,
+                            "name": "Mandatory morning briefing",
+                            "test_id": 1
+                        },
+                        {
+                            "constellation_bands": [
+                                "N/A"
+                            ],
+                            "description": "No RF interference expected.",
+                            "equipment": [
+                                "N/A"
+                            ],
+                            "max_power_w": 0,
+                            "min_power_w": 0,
+                            "name": "Mandatory afternoon briefing",
+                            "test_id": 2
+                        }
+                    ]
+                },
+                {
                     "comment": "",
                     "description": "This period can be used to make sure that equipment is ready for upcoming tests.",
                     "group_id": 1,
