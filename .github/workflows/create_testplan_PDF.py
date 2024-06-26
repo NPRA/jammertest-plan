@@ -93,18 +93,16 @@ def findTestInCatalog(catalog, testId):
 #cat = json.load(json_cat)
 #print(findTestInCatalog(cat, "1.1.1"))
 #exit()
+def getTime(isoStr):
+    return datetime.fromisoformat(isoStr).astimezone(tz=zoneinfo.ZoneInfo('CET'))
 
 def findTestInHour(locationObj, hour):
-    initTime = datetime.fromisoformat(locationObj['starttime'][:-1] + '+00:00').astimezone(tz=zoneinfo.ZoneInfo('CET'))
     foundTests = []
-    accTime = 0
     for test in locationObj['tests']:
-        duration = test['duration_m']
-        startTime = initTime + timedelta(minutes=accTime)
-        test['start_time'] = startTime.strftime('%H:%M')
-        endTime = startTime + timedelta(minutes=duration)
-        test['end_time'] = endTime.strftime('%H:%M')
-        accTime += duration
+        startTime = getTime(test['start_time'])
+        test['start_time_t'] = startTime.strftime('%H:%M')
+        endTime = getTime(test['end_time'])
+        test['end_time_t'] = endTime.strftime('%H:%M')
         if int(startTime.strftime("%H")) == hour:
             foundTests.append(test)
     return foundTests
@@ -113,7 +111,7 @@ def printTest(testArr):
     res = "{"
     for test in testArr:
         testInfo = findTestInCatalog(cat, test["test_id"])
-        res += f'\\normalsize{{\\textbf{{{test["start_time"]} - {testInfo["full_id"]} \\\\ {testInfo["testObj"]["name"]} }} }} \\\\ \n \\vspace{{1mm}} '
+        res += f'\\normalsize{{\\textbf{{{test["start_time_t"]}-{test["end_time_t"]} - {testInfo["full_id"]} \\\\ {testInfo["testObj"]["name"]} }} }} \\\\ \n \\vspace{{1mm}} '
         if test['power_w'] > 0:
             res += f'\\footnotesize{{\hspace{{3mm}}Power: {test["power_w"]}W }} \\\\ \n'
         if test['comment'] != '':
@@ -137,7 +135,7 @@ def create_daytable(tp, dayname, locArr):
     numOfLocs = len(locArr)
     tp.write('Start time: & ')
     for l in range(0,numOfLocs):
-        localtime = datetime.fromisoformat(locArr[l]['starttime'][:-1] + '+00:00').astimezone(tz=zoneinfo.ZoneInfo('CET'))
+        localtime = datetime.fromisoformat(locArr[l]["tests"][0]['start_time']).astimezone(tz=zoneinfo.ZoneInfo('CET'))
         tp.write(str(localtime.strftime('%H:%M')))
         if l < numOfLocs-1:
             tp.write(' & ')

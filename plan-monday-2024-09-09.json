@@ -3,44 +3,48 @@
         {
             "location_id": 1,
             "location_name": "Bleik",
-            "starttime": "2024-09-19T07:00:00Z",
             "tests": [
                 {
+                    "start_time": "2024-09-19T09:00:00",
+                    "end_time": "2024-09-19T10:00:00",
                     "test_id": "0.0.1",
                     "test_contact": "Christian Skjetne (NPRA)",
-                    "duration_m": 30,
                     "power_w": 0,
                     "comment": "MANDATORY",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T10:30:00",
+                    "end_time": "2024-09-19T11:00:00",
                     "test_id": "1.1.1",
                     "test_contact": "Tomas Levin (NPRA)",
-                    "duration_m": 2,
                     "power_w": 1,
                     "comment": "",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T11:00:00",
+                    "end_time": "2024-09-19T12:00:00",
                     "test_id": "0.1.1",
                     "test_contact": "Tomas Levin (NPRA)",
-                    "duration_m": 3,
                     "power_w": 1,
                     "comment": "Grace period",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T12:00:00",
+                    "end_time": "2024-09-19T13:00:00",
                     "test_id": "0.1.1",
                     "test_contact": "",
-                    "duration_m": 2,
                     "power_w": 1,
                     "comment": "Lunch Grace period",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T16:00:00",
+                    "end_time": "2024-09-19T17:00:00",
                     "test_id": "0.0.2",
                     "test_contact": "Christian Skjetne (NPRA)",
-                    "duration_m": 30,
                     "power_w": 0,
                     "comment": "",
                     "status": ""
@@ -50,36 +54,39 @@
         {
             "location_id": 2,
             "location_name": "Sand box",
-            "starttime": "2024-09-19T09:00:00Z",
             "tests": [
                 {
+                    "start_time": "2024-09-19T10:00:00",
+                    "end_time": "2024-09-19T10:15:00",
                     "test_id": "1.1.1",
                     "test_contact": "Tomas Levin (NPRA)",
-                    "duration_m": 55,
                     "power_w": 1,
                     "comment": "",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T10:15:00",
+                    "end_time": "2024-09-19T10:30:00",
                     "test_id": "0.1.1",
                     "test_contact": "Tomas Levin (NPRA)",
-                    "duration_m": 10,
                     "power_w": 0,
                     "comment": "Grace period",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T12:00:00",
+                    "end_time": "2024-09-19T13:00:00",
                     "test_id": "2.5.3",
                     "test_contact": "",
-                    "duration_m": 15,
                     "power_w": 0,
                     "comment": "Lunch Grace period",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T13:00:00",
+                    "end_time": "2024-09-19T13:30:00",
                     "test_id": "2.5.3",
                     "test_contact": "",
-                    "duration_m": 15,
                     "power_w": 0,
                     "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
                     "status": ""
@@ -89,36 +96,39 @@
         {
             "location_id": 3,
             "location_name": "Motorcade",
-            "starttime": "2024-09-19T12:00:00Z",
             "tests": [
                 {
+                    "start_time": "2024-09-19T08:00:00",
+                    "end_time": "2024-09-19T12:00:00",
                     "test_id": "1.1.1",
                     "test_contact": "Tomas Levin (NPRA)",
-                    "duration_m": 55,
                     "power_w": 1,
                     "comment": "",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T13:00:00",
+                    "end_time": "2024-09-19T13:40:00",
                     "test_id": "2.5.3",
                     "test_contact": "",
-                    "duration_m": 15,
                     "power_w": 0,
                     "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T13:50:00",
+                    "end_time": "2024-09-19T14:20:00",
                     "test_id": "1.1.1",
                     "test_contact": "Tomas Levin (NPRA)",
-                    "duration_m": 55,
                     "power_w": 1,
                     "comment": "",
                     "status": ""
                 },
                 {
+                    "start_time": "2024-09-19T14:20:00",
+                    "end_time": "2024-09-19T15:30:00",
                     "test_id": "2.5.3",
                     "test_contact": "",
-                    "duration_m": 15,
                     "power_w": 0,
                     "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
                     "status": ""
