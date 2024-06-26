@@ -1,6 +1,10 @@
 import json
 from datetime import datetime, timedelta
 import zoneinfo
+import os, time
+
+os.environ['TZ'] = 'Europe/Oslo'
+time.tzset()
 
 def escape(strng):
     #\& \% \$ \# \_ \{ \}
