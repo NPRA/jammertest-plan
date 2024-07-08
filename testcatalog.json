@@ -2378,7 +2378,45 @@
       "test_groups": [
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. Power levels denoted in the specific tests below are indications and will only be known during setup the days before Jammertest. Information will be provided during daily pre-test morning briefings.",
-          "description": "GNSS re-transmission of real live sky signals, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt only (To re-transmitt on other GNSS bands requires an extensive filterbank to exclude all signals outside GNSS frequencies.) the GPS L1 and L2 bands. The re-transmitted signals needs a lot of amplification, with the added risk of amplifying background noise. Therefore, it is hard to give precise estimates of effective power levels and range. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels and varying degrees of time exposure to the meaconed signal. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result on the total output. The tests are performed with constant power outputs (0.1 W or 1 W), and with varying lengths of transmission times [see above for power levels]. There are planned a 15-minute break between each test. Many tests will be performed twice, so that it is possible to try to detect differences between stationary and mobile test objects.\nThe meaconed position is 69.2803484 N, 16.0074695 E.",
+          "description": "GNSS re-transmission of real live sky signals from two receovers (RX1 and RX2), where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on L1 and L2 bands, where the employed antennas have cut-off frequencies at XXXXX, respectivly. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels and varying degrees of time exposure to the meaconed signal. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result the total output. The tests are performed both with constant power outputs ( W or 1 W) and with power pyramids ramps, and with varying lengths of transmission times. There are planned a 10-minute break between each test, with some extra breaks before eventual repeats. Some tests might be repeated, so that it is possible to try to detect differences between fgor example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment .\nThe meaconed positions are RX1: 111111111 and RX2: 222222222".
+          "group_id": 1,
+          "group_name": "Stationary meaconing with varying power from single receivers",
+          "rationale": "The objective is to observe how equipment and systems behave under meaconing.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "1 W meaconing from receiver RX1",
+              "equipment": [
+                "M"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 1,
+              "name": "RX1 at 1 W",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "1 W meaconing from receiver RX1 preceded by 5 min jamming (PRN L1, L2, L5 and G1 at 20 W)",
+              "equipment": [
+                "M"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 1,
+              "name": "RX1 at 1 W with initial jamming",
+              "test_id": 2
+            },
+          ]
+        }
+        
+        {
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. Power levels denoted in the specific tests below are indications and will only be known during setup the days before Jammertest. Information will be provided during daily pre-test morning briefings.",
+          "description": "GNSS re-transmission of real live sky signals from two receovers (RX1 and RX2), where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on L1 and L2 bands, where the employed antennas have cut-off frequencies at XXXXX, respectivly. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels and varying degrees of time exposure to the meaconed signal. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result the total output. The tests are performed both with constant power outputs ( W or 1 W) and with power pyramids ramps, and with varying lengths of transmission times. There are planned a 10-minute break between each test, with some extra breaks before eventual repeats. Some tests might be repeated, so that it is possible to try to detect differences between fgor example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment .\nThe meaconed positions are RX1: 111111111 and RX2: 222222222".
           "group_id": 1,
           "group_name": "Stationary meaconing with varying power and time exposure",
           "rationale": "The objective is to observe how equipment and systems behave under meaconing.",
