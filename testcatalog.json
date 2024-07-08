@@ -2410,7 +2410,7 @@
               "min_power_w": 1,
               "name": "RX1 at 1 W with initial jamming",
               "test_id": 2
-            },
+            }
           ]
         },
         {
