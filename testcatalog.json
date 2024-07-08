@@ -2377,11 +2377,11 @@
     {
       "test_groups": [
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. Power levels denoted in the specific tests below are indications and will only be known during setup the days before Jammertest. Information will be provided during daily pre-test morning briefings.",
-          "description": "GNSS re-transmission of real live sky signals from two receovers (RX1 and RX2), where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on L1 and L2 bands, where the employed antennas have cut-off frequencies at XXXXX, respectivly. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels and varying degrees of time exposure to the meaconed signal. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result the total output. The tests are performed both with constant power outputs ( W or 1 W) and with power pyramids ramps, and with varying lengths of transmission times. There are planned a 10-minute break between each test, with some extra breaks before eventual repeats. Some tests might be repeated, so that it is possible to try to detect differences between fgor example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment .\nThe meaconed positions are RX1: 111111111 and RX2: 222222222.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "description": "GNSS re-transmission of real live sky signals from one receiver, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on L1 and L2 bands, where the employed antennas RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that the Glonass G1 satellites shouldn't be visiable, but some Beidou B1I satellites might be, especially on RX1. The tests are performed both with constant power outputs (1 W or 10 W), some with initial jamming and some without. There are planned a 10-minute break between each test. \nThe meaconed position is for RX1: TBD1 and for RX2: TBD2.",
           "group_id": 1,
-          "group_name": "Stationary meaconing with varying power from single receivers",
-          "rationale": "The objective is to observe how equipment and systems behave under meaconing.",
+          "group_name": "Stationary meaconing with varying power from single receiver",
+          "rationale": "The objective is to observe how equipment and systems behave under meaconing from a single receiver, with and without initital jammming. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result the total output. Some tests might be repeated, so that it is possible to try to detect differences between for example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment .",
           "tests": [
             {
               "constellation_bands": [
@@ -2410,56 +2410,19 @@
               "min_power_w": 1,
               "name": "RX1 at 1 W with initial jamming",
               "test_id": 2
-            }
-          ]
-        },
-        {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. Power levels denoted in the specific tests below are indications and will only be known during setup the days before Jammertest. Information will be provided during daily pre-test morning briefings.",
-          "description": "GNSS re-transmission of real live sky signals from two receovers (RX1 and RX2), where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on L1 and L2 bands, where the employed antennas have cut-off frequencies at XXXXX, respectivly. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels and varying degrees of time exposure to the meaconed signal. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result the total output. The tests are performed both with constant power outputs ( W or 1 W) and with power pyramids ramps, and with varying lengths of transmission times. There are planned a 10-minute break between each test, with some extra breaks before eventual repeats. Some tests might be repeated, so that it is possible to try to detect differences between fgor example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment .\nThe meaconed positions are RX1: 111111111 and RX2: 222222222.",
-          "group_id": 2,
-          "group_name": "Stationary meaconing with varying power and time exposure",
-          "rationale": "The objective is to observe how equipment and systems behave under meaconing.",
-          "tests": [
-            {
-              "constellation_bands": [
-                "L1",
-                "L2"
-              ],
-              "description": "0.1 W meaconing",
-              "equipment": [
-                "F8.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.1,
-              "name": "0.1 W meaconing",
-              "test_id": 1
             },
             {
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
-              "description": "0.1 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
-              "equipment": [
-                "F8.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.1,
-              "name": "0.1 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
-              "test_id": 2
-            },
-            {
-              "constellation_bands": [
-                "L1",
-                "L2"
-              ],
-              "description": "10 W meaconing",
+              "description": "10 W meaconing from receiver RX1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "10 W meaconing",
+              "name": "RX1 at 10 W",
               "test_id": 3
             },
             {
@@ -2467,14 +2430,65 @@
                 "L1",
                 "L2"
               ],
-              "description": "10 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
+              "description": "10 W meaconing from receiver RX1 preceded by 5 min jamming (PRN L1, L2, L5 and G1 at 20 W)",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "10 W meaconing preceded by jamming (20W PRN L1 , L2, L5 and G1)",
+              "name": "RX1 at 10 W with initial jamming",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "10 W meaconing from receiver RX2",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "RX2 at 10 W",
+              "test_id": 5
+            }
+          ]
+        },
+        {
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "description": "GNSS re-transmission of real live sky signals from two receiver (RX1 and RX2), with the same receivers specifications as listed in \"Meaconing testgroup 1\". \nTheThe tests are performed both with constant power outputs (1 W or 10 W), some with initial jamming and some without. There are planned a 10-minute break between each test, with some extra breaks before eventual repeats. Some tests might be repeated, so that it is possible to try to detect differences between for example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment .\nThe meaconed position is (for RX1): TBD1.",
+          "group_id": 2,
+          "group_name": "Stationary meaconing from two receiver",
+          "rationale": "The objective is to observe how equipment and systems behave under meaconing from a single receiver, with and without initital jammming. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels. Maybe especially interesting is to see if the effects of movement and speed, coupled with other sensor data, will result the total output.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "10 W meaconing from receivers RX1+RX2",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "RX1+RX2 at 10 W",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "1 W meaconing from receiver RX1 preceded by 5 min jamming (PRN L1, L2, L5 and G1 at 20 W)",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 1,
+              "name": "RX1 at 1 W with initial jamming",
+              "test_id": 2
             }
           ]
         }
