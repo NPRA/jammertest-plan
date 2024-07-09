@@ -2523,7 +2523,7 @@
                 "L1",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks.	RX1 activated first and left on for 1 minute, before turning it off and waiting 1 minute. RX2 is then turned on and left on for 1 minute, before being turned off and waiting 1 minute. Repeat for three cycles.",
+              "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. Rx1 activated first and left on for 1 minute, before being turned off and waiting for 1 minute. RX2 is then turned on and left on for 1 minute before being turned off and waiting 1 minute. Repeat for three cycles.", 
               "equipment": [
                 "F8.1"
               ],
