@@ -47,7 +47,7 @@ def create_testgroup(fp, type_id, test_group):
     if comment.strip() != '':
         fp.write(f'\\subsection*{{Additional information}}\n\n')
         fp.write(f'{comment}\n\n')
-    fp.write('\\section*{Test within this testgroup}\n\n')
+    fp.write('\\section*{Tests within this test group}\n\n')
 
     # This section generates information on each test
     for test in test_group['tests']:
@@ -64,8 +64,8 @@ def create_testgroup(fp, type_id, test_group):
         
         fp.write(f'{t_text}\n')
         fp.write(f'\\subsubsection*{{Power or power range}}\n')
-        fp.write(f'Min: {t_min_power}W'+"\\\\")
-        fp.write(f'Max: {t_max_power}W')
+        fp.write(f'Min: {t_min_power} W'+"\\\\")
+        fp.write(f'Max: {t_max_power} W')
         fp.write(f'\\subsubsection*{{Test bands/constellation}}\n')
         fp.write(f'{t_bands}\n'.replace('[','').replace(']',''))
         fp.write(f'\\subsubsection*{{Transmitter equpment}}\n')
