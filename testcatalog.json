@@ -60,7 +60,7 @@
           ]
         }
       ],
-      "type": "Grace period",
+      "type": "Supplemental periods",
       "type_id": 0
     },
     {
@@ -1736,7 +1736,7 @@
           ]
         }
       ],
-      "type": "jamming",
+      "type": "Jamming",
       "type_id": 1
     },
     {
