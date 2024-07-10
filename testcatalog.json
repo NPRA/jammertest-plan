@@ -17,8 +17,12 @@
               "equipment": [
                 "N/A"
               ],
-              "max_power_w": "N/A",
-              "min_power_w": "N/A",
+              "max_power_w": [
+                "N/A"
+              ],
+              "min_power_w": [
+                "N/A"
+              ],
               "name": "Mandatory morning briefing",
               "test_id": 1
             },
@@ -30,8 +34,12 @@
               "equipment": [
                 "N/A"
               ],
-              "max_power_w": "N/A",
-              "min_power_w": "N/A",
+              "max_power_w": [
+                "N/A"
+              ],
+              "min_power_w": [
+                "N/A"
+              ],
               "name": "Mandatory afternoon (de)briefing",
               "test_id": 2
             }
@@ -52,8 +60,12 @@
               "equipment": [
                 "N/A"
               ],
-              "max_power_w": "N/A",
-              "min_power_w": "N/A",
+              "max_power_w": [
+                "N/A"
+              ],
+              "min_power_w": [
+                "N/A"
+              ],
               "name": "Grace period",
               "test_id": 1
             }
