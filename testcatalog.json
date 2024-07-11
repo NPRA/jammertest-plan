@@ -1696,35 +1696,35 @@
         },
         {
           "comment": "Each test will have a short break after it is completed. When L1-only and G1-only is combined in a test, the transmission will change from the first to the second instantly.",
-          "description": "A 20 MHz wideband (WB) white noise signal will be active on either L1 or G1. Signal power will be ramped up during the first test, and then kept at the achieved maximum power for the reminder of the tests.",
+          "description": "A 20 MHz wideband (WB) white noise signal will be active on either L1 or G1. Signal power will be ramped up (in 10 dB steps) during the first test, and then kept at the achieved maximum power for the reminder of the tests.",
           "group_id": 15,
-          "group_name": "Stationary low-power jamming of L1-only and G1-only",
+          "group_name": "Stationary low-power jamming of L1 and G1",
           "rationale": "The main objective is to test receivers’ ability to change between using GPS and Glonass when one or the other is denied.",
           "tests": [
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Low-power jamming",
+              "description": "Low-power WB jamming on only the L1 band,",
               "equipment": [
                 "N/A"
               ],
               "max_power_w": 1,
               "min_power_w": 0.1,
-              "name": "WB, L1-only",
+              "name": "WB jamming: L1",
               "test_id": 1
             },
             {
               "constellation_bands": [
                 "G1"
               ],
-              "description": "Low-power jamming",
+              "description": "Low-power WB jamming on only the G1 band,",
               "equipment": [
                 "N/A"
               ],
               "max_power_w": 1,
-              "min_power_w": 0.1,
-              "name": "WB, G1-only",
+              "min_power_w": 1,
+              "name": "WB jamming: G1",
               "test_id": 2
             },
             {
@@ -1732,13 +1732,13 @@
                 "G1",
                 "L1"
               ],
-              "description": "Low-power jamming",
+              "description": "Low-power jamming of first only the G1 band and after half of the test duration, the signal is without a break switched to L1-only.",
               "equipment": [
                 "N/A"
               ],
               "max_power_w": 1,
-              "min_power_w": 0.1,
-              "name": "WB, G1-only then L1-only",
+              "min_power_w": 1,
+              "name": "WB jamming: G1 then L1",
               "test_id": 3
             },
             {
@@ -1746,13 +1746,13 @@
                 "G1",
                 "L1"
               ],
-              "description": "Low-power jamming",
+              "description": "Low-power jamming of first only the L1 band and after half of the test duration, the signal is without a break switched to G1-only.",
               "equipment": [
                 "N/A"
               ],
               "max_power_w": 1,
-              "min_power_w": 0.1,
-              "name": "WB, L1-only then G1-only",
+              "min_power_w": 1,
+              "name": "WB jamming: L1 then G1",
               "test_id": 4
             }
           ]
