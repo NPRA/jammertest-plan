@@ -1057,7 +1057,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving while passing a parked car with GPS L1 & L2 jammer",
+              "name": "Driving while passing a parked car with dual-band jammer",
               "test_id": 1
             },
             {
@@ -1101,7 +1101,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Vehicle starting in GPS L1 & L2 denied environment",
+              "name": "Vehicle starting in dual-band denied environment",
               "test_id": 3
             },
             {
@@ -1154,7 +1154,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS L1 & L2 jammer in test vehicle",
+              "name": "Driving with dual-band jammer in test vehicle",
               "test_id": 1
             },
             {
@@ -1174,7 +1174,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS L1 & L2 jammer in vehicle in front of the test vehicle",
+              "name": "Driving with dual-band jammer in vehicle in front of the test vehicle",
               "test_id": 2
             },
             {
@@ -1194,7 +1194,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS L1 & L2 jammer in vehicle behind the test vehicle",
+              "name": "Driving with dual-band jammer in vehicle behind the test vehicle",
               "test_id": 3
             },
             {
@@ -1214,7 +1214,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS L1 & L2 jammer in vehicle overtaking the test vehicle",
+              "name": "Driving with dual-band jammer in vehicle overtaking the test vehicle",
               "test_id": 4
             },
             {
@@ -1234,7 +1234,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS L1 & L2 jammer in vehicle being overtaken by the test vehicle",
+              "name": "Driving with dual-band jammer in vehicle being overtaken by the test vehicle",
               "test_id": 5
             },
             {
@@ -1448,63 +1448,85 @@
         },
         {
           "comment": "",
-          "description": "Exact locations and tests will be chosen on site according to layout of ship and available time schedule.",
+          "description": "In general, some tests will be done with jammers on top of the car and some with the jammers inside the car, with variations of single-, dual-, or multi-band commercially available jammers. Other tests are with jammers held by people on other parts of the ship. More specific locations and test setups will have to be chosen on site according to layout of ship and available time schedule.",
           "group_id": 13,
-          "group_name": "Jamming attacks on ships",
-          "rationale": "The objective is to simulate the conditions of which a jammer can appear on ships like ferries.",
+          "group_name": "Jamming attacks with jammers on board a ship",
+          "rationale": "The objective is to simulate the conditions of which a jammer can appear on ships like ferries, to explore the impact on the ship's systems when the jammer is on board.",
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                " E1",
+                " B1C",
+                " B1I",
+                " G1"
               ],
-              "description": "Jammer H8.1",
+              "description": "Test performed with jammer H8.1",
               "equipment": [
                 "H8.1"
               ],
               "max_power_w": 0.631,
               "min_power_w": 0.631,
-              "name": "Mobile jammer (H8.1) (L1 only) on the car deck outside car",
+              "name": "Single-band jammer on the car deck outside car",
               "test_id": 1
             },
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                " E1",
+                " B1C",
+                " B1I",
+                " G1"
               ],
-              "description": "Jammer H8.1",
+              "description": "Test performed with jammer H8.1",
               "equipment": [
                 "H8.1"
               ],
               "max_power_w": 0.631,
               "min_power_w": 0.631,
-              "name": "Mobile jammer (H8.1) (L1 only) on the car deck inside car",
+              "name": "Single-band jammer on the car deck inside car",
               "test_id": 2
             },
             {
               "constellation_bands": [
                 "L1",
-                " L2"
+                " E1",
+                " B1C",
+                " B1I",
+                " G1",
+                " L2", 
+                " G2",
+                " B3I",
+                " E6"
               ],
-              "description": "Jammer H6.6",
+              "description": "Test performed with jammer H6.6 (antennas 3 and 5 activated).",
               "equipment": [
                 "H6.6"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Mobile jammer (H6.6) (L1+L2) - on the car deck outside car",
+              "name": "Dual-band jammer on the car deck outside car",
               "test_id": 3
             },
             {
               "constellation_bands": [
                 "L1",
-                " L2"
+                " E1",
+                " B1C",
+                " B1I",
+                " G1",
+                " L2", 
+                " G2",
+                " B3I",
+                " E6"
               ],
-              "description": "Jammer H6.6",
+              "description": "Test performed with jammer H6.6 (antennas 3 and 5 activated).",
               "equipment": [
                 "H6.6"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Mobile jammer (H6.6) (L1+L2) - on the car deck inside car",
+              "name": "Dual-band jammer on the car deck inside car",
               "test_id": 4
             },
             {
@@ -1522,13 +1544,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.6",
+              "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
                 "H6.6"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Mobile jammer (H6.6) (multi-band) - on the car deck outside car",
+              "name": "Multi-band jammer on the car deck outside car",
               "test_id": 5
             },
             {
@@ -1546,13 +1568,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.6",
+              "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
                 "H6.6"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Mobile jammer (H6.6) (multi-band) - on the car deck inside car",
+              "name": "Multi-band jammer on the car deck inside car",
               "test_id": 6
             },
             {
@@ -1570,13 +1592,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.6",
+              "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
                 "H6.6"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Mobile jammer (H6.6) (multi-band) - on deck close to the ship’s antennas (by the bridge)",
+              "name": "Multi-band jammer on deck close to the ship’s antennas (by the bridge)",
               "test_id": 7
             },
             {
@@ -1594,35 +1616,35 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.6",
+              "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
                 "H6.6"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Mobile jammer (H6.6) (multi-band) - inside public areas of boat (under the bridge)",
+              "name": "Multi-band jammer inside public areas of boat (under the bridge)",
               "test_id": 8
             }
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A. The last step, from 52 dBm to 53.0103 dBm (200 W), will be a 1.0103 dB increment, not a 2 dB increment.",
-          "description": "The jammer will be placed at a mountainside. This will allow for attendees to evaluate the difference between signals arriving from in the horizontal plane and signals arriving with some elevation above the horizontal. Each test will last for 15.67 minutes, with a 15-minute break between each test.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
+          "description": "The transmitted power will be ramped up and down from a lower to a higher EIRP for each test, where the max power is the highest power that will be experience during the Jammertest event. Each power level holds for 10 seconds, with ramping steps of a certain amount of dB. If the last step doesn't add up to a whole dB step (e.g. from [...] 48, 50, 52 dBm to 53.0103 dBm (200 W)), it will be the exact amount of dB to realise the max power (e.g. a 1.0103 dB increment, not a 2 dB increment). The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 14,
-          "group_name": "Stationary high-power jamming, ramp power with PRN - Ramnan (200 W)",
-          "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, and at which power level. This will allow for evaluation of the sensitivity thresholds for various systems.",
+          "group_name": "Stationary very high-power jamming, ramp power with PRN",
+          "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, and at which power level up to a very high power. This will allow for evaluation of the sensitivity thresholds for various systems and algorithms.",
           "tests": [
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Power ramp using F8.1",
+              "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test band L1.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 1e-7,
-              "name": "0.1µW to 200 W, 2 dB increments PRN: L1",
+              "name": "0.1 µW to 200 W, 2 dB increments PRN: L1",
               "test_id": 1
             },
             {
@@ -1630,13 +1652,13 @@
                 "L1",
                 "G1"
               ],
-              "description": "Power ramp using F8.1",
+              "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test bands L1, G1.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 1e-7,
-              "name": "0.1µW to 200 W, 2 dB increments PRN: L1, G1",
+              "name": "0.1 µW to 200 W, 2 dB increments PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -1645,13 +1667,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "Power ramp using F8.1",
+              "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test bands L1, G1, L2.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 1e-7,
-              "name": "0.1µW to 200 W, 2 dB increments PRN: L1, G1, L2",
+              "name": "0.1 µW to 200 W, 2 dB increments PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1661,13 +1683,13 @@
                 "L2",
                 "L5"
               ],
-              "description": "Power ramp using F8.1",
+              "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test bands L1, G1, L5.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 1e-7,
-              "name": "0.1µW to 200 W, 2 dB increments PRN: L1, G1, L2, L5",
+              "name": "0.1 µW to 200 W, 2 dB increments PRN: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
