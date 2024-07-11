@@ -993,23 +993,23 @@
                 "G1",
                 "L1"
               ],
-              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1l, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this:\newline E6\newline E6, E5b\\ E6, E5b, L5\\ E6, E5b, L5, G2\\ E6, E5b, L5, G2, L2\\ E6, E5b, L5, G2, L2, B1I\\ E6, E5b, L5, G2, L2, B1I, G1\\ E6, E5b, L5, G2, L2, B1I, G1, L1\\ E6, E5b, L5, G2, L2, B1I, G1\\ E6, E5b, L5, G2, L2, B1I\\ E6, E5b, L5, G2, L2\\ E6, E5b, L5, G2\\ E6, E5b, L5\\ E6, E5b\\ E6",
+              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1l, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: E6 - E6, E5b - E6, E5b, L5 - E6, E5b, L5, G2 - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2, L2, B1I - E6, E5b, L5, G2, L2, B1I, G1 - E6, E5b, L5, G2, L2, B1I, G1, L1 - E6, E5b, L5, G2, L2, B1I, G1 - E6, E5b, L5, G2, L2, B1I - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2 - E6, E5b, L5 - E6, E5b - E6",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20W PRN: E6, E5b, L5, G2, L2, B1l, G1, L1",
+              "name": "20 W PRN pyramid: E6, E5b, L5, G2, L2, B1l, G1, L1",
               "test_id": 1
             }
           ]
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "The jamming is performed with PRN modulation. The tests will jam most GNSS bands, incrementally removing bands to the list of jammed signals, then adding them in the reverse order. The test will start with removing L1 and continue removing bands according to the list in the test name until only E5b remains. The test will continue by adding the bands back in the reverse order ending with L1. After the last test, a break should be added to allow receivers to default back to normal.",
+          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. The pyramid steps will last for three minutes each, with a grace period of two minutes after each step. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
           "group_id": 9,
           "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
-          "rationale": "This ‘inverted pyramid’ is intended to test the potential fallback behaviour of modern multi-constellation multi frequency receivers.",
+          "rationale": "This ‘inverted pyramid’ is intended to test the potential fallback behaviour of modern multi-constellation, multi-frequency receivers, in an opposite way than a normal pyramid test.",
           "tests": [
             {
               "constellation_bands": [
@@ -1022,13 +1022,13 @@
                 "G1",
                 "L1"
               ],
-              "description": "20W PRN: E5b, L5, E6, G2, L2, B1l, G1, L1 The test will start with removing L1 and continue removing bands according to the list in the test name until only E5b remains. The test will continue by adding the bands back in the reverse order ending with L1.",
+              "description": "20 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1l, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: E6, E5b, L5, G2, L2, B1l, G1, L1 - E6, E5b, L5, G2, L2, B1l, G1 - E6, E5b, L5, G2, L2, B1l - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2 - E6, E5b, L5 - E6, E5b - E6 - E6, E5b - E6, E5b, L5 - E6, E5b, L5, G2 - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2, L2, B1l - E6, E5b, L5, G2, L2, B1l, G1 - E6, E5b, L5, G2, L2, B1l, G1, L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20W PRN: E5b, L5, E6, G2, L2, B1l, G1, L1",
+              "name": "20 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1l, G1, L1",
               "test_id": 1
             }
           ]
