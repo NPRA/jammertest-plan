@@ -1035,10 +1035,10 @@
         },
         {
           "comment": "",
-          "description": "Jammers used in this test are commercially available jammers. The jammers are to be placed on the roof of a vehicle.",
+          "description": "Jammers used in these tests are commercially available jammers. The jammers are to be placed on the roof of a vehicle, and DUT vehicles can then do driving tests based around this stationary jammer.",
           "group_id": 10,
           "group_name": "Motorcade with low-power commercially available jammers (placed on stationary vehicle)",
-          "rationale": "These tests will explore the impact on other cars caused by a jammer placed in a parked car.",
+          "rationale": "These tests explore the impact on systems in DUT vehicles caused by a jammer placed on a parked car.",
           "tests": [
             {
               "constellation_bands": [
@@ -1051,13 +1051,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test performed with jammer S2.1. DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving while passing a parked car with GPS (L1 & L2) jammer - jammer S2.1",
+              "name": "Driving while passing a parked car with GPS L1 & L2 jammer",
               "test_id": 1
             },
             {
@@ -1075,13 +1075,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed with jammer H6.4.  DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving while passing a parked car with multi-band jammer - jammer H6.4",
+              "name": "Driving while passing a parked car with multi-band jammer",
               "test_id": 2
             },
             {
@@ -1095,13 +1095,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test perfomred with jammer S2.1. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Vehicle starting in GPS (L1 & L2) denied environment - jammer S2.1",
+              "name": "Vehicle starting in GPS L1 & L2 denied environment",
               "test_id": 3
             },
             {
@@ -1119,23 +1119,23 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed jammer H6.4. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Vehicle starting in multi-band denied environment - jammer H6.4",
+              "name": "Vehicle starting in multi-band denied environment",
               "test_id": 4
             }
           ]
         },
         {
           "comment": "",
-          "description": "Jammers used in this test are commercially available jammers.",
+          "description": "Jammers used in these tests are commercially available jammers and will be placed inside the jammer-carrying vehicle. DUT vehicles will act in motorcades during the tests and move as one unit relative to the jammer-carrying vehicle. In some specific tests, the jammer can be placed inside of a DUT vehicle, testing that one specific vehicle.",
           "group_id": 11,
-          "group_name": "Motorcade with low-power commercially available jammers (mobile placement in cars)",
-          "rationale": "This setup is to simulate meeting a vehicle with a jammer inside of it.",
+          "group_name": "Motorcade with low-power commercially available jammers (placed inside mobile vehicle)",
+          "rationale": "These tests simulate meeting a vehicle on the road with a jammer inside of it, to explore the impact on systems in DUT vehicles.",
           "tests": [
             {
               "constellation_bands": [
@@ -1148,13 +1148,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test performed with jammer S2.1, where the jammer is placed inside the mobile DUT vehicle.",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS (L1 & L2) jammer in test vehicle - jammer S2.1",
+              "name": "Driving with GPS L1 & L2 jammer in test vehicle",
               "test_id": 1
             },
             {
@@ -1168,13 +1168,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test performed with jammer S2.1",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS (L1 & L2) jammer in vehicle in front of the test vehicle - jammer S2.1",
+              "name": "Driving with GPS L1 & L2 jammer in vehicle in front of the test vehicle",
               "test_id": 2
             },
             {
@@ -1188,13 +1188,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test performed with jammer S2.1",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS (L1 & L2) jammer in vehicle behind the test vehicle - jammer S2.1",
+              "name": "Driving with GPS L1 & L2 jammer in vehicle behind the test vehicle",
               "test_id": 3
             },
             {
@@ -1208,13 +1208,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test performed with jammer S2.1",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS (L1 & L2) jammer in vehicle overtaking the test vehicle - jammer S2.1",
+              "name": "Driving with GPS L1 & L2 jammer in vehicle overtaking the test vehicle",
               "test_id": 4
             },
             {
@@ -1228,13 +1228,13 @@
                 " B2a/b",
                 " G3"
               ],
-              "description": "Test with jammer S2.1",
+              "description": "Test performed with jammer S2.1",
               "equipment": [
                 "S2.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with GPS (L1 & L2) jammer in vehicle being overtaken by the test vehicle jammer S2.1",
+              "name": "Driving with GPS L1 & L2 jammer in vehicle being overtaken by the test vehicle",
               "test_id": 5
             },
             {
@@ -1252,13 +1252,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed with jammer H6.4, where the jammer is placed inside the mobile DUT vehicle.",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in test vehicle - jammer H6.4",
+              "name": "Driving with multi-band jammer in test vehicle",
               "test_id": 6
             },
             {
@@ -1276,13 +1276,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed with jammer H6.4",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle in front of the test vehicle - jammer H6.4",
+              "name": "Driving with multi-band jammer in vehicle in front of the test vehicle",
               "test_id": 7
             },
             {
@@ -1300,13 +1300,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed with jammer H6.4",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle behind the test vehicle - jammer H6.4",
+              "name": "Driving with multi-band jammer in vehicle behind the test vehicle",
               "test_id": 8
             },
             {
@@ -1324,13 +1324,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed with jammer H6.4",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle overtaking the test vehicle - jammer H6.4",
+              "name": "Driving with multi-band jammer in vehicle overtaking the test vehicle",
               "test_id": 9
             },
             {
@@ -1348,13 +1348,13 @@
                 " B1l",
                 " G1"
               ],
-              "description": "Jammer H6.4",
+              "description": "Test performed with jammer H6.4",
               "equipment": [
                 "H6.4"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle being overtaken by the test vehicle -jammer H6.4",
+              "name": "Driving with multi-band jammer in vehicle being overtaken by the test vehicle",
               "test_id": 10
             }
           ]
