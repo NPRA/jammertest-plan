@@ -2191,7 +2191,7 @@
                 "S"
               ],
               "max_power_w": 0.001,
-              "min_power_w": 0.001
+              "min_power_w": 0.001,
               "name": "Static + Frequency step. GPS L1 and Galileo E1, with initial jamming",
               "test_id": 5
             }
