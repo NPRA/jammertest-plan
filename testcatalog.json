@@ -2890,7 +2890,7 @@
           "description": "The test will only transmit EGNOS signals, that should be as close to real signals as possible, only with a different GIC information, that now tells the EGNOS boradcasted signal recipient to not use GPS.",
           "group_id": 8,
           "group_name": "Stationary SBAS spoofing with \"Do Not Use GPS\" commands",
-          "rationale": "On the 9th of October 2023, the European SBAS system EGNOS erroneously made the satellites broadcast a GIC-information that declared all GPS satellites as unusable, which caused a lot of problems for EGNOS users, ranging from no effect at all to rapid fluctuations in GPS availability to no GPS service at all (variations probably caused by different impelemtations in user equipment). This test is to replicate that EGNOS phenomenon. For more information on this event, see https://egnos.gsc-europa.eu/sites/default/files/documents/service_notice-28.pdf.",
+          "rationale": "On the 9th of October 2023, the European SBAS system EGNOS erroneously made the satellites broadcast a GIC-information that declared all GPS satellites as unusable, which caused a lot of problems for EGNOS users, ranging from no effect at all to rapid fluctuations in GPS availability to no GPS service at all (variations probably caused by different impelemtations in user equipment). This test is to replicate that EGNOS phenomenon. For more information on this event, see EGNOS Service Notice Number: 028 (10/10/2023).",
           "tests": [
             {
               "constellation_bands": [
