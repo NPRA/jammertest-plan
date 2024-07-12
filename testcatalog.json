@@ -2905,7 +2905,7 @@
               "min_power_w": 1,
               "name": "EGNOS with \"Do Not Use GPS\" commands",
               "test_id": 1
-            },
+            }
           ]
         },
         {
