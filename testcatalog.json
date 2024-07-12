@@ -1856,7 +1856,7 @@
         },
         {
           "comment": "Expected (least) range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use \none or more constellations and one or more signal bands.\n\nInitial positions are either False (e.g. 70 N, 10 E) or True (target location, normally close to the transmitter antenna location). Initial time is either False (e.g. a jump in time/date) or True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). \n\nStatic scenarios are a fixed position, while dynamic scenarios are a simulated drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use one or more constellations and one or more test bands.\n\nInitial positions are either False (e.g. 70 N, 10 E) or True (target location, normally close to the transmitter antenna location). Initial time is either False (e.g. a jump in time/date) or True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nStatic scenarios are a fixed position, while dynamic scenarios are a simulated drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
           "group_id": 2,
           "group_name": "Incoherent position spoofing from stationary spoofer using broadcast(true) ephemerides",
           "rationale": "The idea is to test equipment and systems when exposed to false and misleading GNSS-PNT information, with a focus on position. These spoofing tests use ephemerides (navigation data) identical to those broadcasted by the actual satellites, but the transmitted spoofing signals do not align with those received from actual satellites (incoherent). Receivers using the spoofed signals will (most likely) generate jumps in the navigation solution, either in position, time and/or velocity.",
@@ -1955,7 +1955,7 @@
         },
         {
           "comment": "Expected (least) range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use one or more constellations and one or more signal bands.\n\nInitial positions are True (target location, normally close to the transmitter antenna location). Initial time is True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be \naccompanied by continuous jamming (one or several test bands). \n\nStatic scenarios are a fixed position, while dynamic scenarios are a simulated drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals. \n\nFor all tests in this group, spoofing transmission will be corrected for signal delay to simulated start position. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use one or more constellations and one or more signal bands.\n\nInitial positions are True (target location, normally close to the transmitter antenna location). Initial time is True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be \naccompanied by continuous jamming (one or several test bands). The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nStatic scenarios are a fixed position, while dynamic scenarios are a simulated drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals. \n\nFor all tests in this group, spoofing transmission will be corrected for signal delay to simulated start position. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
           "group_id": 3,
           "group_name": "Coherent position spoofing from stationary spoofer using broadcast(true) ephemerides",
           "rationale": "The idea is to test equipment and systems when exposed to false and misleading GNSS-PNT information, with a focus on position. These spoofing tests use ephemerides (navigation data) identical to those broadcasted by the actual satellites. The transmitted spoofing signals are intended to align (to within a few 100 ns) with those received from actual satellites at the target location (coherent). Receivers using the spoofed signals at rest at the target location will initially generate no major changes in the navigation solution, either in position, time and/or velocity, compared to the solution estimated from actual satellite signals.",
@@ -2113,7 +2113,7 @@
         },
         {
           "comment": "Expected (least) range/power of spoofing signals: A radius of approximately a few hundred metres from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use satellite ephemerides different from live sky satellites. Simulated signals may use one or more constellations and one or more signal bands. \n\nInitial positions are True (target location, normally close to the transmitter antenna location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). \n\nThere will be a small break between each test and a larger break after the test group is over to allow receivers to reacquire fix onto real satellite signals. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use satellite ephemerides different from live sky satellites. Simulated signals may use one or more constellations and one or more signal bands. \n\nInitial positions are True (target location, normally close to the transmitter antenna location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a small break between each test and a larger break after the test group is over to allow receivers to reacquire fix onto real satellite signals. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
           "group_id": 4,
           "group_name": "Incoherent time spoofing from stationary spoofer using synthetic ephemerides",
           "rationale": "The idea is to test equipment and systems when exposed to false and misleading GNSS-PNT information, with a focus on timing. These are synchronized spoofing scenarios in the sense that the navigation solution (position, velocity and clock bias) should not initially change significantly for a receiver at the target location. The scenarios are incoherent in the sense that spoofing signals are different from (not aligned with) those received from the actual satellites.",
@@ -2199,7 +2199,7 @@
         },
         {
           "comment": "Expected (least) range/power of spoofing signals: A radius of approximately a few hundred metres from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use one or more constellations and one or more signal bands. \n\nInitial positions are True (target location, normally close to the transmitter antenna location). Initial time is True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). \n\nThere will be a short break between each test and a larger break after the test group is over to allow receivers to reacquire fix onto real satellite signals. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use one or more constellations and one or more signal bands. \n\nInitial positions are True (target location, normally close to the transmitter antenna location). Initial time is True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a short break between each test and a larger break after the test group is over to allow receivers to reacquire fix onto real satellite signals. \n\nWhen max and min powers are indicated, this refers to spoofing power.",
           "group_id": 5,
           "group_name": "Coherent time spoofing from stationary spoofer using broadcast(true) ephemerides",
           "rationale": "The idea is to test equipment and systems when exposed to false and misleading GNSS-PNT information, with a focus on timing. These are synchronized spoofing scenarios in the sense that the navigation solution (position, velocity and clock bias) should not initially change significantly for a receiver at the target location. The scenarios are coherent in the sense that spoofing signals are similar (aligned with) those received from the actual satellites. Scenarios in these tests are intended to not alter the navigation solution at all for receivers at the target position for position and velocity estimates. Clock bias estimates should be affected by the frequency step in test 1 - 3, but not in 4 - 7.",
@@ -2265,7 +2265,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission.\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission.\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18. The data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
@@ -2295,8 +2295,8 @@
           ]
         },
         {
-          "comment": "Starting position will be approximately 69.194875 N, 15.837719 E in all scenarios.",
-          "description": "There will be a break between each test to allow receivers to reacquire fix onto real satellite signals (total of 50 min for each test). The spoofed signals will be on GPS L1 only. All spoofing tests will be combined with jamming on Glonass G1.",
+          "comment": "Starting position will be approximately 69.194875 N, 15.837719 E in all scenarios (might change due to operational requests).",
+          "description": "A SDR spoofer will be employed in different ways in and around vehicles. The spoofed signals will be on GPS L1 only. All spoofing tests will be combined with jamming on Glonass G1. Both jamming and sppfing will be done with 10 dBm. The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
           "group_id": 6,
           "group_name": "Incoherent GPS position and time spoofing from mobile spoofer",
           "rationale": "The objective is to simulate a vehicle-borne spoofing device \"out in the wild\", so that attendees can experience how a mobile spoofing source affects their (stationary or mobile) equipment and systems.",
@@ -2305,75 +2305,75 @@
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer (in vehicle) stationary; spoofed position starts static and approximately true. After 10 min spoofed position starts to move south with constant speed (15 m/s) while spoofer is still stationary.",
+              "description": "Spoofer placed inside of a vehicle that stands stationary. Spoofed position starts static (at starting position) and approximately true (incoherently). After 10 minutes, the spoofed position starts to move south with constant speed (15 m/s), while spoofer stays stationary.",
               "equipment": [
-                "N/A"
+                "SDR"
               ],
-              "max_power_w": 100,
-              "min_power_w": 0.1,
-              "name": "Spoofer (in vehicle) stationary with moving spoofed position.",
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofer (inside vehicle) stationary with dynamic spoofed position.",
               "test_id": 1
             },
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer (in vehicle) starts stationary for 10 min, and then begins to drive south along Stavedalsveien (FV7702); spoofed position remains fixed and approximately as the true position from start throughout the test.",
+              "description": "Spoofer placed inside of a vehicle that starts out stationary for 10 minutes, before the vehicle begins to drive south along Stavedalsveien (FV7702) at 50 km/h. The spoofed position remains fixed and approximately as the true position from starting point throughout the test.",
               "equipment": [
-                "N/A"
+                "SDR"
               ],
-              "max_power_w": 100,
-              "min_power_w": 0.1,
-              "name": "Spoofer (in vehicle) stationary and then moving with fixed spoofed position.",
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofer (inside vehicle) stationary and then moving with fixed spoofed position.",
               "test_id": 2
             },
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer (in vehicle) moves south along Stavedalsveien (FV7702) from the start while being spoofed to a fixed position at 70 N, 10 E.",
+              "description": "Spoofer placed inside of a vehicle that moves south along Stavedalsveien (FV7702) at 50 km/h from the starting point. 10 seconds after the vehicle began to move, the spoofing is activated, spoofing to a fixed position at 70 N, 10 E.",
               "equipment": [
-                "N/A"
+                "SDR"
               ],
-              "max_power_w": 100,
-              "min_power_w": 0.1,
-              "name": "Spoofer (in vehicle) moving with fixed spoofed position.",
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofer (inside vehicle) moving with fixed spoofed position.",
               "test_id": 3
             },
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer (in vehicle) starts stationary for 10 min, then vehicle begins to drive south along Stavedalsveien (FV7702); spoofed position is approximately true for the first 10 min, then starts to move directly south with constant speed (15 m/s) in a slightly different direction than the vehicle.",
+              "description": "Spoofer placed inside of a vehicle that starts out stationary for 10 minutes, then the vehicle begins to drive south along Stavedalsveien (FV7702) at 50 km/h. Spoofed position is approximately true for the first 10 minutes, then starts to move directly south with constant speed (15 m/s) (which in effect is a slightly different direction than that the vehicle is moving in).",
               "equipment": [
-                "N/A"
+                "SDR"
               ],
-              "max_power_w": 100,
-              "min_power_w": 0.1,
-              "name": "Spoofer (in vehicle) stationary and then moving with first fixed and then moving spoofed position.",
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofer (inside vehicle) stationary and then moving with first fixed and then dynamic spoofed position.",
               "test_id": 4
             }
           ]
         },
         {
-          "comment": "The effect on subsystems is not known and hence care should be taken to limit the range of the transmission to include only systems that we want to test.",
-          "description": "Providing a date 2 years back in time or 2 years ahead can cause denial of service for certain services.",
+          "comment": "The effect on subsystems is not known and hence care should be taken to limit the range of the transmission to include (as best as possible) only DUT eqipment and systems.",
+          "description": "Providing a date 2 years back in time or 2 years ahead can cause denial of service for some down-stream services. The test will move the date 2 years back or forth from the day that the test is being executed at.",
           "group_id": 7,
-          "group_name": "Stationary incoherent spoofing with extreme timeshifts (+/- 1 to 2 years)",
-          "rationale": "Some equipment will use GNSS to synchronize time and this time and different subsystems can use this time for checking validity of licences, certificates etc.This test can be used to check for unintended effects of large time shifts on equipment and subsystems.",
+          "group_name": "Stationary incoherent spoofing with extreme timeshifts (+/- years)",
+          "rationale": "Some equipment will use GNSS to provide time or to synchronize time dependent systems. The equipment and subsystems being fed this timing information can use this time for for example checking validity of licences, certificates, etc. This test can be used to check for unintended effects of large time shifts on equipment and subsystems.",
           "tests": [
             {
               "constellation_bands": [
                 "L1",
                 "E1"
               ],
-              "description": "Time will be shifted by 2 years in the past.\nThe test will be preceded by jamming (L1, G1, B1l, L2, E5b, L5) \nThe jamming will continue during spoofing except on L1/E1",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 0.1,
-              "name": "Pos=True, Time=2 years backwards, Jamming=True, Scenario=Static+motion",
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1, with initial and continuous jamming",
               "test_id": 1
             },
             {
@@ -2381,13 +2381,13 @@
                 "L1",
                 "E1"
               ],
-              "description": "Time will be shifted by 2 years in the future.\nThe test will be preceded by jamming (L1, G1, B1l, L2, E5b, L5) \nThe jamming will continue during spoofing except on L1/E1",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 0.1,
-              "name": "Pos=True, Time=2 years forward, Jamming=True, Scenario=Static+motion",
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1, with initial and continuous jamming",
               "test_id": 2
             }
           ]
