@@ -1762,7 +1762,7 @@
           "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
           "description": "The use of continuous very high-power jamming will block out a very large area at the event. There will be transmitted with a PseudoRandom Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex. \n\nThese tests will have the highest transmission power experienced during the Jammertest event.",
           "group_id": 16,
-          "group_name": " Continuous stationary very high-power jamming with PRN",
+          "group_name": "Continuous stationary very high-power jamming with PRN",
           "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, at very high power levels or at very long ranges. This will allow for evaluation of both system under extreme duress and allow for the use of a very large testing area, ecspecially suited for ships and airplanes.",
           "tests": [
             {
@@ -1829,7 +1829,7 @@
           "comment": "The jammer employed will be APJ, see appendix YY.",
           "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex.",
           "group_id": 17,
-          "group_name": " Continuous stationary jamming with PRN at airport",
+          "group_name": "Continuous stationary jamming with PRN at airport",
           "rationale": "For airplanes, it is often hard to test reactions to GNSS jamming in controlled environment, and especially hard to do so at during approach and departure at an airport. The main objective of these tests is to facilitate just that, so that airplanes can test their systems in full approach and departure modes, at with procedures for a real airport activated.",
           "tests": [
             {
@@ -1927,6 +1927,326 @@
               "min_power_w": 0.1,
               "name": "0.1 W PNR: L1, L5",
               "test_id": 7
+            },
+          ]
+        },
+        {
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
+          "description": "The tests will simulate different very common types of unintetional GNSS interference. The transmission power is probably higher than is commonly encountered in the wild, but this can be taken into effect by changing the distances to the interference source. Some of the frequency will be outside of the normal GNSS-bands, this is to create out-of-band interference.",
+          "group_id": 18,
+          "group_name": "Stationary unintentional RFI",
+          "rationale": "Although intentional GNSS interference (jamming, spoofing and meaconing) is the most known and written about type of GNSS interference, it is not the only one. Actually, it is not even the most common one, that is actually unintentional interference (casued either by equipment error or by frequency use not intended to distrupt GNSS). These tests try to simulate such interference (specifically CWs, self-oscillation events and frequency drifts), to give participants the ability to see how it affects their eqipment and systems, as well as to compare and contrast with different types of intentional interference.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "20 W CW: L1",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W CW: L1",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L2"
+              ],
+              "description": "20 W CW: L2",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W CW: L2",
+              "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "L5"
+              ],
+              "description": "20 W CW: L5",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W CW: L5",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1620 to 1545  MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1620 to 1545  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1620 to 1545 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "test_id": 9
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "test_id": 10
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "test_id": 13
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1300 to 1150  MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "test_id": 14
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1300 to 1150  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1300 to 1150 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "test_id": 15
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "test_id": 16
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "test_id": 17
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "test_id": 18
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1l",
+                " B1C",
+                " G1"
+              ],
+              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 20,
+              "min_power_w": 20,
+              "name": "20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "test_id": 19
             }
           ]
         }
