@@ -1927,7 +1927,7 @@
               "min_power_w": 0.1,
               "name": "0.1 W PNR: L1, L5",
               "test_id": 7
-            },
+            }
           ]
         },
         {
