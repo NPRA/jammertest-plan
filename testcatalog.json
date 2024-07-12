@@ -2852,7 +2852,7 @@
           "comment": "The effect on subsystems is not known and hence care should be taken to limit the range of the transmission to include (as best as possible) only DUT eqipment and systems.",
           "description": "Providing a date 2 years back in time or 2 years ahead can cause denial of service for some down-stream services. The test will move the date 2 years back or forth from the day that the test is being executed at.",
           "group_id": 7,
-          "group_name": "Stationary incoherent spoofing with extreme timeshifts (+/- years)",
+          "group_name": "Stationary coherent spoofing with extreme timeshifts (+/- years)",
           "rationale": "Some equipment will use GNSS to provide time or to synchronize time dependent systems. The equipment and subsystems being fed this timing information can use this time for for example checking validity of licences, certificates, etc. This test can be used to check for unintended effects of large time shifts on equipment and subsystems.",
           "tests": [
             {
@@ -2884,7 +2884,67 @@
               "test_id": 2
             }
           ]
-        }
+        },
+        {
+          "comment": "",
+          "description": "The test will only transmit EGNOS signals, that should be as close to real signals as possible, only with a different GIC information, that now tells the EGNOS boradcasted signal recipient to not use GPS.",
+          "group_id": 8,
+          "group_name": "Stationary SBAS spoofing with \"Do Not Use GPS\" commands",
+          "rationale": "On the 9th of October 2023, the European SBAS system EGNOS erroneously made the satellites broadcast a GIC-information that declared all GPS satellites as unusable, which caused a lot of problems for EGNOS users, ranging from no effect at all to rapid fluctuations in GPS availability to no GPS service at all (variations probably caused by different impelemtations in user equipment). This test is to replicate that EGNOS phenomenon. For more information on this event, see https://egnos.gsc-europa.eu/sites/default/files/documents/service_notice-28.pdf.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: EGNOS L1. The transmission of false SBAS signals will start immediately upon test start.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 1,
+              "name": "EGNOS with \"Do Not Use GPS\" commands",
+              "test_id": 1
+            },
+          ]
+        },
+        {
+          "comment": "The effect on subsystems is not known and hence care should be taken to limit the range of the transmission to include (as best as possible) only DUT eqipment and systems.",
+          "description": "",
+          "group_id": 9,
+          "group_name": "Stationary coherent spoofing with invalid ephemerids",
+          "rationale": "",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.1,
+              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.1,
+              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1, with initial and continuous jamming",
+              "test_id": 2
+            }
+          ]
+        },
       ],
       "type": "Spoofing",
       "type_id": 2
