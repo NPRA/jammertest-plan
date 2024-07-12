@@ -993,7 +993,7 @@
                 "G1",
                 "L1"
               ],
-              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1l, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: E6 - E6, E5b - E6, E5b, L5 - E6, E5b, L5, G2 - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2, L2, B1I - E6, E5b, L5, G2, L2, B1I, G1 - E6, E5b, L5, G2, L2, B1I, G1, L1 - E6, E5b, L5, G2, L2, B1I, G1 - E6, E5b, L5, G2, L2, B1I - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2 - E6, E5b, L5 - E6, E5b - E6",
+              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1l, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 - \n\nE6, E5b - E6, E5b, L5 - E6, E5b, L5, G2 - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2, L2, B1I - E6, E5b, L5, G2, L2, B1I, G1 - E6, E5b, L5, G2, L2, B1I, G1, L1 - E6, E5b, L5, G2, L2, B1I, G1 - E6, E5b, L5, G2, L2, B1I - E6, E5b, L5, G2, L2 - E6, E5b, L5, G2 - E6, E5b, L5 - E6, E5b - E6",
               "equipment": [
                 "F8.1"
               ],
@@ -1764,8 +1764,8 @@
     {
       "test_groups": [
         {
-          "comment": "Expected range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use satellite ephemerides different from live sky satellites. Simulated signals may use one or more constellations and one or more signal bands.\n\nInitial positions are either False (e.g. 70 N, 10 E) or True (target location at transmitter antenna location). Initial time is either False (e.g. a jump in time) or True ( < 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several signal bands, before the spoofing transmission is activated). Some spoofing scenarios may be accompanied \nby continuous jamming (one or several signal bands).\nStatic scenarios are a fixed position, while motion scenarios are a drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts.",
+          "comment": "Expected (least) range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use satellite ephemerides different from live sky satellites. Simulated signals may use one or more constellations and one or more signal bands.\n\nInitial positions are either False (e.g. 70 N, 10 E) or True (target location, normally close to the at transmitter antenna location). Initial time is either False (e.g. a jump in time) or True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands).\n\nStatic scenarios are a fixed position, while dynamic scenarios are a drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
           "group_id": 1,
           "group_name": "Incoherent spoofing from stationary spoofer using synthetic ephemerides",
           "rationale": "These are very basic attacks that can be performed with easily available software and hardware. These attacks can give an indication to the receivers’ resiliency to spoofing attacks. Most receivers will probably see these attacks as noise initially, effectively working as a jamming signal.",
@@ -1779,12 +1779,12 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: 70 N, 10 E \nSimulated start time: 01.10.2023 12:00",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.000000316,
               "name": "Large position and time jump, gradually increasing signal strength",
               "test_id": 1
             },
@@ -1793,12 +1793,12 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: \nGPS L1 C/A \nGalileo E1 \nNo jamming \nPosition: 70 N, 10 E \nSimulated start time: 01.10.2023 12:00",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. Position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Large position and time jump",
               "test_id": 2
             },
@@ -1807,13 +1807,13 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: \nGPS L1 C/A \nGalileo E1 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \nSimulated position: 70 N, 10 E \nSimulated start time: 01.10.2023 12:00",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Large position and time jump, with jamming",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Large position and time jump, with initial and continuous jamming",
               "test_id": 3
             },
             {
@@ -1825,13 +1825,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5 \nGalileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \nSimulated start position: Transmitter location \nSimulated start time: 01.10.2023 12:00",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Simulated driving (route 1)",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1), with initial jamming",
               "test_id": 4
             },
             {
@@ -1843,23 +1843,23 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5 \nGalileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \nSimulated start position: Transmitter location \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Simulated driving, true reference time (route 1)",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving, true reference time (route 1), with initial jamming",
               "test_id": 5
             }
           ]
         },
         {
-          "comment": "Expected range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use \none or more constellations and one or more signal bands.\n\nInitial positions are either False (e.g. 70 N, 10 E) or True (target location at transmitter antenna location). Initial time is either False (e.g. a jump in time/date) or True ( < 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several signal bands, before the spoofing transmission is activated). Some spoofing scenarios may be \naccompanied by continuous jamming (one or several signal bands). \n\nStatic scenarios are a fixed position, while motion scenarios are a simulated drive around the area. There will be a break between each test to allow receivers to reacquire fix onto real satellite signals. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts.",
+          "comment": "Expected (least) range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use \none or more constellations and one or more signal bands.\n\nInitial positions are either False (e.g. 70 N, 10 E) or True (target location, normally close to the transmitter antenna location). Initial time is either False (e.g. a jump in time/date) or True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). \n\nStatic scenarios are a fixed position, while dynamic scenarios are a simulated drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
           "group_id": 2,
           "group_name": "Incoherent spoofing from stationary spoofer using broadcast(true) ephemerides",
-          "rationale": "These spoofing tests use ephemerides (navigation data) identical to those broadcasted by the actual satellites, but the transmitted spoofing signals do not align with those received from actual satellites. Receivers using the spoofed signals will generate jumps in the navigation solution, either in position, timing and/or velocity.",
+          "rationale": "These spoofing tests use ephemerides (navigation data) identical to those broadcasted by the actual satellites, but the transmitted spoofing signals do not align with those received from actual satellites (incoherent). Receivers using the spoofed signals will (most likely) generate jumps in the navigation solution, either in position, time and/or velocity.",
           "tests": [
             {
               "constellation_bands": [
@@ -1870,12 +1870,12 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: 70 N, 10 E \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Large position jump",
               "test_id": 1
             },
@@ -1888,13 +1888,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae. (Height Above Ellipsoid) \nSimulated start time: 01.10.2023 12:00",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: 01.10.2024 12:00.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Small position jump, large time jump",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Small position jump, large time jump, with initial and continuous jamming",
               "test_id": 2
             },
             {
@@ -1906,16 +1906,16 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: North end of the football field - 69.27701401, 15.96932835, 45 m hae. (Height Above Ellipsoid) \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. Simulated position: North end of the football field - 69.27701401, 15.96932835, 45 m hae. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Small position jump",
               "test_id": 3
             },
-            {
+                        {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -1924,13 +1924,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated start position: Over the sea 1 km N (Midnattskjæran) at 200 m height \nSimulated start time: Referenced to live GPS-signals \nSpoofing transmission will be corrected for signal delay to simulated start position. Helicopter at start position should see coherent signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. Simulated position: Cemetery - 69.2824699, 15.9906568, 48 m hae. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Flying (route 2) - \"helicopter scenario\"",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Fixed position",
               "test_id": 4
             },
             {
@@ -1942,41 +1942,23 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: Cemetery - 69.2824699, 15.9906568, 48 m hae. (Height Above Ellipsoid) \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. Simulated position: 69.25 N, 14,9 E. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Fixed position",
-              "test_id": 5
-            },
-            {
-              "constellation_bands": [
-                "L1",
-                "L2",
-                "L5",
-                "E1",
-                "E5a",
-                "E5b"
-              ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated position: 69.25 N, 14,9 E \nSimulated start time: Referenced to live GPS-signals",
-              "equipment": [
-                "N/A"
-              ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Large position jump #2",
-              "test_id": 6
+              "test_id": 5
             }
           ]
         },
         {
-          "comment": "Expected range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
-          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use \none or more constellations and one or more signal bands.\n\nInitial positions are True (target location at transmitter antenna location). Initial time is True ( < 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several signal bands, before the spoofing transmission is activated). Some spoofing scenarios may be \naccompanied by continuous jamming (one or several signal bands). \n\nFor all tests in this group, spoofing transmission will be corrected for signal delay to simulated start position.\n\nStatic scenarios are a fixed position, while motion scenarios are a simulated drive around the area. There will be a break between each test to allow receivers to reacquire fix onto real satellite signals. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts.",
+          "comment": "Expected (least) range/power of spoofing signals: A radius of approximately 1.5 kilometre from the transmitter, depending on terrain and building signal shielding.",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will use broadcast satellite ephemeris data. Simulated signals may use one or more constellations and one or more signal bands.\n\nInitial positions are True (target location, normally close to the transmitter antenna location). Initial time is True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be \naccompanied by continuous jamming (one or several test bands). \n\nStatic scenarios are a fixed position, while dynamic scenarios are a simulated drive around the area. For each dynamic test, the motion is first spoofed to a fixed start position for 5 minutes before the dynamic motion starts. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals. \n\nFor all tests in this group, spoofing transmission will be corrected for signal delay to simulated start position.",
           "group_id": 3,
           "group_name": "Coherent spoofing from stationary spoofer using broadcast(true) ephemerides",
-          "rationale": "These spoofing tests use ephemerides (navigation data) identical to those broadcasted by the actual satellites. The transmitted spoofing signals are intended to align (to within a few 100 ns) with those received from actual satellites at the target location. Receivers using the spoofed signals at rest at the target location will initially generate no major changes in the navigation solution, either in position, timing and/or velocity, compared to the solution estimated from actual satellite signals.",
+          "rationale": "These spoofing tests use ephemerides (navigation data) identical to those broadcasted by the actual satellites. The transmitted spoofing signals are intended to align (to within a few 100 ns) with those received from actual satellites at the target location (coherent). Receivers using the spoofed signals at rest at the target location will initially generate no major changes in the navigation solution, either in position, time and/or velocity, compared to the solution estimated from actual satellite signals.",
           "tests": [
             {
               "constellation_bands": [
@@ -1984,13 +1966,13 @@
                 "L2",
                 "L5"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \nSimulated start position: Bleik community house parking lot \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Simulated driving (route 1). GPS only with initial jamming.",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). GPS only, with initial jamming.",
               "test_id": 1
             },
             {
@@ -1999,13 +1981,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: Galileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \nSimulated start position: Bleik community house parking lot \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: Galileo E1, E5 \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Simulated driving (route 1). Galileo only with initial jamming.",
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). Galileo only, with initial jamming.",
               "test_id": 2
             },
             {
@@ -2017,12 +1999,12 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \nSimulated start position: Bleik community house parking lot \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Simulated driving (route 1) with initial jamming.",
               "test_id": 3
             },
@@ -2032,13 +2014,13 @@
                 "L2",
                 "L5"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nNo jamming \nSimulated start position: Bleik community house parking lot \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
-              "name": "Simulated driving (route 1). GPS only.",
+              "max_power_w": 0.316,
+              "min_power_w": 316,
+              "name": "Simulated driving (route 1). GPS only",
               "test_id": 4
             },
             {
@@ -2046,12 +2028,12 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: \nGPS L1 C/A \nGalileo E1 \nNo jamming \nSimulated start position: Bleik community house parking lot \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Simulated driving (route 1). GPS L1 and Galileo E1.",
               "test_id": 5
             },
@@ -2064,12 +2046,12 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated start position: Bleik community house parking lot \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Simulated driving (route 1)",
               "test_id": 6
             },
@@ -2082,12 +2064,12 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated start position: 69.277014014, 15.969328354, 40 mhae. \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals.\n\nSpoofing transmission will be corrected for signal delay to simulated start position. Drones at start position (victim position) should see coherent signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Flying (route 4) - \"drone scenario\"",
               "test_id": 7
             },
@@ -2100,14 +2082,32 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: \nGPS L1 C/A, L2C, L5 \nGalileo E1, E5 \nNo jamming \nSimulated start position: Bleik harbour \nSimulated start time: Referenced to live GPS-signals",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated start position: Bleik harbour. Simulated start time: Referenced to live GPS-signals. \n\nSpoofing transmission will be corrected for signal delay to simulated start position. Ships at start position (victim position) should see coherent signals.",
               "equipment": [
-                "N/A"
+                "S"
               ],
-              "max_power_w": 100,
-              "min_power_w": 1,
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
               "name": "Sailing (route 5) - \"ship scenario\"",
               "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5, Galileo E1, E5. \n\nNo jamming. Simulated start position: Over the sea 1 km N (Midnattskjæran) at 200 m hae. Simulated start time: Referenced to live GPS-signals. \n\nSpoofing transmission will be corrected for signal delay to simulated start position. Helicopter at start position (victim position) should see coherent signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Flying (route 2) - \"helicopter scenario\"",
+              "test_id": 9
             }
           ]
         },
