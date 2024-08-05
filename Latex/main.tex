@@ -35,6 +35,7 @@
 
 %% Graphics are stored in the graphics path
 \usepackage{graphicx}
+\usepackage{graphbox}
 \graphicspath{ {./Latex} }
 
 %% Making hyperlinks in the table of contents
@@ -49,6 +50,7 @@
 
 \usepackage{titlepic}
 \usepackage{datetime2}
+\usepackage{tabularray}
 
 %\titlepic{\includegraphics[scale=0.2]{graphics/jampin.png}}
 \title{\includegraphics[scale=0.2]{graphics/jampin.png}\\ Jammertest 2024 \\ \huge{Test Catalogue}}
@@ -57,7 +59,26 @@
 
 \begin{document}
 \maketitle
-\includegraphics[scale=0.1]{graphics/NPRA.png}
+\SetTblrInner{rowsep=10mm,colsep=10mm}
+  \begin{tblr}{
+    width=1.8\textwidth,
+    stretch = 0,
+    colspec = {Q[c,c]cc},
+    cell{4}{1}={c=2}{c}
+  }
+  \includegraphics[width=50mm, align=c]{graphics/NPRA.png} &
+  \includegraphics[width=50mm, align=c]{graphics/ffi-farger.png}
+  \\
+  \includegraphics[width=50mm, align=c]{graphics/norskrom-farger.png} &
+  \includegraphics[width=50mm, align=c]{graphics/nkom-farger.png}
+  \\
+  \includegraphics[height=20mm, align=c]{graphics/kartverket-farger.png} &
+  \includegraphics[width=50mm, align=c]{graphics/justervesenet-farger.jpg}
+  \\ 
+  \includegraphics[width=50mm, align=c]{graphics/Testnor.png}
+  \end{tblr}
+
+\pagebreak
 
 \tableofcontents
 
@@ -87,5 +108,6 @@ For those wanting more information or have feedback about the test group a techn
 
 %\chapter{Description of tests}
 \input{./Latex/tests}
+%\input{tests}
 \end{document}
 

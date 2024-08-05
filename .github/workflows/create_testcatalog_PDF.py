@@ -64,11 +64,14 @@ def create_testgroup(fp, type_id, test_group):
         
         fp.write(f'{t_text}\n')
         fp.write(f'\\subsubsection*{{Power or power range}}\n')
-        fp.write(f'Min: {t_min_power} W'+"\\\\")
-        fp.write(f'Max: {t_max_power} W')
+        if test["max_power_w"] == 0 and test["min_power_w"] == 0:
+            fp.write("'N/A'")
+        else:
+            fp.write(f'Min: {t_min_power} W'+"\\\\")
+            fp.write(f'Max: {t_max_power} W')
         fp.write(f'\\subsubsection*{{Test bands/constellation}}\n')
         fp.write(f'{t_bands}\n'.replace('[','').replace(']',''))
-        fp.write(f'\\subsubsection*{{Transmitter equpment}}\n')
+        fp.write(f'\\subsubsection*{{Transmitter equipment}}\n')
         fp.write(f'{t_equipment}\n'.replace('[','').replace(']',''))
         fp.write('\\\\')
 
