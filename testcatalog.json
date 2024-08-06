@@ -305,7 +305,7 @@
               "min_power_w": 0.0003,
               "name": "Jammer H1.4",
               "test_id": 14
-            },
+            }
             {
               "constellation_bands": [
                 "L1",
