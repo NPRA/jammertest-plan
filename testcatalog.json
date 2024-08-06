@@ -297,6 +297,35 @@
               "name": "Jammer H1.2",
               "test_id": 13
             },
+            "description": "Test with jammer H1.1 with function settings set at high power and GPS L1+L2 wideband modulation.",
+              "equipment": [
+                "H1.4"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0003,
+              "name": "Jammer H1.4",
+              "test_id": 14
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C"
+              ],"description": "Test with jammer H1.5 with function settings set at high power and GPS L1+L2 wideband modulation.",
+              "equipment": [
+                "H1.5"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0003,
+              "name": "Jammer H1.5",
+              "test_id": 15
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C"
+              ],
             {
               "constellation_bands": [
                 "L1",
@@ -311,7 +340,7 @@
               "max_power_w": 0.1,
               "min_power_w": 0.1,
               "name": "Jammer H3.1",
-              "test_id": 14
+              "test_id": 16
             },
             {
               "constellation_bands": [
@@ -327,7 +356,7 @@
               "max_power_w": 0.1,
               "min_power_w": 0.1,
               "name": "Jammer H3.2",
-              "test_id": 15
+              "test_id": 17
             },
             {
               "constellation_bands": [
@@ -346,7 +375,7 @@
               "max_power_w": 1,
               "min_power_w": 1,
               "name": "Jammer H3.3",
-              "test_id": 16
+              "test_id": 18
             },
             {
               "constellation_bands": [
@@ -373,7 +402,7 @@
               "max_power_w": 0.631,
               "min_power_w": 0.3981,
               "name": "Jammer H4.1",
-              "test_id": 17
+              "test_id": 19
             },
             {
               "constellation_bands": [
@@ -388,7 +417,7 @@
               "max_power_w": 0.631,
               "min_power_w": 0.631,
               "name": "Jammer H6.1",
-              "test_id": 18
+              "test_id": 20
             },
             {
               "constellation_bands": [
@@ -414,7 +443,7 @@
               "max_power_w": 1,
               "min_power_w": 0.3981,
               "name": "Jammer H6.2",
-              "test_id": 19
+              "test_id": 21
             },
             {
               "constellation_bands": [
@@ -440,7 +469,7 @@
               "max_power_w": 1,
               "min_power_w": 0.3981,
               "name": "Jammer H6.3",
-              "test_id": 20
+              "test_id": 22
             },
             {
               "constellation_bands": [
@@ -464,7 +493,7 @@
               "max_power_w": 1.58,
               "min_power_w": 1,
               "name": "Jammer H6.4",
-              "test_id": 21
+              "test_id": 23
             },
             {
               "constellation_bands": [
@@ -488,7 +517,7 @@
               "max_power_w": 1.58,
               "min_power_w": 1,
               "name": "Jammer H6.5",
-              "test_id": 22
+              "test_id": 24
             },
             {
               "constellation_bands": [
@@ -512,7 +541,7 @@
               "max_power_w": 1.58,
               "min_power_w": 1,
               "name": "Jammer H6.6",
-              "test_id": 23
+              "test_id": 25
             },
             {
               "constellation_bands": [
@@ -529,7 +558,7 @@
               "max_power_w": 0.631,
               "min_power_w": 0.631,
               "name": "Jammer H8.1",
-              "test_id": 24
+              "test_id": 26
             },
             {
               "constellation_bands": [
@@ -554,7 +583,7 @@
               "max_power_w": 6.31,
               "min_power_w": 0.5012,
               "name": "Jammer F6.1",
-              "test_id": 25
+              "test_id": 27
             },
             {
               "constellation_bands": [
@@ -569,7 +598,7 @@
               "max_power_w": 0,
               "min_power_w": 0,
               "name": "Jammer H1.3",
-              "test_id": 26
+              "test_id": 28
             },
             {
               "constellation_bands": [
@@ -585,7 +614,7 @@
               "max_power_w": 0,
               "min_power_w": 0,
               "name": "Jammer H2.1",
-              "test_id": 27
+              "test_id": 29
             },
             {
               "constellation_bands": [
@@ -601,7 +630,7 @@
               "max_power_w": 0,
               "min_power_w": 0,
               "name": "Jammer H2.2",
-              "test_id": 28
+              "test_id": 30
             }
           ]
         },
