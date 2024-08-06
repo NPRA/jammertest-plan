@@ -297,7 +297,7 @@
               "name": "Jammer H1.2",
               "test_id": 13
             },
-            "description": "Test with jammer H1.1 with function settings set at high power and GPS L1+L2 wideband modulation.",
+            "description": "Test with jammer H1.4 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
                 "H1.4"
               ],
