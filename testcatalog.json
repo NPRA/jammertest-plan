@@ -311,7 +311,8 @@
                 "L1",
                 " E1",
                 " B1C"
-              ],"description": "Test with jammer H1.5 with function settings set at high power and GPS L1+L2 wideband modulation.",
+              ],
+              "description": "Test with jammer H1.5 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
                 "H1.5"
               ],
