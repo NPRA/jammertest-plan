@@ -297,6 +297,12 @@
               "name": "Jammer H1.2",
               "test_id": 13
             },
+						{
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C"
+              ],
             "description": "Test with jammer H1.4 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
                 "H1.4"
@@ -305,7 +311,7 @@
               "min_power_w": 0.0003,
               "name": "Jammer H1.4",
               "test_id": 14
-            }
+            },
             {
               "constellation_bands": [
                 "L1",
