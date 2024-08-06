@@ -333,13 +333,6 @@
                 " E1",
                 " B1C"
               ],
-            {
-              "constellation_bands": [
-                "L1",
-                " E1",
-                " B1C",
-                " B1l"
-              ],
               "description": "Test with jammer H3.1",
               "equipment": [
                 "H3.1"
