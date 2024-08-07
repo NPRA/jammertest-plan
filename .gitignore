@@ -13,3 +13,5 @@ Latex/*/*.log
 Latex/*/*.out
 Latex/*/*.gz
 Latex/*/*.bbl
+Latex/transmissionplan/plan-main.pdf
+Latex/transmissionplan/plan-main.toc

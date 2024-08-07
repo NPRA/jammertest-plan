@@ -91,7 +91,14 @@ def findTestInCatalog(catalog, testId):
                         if test['test_id'] == my_test:
                             resTest["full_id"] = testId
                             resTest["testObj"] = test
-
+    if 'type_name' not in resTest:
+        print("could not find test type in catalog:"+str(my_type))
+    if 'group_name' not in resTest:
+        print("could not find test group in catalog:"+str(my_group))
+    if "full_id" not in resTest:
+        print("could not find test id in catalog:"+str(testId))
+    else:
+        print("found test in catalog: ("+str(testId)+")")
     return resTest
 
 #json_cat = open('testcatalog.json')
@@ -116,6 +123,9 @@ def printTest(testArr):
     res = "{"
     for test in testArr:
         testInfo = findTestInCatalog(cat, test["test_id"])
+        if "full_id" not in testInfo:
+            print("Cant add test "+str(test["test_id"])+" not available in catalog")
+            return "{test "+str(test["test_id"])+" not found in catalog}"
         res += f'\\normalsize{{\\textbf{{{test["start_time_t"]}-{test["end_time_t"]} - {testInfo["full_id"]} \\\\ {testInfo["testObj"]["name"]} }} }} \\\\ \n \\vspace{{1mm}} '
         if test['power_w'] > 0:
             res += f'\\footnotesize{{\hspace{{3mm}}Power: {test["power_w"]}W }} \\\\ \n'
@@ -153,7 +163,7 @@ def create_daytable(tp, dayname, locArr):
         # each location:
         for l in range(0,numOfLocs):
             testsInHour = findTestInHour(locArr[l], hr)
-            print(testsInHour)
+            #print(testsInHour)
             if len(testsInHour) > 0:
                 tp.write(printTest(testsInHour))
             else:
