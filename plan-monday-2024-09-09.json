@@ -1,139 +1,382 @@
 {
-    "locations": [
+  "locations": [
+    {
+      "location_id": 1,
+      "location_name": "Bleik",
+      "tests": [
         {
-            "location_id": 1,
-            "location_name": "Bleik",
-            "tests": [
-                {
-                    "start_time": "2024-09-19T09:00:00",
-                    "end_time": "2024-09-19T10:00:00",
-                    "test_id": "0.0.1",
-                    "test_contact": "Christian Skjetne (NPRA)",
-                    "power_w": 0,
-                    "comment": "MANDATORY",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T10:30:00",
-                    "end_time": "2024-09-19T11:00:00",
-                    "test_id": "1.1.1",
-                    "test_contact": "Tomas Levin (NPRA)",
-                    "power_w": 1,
-                    "comment": "",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T11:00:00",
-                    "end_time": "2024-09-19T12:00:00",
-                    "test_id": "0.1.1",
-                    "test_contact": "Tomas Levin (NPRA)",
-                    "power_w": 1,
-                    "comment": "Grace period",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T12:00:00",
-                    "end_time": "2024-09-19T13:00:00",
-                    "test_id": "0.1.1",
-                    "test_contact": "",
-                    "power_w": 1,
-                    "comment": "Lunch Grace period",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T16:00:00",
-                    "end_time": "2024-09-19T17:00:00",
-                    "test_id": "0.0.2",
-                    "test_contact": "Christian Skjetne (NPRA)",
-                    "power_w": 0,
-                    "comment": "",
-                    "status": ""
-                }
-            ]
+          "start_time": "2024-09-19T09:00:00",
+          "end_time": "2024-09-19T10:00:00",
+          "test_id": "0.0.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY",
+          "status": ""
         },
         {
-            "location_id": 2,
-            "location_name": "Sand box",
-            "tests": [
-                {
-                    "start_time": "2024-09-19T12:00:00",
-                    "end_time": "2024-09-19T12:15:00",
-                    "test_id": "1.1.1",
-                    "test_contact": "Øystein Karlsen (Nkom)",
-                    "power_w": 1,
-                    "comment": "",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T10:15:00",
-                    "end_time": "2024-09-19T10:30:00",
-                    "test_id": "0.1.1",
-                    "test_contact": "Øystein Karlsen (Nkom)",
-                    "power_w": 0,
-                    "comment": "Grace period",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T12:00:00",
-                    "end_time": "2024-09-19T13:00:00",
-                    "test_id": "2.5.3",
-                    "test_contact": "Øystein Karlsen (Nkom)",
-                    "power_w": 0,
-                    "comment": "Lunch Grace period",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T13:00:00",
-                    "end_time": "2024-09-19T13:30:00",
-                    "test_id": "2.5.3",
-                    "test_contact": "",
-                    "power_w": 0,
-                    "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
-                    "status": ""
-                }
-            ]
+          "start_time": "2024-09-19T10:30:00",
+          "end_time": "2024-09-19T11:00:00",
+          "test_id": "1.1.1",
+          "test_contact": "Tomas Levin (NPRA)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
         },
         {
-            "location_id": 3,
-            "location_name": "Motorcade",
-            "tests": [
-                {
-                    "start_time": "2024-09-19T08:00:00",
-                    "end_time": "2024-09-19T12:00:00",
-                    "test_id": "1.1.1",
-                    "test_contact": "Tomas Levin (NPRA)",
-                    "power_w": 1,
-                    "comment": "",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T13:00:00",
-                    "end_time": "2024-09-19T13:40:00",
-                    "test_id": "2.5.3",
-                    "test_contact": "",
-                    "power_w": 0,
-                    "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T13:50:00",
-                    "end_time": "2024-09-19T14:20:00",
-                    "test_id": "1.1.1",
-                    "test_contact": "Tomas Levin (NPRA)",
-                    "power_w": 1,
-                    "comment": "",
-                    "status": ""
-                },
-                {
-                    "start_time": "2024-09-19T14:20:00",
-                    "end_time": "2024-09-19T15:30:00",
-                    "test_id": "2.5.3",
-                    "test_contact": "",
-                    "power_w": 0,
-                    "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
-                    "status": ""
-                }
-            ]
+          "start_time": "2024-09-19T11:00:00",
+          "end_time": "2024-09-19T12:00:00",
+          "test_id": "0.1.1",
+          "test_contact": "Tomas Levin (NPRA)",
+          "power_w": 1,
+          "comment": "Grace period",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T13:00:00",
+          "test_id": "0.1.1",
+          "test_contact": "",
+          "power_w": 1,
+          "comment": "Lunch Grace period",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T16:00:00",
+          "end_time": "2024-09-19T17:00:00",
+          "test_id": "0.0.2",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "",
+          "status": ""
         }
-    ]
+      ]
+    },
+    {
+      "location_id": 2,
+      "location_name": "Grunnvatn",
+      "tests": [
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.1",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.2",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.3",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.4",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.5",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.6",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.7",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.8",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.9",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.10",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.11",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.12",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.13",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.14",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.15",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.16",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.17",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.18",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.19",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.20",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.21",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.22",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.23",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.24",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.25",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.26",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.27",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.28",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.29",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.30",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T12:00:00",
+          "end_time": "2024-09-19T12:15:00",
+          "test_id": "1.1.31",
+          "test_contact": "Øystein Karlsen (Nkom)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        }
+      ]
+    },
+    {
+      "location_id": 3,
+      "location_name": "Motorcade",
+      "tests": [
+        {
+          "start_time": "2024-09-19T08:00:00",
+          "end_time": "2024-09-19T12:00:00",
+          "test_id": "1.1.1",
+          "test_contact": "Tomas Levin (NPRA)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T13:00:00",
+          "end_time": "2024-09-19T13:40:00",
+          "test_id": "2.5.3",
+          "test_contact": "",
+          "power_w": 0,
+          "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T13:50:00",
+          "end_time": "2024-09-19T14:20:00",
+          "test_id": "1.1.1",
+          "test_contact": "Tomas Levin (NPRA)",
+          "power_w": 1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-19T14:20:00",
+          "end_time": "2024-09-19T15:30:00",
+          "test_id": "2.5.3",
+          "test_contact": "",
+          "power_w": 0,
+          "comment": "Dummy test with a long comment to see what it looks like when the json is compiled in to a pdf-file that people can read",
+          "status": ""
+        }
+      ]
+    }
+  ]
 }
