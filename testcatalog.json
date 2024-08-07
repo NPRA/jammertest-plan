@@ -76,7 +76,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C"
               ],
               "description": "Test with jammer S1.1",
@@ -92,7 +92,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C"
               ],
               "description": "Test with jammer S1.2",
@@ -108,7 +108,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C"
               ],
               "description": "Test with jammer S1.3",
@@ -124,7 +124,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -144,7 +144,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -164,7 +164,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -184,7 +184,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -204,7 +204,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -221,7 +221,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -238,7 +238,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -255,7 +255,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -347,7 +347,7 @@
                 "L1",
                 " E1",
                 " B1C",
-                " B1l"
+                " B1I"
               ],
               "description": "Test with jammer H3.2",
               "equipment": [
@@ -382,10 +382,10 @@
                 "L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " E6",
                 " G2",
-                " B3l",
+                " B3I",
                 " L2",
                 " G2",
                 " B2b",
@@ -432,7 +432,7 @@
                 " G2",
                 " G3",
                 " B2b",
-                " B3l",
+                " B3I",
                 " E5b",
                 " E6"
               ],
@@ -458,7 +458,7 @@
                 " G2",
                 " G3",
                 " B2b",
-                " B3l",
+                " B3I",
                 " E5b",
                 " E6"
               ],
@@ -478,12 +478,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test with jammer H6.4",
@@ -502,12 +502,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test with jammer H6.5",
@@ -526,12 +526,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test with jammer H6.6",
@@ -548,7 +548,7 @@
                 "L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test with jammer H8.1",
@@ -565,11 +565,11 @@
                 "L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " B2b",
                 " E6",
                 " L5",
@@ -1018,17 +1018,17 @@
                 "L5",
                 "G2",
                 "L2",
-                "B1l",
+                "B1I",
                 "G1",
                 "L1"
               ],
-              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1l, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
+              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W PRN pyramid: E6, E5b, L5, G2, L2, B1l, G1, L1",
+              "name": "20 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
           ]
@@ -1047,17 +1047,17 @@
                 "L5",
                 "G2",
                 "L2",
-                "B1l",
+                "B1I",
                 "G1",
                 "L1"
               ],
-              "description": "20 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1l, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1l, G1, L1 \n\nE6, E5b, L5, G2, L2, B1l, G1 \n\nE6, E5b, L5, G2, L2, B1l \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1l \n\nE6, E5b, L5, G2, L2, B1l, G1 \n\nE6, E5b, L5, G2, L2, B1l, G1, L1",
+              "description": "20 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1I, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1l, G1, L1",
+              "name": "20 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
           ]
@@ -1073,7 +1073,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1096,12 +1096,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.4.  DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
@@ -1117,7 +1117,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1140,12 +1140,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed jammer H6.4. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
@@ -1170,7 +1170,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1190,7 +1190,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1210,7 +1210,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1230,7 +1230,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1250,7 +1250,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " L5",
                 " E5a/b",
@@ -1273,12 +1273,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.4, where the jammer is placed inside the mobile DUT vehicle.",
@@ -1297,12 +1297,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.4",
@@ -1321,12 +1321,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.4",
@@ -1345,12 +1345,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.4",
@@ -1369,12 +1369,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.4",
@@ -1402,12 +1402,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Sequential activation of jammers. Max/min power does not account for multiple jammers being active at once.",
@@ -1428,12 +1428,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Sequential activation of jammers. Max/min power does not account for multiple jammers being active at once.",
@@ -1454,12 +1454,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Max/min power does not account for multiple jammers being active at once.",
@@ -1565,12 +1565,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
@@ -1589,12 +1589,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
@@ -1613,12 +1613,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
@@ -1637,12 +1637,12 @@
                 " E5a",
                 " L2",
                 " G2",
-                " B3l",
+                " B3I",
                 " E6",
                 " L1",
                 " E1",
                 " B1C",
-                " B1l",
+                " B1I",
                 " G1"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
@@ -2008,7 +2008,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2025,7 +2025,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2042,7 +2042,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2059,7 +2059,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2076,7 +2076,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2093,7 +2093,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2110,7 +2110,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2127,7 +2127,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2144,7 +2144,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2161,7 +2161,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2178,7 +2178,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2195,7 +2195,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2212,7 +2212,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2229,7 +2229,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2246,7 +2246,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2263,7 +2263,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2289,7 +2289,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2308,7 +2308,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2327,7 +2327,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2346,7 +2346,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2365,7 +2365,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2384,7 +2384,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2403,7 +2403,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2422,7 +2422,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2441,7 +2441,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2460,7 +2460,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2479,7 +2479,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2498,7 +2498,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1l",
+                " B1I",
                 " B1C",
                 " G1"
               ],
@@ -2814,7 +2814,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
                 "S"
               ],
@@ -2832,7 +2832,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
                 "S"
               ],
@@ -2850,7 +2850,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
@@ -2895,7 +2895,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: 01.10.2024 12:00.",
               "equipment": [
                 "S"
               ],
@@ -2973,7 +2973,7 @@
                 "L2",
                 "L5"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
@@ -2988,7 +2988,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: Galileo E1, E5 \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: Galileo E1, E5 \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
@@ -3006,7 +3006,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1l, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
@@ -3193,7 +3193,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
@@ -3230,7 +3230,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
@@ -3258,7 +3258,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nThe navigation data manipulation starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nThe navigation data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
@@ -3272,7 +3272,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission.\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18. The data manipulation starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission.\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18. The data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
@@ -3374,7 +3374,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -3388,7 +3388,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -3448,7 +3448,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1l, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
               "equipment": [
                 "S"
               ],
