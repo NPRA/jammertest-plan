@@ -15,6 +15,6 @@ This is the plan with dates and times for all the tests for this years jammertes
 **The transmission plan will not contain all the tests found in the test catalog.**
 
 Links to the transmission plan:
-- [Transmissionplan](Transmissionplan.pdf) (PDF)
-- [Transmissionplan](transmissionplan.json) (JSON)
+- ~~[Transmissionplan](Transmissionplan.pdf) (PDF)~~ Not available yet
+- ~~[Transmissionplan](transmissionplan.json) (JSON)~~ Not available yet
 
