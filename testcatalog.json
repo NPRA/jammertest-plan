@@ -1868,8 +1868,8 @@
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 10,
-              "min_power_w": 10,
+              "max_power_w": 5,
+              "min_power_w": 5,
               "name": "10 W PRN: L1",
               "test_id": 1
             },
@@ -1881,8 +1881,8 @@
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 10,
-              "min_power_w": 10,
+              "max_power_w": 5,
+              "min_power_w": 5,
               "name": "10 W PRN: L5",
               "test_id": 2
             },
@@ -1895,8 +1895,8 @@
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 10,
-              "min_power_w": 10,
+              "max_power_w": 5,
+              "min_power_w": 5,
               "name": "10 W CW: L1, L5",
               "test_id": 3
             },
@@ -1909,8 +1909,8 @@
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 10,
-              "min_power_w": 10,
+              "max_power_w": 5,
+              "min_power_w": 5,
               "name": "10 W chirp: L1, L5",
               "test_id": 4
             },
@@ -1923,8 +1923,8 @@
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 10,
-              "min_power_w": 10,
+              "max_power_w": 5,
+              "min_power_w": 5,
               "name": "10 W PNR: L1, L5",
               "test_id": 5
             },
@@ -3586,7 +3586,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at different times. RX2 is turned on 5 minutes after RX1 is activated.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
