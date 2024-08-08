@@ -2029,13 +2029,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 15 minutes",
               "test_id": 5
             },
             {
@@ -2063,13 +2063,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1620 to 1545  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1620 to 1545  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1620 to 1545 MHz, with BW of 10 kHz and sweep time of 15 minutes",
               "test_id": 7
             },
             {
@@ -2097,13 +2097,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 9
             },
             {
@@ -2131,13 +2131,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 11
             },
             {
@@ -2165,13 +2165,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 15 minutes",
               "test_id": 13
             },
             {
@@ -2199,13 +2199,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1300 to 1150  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1300 to 1150  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150 MHz, with BW of 10 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1300 to 1150 MHz, with BW of 10 kHz and sweep time of 15 minutes",
               "test_id": 15
             },
             {
@@ -2233,13 +2233,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 17
             },
             {
@@ -2267,13 +2267,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 5 minutes.",
+              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 5 minutes",
+              "name": "20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 19
             }
           ]
