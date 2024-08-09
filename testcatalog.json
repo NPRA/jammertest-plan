@@ -2806,7 +2806,7 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Large position and time jump. GPS L1 and Galileo E1",
+              "name": "Large position and time jump. GPS L1 and Galileo E1 only",
               "test_id": 2
             },
             {
@@ -2820,7 +2820,7 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Large position and time jump. GPS L1 and Galileo E1, with initial and continuous jamming",
+              "name": "Large position and time jump. GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 3
             },
             {
@@ -3041,7 +3041,7 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Simulated driving (route 1). GPS L1 and Galileo E1",
+              "name": "Simulated driving (route 1). GPS L1 and Galileo E1 only",
               "test_id": 5
             },
             {
