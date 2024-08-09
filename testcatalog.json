@@ -1390,9 +1390,9 @@
         },
         {
           "comment": "The precise positions for each jammer will have to be decided in field, to best accommodate participants wishes and practical concerns (like terrain). The coordinates for each position, X, Y and Z, will have to be written down in field to help later analysis of the test results.",
-          "description": "The test will use three multiband jammers, spaced out in the terrain in different places. Attendees can move around or station themselves so that they can experience the different constellation and observe how their equipment and systems behave in a complicated GNSS RFI environment.",
+          "description": "The test will use three multiband jammers, spaced out in the terrain in different places (configurations A and B). Attendees can move around or station themselves so that they can experience the different constellation and observe how their equipment and systems behave in a complicated GNSS RFI environment.",
           "group_id": 12,
-          "group_name": "Low power jamming with commercially available multi-band jammers in different placements in the terrain",
+          "group_name": "Low power jamming with three commercially available multi-band jammers in different placements in the terrain",
           "rationale": "The main objective is to simulate meeting several \"more dangerous\" jammers, multi-band jammers.",
           "tests": [
             {
@@ -1410,7 +1410,7 @@
                 " B1I",
                 " G1"
               ],
-              "description": "Sequential activation of jammers. Max/min power does not account for multiple jammers being active at once.",
+              "description": "Sequential activation of the three jammers, from first to last as listed in 'Transmitter equipment'. Max/min power does not account for multiple jammers being active at once.",
               "equipment": [
                 "F6.1",
                 "H6.5",
@@ -1418,7 +1418,7 @@
               ],
               "max_power_w": 6.31,
               "min_power_w": 0.5012,
-              "name": "All jammers stationary; activate Jammer F6.1, H6.5 and H3.3 sequentially",
+              "name": "All jammers stationaryin placement-configuration A, activate sequentially",
               "test_id": 1
             },
             {
@@ -1436,7 +1436,7 @@
                 " B1I",
                 " G1"
               ],
-              "description": "Sequential activation of jammers. Max/min power does not account for multiple jammers being active at once.",
+              "description": "Sequential activation of the three jammers, from first to last as listed in 'Transmitter equipment'. Max/min power does not account for multiple jammers being active at once.",
               "equipment": [
                 "F6.1",
                 "H6.5",
@@ -1444,7 +1444,7 @@
               ],
               "max_power_w": 6.31,
               "min_power_w": 0.5012,
-              "name": "All jammers stationary in new placements; activate Jammer F6.1, H6.5 and H3.3 sequentially",
+              "name": "All jammers stationary in placement-configuration B; activate sequentially",
               "test_id": 2
             },
             {
@@ -1462,7 +1462,7 @@
                 " B1I",
                 " G1"
               ],
-              "description": "Max/min power does not account for multiple jammers being active at once.",
+              "description": "First two jammers are stationary, last one is mobile (as counted from first to last as listed in 'Transmitter equipment'). All jammers are activated simultaneously. Max/min power does not account for multiple jammers being active at once.",
               "equipment": [
                 "F6.1",
                 "H6.5",
@@ -1470,7 +1470,7 @@
               ],
               "max_power_w": 6.31,
               "min_power_w": 0.5012,
-              "name": "Jammers F6.1 and H6.5 stationary, Jammer H3.3 mobile; all jammers activated simultaneously",
+              "name": "Two jammers stationary in placement-confinguration A, last jammer, activated simultaneously",
               "test_id": 3
             }
           ]
@@ -3422,8 +3422,22 @@
               ],
               "max_power_w": 0.001,
               "min_power_w": 0.001,
-              "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1, with initial and continuous jamming",
+              "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only, with initial jamming",
               "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (2 years backwards), with initial jamming",
+              "test_id": 2
             },
             {
               "constellation_bands": [
@@ -3436,8 +3450,22 @@
               ],
               "max_power_w": 0.001,
               "min_power_w": 0.001,
-              "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1, with initial and continuous jamming",
-              "test_id": 2
+              "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only, with initial jamming",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (2 years forwards), with initial jamming",
+              "test_id": 4
             }
           ]
         },
@@ -3482,7 +3510,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
-              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1",
+              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only",
               "test_id": 1
             },
             {
@@ -3496,7 +3524,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
-              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1, with initial and continuous jamming",
+              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only, with initial jamming",
               "test_id": 2
             }
           ]
