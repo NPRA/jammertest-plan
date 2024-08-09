@@ -3682,7 +3682,7 @@
                 "L1",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 3 cycles).",
+              "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
                 "M and F8.1"
               ],
@@ -3711,7 +3711,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
-              "name": "RX1 at 10 W with pyramid ramping power",
+              "name": "RX1 at max 10 W with pyramid ramping power",
               "test_id": 1
             },
             {
@@ -3725,7 +3725,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
-              "name": "RX1+RX2 at 10 W with pyramid ramping power",
+              "name": "RX1+RX2 at max 10 W with pyramid ramping power",
               "test_id": 2
             }
           ]
