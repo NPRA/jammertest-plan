@@ -2526,7 +2526,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 1,
-              "name": "3 jammers at 50 meters from center H1.1, H1.4 and H1.5",
+              "name": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 CHIRP, L2 L1 CHIRP",
               "test_id": 13
             },
             {
