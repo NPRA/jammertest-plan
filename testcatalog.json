@@ -2877,13 +2877,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: Referenced to live GPS-signals. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Large position jump",
+              "name": "Large position jump, with power ramp",
               "test_id": 1
             },
             {
