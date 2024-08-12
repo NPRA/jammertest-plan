@@ -2012,13 +2012,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "name": "20 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
               "test_id": 4
             },
             {
@@ -2029,13 +2029,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
+              "description": "20 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 15 minutes",
+              "name": "20 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
               "test_id": 5
             },
             {
@@ -2046,13 +2046,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "description": "20 W frequency drift from 1620 to 1545 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545  MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "name": "20 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
               "test_id": 6
             },
             {
@@ -2063,13 +2063,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1620 to 1545  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
+              "description": "20 W frequency drift from 1620 to 1545  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545 MHz, with BW of 10 kHz and sweep time of 15 minutes",
+              "name": "20 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
               "test_id": 7
             },
             {
@@ -2148,13 +2148,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "name": "20 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
               "test_id": 12
             },
             {
@@ -2165,13 +2165,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
+              "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 15 minutes",
+              "name": "20 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
               "test_id": 13
             },
             {
@@ -2182,13 +2182,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 1 minute.",
+              "description": "20 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150  MHz, with BW of 10 kHz and sweep time of 1 minute",
+              "name": "20 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
               "test_id": 14
             },
             {
@@ -2199,13 +2199,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W frequency drift from 1300 to 1150  MHz, with a signal bandwidth (BW) of 10 kHz and a sweep duration of 15 minutes.",
+              "description": "20 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150 MHz, with BW of 10 kHz and sweep time of 15 minutes",
+              "name": "20 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
               "test_id": 15
             },
             {
@@ -2565,7 +2565,7 @@
         },
         {
           "comment": "Spesification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
-          "description": "All tests will be performed with the NEAT military jammers from Novatel placed 1 to 1.5 meters above ground on a pole and be turned on and kept active for 15 minutes before being turned off. A two minute break is included between tests. The test will then be repeated with different modulation and power levels.",
+          "description": "All tests will be performed with the NEAT military jammers from Novatel placed 1 to 1.5 meters above ground on a pole and be turned on and kept active for a period (for example 10 minutes) before being turned off. A break (of for example six minutes) is included between tests. The test will then be repeated with different modulation and power levels.",
           "group_id": 20,
           "group_name": "Drone testing, landing and take off in a circle of 3 Jammers",
           "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it produces inaccurate PNT data, when the jamming signal (J) is generated by the NEAT military jammers from Novatel. 3 jammers of the same type is placed in a cirle 120 degrees a part. Distance from center i alteterd between 50, 100 and 150 meters. The test is repeated with different modulation and power levels. The intent is to allow each drone land and do take off in the center.  This testgroup is also relevant for CRPA antenna testing and TDOA detection equipment.",
@@ -3027,6 +3027,21 @@
                 "L2",
                 "L5"
               ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 316,
+              "name": "Simulated driving (route 1). GPS only",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5"
+              ],
               "description": "Signals: GPS L1 C/A, L2C, L5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
@@ -3034,7 +3049,22 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). GPS only, with initial jamming.",
-              "test_id": 4
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: Galileo E1, E5. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). Galileo only",
+              "test_id": 6
             },
             {
               "constellation_bands": [
@@ -3049,54 +3079,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). Galileo only, with initial jamming.",
-              "test_id": 5
-            },
-            {
-              "constellation_bands": [
-                "L1",
-                "L2",
-                "L5",
-                "E1",
-                "E5a",
-                "E5b"
-              ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-              "equipment": [
-                "S"
-              ],
-              "max_power_w": 0.316,
-              "min_power_w": 0.316,
-              "name": "Simulated driving (route 1) with initial jamming.",
-              "test_id": 6
-            },
-            {
-              "constellation_bands": [
-                "L1",
-                "L2",
-                "L5"
-              ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-              "equipment": [
-                "S"
-              ],
-              "max_power_w": 0.316,
-              "min_power_w": 316,
-              "name": "Simulated driving (route 1). GPS only",
               "test_id": 7
-            },
-            {
-              "constellation_bands": [
-                "L1",
-                "E1"
-              ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-              "equipment": [
-                "S"
-              ],
-              "max_power_w": 0.316,
-              "min_power_w": 0.316,
-              "name": "Simulated driving (route 1). GPS L1 and Galileo E1 only",
-              "test_id": 8
             },
             {
               "constellation_bands": [
@@ -3114,6 +3097,24 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1)",
+              "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1) with initial jamming.",
               "test_id": 9
             },
             {
@@ -3751,7 +3752,7 @@
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. The meaconing setup employed, \"M\", is explained in Appendix XX.",
           "description": "GNSS re-transmission of real live sky signals from two receiver (RX1 and RX2), with the same receivers specifications as listed in \"Meaconing testgroup 1\". The tests are performed with a pyramid ramping in tranmsmission power, from 0.01 W to 10 W and back down to 0.01 W, in 5 dB steps. Each step is kept for 2 minutes before the power is increased or decreased. There is planned a 10-minute break between each test.",
           "group_id": 3,
-          "group_name": "Stationary meaconing from a single or two receivers with pyramid ramping power",
+          "group_name": "Stationary meaconing from a single or two receivers with ramping power",
           "rationale": "The objective is to observe how equipment and systems behave under varying meaconing tranmission powers. Maybe especially interesting is to try to observe when the meaconing signal(s) is(are) strong enough to deceive the DUT receiver, and if the DUT receiver resumes to use the real GNSS signals at the same power levels on the way down of the power pyramid. It could also be of interest to see if the behaviour changes if two meaconing receivers are used instead of only a signle one.",
           "tests": [
             {
