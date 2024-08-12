@@ -3705,13 +3705,13 @@
                 "L1",
                 "L2"
               ],
-              "description": "10 W meaconing from receiver RX1, with pyramid ramping power. Power is ramped up from 0.01 W to 10 W and then back down again to 0.01 W in 5 dB steps, with each step lasting for 2 minutes.",
+              "description": "10 W meaconing from receiver RX1, with ramping power. Power is ramped up from 0.01 W to 10 W and then back down again to 0.01 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
                 "M and F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
-              "name": "RX1 at max 10 W with pyramid ramping power",
+              "name": "RX1 at max 10 W with ramping power",
               "test_id": 1
             },
             {
@@ -3719,13 +3719,13 @@
                 "L1",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, with pyramid ramping power. Power is ramped up from 0.01 W to 10 W and then back down again to 0.01 W in 5 dB steps, with each step lasting for 2 minutes.",
+              "description": "10 W meaconing from receiver RX1, with receiver RX2 ramping power. Power for RX1 is kept constant, while power for RX2 is ramped up from 0.01 W to 10 W and then back down again to 0.01 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
                 "M and F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
-              "name": "RX1+RX2 at max 10 W with pyramid ramping power",
+              "name": "RX1 at max 10 W and RX2 with ramping power",
               "test_id": 2
             }
           ]
