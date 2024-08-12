@@ -1925,7 +1925,7 @@
               ],
               "max_power_w": 5,
               "min_power_w": 5,
-              "name": "10 W PNR: L1, L5",
+              "name": "10 W PRN: L1, L5",
               "test_id": 5
             },
             {
@@ -1939,7 +1939,7 @@
               ],
               "max_power_w": 1,
               "min_power_w": 1,
-              "name": "1 W PNR: L1, L5",
+              "name": "1 W PRN: L1, L5",
               "test_id": 6
             },
             {
@@ -1953,7 +1953,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
-              "name": "0.1 W PNR: L1, L5",
+              "name": "0.1 W PRN: L1, L5",
               "test_id": 7
             }
           ]
@@ -2142,11 +2142,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2159,11 +2166,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2176,11 +2190,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2193,11 +2214,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2210,11 +2238,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2227,11 +2262,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2244,11 +2286,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+                " B3"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2261,11 +2310,18 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "L5",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
+                " G3",
+                " L2",
+                " G2",
+                " L6",
+                " E6",
+				" B3"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
