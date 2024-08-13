@@ -3703,8 +3703,8 @@
               "equipment": [
                 "S"
               ],
-              "max_power_w": 0.316,
-              "min_power_w": 0.316,
+              "max_power_w": 1,
+              "min_power_w": 1,
               "name": "Time offset 15 minutes from real time - \"helicopter scenario\"",
               "test_id": 20
             }
@@ -3815,8 +3815,8 @@
               "equipment": [
                 "S"
               ],
-              "max_power_w": 0.001,
-              "min_power_w": 0.001,
+              "max_power_w": 0.0316,
+              "min_power_w": 0.0316,
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 3
             },
@@ -3869,8 +3869,8 @@
               "equipment": [
                 "S"
               ],
-              "max_power_w": 0.001,
-              "min_power_w": 0.001,
+              "max_power_w": 0.0316,
+              "min_power_w": 0.0316,
               "name": "Static + Time manipulation (2 years backwards), with power ramp",
               "test_id": 6
             },
@@ -3911,8 +3911,8 @@
               "equipment": [
                 "S"
               ],
-              "max_power_w": 0.001,
-              "min_power_w": 0.001,
+              "max_power_w": 0.0316,
+              "min_power_w": 0.0316,
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 9
             },
@@ -3965,8 +3965,8 @@
               "equipment": [
                 "S"
               ],
-              "max_power_w": 0.001,
-              "min_power_w": 0.001,
+              "max_power_w": 0.0316,
+              "min_power_w": 0.0316,
               "name": "Static + Time manipulation (2 years forwards), with power ramp",
               "test_id": 12
             }
@@ -3984,7 +3984,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: EGNOS L1. The transmission of false SBAS signals will start immediately upon test start.",
+              "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start.",
               "equipment": [
                 "S"
               ],
@@ -4007,7 +4007,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
               "equipment": [
                 "S"
               ],
@@ -4027,10 +4027,24 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
-              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only, with initial jamming",
+              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 2
             },
-		  {
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.0316,
+              "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only, power ramp",
+              "test_id": 3
+            },
+	    {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4039,16 +4053,16 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
               "name": "Static + Nav. data manipulation (invalid ephemerids)",
-              "test_id": 3
+              "test_id": 4
             },
-		  {
+	    {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4063,8 +4077,26 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
-              "name": "Static + Nav. data manipulation (invalid ephemerids), with initial jamming",
-              "test_id": 4
+              "name": "Static + Nav. data manipulation (invalid ephemerids), with initial and continuous jamming",
+              "test_id": 5
+            },
+	    {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will introduce an invalid ephemerids parameter.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.0316,
+              "name": "Static + Nav. data manipulation (invalid ephemerids), with power ramp",
+              "test_id": 6
             }
           ]
         }
