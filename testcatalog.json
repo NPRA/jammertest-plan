@@ -3098,13 +3098,13 @@
                 "L2",
                 "L5"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Simulated driving (route 1). GPS only, with initial jamming.",
+              "name": "Simulated driving (route 1). GPS only, with initial and continuous jamming.",
               "test_id": 5
             },
             {
@@ -3128,13 +3128,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: Galileo E1, E5 \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: Galileo E1, E5 \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Simulated driving (route 1). Galileo only, with initial jamming.",
+              "name": "Simulated driving (route 1). Galileo only, with initial and continuous jamming.",
               "test_id": 7
             },
             {
@@ -3164,13 +3164,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Simulated driving (route 1) with initial jamming.",
+              "name": "Simulated driving (route 1) with initial and continuous jamming.",
               "test_id": 9
             },
             {
@@ -3318,13 +3318,13 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.001,
               "min_power_w": 0.001,
-              "name": "Static + Frequency step. GPS L1 and Galileo E1 only, with initial jamming",
+              "name": "Static + Frequency step. GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 6
             },
             {
@@ -3354,13 +3354,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.001,
               "min_power_w": 0.001,
-              "name": "Static + Frequency step, with initial jamming",
+              "name": "Static + Frequency step, with initial and continous jamming",
               "test_id": 8
             }
           ]
@@ -3377,6 +3377,56 @@
                 "L1",
                 "E1"
               ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". \n\nThe spoofing power will be ramped from -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.000000316,
+              "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". \n\nSpoofing power ramp -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.000000316,
+              "name": "Time offset 15 minutes from real time, with power ramp",
+              "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is - 3 minutes (180 seconds), so \"back into the past\". \n\nSpoofing power will start at -20 dBm and be stepped up to 15 dBm in one step after 10 minutes.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.00001,
+              "name": "Time offset -3 minutes from real time, with power jump",
+              "test_id": 3
+            },
+	   {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
               "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
@@ -3384,7 +3434,7 @@
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
               "name": "Static + Frequency step. GPS L1 and Galileo E1 only",
-              "test_id": 1
+              "test_id": 4
             },
             {
               "constellation_bands": [
@@ -3398,7 +3448,61 @@
               "max_power_w": 0.001,
               "min_power_w": 0.001,
               "name": "Static + Frequency step. GPS L1 and Galileo E1 only, with initial and continuous jamming",
-              "test_id": 2
+              "test_id": 5
+            },
+	   {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.00001,
+              "min_power_w": 0.00001,
+              "name": "Static + Frequency step",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Frequency step, with initial and continuous jamming",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts. \n\nSpoofing power ramp -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Frequency step, with power ramp",
+              "test_id": 8
             },
             {
               "constellation_bands": [
@@ -3412,7 +3516,7 @@
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
               "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only",
-              "test_id": 3
+              "test_id": 9
             },
             {
               "constellation_bands": [
@@ -3425,13 +3529,85 @@
               ],
               "max_power_w": 0.0316,
               "min_power_w": 0.000000316,
-              "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with initial and continuous jamming, with power ramp.",
-              "test_id": 4
+              "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with initial and continuous jamming",
+              "test_id": 10
             },
             {
               "constellation_bands": [
                 "L1",
                 "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nThe navigation data manipulation starts five minutes after the spoofing starts.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.000000316,
+              "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with power ramp",
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe navigation data manipulation starts five minutes after the spoofing starts.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.00001,
+              "min_power_w": 0.00001,
+              "name": "Static + Nav data manipulation (clock/frequency related)",
+              "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe navigation data manipulation starts five minutes after the spoofing starts.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.000000316,
+              "name": "Static + Nav data manipulation (clock/frequency related), with initial and continuous jamming.",
+              "test_id": 13
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nThe navigation data manipulation starts five minutes after the spoofing starts.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.000000316,
+              "name": "Static + Nav data manipulation (clock/frequency related), with power ramp",
+              "test_id": 14
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
               ],
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18. The data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
@@ -3440,26 +3616,34 @@
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
               "name": "Static + UTC-parameter nav. data manipulation (adding leap seconds)",
-              "test_id": 5
+              "test_id": 15
             },
             {
               "constellation_bands": [
                 "L1",
-                "E1"
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission.\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18. The data manipulation starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18. The data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
-              "name": "Static + UTC-parameter nav. data manipulation (adding leap seconds), with initial jamming",
-              "test_id": 6
+              "name": "Static + UTC-parameter nav. data manipulation (adding leap seconds), with initial and continuous jamming",
+              "test_id": 16
             },
             {
               "constellation_bands": [
                 "L1",
-                "E1"
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
               ],
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds. The data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
@@ -3468,21 +3652,25 @@
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
               "name": "Static + UTC-parameter nav. data manipulation (removing leap seconds)",
-              "test_id": 7
+              "test_id": 17
             },
             {
               "constellation_bands": [
                 "L1",
-                "E1"
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission.\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds. The data manipulation starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds. The data manipulation starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
-              "name": "Static + UTC-parameter nav. data manipulation (removing leap seconds), with initial jamming",
-              "test_id": 8
+              "name": "Static + UTC-parameter nav. data manipulation (removing leap seconds), with initial and continuous jamming",
+              "test_id": 18
             },
             {
               "constellation_bands": [
@@ -3499,8 +3687,26 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Time offset 15 minutes from real time - harbour",
-              "test_id": 9
+              "name": "Time offset 15 minutes from real time - \"harbour scenario\"",
+              "test_id": 19
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated start position: Over the sea 1 km N (Midnattskjæran) at 200 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Time offset 15 minutes from real time - \"helicopter scenario\"",
+              "test_id": 20
             }
           ]
         },
