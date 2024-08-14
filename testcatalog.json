@@ -127,8 +127,11 @@
                 " B1I",
                 " B1C",
                 " L5",
-                " E5a/b",
-                " B2a/b",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
                 " G3"
               ],
               "description": "Test with jammer S2.1",
@@ -147,8 +150,11 @@
                 " B1I",
                 " B1C",
                 " L5",
-                " E5a/b",
-                " B2a/b",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
                 " G3"
               ],
               "description": "Test with jammer S2.2",
@@ -167,8 +173,11 @@
                 " B1I",
                 " B1C",
                 " L5",
-                " E5a/b",
-                " B2a/b",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
                 " G3"
               ],
               "description": "Test with jammer S2.3",
@@ -187,8 +196,11 @@
                 " B1I",
                 " B1C",
                 " L5",
-                " E5a/b",
-                " B2a/b",
+                " E5a",
+                " B2a",
+                " E5b",
+                " B2b",
+                " B2I",
                 " G3"
               ],
               "description": "Test with jammer S2.4",
@@ -271,6 +283,9 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C",
+                " B1I",
                 " L2"
               ],
               "description": "Test with jammer H1.1 with function settings set at high power and GPS L1+L2 wideband modulation.",
@@ -301,7 +316,9 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
+                " B1I",
+                " L2"
               ],
               "description": "Test with jammer H1.4 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
@@ -316,7 +333,9 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
+                " B1I",
+                " L2"
               ],
               "description": "Test with jammer H1.5 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
@@ -383,17 +402,18 @@
                 " E1",
                 " B1C",
                 " B1I",
+                " L6",
                 " E6",
-                " G2",
                 " B3I",
-                " L2",
                 " G2",
+                " L2",
+                " B2I",
                 " B2b",
                 " E5b",
-                " L5",
                 " G3",
+                " L5",
                 " B2a",
-                " E5a/b"
+                " E5a"
               ],
               "description": "Test with jammer H4.1",
               "equipment": [
@@ -643,7 +663,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                " E1",
+                " B1C"
               ],
               "description": "20 W CW: L1",
               "equipment": [
@@ -657,6 +679,8 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1"
               ],
               "description": "20 W CW: L1, G1",
@@ -671,6 +695,8 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1",
                 " L2"
               ],
@@ -686,9 +712,13 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1",
                 " L2",
-                " L5"
+                " L5",
+                " E5a",
+                " B2a"
               ],
               "description": "20 W CW: L1, G1, L2, L5",
               "equipment": [
@@ -710,7 +740,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                " E1",
+                " B1C"
               ],
               "description": "20 W chirp: L1",
               "equipment": [
@@ -724,6 +756,8 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1"
               ],
               "description": "20 W chirp: L1, G1",
@@ -738,6 +772,8 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1",
                 " L2"
               ],
@@ -753,9 +789,13 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1",
                 " L2",
-                " L5"
+                " L5",
+                " E5a",
+                " B2a"
               ],
               "description": "20 W chirp: L1, G1, L2, L5",
               "equipment": [
@@ -777,7 +817,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                " E1",
+                " B1C"
               ],
               "description": "20 W PRN: L1",
               "equipment": [
@@ -791,6 +833,8 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1"
               ],
               "description": "20 W PRN: L1, G1",
@@ -805,6 +849,8 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1",
                 " L2"
               ],
@@ -820,9 +866,13 @@
             {
               "constellation_bands": [
                 "L1",
+                " E1",
+                " B1C"
                 " G1",
                 " L2",
-                " L5"
+                " L5",
+                " E5a",
+                " B2a"
               ],
               "description": "20 W PRN: L1, G1, L2, L5",
               "equipment": [
@@ -2145,15 +2195,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2169,15 +2219,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2193,15 +2243,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2217,15 +2267,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2241,15 +2291,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2265,15 +2315,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2289,15 +2339,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-                " B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2313,15 +2363,15 @@
                 "L5",
                 " E5a",
                 " B2a",
+                " G3",
                 " E5b",
                 " B2b",
                 " B2I",
-                " G3",
                 " L2",
                 " G2",
+                " B3I",
                 " L6",
-                " E6",
-				" B3"
+                " E6"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
