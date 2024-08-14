@@ -680,7 +680,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1"
               ],
               "description": "20 W CW: L1, G1",
@@ -696,7 +696,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1",
                 " L2"
               ],
@@ -713,7 +713,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1",
                 " L2",
                 " L5",
@@ -757,7 +757,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1"
               ],
               "description": "20 W chirp: L1, G1",
@@ -773,7 +773,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1",
                 " L2"
               ],
@@ -790,7 +790,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1",
                 " L2",
                 " L5",
@@ -834,7 +834,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1"
               ],
               "description": "20 W PRN: L1, G1",
@@ -850,7 +850,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1",
                 " L2"
               ],
@@ -867,7 +867,7 @@
               "constellation_bands": [
                 "L1",
                 " E1",
-                " B1C"
+                " B1C",
                 " G1",
                 " L2",
                 " L5",
