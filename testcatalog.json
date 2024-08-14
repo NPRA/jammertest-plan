@@ -2903,6 +2903,32 @@
             },
             {
               "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Large position and time jump. GPS L1 C/A only",
+              "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "E1"
+              ],
+              "description": "Signals: Galileo E1. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Large position and time jump. Galileo E1 only",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
                 "L1",
                 "E1"
               ],
@@ -2913,21 +2939,85 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Large position and time jump. GPS L1 and Galileo E1 only",
-              "test_id": 2
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Large position and time jump. GPS and Galileo.",
+              "test_id": 5
             },
             {
               "constellation_bands": [
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A.  \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Large position and time jump. GPS L1 and Galileo E1 only, with initial and continuous jamming",
-              "test_id": 3
+              "name": "Large position and time jump. GPS L1 only, with initial and continuous jamming",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Large position and time jump. Galileo E1 only, with initial and continuous jamming",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Large position and time jump. GPS and Galileo , with initial and continuous jamming",
+              "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). GPS L1 C/A and Galileo E1, with initial jamming",
+              "test_id": 9
             },
             {
               "constellation_bands": [
@@ -2945,7 +3035,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1), with initial jamming",
-              "test_id": 4
+              "test_id": 10
             },
             {
               "constellation_bands": [
@@ -2963,7 +3053,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving, true reference time (route 1), with initial jamming",
-              "test_id": 5
+              "test_id": 11
             }
           ]
         },
