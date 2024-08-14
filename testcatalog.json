@@ -3091,32 +3091,14 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Small position jump, large time jump, with initial and continuous jamming",
+              "name": "Small position jump, with initial and continuous jamming",
               "test_id": 2
-            },
-            {
-              "constellation_bands": [
-                "L1",
-                "L2",
-                "L5",
-                "E1",
-                "E5a",
-                "E5b"
-              ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated position: North end of the football field - 69.27701401, 15.96932835, 45 m hae. Simulated start time: Referenced to live GPS-signals.",
-              "equipment": [
-                "S"
-              ],
-              "max_power_w": 0.316,
-              "min_power_w": 0.316,
-              "name": "Small position jump",
-              "test_id": 3
             },
             {
               "constellation_bands": [
@@ -3133,8 +3115,8 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Fixed position",
-              "test_id": 4
+              "name": "Position jump",
+              "test_id": 3
             },
             {
               "constellation_bands": [
@@ -3152,7 +3134,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Large position jump #2",
-              "test_id": 5
+              "test_id": 4
             }
           ]
         },
