@@ -656,7 +656,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The CW signals will be placed at the centre frequencies of the relevant test bands. The use of a 20 W jammer will result in among the highest J/S ratios during the event. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+          "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The CW signals will be transmitted at the centre frequencies of the relevant test bands. Up to 50 W EIRP jamming power will result in among the highest J/S ratios during the event. The attendees may vary their distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
           "group_id": 2,
           "group_name": "Continuous stationary high-power jamming with CW",
           "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that errors can accumulate to a large extent in these phases (before availability disappears entirely).",
@@ -667,13 +667,13 @@
                 " E1",
                 " B1C"
               ],
-              "description": "20 W CW: L1",
+              "description": "50 W CW: L1",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W CW: L1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W CW: L1",
               "test_id": 1
             },
             {
@@ -683,13 +683,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W CW: L1, G1",
+              "description": "50 W CW: L1, G1",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W CW: L1, G1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W CW: L1, G1",
               "test_id": 2
             },
             {
@@ -700,13 +700,13 @@
                 " G1",
                 " L2"
               ],
-              "description": "20 W CW: L1, G1, L2",
+              "description": "50 W CW: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W CW: L1, G1, L2",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W CW: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -720,13 +720,13 @@
                 " E5a",
                 " B2a"
               ],
-              "description": "20 W CW: L1, G1, L2, L5",
+              "description": "50 W CW: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W CW: L1, G1, L2, L5",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W CW: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
