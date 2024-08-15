@@ -808,13 +808,13 @@
             },
             {
               "constellation_bands": [
-              "L1",
-              " E1",
-              " B1C"
+                "L1",
+                " E1",
+                " B1C"
               ],
               "description": "50 W sweep: L1, sweep rate: 1 kHz",
               "equipment": [
-              "F8.1"
+                "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
@@ -823,14 +823,14 @@
             },
             {
               "constellation_bands": [
-              "L1",
-              " E1",
-              " B1C",
-              " G1"
+                "L1",
+                " E1",
+                " B1C",
+                " G1"
               ],
               "description": "50 W sweep: L1, G1, sweep rate: 1 kHz",
               "equipment": [
-              "F8.1"
+                "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
@@ -839,18 +839,18 @@
             },
             {
               "constellation_bands": [
-              "L1",
-              " E1",
-              " B1C",
-              " G1",
-              " L2",
-              " L5",
-              " E5a",
-              " B2a"
+                "L1",
+                " E1",
+                " B1C",
+                " G1",
+                " L2",
+                " L5",
+                " E5a",
+                " B2a"
               ],
               "description": "1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
               "equipment": [
-              "F8.1"
+                "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
@@ -859,35 +859,32 @@
             },
             {
               "constellation_bands": [
-              "L1",
-              " E1",
-              " B1C",
-              " G1",
-              " L2",
-              " L5",
-              " E5a",
-              " B2a"
+                "L1",
+                " E1",
+                " B1C",
+                " G1",
+                " L2",
+                " L5",
+                " E5a",
+                " B2a"
               ],
               "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
               "equipment": [
-              "F8.1"
+                "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
               "name": "50 W sweep: L1, G1, L2, L5, 1 kHz",
               "test_id": 8
             }
-
-         
-            
           ]
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "The use of continuous high-power jamming will block out a large area at the event. The attendees may therefore test the range of such a high-power jammer. There will be transmitted with a Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that errors can accumulate to a large extent in these phases (before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
@@ -895,13 +892,13 @@
                 " E1",
                 " B1C"
               ],
-              "description": "20 W PRN: L1",
+              "description": "50 W PRN: L1",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1",
               "test_id": 1
             },
             {
@@ -911,13 +908,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W PRN: L1, G1",
+              "description": "50 W PRN: L1, G1",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1, G1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -928,13 +925,13 @@
                 " G1",
                 " L2"
               ],
-              "description": "20 W PRN: L1, G1, L2",
+              "description": "50 W PRN: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1, G1, L2",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -948,13 +945,13 @@
                 " E5a",
                 " B2a"
               ],
-              "description": "20 W PRN: L1, G1, L2, L5",
+              "description": "50 W PRN: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1, G1, L2, L5",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
