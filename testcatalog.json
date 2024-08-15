@@ -3154,13 +3154,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: Referenced to live GPS-signals. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a and E5b. \n\nNo jamming. \n\nSimulated position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals. \n\nPower will be ramped up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Large position jump, with power ramp",
+              "name": "Coherent power ramp",
               "test_id": 1
             },
             {
@@ -3172,13 +3172,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Small position jump, large time jump, with initial and continuous jamming",
+              "name": "Small position jump with initial and continuous jamming",
               "test_id": 2
             },
             {
@@ -3201,6 +3201,19 @@
             },
             {
               "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). GPS L1 C/A only",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
                 "L1",
                 "L2",
                 "L5"
@@ -3210,9 +3223,22 @@
                 "S"
               ],
               "max_power_w": 0.316,
-              "min_power_w": 316,
+              "min_power_w": 0.316,
               "name": "Simulated driving (route 1). GPS only",
-              "test_id": 4
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). GPS L1 C/A only, with initial and continuous jamming.",
+              "test_id": 6
             },
             {
               "constellation_bands": [
@@ -3227,7 +3253,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). GPS only, with initial and continuous jamming.",
-              "test_id": 5
+              "test_id": 7
             },
             {
               "constellation_bands": [
@@ -3242,7 +3268,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). Galileo only",
-              "test_id": 6
+              "test_id": 8
             },
             {
               "constellation_bands": [
@@ -3257,7 +3283,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). Galileo only, with initial and continuous jamming.",
-              "test_id": 7
+              "test_id": 9
             },
             {
               "constellation_bands": [
@@ -3275,7 +3301,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1)",
-              "test_id": 8
+              "test_id": 10
             },
             {
               "constellation_bands": [
@@ -3293,7 +3319,20 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1) with initial and continuous jamming.",
-              "test_id": 9
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals.\n\nSpoofing transmission will be corrected for signal delay to simulated start position. Drones at start position (victim position) should see coherent signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Flying (route 4) - \"drone scenario\" GPS L1 C/A only",
+              "test_id": 12
             },
             {
               "constellation_bands": [
@@ -3311,7 +3350,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Flying (route 4) - \"drone scenario\"",
-              "test_id": 10
+              "test_id": 13
             },
             {
               "constellation_bands": [
@@ -3329,7 +3368,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Sailing (route 5) - \"ship scenario\"",
-              "test_id": 11
+              "test_id": 14
             },
             {
               "constellation_bands": [
@@ -3347,7 +3386,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Flying (route 2) - \"helicopter scenario\"",
-              "test_id": 12
+              "test_id": 15
             }
           ]
         },
