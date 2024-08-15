@@ -75,9 +75,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C"
+                "E1",
+                "B1I",
+                "B1C"
               ],
               "description": "Test with jammer S1.1",
               "equipment": [
@@ -91,9 +91,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C"
+                "E1",
+                "B1I",
+                "B1C"
               ],
               "description": "Test with jammer S1.2",
               "equipment": [
@@ -107,9 +107,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C"
+                "E1",
+                "B1I",
+                "B1C"
               ],
               "description": "Test with jammer S1.3",
               "equipment": [
@@ -123,16 +123,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a",
-                " B2a",
-                " E5b",
-                " B2b",
-                " B2I",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer S2.1",
               "equipment": [
@@ -146,16 +146,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a",
-                " B2a",
-                " E5b",
-                " B2b",
-                " B2I",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer S2.2",
               "equipment": [
@@ -169,16 +169,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a",
-                " B2a",
-                " E5b",
-                " B2b",
-                " B2I",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer S2.3",
               "equipment": [
@@ -192,16 +192,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a",
-                " B2a",
-                " E5b",
-                " B2b",
-                " B2I",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer S2.4",
               "equipment": [
@@ -214,11 +214,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer U1.1",
               "equipment": [
@@ -231,11 +231,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer U1.2",
               "equipment": [
@@ -248,11 +248,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer U1.3",
               "equipment": [
@@ -265,11 +265,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer U1.4",
               "equipment": [
@@ -283,10 +283,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " L2"
+                "E1",
+                "B1C",
+                "B1I",
+                "L2"
               ],
               "description": "Test with jammer H1.1 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
@@ -300,8 +300,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "Test with jammer H1.2",
               "equipment": [
@@ -315,10 +315,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " L2"
+                "E1",
+                "B1C",
+                "B1I",
+                "L2"
               ],
               "description": "Test with jammer H1.4 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
@@ -332,10 +332,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " L2"
+                "E1",
+                "B1C",
+                "B1I",
+                "L2"
               ],
               "description": "Test with jammer H1.5 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
@@ -349,8 +349,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "Test with jammer H3.1",
               "equipment": [
@@ -364,9 +364,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer H3.2",
               "equipment": [
@@ -380,12 +380,12 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " L2",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer H3.3",
               "equipment": [
@@ -399,21 +399,20 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " L6",
-                " E6",
-                " B3I",
-                " G2",
-                " L2",
-                " B2I",
-                " B2b",
-                " E5b",
-                " G3",
-                " L5",
-                " B2a",
-                " E5a"
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer H4.1",
               "equipment": [
@@ -427,8 +426,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "Test with jammer H6.1",
               "equipment": [
@@ -442,19 +441,19 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " L5",
-                " G3",
-                " B2a/b",
-                " E5a/b",
-                " L2",
-                " G2",
-                " G3",
-                " B2b",
-                " B3I",
-                " E5b",
-                " E6"
+                "E1",
+                "B1C",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "TEst with jammer H6.2",
               "equipment": [
@@ -468,19 +467,19 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " L5",
-                " G3",
-                " B2a/b",
-                " E5a/b",
-                " L2",
-                " G2",
-                " G3",
-                " B2b",
-                " B3I",
-                " E5b",
-                " E6"
+                "E1",
+                "B1C",
+                "E6",
+                "G3",
+                "L2",
+                "G2",
+                "G3",
+                "E5b",
+                "B2b",
+                "B3I",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer H6.3",
               "equipment": [
@@ -493,18 +492,18 @@
             },
             {
               "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "G1",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "B2a",
+                "E5a",
+                "L2",
+                "G2",
+                "B3I"
               ],
               "description": "Test with jammer H6.4",
               "equipment": [
@@ -518,17 +517,17 @@
             {
               "constellation_bands": [
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "B2a",
+                "E5a",
+                "L2",
+                "G2",
+                "B3I",
+                "E6",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G1"
               ],
               "description": "Test with jammer H6.5",
               "equipment": [
@@ -542,17 +541,17 @@
             {
               "constellation_bands": [
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "B2a",
+                "E5a",
+                "L2",
+                "G2",
+                "B3I",
+                "E6",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G1"
               ],
               "description": "Test with jammer H6.6",
               "equipment": [
@@ -566,10 +565,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I",
+                "G1"
               ],
               "description": "Test with jammer H8.1",
               "equipment": [
@@ -583,18 +582,18 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1",
-                " L2",
-                " G2",
-                " B3I",
-                " B2b",
-                " E6",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "B1I",
+                "G1",
+                "L2",
+                "G2",
+                "B3I",
+                "B2b",
+                "E6",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer F6.1 (with function settings set at full power and antennas F2 to F6).",
               "equipment": [
@@ -608,8 +607,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "Test with jammer H1.3",
               "equipment": [
@@ -623,9 +622,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " L2"
+                "E1",
+                "B1C",
+                "L2"
               ],
               "description": "Test with jammer H2.1",
               "equipment": [
@@ -639,9 +638,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " L2"
+                "E1",
+                "B1C",
+                "L2"
               ],
               "description": "Test with jammer H2.2",
               "equipment": [
@@ -664,8 +663,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "50 W CW: L1",
               "equipment": [
@@ -679,9 +678,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "G1"
               ],
               "description": "50 W CW: L1, G1",
               "equipment": [
@@ -695,10 +694,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2"
+                "E1",
+                "B1C",
+                "G1",
+                "L2"
               ],
               "description": "50 W CW: L1, G1, L2",
               "equipment": [
@@ -712,13 +711,13 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "50 W CW: L1, G1, L2, L5",
               "equipment": [
@@ -741,8 +740,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "20 W chirp: L1",
               "equipment": [
@@ -756,9 +755,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "G1"
               ],
               "description": "20 W chirp: L1, G1",
               "equipment": [
@@ -772,10 +771,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2"
+                "E1",
+                "B1C",
+                "G1",
+                "L2"
               ],
               "description": "20 W chirp: L1, G1, L2",
               "equipment": [
@@ -789,13 +788,13 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "20 W chirp: L1, G1, L2, L5",
               "equipment": [
@@ -818,8 +817,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "20 W PRN: L1",
               "equipment": [
@@ -833,9 +832,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "G1"
               ],
               "description": "20 W PRN: L1, G1",
               "equipment": [
@@ -849,10 +848,10 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2"
+                "E1",
+                "B1C",
+                "G1",
+                "L2"
               ],
               "description": "20 W PRN: L1, G1, L2",
               "equipment": [
@@ -866,13 +865,13 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "20 W PRN: L1, G1, L2, L5",
               "equipment": [
@@ -1122,13 +1121,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer S2.1. DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
               "equipment": [
@@ -1141,18 +1143,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.4.  DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
               "equipment": [
@@ -1166,13 +1168,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1I",
+                "B1C",
+                "L5",
+                "E5a",
+                "E5b",
+                "B2a",
+                "B2b",
+                "B2I",
+                "G3"
               ],
               "description": "Test perfomred with jammer S2.1. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
@@ -1186,17 +1191,17 @@
             {
               "constellation_bands": [
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "B2a",
+                "E5a",
+                "L2",
+                "G2",
+                "B3I",
+                "E6",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G1"
               ],
               "description": "Test performed jammer H6.4. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
@@ -1219,13 +1224,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer S2.1, where the jammer is placed inside the mobile DUT vehicle.",
               "equipment": [
@@ -1239,13 +1247,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer S2.1",
               "equipment": [
@@ -1259,13 +1270,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer S2.1",
               "equipment": [
@@ -1279,13 +1293,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer S2.1",
               "equipment": [
@@ -1299,13 +1316,16 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " L5",
-                " E5a/b",
-                " B2a/b",
-                " G3"
+                "E1",
+                "B1C",
+                "B1I",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer S2.1",
               "equipment": [
@@ -1318,18 +1338,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.4, where the jammer is placed inside the mobile DUT vehicle.",
               "equipment": [
@@ -1342,18 +1362,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.4",
               "equipment": [
@@ -1366,18 +1386,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.4",
               "equipment": [
@@ -1390,18 +1410,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.4",
               "equipment": [
@@ -1414,18 +1434,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.4",
               "equipment": [
@@ -1447,18 +1467,18 @@
           "tests": [
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Sequential activation of the three jammers, from first to last as listed in 'Transmitter equipment'. Max/min power does not account for multiple jammers being active at once.",
               "equipment": [
@@ -1473,18 +1493,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Sequential activation of the three jammers, from first to last as listed in 'Transmitter equipment'. Max/min power does not account for multiple jammers being active at once.",
               "equipment": [
@@ -1499,18 +1519,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "First two jammers are stationary, last one is mobile (as counted from first to last as listed in 'Transmitter equipment'). All jammers are activated simultaneously. Max/min power does not account for multiple jammers being active at once.",
               "equipment": [
@@ -1534,11 +1554,11 @@
           "tests": [
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test performed with jammer H8.1",
               "equipment": [
@@ -1551,11 +1571,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Test performed with jammer H8.1",
               "equipment": [
@@ -1568,15 +1588,15 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1",
-                " L2",
-                " G2",
-                " B3I",
-                " E6"
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2"
               ],
               "description": "Test performed with jammer H6.6 (antennas 3 and 5 activated).",
               "equipment": [
@@ -1589,15 +1609,15 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1",
-                " L2",
-                " G2",
-                " B3I",
-                " E6"
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2"
               ],
               "description": "Test performed with jammer H6.6 (antennas 3 and 5 activated).",
               "equipment": [
@@ -1610,18 +1630,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
@@ -1634,18 +1654,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
@@ -1658,18 +1678,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
@@ -1682,18 +1702,18 @@
             },
             {
               "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
                 "L5",
-                " B2a",
-                " E5a",
-                " L2",
-                " G2",
-                " B3I",
-                " E6",
-                " L1",
-                " E1",
-                " B1C",
-                " B1I",
-                " G1"
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed with jammer H6.6 (all relevant antennas activated).",
               "equipment": [
@@ -1715,7 +1735,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test band L1.",
               "equipment": [
@@ -1728,8 +1750,10 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                "G1"
+                "E1",
+                "B1C"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test bands L1, G1.",
               "equipment": [
@@ -1742,8 +1766,10 @@
             },
             {
               "constellation_bands": [
-                "L1",
                 "G1",
+                "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test bands L1, G1, L2.",
@@ -1757,10 +1783,14 @@
             },
             {
               "constellation_bands": [
-                "L1",
                 "G1",
+                "L1",
+                "E1",
+                "B1C",
                 "L2",
-                "L5"
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 200 W at 2 dB increments, at the test bands L1, G1, L5.",
               "equipment": [
@@ -1782,7 +1812,10 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Low-power WB jamming on only the L1 band,",
               "equipment": [
@@ -1809,7 +1842,10 @@
             {
               "constellation_bands": [
                 "G1",
-                "L1"
+                "L1",
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Low-power jamming of first only the G1 band and after half of the test duration, the signal is without a break switched to L1-only.",
               "equipment": [
@@ -1823,7 +1859,10 @@
             {
               "constellation_bands": [
                 "G1",
-                "L1"
+                "L1",
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "Low-power jamming of first only the L1 band and after half of the test duration, the signal is without a break switched to G1-only.",
               "equipment": [
@@ -1845,7 +1884,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "200 W PRN: L1",
               "equipment": [
@@ -1858,8 +1899,10 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " G1"
+                "E1",
+                "B1C"
               ],
               "description": "200 W PRN: L1, G1",
               "equipment": [
@@ -1872,9 +1915,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " G1",
-                " L2"
+                "E1",
+                "B1C",
+                "L2"
               ],
               "description": "200 W PRN: L1, G1, L2",
               "equipment": [
@@ -1887,10 +1932,12 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " G1",
-                " L2",
-                " L5"
+                "E1",
+                "B1C",
+                "L2",
+                "L5"
               ],
               "description": "200 W PRN: L1, G1, L2, L5",
               "equipment": [
@@ -1912,7 +1959,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "10 W PRN: L1",
               "equipment": [
@@ -1925,7 +1974,9 @@
             },
             {
               "constellation_bands": [
-                "L5"
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "10 W PRN: L5",
               "equipment": [
@@ -1939,7 +1990,11 @@
             {
               "constellation_bands": [
                 "L1",
-                " L5"
+                "E1",
+                "B1C",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "10 W CW: L1, L5",
               "equipment": [
@@ -1953,7 +2008,11 @@
             {
               "constellation_bands": [
                 "L1",
-                " L5"
+                "E1",
+                "B1C",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "10 W chirp: L1, L5",
               "equipment": [
@@ -1967,7 +2026,11 @@
             {
               "constellation_bands": [
                 "L1",
-                " L5"
+                "E1",
+                "B1C",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "10 W PRN: L1, L5",
               "equipment": [
@@ -1981,7 +2044,11 @@
             {
               "constellation_bands": [
                 "L1",
-                " L5"
+                "E1",
+                "B1C",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "1 W PRN: L1, L5",
               "equipment": [
@@ -1995,7 +2062,11 @@
             {
               "constellation_bands": [
                 "L1",
-                " L5"
+                "E1",
+                "B1C",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "0.1 W PRN: L1, L5",
               "equipment": [
@@ -2017,7 +2088,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "20 W CW: L1",
               "equipment": [
@@ -2043,7 +2116,9 @@
             },
             {
               "constellation_bands": [
-                "L5"
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "20 W CW: L5",
               "equipment": [
@@ -2056,11 +2131,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2073,11 +2148,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2090,11 +2165,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1620 to 1545 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2107,11 +2182,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1620 to 1545  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2124,11 +2199,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2141,11 +2216,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2158,11 +2233,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2175,11 +2250,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2192,18 +2267,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2216,18 +2290,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2240,18 +2313,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
@@ -2264,18 +2336,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2288,18 +2359,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2312,18 +2382,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2336,18 +2405,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
@@ -2360,18 +2428,17 @@
             },
             {
               "constellation_bands": [
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
                 "L5",
-                " E5a",
-                " B2a",
-                " G3",
-                " E5b",
-                " B2b",
-                " B2I",
-                " L2",
-                " G2",
-                " B3I",
-                " L6",
-                " E6"
+                "E5a",
+                "B2a"
               ],
               "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
@@ -2393,11 +2460,11 @@
           "tests": [
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, S1.1, S1.2 and S1.3",
               "equipment": [
@@ -2412,11 +2479,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, S1.1, S1.2 and S1.3",
               "equipment": [
@@ -2431,11 +2498,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, S1.1, S1.2 and S1.3",
               "equipment": [
@@ -2450,11 +2517,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, S2.1, S2.2 and S2.3",
               "equipment": [
@@ -2469,11 +2536,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, S2.1, S2.2 and S2.3",
               "equipment": [
@@ -2488,11 +2555,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, S2.1, S2.2 and S2.3",
               "equipment": [
@@ -2507,11 +2574,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, U1.1, U1.2 and U1.3",
               "equipment": [
@@ -2526,11 +2593,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, U1.1, U1.2 and U1.3",
               "equipment": [
@@ -2545,11 +2612,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, U1.1, U1.2 and U1.3",
               "equipment": [
@@ -2564,11 +2631,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, H6.4, H6.5 and H6.6",
               "equipment": [
@@ -2583,11 +2650,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, H6.4, H6.5 and H6.6",
               "equipment": [
@@ -2602,11 +2669,11 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
-                " E1",
-                " B1I",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "B1I"
               ],
               "description": "3 jammers, H6.4, H6.5 and H6.6",
               "equipment": [
