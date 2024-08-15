@@ -1,0 +1,94 @@
+{
+  "locations": [
+    {
+      "location_id": 1,
+      "location_name": "Bleik",
+      "tests": [
+        {
+          "start_time": "2024-09-10T08:00:00",
+          "end_time": "2024-09-10T08:30:00",
+          "test_id": "0.0.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T09:00:00",
+          "end_time": "2024-09-10T09:25:00",
+          "test_id": "2.7.12",
+          "test_contact": "Nicolai Gerrard (NKOM)",
+          "power_w": 0.0316,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T09:55:00",
+          "end_time": "2024-09-10T10:20:00",
+          "test_id": "2.9.6",
+          "test_contact": "Nicolai Gerrard (NKOM)",
+          "power_w": 0.0316,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T10:30:00",
+          "end_time": "2024-09-10T13:00:00",
+          "test_id": "0.1.1",
+          "test_contact": "Nicolai Gerrard (NKOM)",
+          "power_w": 0,
+          "comment": "Adhoc tests and repeat of previous tests",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T13:00:00",
+          "end_time": "2024-09-10T14:00:00",
+          "test_id": "0.1.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "Lunch",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T14:00:00",
+          "end_time": "2024-09-10T14:30:00",
+          "test_id": "0.0.2",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "Summary briefing and closing of event",
+          "status": ""
+        }
+      ]
+    },
+    {
+      "location_id": 2,
+      "location_name": "Grunnvatn",
+      "tests": [
+        {
+          "start_time": "2024-09-10T08:00:00",
+          "end_time": "2024-09-10T08:30:00",
+          "test_id": "0.0.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY",
+          "status": ""
+        }
+      ]
+    },
+    {
+      "location_id": 3,
+      "location_name": "Motorcade",
+      "tests": [
+        {
+          "start_time": "2024-09-10T08:00:00",
+          "end_time": "2024-09-10T08:30:00",
+          "test_id": "0.0.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY",
+          "status": ""
+        }
+      ]
+    }
+  ]
+}
