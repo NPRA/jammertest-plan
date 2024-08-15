@@ -733,10 +733,10 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a sweep/chirp modulation using Right Hand Circular Polarized (RHCP) antennas. Sweep/chirp modulation means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The chirp signal will have a sweet rate of 100 kHz and a bandwidth of 3 MHz, centred at the centre frequency of the relevant test band. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
           "group_id": 3,
           "group_name": "Continuous stationary high-power jamming with sweep/chirp",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that errors can accumulate to a large extent in these phases (before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
@@ -744,13 +744,13 @@
                 " E1",
                 " B1C"
               ],
-              "description": "20 W chirp: L1",
+              "description": "50 W sweep: L1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, 100 kHz",
               "test_id": 1
             },
             {
@@ -760,13 +760,13 @@
                 " B1C",
                 " G1"
               ],
-              "description": "20 W chirp: L1, G1",
+              "description": "50 W sweep: L1, G1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1, G1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, 100 kHz",
               "test_id": 2
             },
             {
@@ -777,13 +777,13 @@
                 " G1",
                 " L2"
               ],
-              "description": "20 W chirp: L1, G1, L2",
+              "description": "50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1, G1, L2",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, L2, 100 kHz",
               "test_id": 3
             },
             {
@@ -797,15 +797,89 @@
                 " E5a",
                 " B2a"
               ],
-              "description": "20 W chirp: L1, G1, L2, L5",
+              "description": "20 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1, G1, L2, L5",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "20 W sweep: L1, G1, L2, L5, 100 kHz",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+              "L1",
+              " E1",
+              " B1C"
+              ],
+              "description": "50 W sweep: L1, sweep rate: 1 kHz",
+              "equipment": [
+              "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, 1 kHz",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+              "L1",
+              " E1",
+              " B1C",
+              " G1"
+              ],
+              "description": "50 W sweep: L1, G1, sweep rate: 1 kHz",
+              "equipment": [
+              "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, 1 kHz",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+              "L1",
+              " E1",
+              " B1C",
+              " G1",
+              " L2",
+              " L5",
+              " E5a",
+              " B2a"
+              ],
+              "description": "1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
+              "equipment": [
+              "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, L2, 1 kHz",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+              "L1",
+              " E1",
+              " B1C",
+              " G1",
+              " L2",
+              " L5",
+              " E5a",
+              " B2a"
+              ],
+              "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
+              "equipment": [
+              "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, L2, L5, 1 kHz",
+              "test_id": 8
             }
+
+         
+            
           ]
         },
         {
@@ -2897,7 +2971,7 @@
                 "S"
               ],
               "max_power_w": 0.316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Large position and time jump, with power ramp",
               "test_id": 1
             },
@@ -3407,7 +3481,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 1
             },
@@ -3425,7 +3499,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time, with power ramp",
               "test_id": 2
             },
@@ -3543,7 +3617,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 1
             },
@@ -3561,7 +3635,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time, with power ramp",
               "test_id": 2
             },
@@ -3583,7 +3657,7 @@
               "name": "Time offset -3 minutes from real time, with power jump",
               "test_id": 3
             },
-	   {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -3611,7 +3685,7 @@
               "name": "Static + Frequency step. GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 5
             },
-	   {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -3689,7 +3763,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 10
             },
@@ -3703,7 +3777,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 11
             },
@@ -3739,7 +3813,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related), with initial and continuous jamming.",
               "test_id": 13
             },
@@ -3757,7 +3831,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related), with power ramp",
               "test_id": 14
             },
@@ -3953,7 +4027,7 @@
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only",
               "test_id": 1
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -3967,7 +4041,7 @@
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 2
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -3981,7 +4055,7 @@
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 3
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -3999,7 +4073,7 @@
               "name": "Static + Time manipulation (2 years backwards)",
               "test_id": 4
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4017,7 +4091,7 @@
               "name": "Static + Time manipulation (2 years backwards), with initial and continuous jamming",
               "test_id": 5
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4035,7 +4109,7 @@
               "name": "Static + Time manipulation (2 years backwards), with power ramp",
               "test_id": 6
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4049,7 +4123,7 @@
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only",
               "test_id": 7
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4063,7 +4137,7 @@
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 8
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4077,7 +4151,7 @@
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 9
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4095,7 +4169,7 @@
               "name": "Static + Time manipulation (2 years forwards)",
               "test_id": 10
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4113,7 +4187,7 @@
               "name": "Static + Time manipulation (2 years forwards), with initial and continuous jamming",
               "test_id": 11
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4205,7 +4279,7 @@
               "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only, power ramp",
               "test_id": 3
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4223,7 +4297,7 @@
               "name": "Static + Nav. data manipulation (invalid ephemerids)",
               "test_id": 4
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4241,7 +4315,7 @@
               "name": "Static + Nav. data manipulation (invalid ephemerids), with initial and continuous jamming",
               "test_id": 5
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
