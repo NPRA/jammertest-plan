@@ -1914,26 +1914,26 @@
               "constellation_bands": [
                 "L1"
               ],
-              "description": "5 W PRN: L1",
+              "description": "10 W PRN: L1",
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 5,
-              "min_power_w": 5,
-              "name": "5 W PRN: L1",
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "10 W PRN: L1",
               "test_id": 1
             },
             {
               "constellation_bands": [
                 "L5"
               ],
-              "description": "5 W PRN: L5",
+              "description": "10 W PRN: L5",
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 5,
-              "min_power_w": 5,
-              "name": "5 W PRN: L5",
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "10 W PRN: L5",
               "test_id": 2
             },
             {
@@ -1941,13 +1941,13 @@
                 "L1",
                 " L5"
               ],
-              "description": "5 W CW: L1, L5",
+              "description": "10 W CW: L1, L5",
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 5,
-              "min_power_w": 5,
-              "name": "5 W CW: L1, L5",
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "10 W CW: L1, L5",
               "test_id": 3
             },
             {
@@ -1955,13 +1955,13 @@
                 "L1",
                 " L5"
               ],
-              "description": "5 W chirp: L1, L5",
+              "description": "10 W chirp: L1, L5",
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 5,
-              "min_power_w": 5,
-              "name": "5 W chirp: L1, L5",
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "10 W chirp: L1, L5",
               "test_id": 4
             },
             {
@@ -1969,13 +1969,13 @@
                 "L1",
                 " L5"
               ],
-              "description": "5 W PRN: L1, L5",
+              "description": "10 W PRN: L1, L5",
               "equipment": [
                 "APJ"
               ],
-              "max_power_w": 5,
-              "min_power_w": 5,
-              "name": "5 W PRN: L1, L5",
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "10 W PRN: L1, L5",
               "test_id": 5
             },
             {
