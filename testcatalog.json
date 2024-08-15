@@ -1990,7 +1990,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W PRN: L1",
               "test_id": 1
             },
@@ -2003,7 +2003,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W PRN: L5",
               "test_id": 2
             },
@@ -2017,7 +2017,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W CW: L1, L5",
               "test_id": 3
             },
@@ -2031,7 +2031,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W chirp: L1, L5",
               "test_id": 4
             },
@@ -2045,7 +2045,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W PRN: L1, L5",
               "test_id": 5
             },
