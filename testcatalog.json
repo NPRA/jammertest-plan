@@ -4352,7 +4352,7 @@
               ],
               "description": "1 W meaconing from receiver RX1",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
@@ -4380,7 +4380,7 @@
               ],
               "description": "10 W meaconing from receiver RX1",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4408,7 +4408,7 @@
               ],
               "description": "10 W meaconing from receiver RX2",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4431,7 +4431,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at the same time.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4473,7 +4473,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4487,7 +4487,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4510,7 +4510,7 @@
               ],
               "description": "Meaconing from receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
@@ -4524,7 +4524,7 @@
               ],
               "description": "1 W meaconing from receiver RX1, with receiver RX2 ramping power. Power for RX1 is kept constant, while power for RX2 is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
