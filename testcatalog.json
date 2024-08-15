@@ -1156,7 +1156,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. The pyramid steps will last for three minutes each, with a grace period of two minutes after each step. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
+          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
           "group_id": 9,
           "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
           "rationale": "This ‘inverted pyramid’ is intended to test the potential fallback behaviour of modern multi-constellation, multi-frequency receivers, in an opposite way than a normal pyramid test.",
@@ -1975,7 +1975,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be APJ, see appendix YY.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
           "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex.",
           "group_id": 17,
           "group_name": "Continuous stationary jamming with PRN at airport",
@@ -2026,13 +2026,13 @@
                 "L1",
                 " L5"
               ],
-              "description": "10 W chirp: L1, L5",
+              "description": "10 W sweep: L1, L5",
               "equipment": [
                 "APJ"
               ],
               "max_power_w": 10,
               "min_power_w": 1,
-              "name": "10 W chirp: L1, L5",
+              "name": "10 W sweep: L1, L5",
               "test_id": 4
             },
             {
@@ -2081,10 +2081,10 @@
         },
         {
           "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
-          "description": "The tests will simulate different very common types of unintentional GNSS interference. The transmission power might be higher than is commonly encountered in the wild, but this can be taken into effect by changing the distances to the interference source. Some of the frequency will be outside of the normal GNSS-bands, this is to create out-of-band interference.",
+          "description": "The tests will simulate different very common types of unintentional GNSS interference. The transmission power might be higher than is commonly encountered in the wild, but this can be mitigated by changing the distances to the interference source. Some of the interference frequencies will be outside of the GNSS bands, this is to create out-of-band interference.",
           "group_id": 18,
           "group_name": "Stationary unintentional RFI",
-          "rationale": "Although intentional GNSS interference (jamming, spoofing and meaconing) is the most known and written about type of GNSS interference, it is not the only one. Actually, it is not even the most common one, that is actually unintentional interference (casued either by equipment error or by frequency use not intended to distrupt GNSS). These tests try to simulate such interference (specifically CWs, self-oscillation events and frequency drifts), to give participants the ability to see how it affects their eqipment and systems, as well as to compare and contrast with different types of intentional interference.",
+          "rationale": "Although intentional GNSS interference (jamming, spoofing and meaconing) is the most known and written about type of GNSS interference, it is not the only one. Unintentional interference (casued either by equipment error or by frequency use not intended to distrupt GNSS) is actually much more common. These tests try to simulate such interference (specifically CWs, self-oscillation events and frequency drifts), to give participants the ability to see how it affects their eqipment and systems, as well as to compare and contrast with different types of intentional interference.",
           "tests": [
             {
               "constellation_bands": [
