@@ -5,8 +5,8 @@
       "location_name": "Bleik",
       "tests": [
         {
-          "start_time": "2024-09-10T08:00:00",
-          "end_time": "2024-09-10T08:30:00",
+          "start_time": "2024-09-11T08:00:00",
+          "end_time": "2024-09-11T08:30:00",
           "test_id": "0.0.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
@@ -14,8 +14,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T09:00:00",
-          "end_time": "2024-09-10T09:40:00",
+          "start_time": "2024-09-11T09:00:00",
+          "end_time": "2024-09-11T09:40:00",
           "test_id": "2.1.1",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -23,8 +23,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T10:00:00",
-          "end_time": "2024-09-10T10:15:00",
+          "start_time": "2024-09-11T10:00:00",
+          "end_time": "2024-09-11T10:15:00",
           "test_id": "2.1.3",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -32,8 +32,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T10:20:00",
-          "end_time": "2024-09-10T10:35:00",
+          "start_time": "2024-09-11T10:20:00",
+          "end_time": "2024-09-11T10:35:00",
           "test_id": "2.1.2",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -41,8 +41,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T10:40:00",
-          "end_time": "2024-09-10T10:55:00",
+          "start_time": "2024-09-11T10:40:00",
+          "end_time": "2024-09-11T10:55:00",
           "test_id": "2.1.4",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -50,8 +50,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T11:25:00",
-          "end_time": "2024-09-10T11:40:00",
+          "start_time": "2024-09-11T11:25:00",
+          "end_time": "2024-09-11T11:40:00",
           "test_id": "2.1.9",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -59,8 +59,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T11:45:00",
-          "end_time": "2024-09-10T12:00:00",
+          "start_time": "2024-09-11T11:45:00",
+          "end_time": "2024-09-11T12:00:00",
           "test_id": "2.1.10",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -68,8 +68,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T12:30:00",
-          "end_time": "2024-09-10T12:40:00",
+          "start_time": "2024-09-11T12:30:00",
+          "end_time": "2024-09-11T12:40:00",
           "test_id": "2.8.1",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 1,
@@ -77,8 +77,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T12:45:00",
-          "end_time": "2024-09-10T13:00:00",
+          "start_time": "2024-09-11T12:45:00",
+          "end_time": "2024-09-11T13:00:00",
           "test_id": "2.8.1",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 1,
@@ -86,8 +86,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T13:00:00",
-          "end_time": "2024-09-10T14:00:00",
+          "start_time": "2024-09-11T13:00:00",
+          "end_time": "2024-09-11T14:00:00",
           "test_id": "0.1.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
@@ -95,8 +95,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T14:00:00",
-          "end_time": "2024-09-10T14:15:00",
+          "start_time": "2024-09-11T14:00:00",
+          "end_time": "2024-09-11T14:15:00",
           "test_id": "2.3.2",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -104,8 +104,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T14:30:00",
-          "end_time": "2024-09-10T14:45:00",
+          "start_time": "2024-09-11T14:30:00",
+          "end_time": "2024-09-11T14:45:00",
           "test_id": "2.3.3",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -113,8 +113,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T15:00:00",
-          "end_time": "2024-09-10T15:10:00",
+          "start_time": "2024-09-11T15:00:00",
+          "end_time": "2024-09-11T15:10:00",
           "test_id": "2.3.4",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -122,8 +122,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T15:25:00",
-          "end_time": "2024-09-10T15:40:00",
+          "start_time": "2024-09-11T15:25:00",
+          "end_time": "2024-09-11T15:40:00",
           "test_id": "2.3.5",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -131,8 +131,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T15:55:00",
-          "end_time": "2024-09-10T16:05:00",
+          "start_time": "2024-09-11T15:55:00",
+          "end_time": "2024-09-11T16:05:00",
           "test_id": "2.3.8",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -140,8 +140,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T16:20:00",
-          "end_time": "2024-09-10T16:35:00",
+          "start_time": "2024-09-11T16:20:00",
+          "end_time": "2024-09-11T16:35:00",
           "test_id": "2.3.9",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -149,8 +149,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T16:50:00",
-          "end_time": "2024-09-10T17:10:00",
+          "start_time": "2024-09-11T16:50:00",
+          "end_time": "2024-09-11T17:10:00",
           "test_id": "2.3.10",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -158,8 +158,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T17:25:00",
-          "end_time": "2024-09-10T18:00:00",
+          "start_time": "2024-09-11T17:25:00",
+          "end_time": "2024-09-11T18:00:00",
           "test_id": "2.3.12",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
@@ -167,8 +167,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T18:30:00",
-          "end_time": "2024-09-10T19:00:00",
+          "start_time": "2024-09-11T18:30:00",
+          "end_time": "2024-09-11T19:00:00",
           "test_id": "0.0.2",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
@@ -182,8 +182,8 @@
       "location_name": "Grunnvatn",
       "tests": [
         {
-          "start_time": "2024-09-10T08:00:00",
-          "end_time": "2024-09-10T08:30:00",
+          "start_time": "2024-09-11T08:00:00",
+          "end_time": "2024-09-11T08:30:00",
           "test_id": "0.0.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
@@ -197,8 +197,8 @@
       "location_name": "Motorcade",
       "tests": [
         {
-          "start_time": "2024-09-10T08:00:00",
-          "end_time": "2024-09-10T08:30:00",
+          "start_time": "2024-09-11T08:00:00",
+          "end_time": "2024-09-11T08:30:00",
           "test_id": "0.0.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
