@@ -808,8 +808,8 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C"
+                "E1",
+                "B1C"
               ],
               "description": "50 W sweep: L1, sweep rate: 1 kHz",
               "equipment": [
@@ -823,9 +823,9 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1"
+                "E1",
+                "B1C",
+                "G1"
               ],
               "description": "50 W sweep: L1, G1, sweep rate: 1 kHz",
               "equipment": [
@@ -839,13 +839,13 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
               "equipment": [
@@ -859,13 +859,13 @@
             {
               "constellation_bands": [
                 "L1",
-                " E1",
-                " B1C",
-                " G1",
-                " L2",
-                " L5",
-                " E5a",
-                " B2a"
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
               "equipment": [
@@ -1240,15 +1240,15 @@
               "constellation_bands": [
                 "L1",
                 "E1",
-                "B1I",
                 "B1C",
-                "L5",
-                "E5a",
+                "B1I",
                 "E5b",
-                "B2a",
                 "B2b",
                 "B2I",
-                "G3"
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test perfomred with jammer S2.1. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
@@ -1261,18 +1261,18 @@
             },
             {
               "constellation_bands": [
-                "L5",
-                "B2a",
-                "E5a",
-                "L2",
-                "G2",
-                "B3I",
-                "E6",
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
-                "G1"
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "Test performed jammer H6.4. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
