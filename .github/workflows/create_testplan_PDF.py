@@ -106,7 +106,7 @@ def findTestInCatalog(catalog, testId):
 #print(findTestInCatalog(cat, "1.1.1"))
 #exit()
 def getTime(isoStr):
-    return datetime.fromisoformat(isoStr).astimezone(tz=zoneinfo.ZoneInfo('CET'))
+    return datetime.fromisoformat(isoStr).astimezone(tz=zoneinfo.ZoneInfo('Europe/Oslo'))
 
 def findTestInHour(locationObj, hour):
     foundTests = []
@@ -157,8 +157,8 @@ def create_daytable(tp, dayname, locArr):
         else:
             tp.write(' \\\\ \hline \n')
     # each hour:
-    for i in range(0,10):
-        hr = i+8
+    for i in range(8,23):
+        hr = i
         tp.write(f"{{{hr:02d}:00}} & ")
         # each location:
         for l in range(0,numOfLocs):
@@ -201,3 +201,15 @@ cat = json.load(json_cat)
 
 json_mon = open('plan-monday-2024-09-09.json')
 writeTestPlan('monday', '2024-09-09', json.load(json_mon))
+
+json_tue = open('plan-tuesday-2024-09-10.json')
+writeTestPlan('tuesday', '2024-09-10', json.load(json_tue))
+
+json_wed = open('plan-wednesday-2024-09-11.json')
+writeTestPlan('wednesday', '2024-09-11', json.load(json_wed))
+
+json_thu = open('plan-thursday-2024-09-12.json')
+writeTestPlan('thursday', '2024-09-12', json.load(json_thu))
+
+json_fri = open('plan-friday-2024-09-13.json')
+writeTestPlan('friday', '2024-09-13', json.load(json_fri))

@@ -732,10 +732,10 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. The attendees may therefore test their equipment at different ranges to such a high-power jammer. There will be transmitted with a sweep/chirp modulation using Right Hand Circular Polarized (RHCP) antennas. Sweep/chirp modulation means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The chirp signal will have a sweet rate of 100 kHz and a bandwidth of 3 MHz, centred at the centre frequency of the relevant test band. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
           "group_id": 3,
           "group_name": "Continuous stationary high-power jamming with sweep/chirp",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that errors can accumulate to a large extent in these phases (before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
@@ -743,13 +743,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "20 W chirp: L1",
+              "description": "50 W sweep: L1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, 100 kHz",
               "test_id": 1
             },
             {
@@ -759,13 +759,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "20 W chirp: L1, G1",
+              "description": "50 W sweep: L1, G1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1, G1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, 100 kHz",
               "test_id": 2
             },
             {
@@ -776,13 +776,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "20 W chirp: L1, G1, L2",
+              "description": "50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1, G1, L2",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, L2, 100 kHz",
               "test_id": 3
             },
             {
@@ -796,23 +796,94 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W chirp: L1, G1, L2, L5",
+              "description": "20 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W chirp: L1, G1, L2, L5",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "20 W sweep: L1, G1, L2, L5, 100 kHz",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C"
+              ],
+              "description": "50 W sweep: L1, sweep rate: 1 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, 1 kHz",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C",
+                " G1"
+              ],
+              "description": "50 W sweep: L1, G1, sweep rate: 1 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, 1 kHz",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C",
+                " G1",
+                " L2",
+                " L5",
+                " E5a",
+                " B2a"
+              ],
+              "description": "1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, L2, 1 kHz",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                " E1",
+                " B1C",
+                " G1",
+                " L2",
+                " L5",
+                " E5a",
+                " B2a"
+              ],
+              "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W sweep: L1, G1, L2, L5, 1 kHz",
+              "test_id": 8
             }
           ]
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "The use of continuous high-power jamming will block out a large area at the event. The attendees may therefore test the range of such a high-power jammer. There will be transmitted with a Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex. The attendees can change distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that errors can accumulate to a large extent in these phases (before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
@@ -820,13 +891,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "20 W PRN: L1",
+              "description": "50 W PRN: L1",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1",
               "test_id": 1
             },
             {
@@ -836,13 +907,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "20 W PRN: L1, G1",
+              "description": "50 W PRN: L1, G1",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1, G1",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -853,13 +924,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "20 W PRN: L1, G1, L2",
+              "description": "50 W PRN: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1, G1, L2",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -873,13 +944,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W PRN: L1, G1, L2, L5",
+              "description": "50 W PRN: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W PRN: L1, G1, L2, L5",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W PRN: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
@@ -1055,7 +1126,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "A jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. The pyramid steps will last for three minutes each, with a grace period of two minutes after each step. The test will jam most GNSS bands, incrementally adding bands (\"pyramid steps\") to the list of jammed signals, then removing them in the reverse order.",
+          "description": "A jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The test will jam most GNSS bands, incrementally adding bands (\"pyramid steps\") to the list of jammed signals, then removing them in the reverse order.",
           "group_id": 8,
           "group_name": "Stationary pyramid jamming with PRN for all GNSS bands sequentially",
           "rationale": "This \"pyramid\" is intended to test the potential fallback behaviour of modern multi-constellation, multi-frequency receivers.",
@@ -1084,7 +1155,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
-          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. The pyramid steps will last for three minutes each, with a grace period of two minutes after each step. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
+          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
           "group_id": 9,
           "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
           "rationale": "This ‘inverted pyramid’ is intended to test the potential fallback behaviour of modern multi-constellation, multi-frequency receivers, in an opposite way than a normal pyramid test.",
@@ -1951,7 +2022,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be APJ, see appendix YY.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
           "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex.",
           "group_id": 17,
           "group_name": "Continuous stationary jamming with PRN at airport",
@@ -1968,7 +2039,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W PRN: L1",
               "test_id": 1
             },
@@ -1983,7 +2054,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W PRN: L5",
               "test_id": 2
             },
@@ -2001,7 +2072,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W CW: L1, L5",
               "test_id": 3
             },
@@ -2014,13 +2085,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "10 W chirp: L1, L5",
+              "description": "10 W sweep: L1, L5",
               "equipment": [
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
-              "name": "10 W chirp: L1, L5",
+              "min_power_w": 1,
+              "name": "10 W sweep: L1, L5",
               "test_id": 4
             },
             {
@@ -2037,7 +2108,7 @@
                 "APJ"
               ],
               "max_power_w": 10,
-              "min_power_w": 10,
+              "min_power_w": 1,
               "name": "10 W PRN: L1, L5",
               "test_id": 5
             },
@@ -2081,10 +2152,10 @@
         },
         {
           "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
-          "description": "The tests will simulate different very common types of unintetional GNSS interference. The transmission power is probably higher than is commonly encountered in the wild, but this can be taken into effect by changing the distances to the interference source. Some of the frequency will be outside of the normal GNSS-bands, this is to create out-of-band interference.",
+          "description": "The tests will simulate different very common types of unintentional GNSS interference. The transmission power might be higher than is commonly encountered in the wild, but this can be mitigated by changing the distances to the interference source. Some of the interference frequencies will be outside of the GNSS bands, this is to create out-of-band interference.",
           "group_id": 18,
           "group_name": "Stationary unintentional RFI",
-          "rationale": "Although intentional GNSS interference (jamming, spoofing and meaconing) is the most known and written about type of GNSS interference, it is not the only one. Actually, it is not even the most common one, that is actually unintentional interference (casued either by equipment error or by frequency use not intended to distrupt GNSS). These tests try to simulate such interference (specifically CWs, self-oscillation events and frequency drifts), to give participants the ability to see how it affects their eqipment and systems, as well as to compare and contrast with different types of intentional interference.",
+          "rationale": "Although intentional GNSS interference (jamming, spoofing and meaconing) is the most known and written about type of GNSS interference, it is not the only one. Unintentional interference (casued either by equipment error or by frequency use not intended to distrupt GNSS) is actually much more common. These tests try to simulate such interference (specifically CWs, self-oscillation events and frequency drifts), to give participants the ability to see how it affects their eqipment and systems, as well as to compare and contrast with different types of intentional interference.",
           "tests": [
             {
               "constellation_bands": [
@@ -2964,7 +3035,7 @@
                 "S"
               ],
               "max_power_w": 0.316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Large position and time jump, with power ramp",
               "test_id": 1
             },
@@ -3221,13 +3292,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: Referenced to live GPS-signals. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a and E5b. \n\nNo jamming. \n\nSimulated position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals. \n\nPower will be ramped up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Large position jump, with power ramp",
+              "name": "Coherent power ramp",
               "test_id": 1
             },
             {
@@ -3239,13 +3310,13 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: Referenced to live GPS-signals.",
               "equipment": [
                 "S"
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Small position jump, large time jump, with initial and continuous jamming",
+              "name": "Small position jump with initial and continuous jamming",
               "test_id": 2
             },
             {
@@ -3268,6 +3339,19 @@
             },
             {
               "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\nNo jamming. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). GPS L1 C/A only",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
                 "L1",
                 "L2",
                 "L5"
@@ -3277,9 +3361,22 @@
                 "S"
               ],
               "max_power_w": 0.316,
-              "min_power_w": 316,
+              "min_power_w": 0.316,
               "name": "Simulated driving (route 1). GPS only",
-              "test_id": 4
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Simulated driving (route 1). GPS L1 C/A only, with initial and continuous jamming.",
+              "test_id": 6
             },
             {
               "constellation_bands": [
@@ -3294,7 +3391,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). GPS only, with initial and continuous jamming.",
-              "test_id": 5
+              "test_id": 7
             },
             {
               "constellation_bands": [
@@ -3309,7 +3406,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). Galileo only",
-              "test_id": 6
+              "test_id": 8
             },
             {
               "constellation_bands": [
@@ -3324,7 +3421,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1). Galileo only, with initial and continuous jamming.",
-              "test_id": 7
+              "test_id": 9
             },
             {
               "constellation_bands": [
@@ -3342,7 +3439,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1)",
-              "test_id": 8
+              "test_id": 10
             },
             {
               "constellation_bands": [
@@ -3360,7 +3457,20 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Simulated driving (route 1) with initial and continuous jamming.",
-              "test_id": 9
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals.\n\nSpoofing transmission will be corrected for signal delay to simulated start position. Drones at start position (victim position) should see coherent signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Flying (route 4) - \"drone scenario\" GPS L1 C/A only",
+              "test_id": 12
             },
             {
               "constellation_bands": [
@@ -3378,7 +3488,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Flying (route 4) - \"drone scenario\"",
-              "test_id": 10
+              "test_id": 13
             },
             {
               "constellation_bands": [
@@ -3396,7 +3506,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Sailing (route 5) - \"ship scenario\"",
-              "test_id": 11
+              "test_id": 14
             },
             {
               "constellation_bands": [
@@ -3414,7 +3524,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Flying (route 2) - \"helicopter scenario\"",
-              "test_id": 12
+              "test_id": 15
             }
           ]
         },
@@ -3435,7 +3545,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 1
             },
@@ -3453,7 +3563,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time, with power ramp",
               "test_id": 2
             },
@@ -3571,7 +3681,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 1
             },
@@ -3589,7 +3699,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Time offset 15 minutes from real time, with power ramp",
               "test_id": 2
             },
@@ -3611,7 +3721,7 @@
               "name": "Time offset -3 minutes from real time, with power jump",
               "test_id": 3
             },
-	   {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -3639,7 +3749,7 @@
               "name": "Static + Frequency step. GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 5
             },
-	   {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -3717,7 +3827,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 10
             },
@@ -3731,7 +3841,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 11
             },
@@ -3767,7 +3877,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related), with initial and continuous jamming.",
               "test_id": 13
             },
@@ -3785,7 +3895,7 @@
                 "S"
               ],
               "max_power_w": 0.0316,
-              "min_power_w": 0.000000316,
+              "min_power_w": 3.16e-7,
               "name": "Static + Nav data manipulation (clock/frequency related), with power ramp",
               "test_id": 14
             },
@@ -3981,7 +4091,7 @@
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only",
               "test_id": 1
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -3995,7 +4105,7 @@
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 2
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4009,7 +4119,7 @@
               "name": "Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 3
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4027,7 +4137,7 @@
               "name": "Static + Time manipulation (2 years backwards)",
               "test_id": 4
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4045,7 +4155,7 @@
               "name": "Static + Time manipulation (2 years backwards), with initial and continuous jamming",
               "test_id": 5
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4063,7 +4173,7 @@
               "name": "Static + Time manipulation (2 years backwards), with power ramp",
               "test_id": 6
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4077,7 +4187,7 @@
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only",
               "test_id": 7
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4091,7 +4201,7 @@
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only, with initial and continuous jamming",
               "test_id": 8
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -4105,7 +4215,7 @@
               "name": "Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1 only, with power ramp",
               "test_id": 9
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4123,7 +4233,7 @@
               "name": "Static + Time manipulation (2 years forwards)",
               "test_id": 10
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4141,7 +4251,7 @@
               "name": "Static + Time manipulation (2 years forwards), with initial and continuous jamming",
               "test_id": 11
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4233,7 +4343,7 @@
               "name": "Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1 only, power ramp",
               "test_id": 3
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4251,7 +4361,7 @@
               "name": "Static + Nav. data manipulation (invalid ephemerids)",
               "test_id": 4
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4269,7 +4379,7 @@
               "name": "Static + Nav. data manipulation (invalid ephemerids), with initial and continuous jamming",
               "test_id": 5
             },
-	    {
+            {
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4309,7 +4419,7 @@
               ],
               "description": "1 W meaconing from receiver RX1",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
@@ -4337,7 +4447,7 @@
               ],
               "description": "10 W meaconing from receiver RX1",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4365,7 +4475,7 @@
               ],
               "description": "10 W meaconing from receiver RX2",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4388,7 +4498,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at the same time.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4430,7 +4540,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4444,7 +4554,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4467,7 +4577,7 @@
               ],
               "description": "Meaconing from receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
@@ -4481,7 +4591,7 @@
               ],
               "description": "1 W meaconing from receiver RX1, with receiver RX2 ramping power. Power for RX1 is kept constant, while power for RX2 is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
-                "M and F8.1"
+                "M"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
