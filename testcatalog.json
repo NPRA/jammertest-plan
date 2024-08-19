@@ -66,7 +66,7 @@
     {
       "test_groups": [
         {
-          "comment": "Spesification of jammers can be found in appendix A. Jammer power levels are based on 2023 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
+          "comment": "Specification of jammers can be found in appendix A. Jammer power levels are based on 2023 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
           "description": "All tests will be performed with the jammers place 1 to 1.5 meters above ground (like on top of a vehicle) and be turned on and kept active for two minutes before being turned off. A two minute break is included between tests. Unless otherwise stated, jammers will be in \"maximum\" posistion, meaning all relevant antennas are switched on and power is set to as high as possible.",
           "group_id": 1,
           "group_name": "Continuous stationary low power jamming with commercially available jammers",
@@ -842,10 +842,7 @@
                 "E1",
                 "B1C",
                 "G1",
-                "L2",
-                "L5",
-                "E5a",
-                "B2a"
+                "L2"
               ],
               "description": "1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
               "equipment": [
@@ -999,7 +996,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 20 W at 2 dB increments, at the test band L1.",
               "equipment": [
@@ -1013,6 +1012,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "G1"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 20 W at 2 dB increments, at the test bands L1, G1.",
@@ -1027,6 +1028,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "G1",
                 "L2"
               ],
@@ -1042,9 +1045,13 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "G1",
                 "L2",
-                "L5"
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "PRN jamming with a power ramp from 0.1 µW to a maximum of 20 W at 2 dB increments, at the test bands L1, G1, L2, L5.",
               "equipment": [
@@ -1066,7 +1073,9 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "CW jamming with a power ramp from 0.1 µW to a maximum of 20 W at 2 dB increments, at the test bands L1.",
               "equipment": [
@@ -1080,6 +1089,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "G1"
               ],
               "description": "CW jamming with a power ramp from 0.1 µW to a maximum of 20 W at 2 dB increments, at the test bands L1, G1.",
@@ -1094,6 +1105,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "G1",
                 "L2"
               ],
@@ -1109,9 +1122,13 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "G1",
                 "L2",
-                "L5"
+                "L5",
+                "E5a",
+                "B2a"
               ],
               "description": "CW jamming with a power ramp from 0.1 µW to a maximum of 20 W at 2 dB increments, at the test bands L1, G1, L2, L5.",
               "equipment": [
@@ -1135,12 +1152,18 @@
               "constellation_bands": [
                 "E6",
                 "E5b",
+                "B2b",
+                "B2I",
                 "L5",
+                "E5a",
+                "B2a",
                 "G2",
                 "L2",
                 "B1I",
                 "G1",
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
               "equipment": [
@@ -1164,12 +1187,18 @@
               "constellation_bands": [
                 "E6",
                 "E5b",
+                "B2b",
+                "B2I",
                 "L5",
+                "E5a",
+                "B2a",
                 "G2",
                 "L2",
                 "B1I",
                 "G1",
-                "L1"
+                "L1",
+                "E1",
+                "B1C"
               ],
               "description": "20 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1I, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1",
               "equipment": [
@@ -2523,7 +2552,7 @@
           ]
         },
         {
-          "comment": "Spesification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
+          "comment": "Specification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
           "description": "All tests will be performed with the jammers placed 1 to 1.5 meters above ground on a pole and will be turned on and kept active for 12 minutes before being turned off. A two minute break is included between tests. Unless otherwise stated. ",
           "group_id": 19,
           "group_name": "Circular testing with 3 jammers",
@@ -2760,6 +2789,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "3 jammers, H1.1, H1.4 and H1.5",
@@ -2776,6 +2807,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 CHIRP, L2 L1 CHIRP",
@@ -2792,6 +2825,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 CHIRP, L2 L1 CHIRP",
@@ -2808,7 +2843,7 @@
           ]
         },
         {
-          "comment": "Spesification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
+          "comment": "Specification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
           "description": "All tests will be performed with the NEAT military jammers from Novatel placed 1 to 1.5 meters above ground on a pole and be turned on and kept active for a period (for example 10 minutes) before being turned off. A break (of for example six minutes) is included between tests. The test will then be repeated with different modulation and power levels.",
           "group_id": 20,
           "group_name": "Drone testing, landing and take off in a circle of 3 Jammers",
@@ -2817,6 +2852,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 NB, L2 NB",
@@ -2833,6 +2870,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 NB, L2 NB",
@@ -2849,6 +2888,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 NB, L2 NB",
@@ -2865,6 +2906,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 WB, L2 WB",
@@ -2881,6 +2924,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 WB, L2 WB",
@@ -2897,6 +2942,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 WB, L2 WB",
@@ -2913,6 +2960,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 CW, L2 CW",
@@ -2929,6 +2978,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 CW, L2 CW",
@@ -2945,6 +2996,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 CW, L2 CW",
@@ -2961,6 +3014,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 CHIRP, L2 CHIRP",
@@ -2977,6 +3032,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 CHIRP, L2 CHIRP",
@@ -2993,6 +3050,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "HIGH PWR, L1 CHIRP, L2 CHIRP",
@@ -4713,6 +4772,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "1 W meaconing from receiver RX1",
@@ -4727,6 +4788,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
@@ -4741,6 +4804,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receiver RX1",
@@ -4755,6 +4820,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
@@ -4769,6 +4836,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receiver RX2",
@@ -4792,6 +4861,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at the same time.",
@@ -4806,6 +4877,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
@@ -4820,6 +4893,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at different times. RX2 is turned on 5 minutes after RX1 is activated.",
@@ -4834,6 +4909,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
@@ -4848,6 +4925,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
@@ -4871,6 +4950,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "Meaconing from receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
@@ -4885,6 +4966,8 @@
             {
               "constellation_bands": [
                 "L1",
+                "E1",
+                "B1C",
                 "L2"
               ],
               "description": "1 W meaconing from receiver RX1, with receiver RX2 ramping power. Power for RX1 is kept constant, while power for RX2 is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
