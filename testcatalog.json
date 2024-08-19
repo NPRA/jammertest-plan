@@ -4158,6 +4158,19 @@
             },
             {
               "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds. ",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.00001,
+              "min_power_w": 0.00001,
+              "name": "Static + UTC-parameter nav. data manipulation (removing leap seconds). GPS L1 C/A",
+              "test_id": 26
+            },
+            {
+              "constellation_bands": [
                 "L1",
                 "L2",
                 "L5",
@@ -4172,7 +4185,7 @@
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
               "name": "Static + UTC-parameter nav. data manipulation (removing leap seconds)",
-              "test_id": 26
+              "test_id": 27
             },
             {
               "constellation_bands": [
@@ -4190,7 +4203,7 @@
               "max_power_w": 0.00001,
               "min_power_w": 0.00001,
               "name": "Static + UTC-parameter nav. data manipulation (removing leap seconds), with initial and continuous jamming",
-              "test_id": 27
+              "test_id": 28
             },
             {
               "constellation_bands": [
@@ -4208,7 +4221,7 @@
               "max_power_w": 0.316,
               "min_power_w": 0.316,
               "name": "Time offset 15 minutes from real time - \"harbour scenario\"",
-              "test_id": 28
+              "test_id": 29
             },
             {
               "constellation_bands": [
@@ -4226,7 +4239,7 @@
               "max_power_w": 1,
               "min_power_w": 1,
               "name": "Time offset 15 minutes from real time - \"helicopter scenario\"",
-              "test_id": 29
+              "test_id": 30
             }
           ]
         },
