@@ -3730,6 +3730,7 @@
                 "E5a",
                 "E5b"
               ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
               "equipment": [
                 "S"
               ],
