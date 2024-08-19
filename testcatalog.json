@@ -3661,6 +3661,83 @@
               "min_power_w": 0.001,
               "name": "Static + Frequency step, with initial and continous jamming",
               "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Signals: GPS L1 C/A. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied pseudorange error should equal a drift of x ns/s.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Pseudorange error. GPS L1 only",
+              "test_id": 9
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Pseudorange error. GPS L1 and Galileo E1 only",
+              "test_id": 10
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Pseudorange error. GPS L1 and Galileo E1 only, with initial and continuous jamming",
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5.. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Pseudorange error",
+              "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Pseudorange error, with initial and continous jamming",
+              "test_id": 13
             }
           ]
         },
