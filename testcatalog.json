@@ -4303,7 +4303,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -4317,7 +4317,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -4331,7 +4331,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -4349,7 +4349,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -4367,7 +4367,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -4385,7 +4385,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the past.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the past.",
               "equipment": [
                 "S"
               ],
@@ -4399,7 +4399,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -4413,7 +4413,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -4427,7 +4427,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -4445,7 +4445,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -4463,7 +4463,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -4481,7 +4481,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe data manipulation starts five minutes after the spoofing starts, which will cause time to be shifted by 2 years into the future.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSpoofing power wil be ramped -35 dBm to +15 dBm in steps of 5 dB every two minutes. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime jumps 2 years into the future.",
               "equipment": [
                 "S"
               ],
@@ -4489,6 +4489,70 @@
               "min_power_w": 0.0316,
               "name": "Static + Time manipulation (2 years forwards), with power ramp",
               "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nStart time: 01.04.2019 12:00. This takes us back before the 2019 GPS week rollover.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (April 2019). GPS L1 and Galileo E1 only",
+              "test_id": 13
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1"
+              ],
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nStart time: 01.04.2019 12:00. This takes us back before the 2019 GPS week rollover.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (April 2019). GPS L1 and Galileo E1 only, with initial and continuous jamming",
+              "test_id": 14
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nStart time: 01.04.2019 12:00. This takes us back before the 2019 GPS week rollover.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (April 2019)",
+              "test_id": 15
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nStart time: 01.04.2019 12:00. This takes us back before the 2019 GPS week rollover.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.001,
+              "name": "Static + Time manipulation (April 2019), with initial and continuous jamming",
+              "test_id": 16
             }
           ]
         },
