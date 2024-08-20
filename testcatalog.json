@@ -1910,7 +1910,7 @@
           "comment": "Each test will have a short break after it is completed. When L1-only and G1-only is combined in a test, the transmission will change from the first to the second instantly.",
           "description": "A 20 MHz wideband (WB) white noise signal will be active on either L1 or G1. Signal power will be ramped up (in 10 dB steps) during the first test, and then kept at the achieved maximum power for the reminder of the tests.",
           "group_id": 15,
-          "group_name": "Stationary low-power jamming of L1 and G1",
+          "group_name": "Stationary WB power ramp jamming of L1 and G1",
           "rationale": "The main objective is to test receivers’ ability to change between using GPS and Glonass when one or the other is denied.",
           "tests": [
             {
@@ -3069,6 +3069,105 @@
               "min_power_w": 0.0501,
               "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5",
               "test_id": 12
+            }
+          ]
+        },
+        {
+          "comment": "",
+          "description": "",
+          "group_id": 21,
+          "group_name": "LEO jamming",
+          "rationale": "",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 40 kHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 200,
+              "min_power_w": 200,
+              "name": "NB chirp jamming with periodic power ramp",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 40 kHz. Power is kept constant at 100 % of total power.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 200,
+              "min_power_w": 200,
+              "name": "NB chirp jamming with constant power",
+              "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 1.4 MHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 200,
+              "min_power_w": 200,
+              "name": "WB chirp jamming with periodic power ramp",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 1.4 MHz. Power is kept constant at 100 % of total power.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 200,
+              "min_power_w": 200,
+              "name": "WB chirp jamming with constant power",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Jamming signal simulating a LTE TDD waveform with a bandwidth of 1.4 MHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 200,
+              "min_power_w": 200,
+              "name": "OFDM jamming with periodic power ramp",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Jamming signal simulating a LTE TDD waveform with a bandwidth of 1.4 MHz. Power is kept constant at 100 % of total power.",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 200,
+              "min_power_w": 200,
+              "name": "OFDM jamming with constant power",
+              "test_id": 6
             }
           ]
         }
