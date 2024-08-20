@@ -4867,7 +4867,7 @@
     {
       "test_groups": [
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix G.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that GPS L1 and L2, Galileo E1, and Beidou B1 should be visible, that the Glonass G1 satellites shouldn't be visiable, and that some Beidou B1I satellites might be, especially on RX1. The tests are performed with constant transmission power, some with initial jamming and some without. There is planned a 10-minute break between each test. \nThe meaconed position is for RX1: (TBD1) and for RX2: (TBD2).",
           "group_id": 1,
           "group_name": "Stationary meaconing from single receiver",
