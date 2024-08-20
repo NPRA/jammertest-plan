@@ -1980,7 +1980,7 @@
         },
         {
           "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix G.",
-          "description": "The use of continuous very high-power jamming will block out a very large area at the event. There will be transmitted with a PseudoRandom Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex. \n\nThese tests will have the highest transmission power experienced during the Jammertest event.",
+          "description": "The use of continuous very high-power jamming will block out a very large area at the event. There will be transmitted with a PseudoRandom Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see appendix G . \n\nThese tests will have the highest transmission power experienced during the Jammertest event.",
           "group_id": 16,
           "group_name": "Continuous stationary very high-power jamming with PRN",
           "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, at very high power levels or at very long ranges. This will allow for evaluation of both system under extreme duress and allow for the use of a very large testing area, ecspecially suited for ships and airplanes.",
@@ -2057,7 +2057,7 @@
         },
         {
           "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix G.",
-          "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex.",
+          "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see appendix G.",
           "group_id": 17,
           "group_name": "Continuous stationary jamming with PRN at airport",
           "rationale": "For airplanes, it is often hard to test reactions to GNSS jamming in controlled environment, and especially hard to do so at during approach and departure at an airport. The main objective of these tests is to facilitate just that, so that airplanes can test their systems in full approach and departure modes, at with procedures for a real airport activated.",
