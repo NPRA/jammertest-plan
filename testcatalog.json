@@ -737,7 +737,7 @@
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
           "group_id": 3,
-          "group_name": "Continuous stationary high-power jamming with sweep/chirp",
+          "group_name": "Continuous stationary high-power jamming with sweep",
           "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
           "tests": [
             {
@@ -2806,7 +2806,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 1,
-              "name": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 CHIRP, L2 L1 CHIRP",
+              "name": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 sweep, L2 L1 sweep",
               "test_id": 13
             },
             {
@@ -2816,7 +2816,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 CHIRP, L2 L1 CHIRP",
+              "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 sweep, L2 L1 sweep",
               "equipment": [
                 "H1.1",
                 "H1.4",
@@ -2834,7 +2834,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 CHIRP, L2 L1 CHIRP",
+              "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 sweep, L2 L1 sweep",
               "equipment": [
                 "H1.1",
                 "H1.4",
@@ -3023,7 +3023,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "HIGH PWR, L1 CHIRP, L2 CHIRP",
+              "description": "HIGH PWR, L1 sweep, L2 sweep",
               "equipment": [
                 "H1.1",
                 "H1.4",
@@ -3041,7 +3041,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "HIGH PWR, L1 CHIRP, L2 CHIRP",
+              "description": "HIGH PWR, L1 sweep, L2 sweep",
               "equipment": [
                 "H1.1",
                 "H1.4",
@@ -3059,7 +3059,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "HIGH PWR, L1 CHIRP, L2 CHIRP",
+              "description": "HIGH PWR, L1 sweep, L2 sweep",
               "equipment": [
                 "H1.1",
                 "H1.4",
@@ -3085,13 +3085,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 40 kHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
+              "description": "Sweeping jamming signal with saw tooth modulation with sweep rate of 1 ms. Signal is narrow band (NB), with a bandwidth of 40 kHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 200,
-              "name": "NB chirp jamming with periodic power ramp",
+              "name": "NB sweep jamming with periodic power ramp",
               "test_id": 1
             },
             {
@@ -3100,13 +3100,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 40 kHz. Power is kept constant at 100 % of total power.",
+              "description": "Sweeping jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 40 kHz. Power is kept constant at 100 % of total power.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 200,
-              "name": "NB chirp jamming with constant power",
+              "name": "NB sweep jamming with constant power",
               "test_id": 2
             },
             {
@@ -3115,13 +3115,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 1.4 MHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
+              "description": "Sweeping jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 1.4 MHz. Power is ramp up in four steps; 10 %, 20 %, 50 % and 100 % of total power, each 250 ms. Meaning that the power is ramped through the power range each second and then repeated periodically.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 200,
-              "name": "WB chirp jamming with periodic power ramp",
+              "name": "WB sweep jamming with periodic power ramp",
               "test_id": 3
             },
             {
@@ -3130,13 +3130,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Chirp jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 1.4 MHz. Power is kept constant at 100 % of total power.",
+              "description": "Sweeping jamming signal with saw tooth modulation with sweep rate of 1 ms. Singal is narrow band (NB), with a bandwidth of 1.4 MHz. Power is kept constant at 100 % of total power.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 200,
               "min_power_w": 200,
-              "name": "WB chirp jamming with constant power",
+              "name": "WB sweep jamming with constant power",
               "test_id": 4
             },
             {
