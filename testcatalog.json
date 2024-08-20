@@ -66,7 +66,7 @@
     {
       "test_groups": [
         {
-          "comment": "Specification of jammers can be found in appendix A. Jammer power levels are based on 2023 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
+          "comment": "Specification of jammers can be found in appendix G. Jammer power levels are based on 2023 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
           "description": "All tests will be performed with the jammers place 1 to 1.5 meters above ground (like on top of a vehicle) and be turned on and kept active for two minutes before being turned off. A two minute break is included between tests. Unless otherwise stated, jammers will be in \"maximum\" posistion, meaning all relevant antennas are switched on and power is set to as high as possible.",
           "group_id": 1,
           "group_name": "Continuous stationary low power jamming with commercially available jammers",
