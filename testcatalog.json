@@ -657,7 +657,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The CW signals will be transmitted at the centre frequencies of the relevant test bands. Up to 50 W EIRP jamming power will result in among the highest J/S ratios during the event. The attendees may vary their distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
           "group_id": 2,
           "group_name": "Continuous stationary high-power jamming with CW",
@@ -734,7 +734,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
           "group_id": 3,
           "group_name": "Continuous stationary high-power jamming with sweep",
@@ -879,7 +879,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
@@ -956,7 +956,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "The tests will be performed with BPSK modulation with a pseudo random symbol rate of 3 Mbaud at GPS L1 and 10.23 Mbaud at Glonass G1. The test cases refer to which centre frequency of the relevant test bands the signal will be centred at.",
           "group_id": 5,
           "group_name": "Continuous stationary high-power jamming with \"real world\" PRN",
@@ -991,7 +991,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "The transmitted power will be ramped up and down from a lower to a higher EIRP for each test, with 10 seconds hold time for each power level, with ramping steps of a certain amount of dB. If the last step doesn't add up to a whole dB step (e.g. from [...] 38, 40, 42 dBm to 43.0103 dBm (20 W)), it will be the exact amount of dB to realise the max power (e.g. a 1.0103 dB increment, not a 2 dB increment). The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 6,
           "group_name": "Stationary high-power jamming, ramp power with PRN",
@@ -1068,7 +1068,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "The transmitted power will be ramped up and down from a lower to a higher EIRP for each test, with 10 seconds hold time for each power level, with ramping steps of a certain amount of dB. If the last step doesn't add up to a whole dB step (e.g. from [...] 38, 40, 42 dBm to 43.0103 dBm (20 W)), it will be the exact amount of dB to realise the max power (e.g. a 1.0103 dB increment, not a 2 dB increment). The modulation will be CW. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 7,
           "group_name": "Stationary high-power jamming, ramp power with CW",
@@ -1145,7 +1145,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "A jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The test will jam most GNSS bands, incrementally adding bands (\"pyramid steps\") to the list of jammed signals, then removing them in the reverse order.",
           "group_id": 8,
           "group_name": "Stationary pyramid jamming with PRN for all GNSS bands sequentially",
@@ -1180,7 +1180,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G.",
           "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
           "group_id": 9,
           "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
@@ -1830,7 +1830,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix G.",
           "description": "The transmitted power will be ramped up and down from a lower to a higher EIRP for each test, where the max power is the highest power that will be experience during the Jammertest event. Each power level holds for 10 seconds, with ramping steps of a certain amount of dB. If the last step doesn't add up to a whole dB step (e.g. from [...] 48, 50, 52 dBm to 53.0103 dBm (200 W)), it will be the exact amount of dB to realise the max power (e.g. a 1.0103 dB increment, not a 2 dB increment). The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 14,
           "group_name": "Stationary very high-power jamming, ramp power with PRN",
@@ -1979,7 +1979,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix G.",
           "description": "The use of continuous very high-power jamming will block out a very large area at the event. There will be transmitted with a PseudoRandom Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex. \n\nThese tests will have the highest transmission power experienced during the Jammertest event.",
           "group_id": 16,
           "group_name": "Continuous stationary very high-power jamming with PRN",
@@ -2056,7 +2056,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix G.",
           "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see the annex.",
           "group_id": 17,
           "group_name": "Continuous stationary jamming with PRN at airport",
@@ -2185,7 +2185,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix A.",
+          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see appendix G.",
           "description": "The tests will simulate different very common types of unintentional GNSS interference. The transmission power might be higher than is commonly encountered in the wild, but this can be mitigated by changing the distances to the interference source. Some of the interference frequencies will be outside of the GNSS bands, this is to create out-of-band interference.",
           "group_id": 18,
           "group_name": "Stationary unintentional RFI",
@@ -4867,7 +4867,7 @@
     {
       "test_groups": [
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. The meaconing setup employed, \"M\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix XX.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that GPS L1 and L2, Galileo E1, and Beidou B1 should be visible, that the Glonass G1 satellites shouldn't be visiable, and that some Beidou B1I satellites might be, especially on RX1. The tests are performed with constant transmission power, some with initial jamming and some without. There is planned a 10-minute break between each test. \nThe meaconed position is for RX1: (TBD1) and for RX2: (TBD2).",
           "group_id": 1,
           "group_name": "Stationary meaconing from single receiver",
@@ -4956,7 +4956,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. The meaconing setup employed, \"M\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix XX.",
           "description": "GNSS re-transmission of real live sky signals from two receivers (RX1 and RX2), with the same receivers specifications as listed in \"Meaconing testgroup 1\". \nThe tests are performed with constant power outputs, some with initial jamming and some without. There is planned a 10-minute break between each test.",
           "group_id": 2,
           "group_name": "Stationary meaconing from two receivers",
@@ -5045,7 +5045,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix A. The meaconing setup employed, \"M\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix XX.",
           "description": "GNSS re-transmission of real live sky signals from two receiver (RX1 and RX2), with the same receivers specifications as listed in \"Meaconing testgroup 1\". The tests are performed with a pyramid ramping in tranmsmission power, from 0.01 W to 10 W and back down to 0.01 W, in 5 dB steps. Each step is kept for 2 minutes before the power is increased or decreased. There is planned a 10-minute break between each test.",
           "group_id": 3,
           "group_name": "Stationary meaconing from a single or two receivers with ramping power",
