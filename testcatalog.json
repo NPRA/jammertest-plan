@@ -4419,7 +4419,7 @@
               ],
               "description": "Spoofer placed inside of a vehicle that stands stationary. Spoofed position starts static (at starting position) and approximately true (incoherently). After 10 minutes, the spoofed position starts to move south with constant speed (15 m/s), while spoofer stays stationary.",
               "equipment": [
-                "SDR"
+                "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
@@ -4432,7 +4432,7 @@
               ],
               "description": "Spoofer placed inside of a vehicle that starts out stationary for 10 minutes, before the vehicle begins to drive south along Stavedalsveien (FV7702) at 50 km/h. The spoofed position remains fixed and approximately as the true position from starting point throughout the test.",
               "equipment": [
-                "SDR"
+                "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
@@ -4445,7 +4445,7 @@
               ],
               "description": "Spoofer placed inside of a vehicle that moves south along Stavedalsveien (FV7702) at 50 km/h from the starting point. 10 seconds after the vehicle began to move, the spoofing is activated, spoofing to a fixed position at 70 N, 10 E.",
               "equipment": [
-                "SDR"
+                "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
@@ -4458,7 +4458,7 @@
               ],
               "description": "Spoofer placed inside of a vehicle that starts out stationary for 10 minutes, then the vehicle begins to drive south along Stavedalsveien (FV7702) at 50 km/h. Spoofed position is approximately true for the first 10 minutes, then starts to move directly south with constant speed (15 m/s) (which in effect is a slightly different direction than that the vehicle is moving in).",
               "equipment": [
-                "SDR"
+                "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
@@ -4867,8 +4867,8 @@
     {
       "test_groups": [
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix G.",
-          "description": "GNSS re-transmission of real live sky signals from one receiver, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that GPS L1 and L2, Galileo E1, and Beidou B1 should be visible, that the Glonass G1 satellites shouldn't be visiable, and that some Beidou B1I satellites might be, especially on RX1. The tests are performed with constant transmission power, some with initial jamming and some without. There is planned a 10-minute break between each test. \nThe meaconed position is for RX1: (TBD1) and for RX2: (TBD2).",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"F1.1\", is explained in Appendix G.",
+          "description": "GNSS re-transmission of real live sky signals from one receiver, where the GNSS environment will have wrong position with real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that GPS L1 and L2, Galileo E1, and Beidou B1 should be visible, that the Glonass G1 satellites shouldn't be visible, and that some Beidou B1I satellites might be, especially on RX1. The tests are performed with constant transmission power, some with initial jamming and some without. There is planned a 10-minute break between each test. \nThe meaconed position is for RX1: (TBD1) and for RX2: (TBD2).",
           "group_id": 1,
           "group_name": "Stationary meaconing from single receiver",
           "rationale": "The objective is to observe how equipment and systems behave under meaconing from a single receiver, with and without initital jammming. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels. Maybe especially interesting is to see how the effects of movement and speed, coupled with other sensor data, will result the total output. Some tests might be repeated, so that it is possible to try to detect differences between for example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment.",
@@ -4882,7 +4882,7 @@
               ],
               "description": "1 W meaconing from receiver RX1",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
@@ -4898,7 +4898,7 @@
               ],
               "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
               "equipment": [
-                "M and F8.1"
+                "F1.1 and F8.1"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
@@ -4914,7 +4914,7 @@
               ],
               "description": "10 W meaconing from receiver RX1",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4930,7 +4930,7 @@
               ],
               "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
               "equipment": [
-                "M and F8.1"
+                "F1.1 and F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4946,7 +4946,7 @@
               ],
               "description": "10 W meaconing from receiver RX2",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4956,7 +4956,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"F1.1\", is explained in Appendix G.",
           "description": "GNSS re-transmission of real live sky signals from two receivers (RX1 and RX2), with the same receivers specifications as listed in \"Meaconing testgroup 1\". \nThe tests are performed with constant power outputs, some with initial jamming and some without. There is planned a 10-minute break between each test.",
           "group_id": 2,
           "group_name": "Stationary meaconing from two receivers",
@@ -4971,7 +4971,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at the same time.",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -4987,7 +4987,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
               "equipment": [
-                "M and F8.1"
+                "F1.1 and F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -5003,7 +5003,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, activated at different times. RX2 is turned on 5 minutes after RX1 is activated.",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -5019,7 +5019,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -5035,7 +5035,7 @@
               ],
               "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -5045,7 +5045,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"M\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"F1.1\", is explained in Appendix XX.",
           "description": "GNSS re-transmission of real live sky signals from two receiver (RX1 and RX2), with the same receivers specifications as listed in \"Meaconing testgroup 1\". The tests are performed with a pyramid ramping in tranmsmission power, from 0.01 W to 10 W and back down to 0.01 W, in 5 dB steps. Each step is kept for 2 minutes before the power is increased or decreased. There is planned a 10-minute break between each test.",
           "group_id": 3,
           "group_name": "Stationary meaconing from a single or two receivers with ramping power",
@@ -5060,7 +5060,7 @@
               ],
               "description": "Meaconing from receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
@@ -5076,7 +5076,7 @@
               ],
               "description": "1 W meaconing from receiver RX1, with receiver RX2 ramping power. Power for RX1 is kept constant, while power for RX2 is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "equipment": [
-                "M"
+                "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
