@@ -4969,13 +4969,13 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, activated at the same time.",
+              "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time.",
               "equipment": [
                 "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1+RX2 at 10 W",
+              "name": "RX1 and RX2 at 10 W",
               "test_id": 1
             },
             {
@@ -4985,13 +4985,13 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
+              "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
               "equipment": [
                 "F1.1 and F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1+RX2 at 10 W with initial jamming",
+              "name": "RX1 and RX2 at 10 W with initial jamming",
               "test_id": 2
             },
             {
@@ -5001,13 +5001,13 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, activated at different times. RX2 is turned on 5 minutes after RX1 is activated.",
+              "description": "10 W meaconing from receivers RX1 and RX2, activated at different times. RX2 is turned on 5 minutes after RX1 is activated.",
               "equipment": [
                 "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1+RX2 at 10 W at different times",
+              "name": "RX1 and RX2 at 10 W at different times",
               "test_id": 3
             },
             {
@@ -5017,13 +5017,13 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
+              "description": "10 W meaconing from receivers RX1 and RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
                 "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1+RX2 at 10 W alternating",
+              "name": "RX1 and RX2 at 10 W alternating",
               "test_id": 4
             },
             {
@@ -5039,7 +5039,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1+RX2 at 10 W alternating with breaks",
+              "name": "RX1 and RX2 at 10 W alternating with breaks",
               "test_id": 5
             },
             {
@@ -5049,16 +5049,31 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching with no brake to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until 20 miutes has passed.",
+              "description": "10 W meaconing from receivers RX1 and RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until 20 miutes has passed.",
               "equipment": [
                 "F1.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1+RX2 at 10 W alternating with decreasing durations without breaks",
+              "name": "RX1 and RX2 at 10 W alternating with decreasing durations without breaks",
               "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "10 W meaconing from receivers RX1 and RX2. A set of two minute tests with different switching frequencies between RX1 and RX2. Example: First test: Switch after 1 minute, second test: switch every 30 seconds, third test: switch every 15 seconds etc. ",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "RX1 and RX2 at 10 W alternating with different switching frequencies.",
+              "test_id": 7
             }
-
           ]
         },
         {
