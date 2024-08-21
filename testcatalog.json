@@ -122,10 +122,13 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1222,10 +1225,13 @@
           "tests": [
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1269,10 +1275,13 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1325,10 +1334,13 @@
           "tests": [
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1348,10 +1360,13 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1371,10 +1386,13 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1394,10 +1412,13 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
@@ -1417,10 +1438,13 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
                 "B1I",
+                "G2",
+                "L2",
                 "E5b",
                 "B2b",
                 "B2I",
