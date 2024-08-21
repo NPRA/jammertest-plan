@@ -76,8 +76,8 @@
               "constellation_bands": [
                 "L1",
                 "E1",
-                "B1I",
-                "B1C"
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer S1.1",
               "equipment": [
@@ -92,8 +92,8 @@
               "constellation_bands": [
                 "L1",
                 "E1",
-                "B1I",
-                "B1C"
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer S1.2",
               "equipment": [
@@ -108,8 +108,8 @@
               "constellation_bands": [
                 "L1",
                 "E1",
-                "B1I",
-                "B1C"
+                "B1C",
+                "B1I"
               ],
               "description": "Test with jammer S1.3",
               "equipment": [
