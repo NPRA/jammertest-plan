@@ -473,13 +473,13 @@
                 "E1",
                 "B1C",
                 "E6",
-                "G3",
-                "L2",
+                "B3I",
                 "G2",
-                "G3",
+                "L2",
                 "E5b",
                 "B2b",
-                "B3I",
+                "B2I",
+                "G3",
                 "L5",
                 "E5a",
                 "B2a"
@@ -508,8 +508,8 @@
                 "B2b",
                 "B2I",
                 "L5",
-                "B2a",
-                "E5a"
+                "E5a",
+                "B2a"
               ],
               "description": "Test with jammer H6.4",
               "equipment": [
