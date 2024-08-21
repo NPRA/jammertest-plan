@@ -5041,7 +5041,24 @@
               "min_power_w": 10,
               "name": "RX1+RX2 at 10 W alternating with breaks",
               "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "10 W meaconing from receivers RX1+RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching with no brake to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until 20 miutes has passed. he minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "RX1+RX2 at 10 W alternating with decreasing durations without breaks",
+              "test_id": 6
             }
+
           ]
         },
         {
