@@ -3125,6 +3125,96 @@
               "min_power_w": 0.0501,
               "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5",
               "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "HIGH PWR, L1 sweep, L2 sweep",
+              "equipment": [
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
+              "max_power_w": 0.0592,
+              "min_power_w": 0.0501,
+              "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5",
+              "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "HIGH PWR, L1 NB, L2 NB, JAMMER A, B C are turned on sequentially",
+              "equipment": [
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
+              "max_power_w": 0.0592,
+              "min_power_w": 0.0501,
+              "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5 turned on sequentially",
+              "test_id": 13
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "HIGH PWR, L1 WB, L2 WB, JAMMER A, B C are turned on sequentially",
+              "equipment": [
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
+              "max_power_w": 0.0592,
+              "min_power_w": 0.0501,
+              "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5 turned on sequentially",
+              "test_id": 14
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "HIGH PWR, L1 CW, L2 CW, JAMMER A, B C are turned on sequentially",
+              "equipment": [
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
+              "max_power_w": 0.0592,
+              "min_power_w": 0.0501,
+              "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5 turned on sequentially",
+              "test_id": 15
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "HIGH PWR, L1 sweep , L2 sweep, JAMMER A, B C are turned on sequentially",
+              "equipment": [
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
+              "max_power_w": 0.0592,
+              "min_power_w": 0.0501,
+              "name": "3 jammers at 150 meters from center H1.1, H1.4 and H1.5 turned on sequentially",
+              "test_id": 16
             }
           ]
         },
