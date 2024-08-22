@@ -2613,7 +2613,7 @@
           ]
         },
         {
-          "comment": "Specification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
+          "comment": "Specification of jammers can be found in appendix G. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
           "description": "All tests will be performed with the jammers placed 1 to 1.5 meters above ground on a pole and will be turned on and kept active (for example for 12 minutes) before being turned off. A break (of for example 4 minutes) between tests.",
           "group_id": 19,
           "group_name": "Circular testing with 3 jammers",
@@ -2904,7 +2904,7 @@
           ]
         },
         {
-          "comment": "Specification of jammers can be found in appendix A. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
+          "comment": "Specification of jammers can be found in appendix G. Jammer power levels are based on 2023/2024 measurements. Test bands/constellations refer to potentially afflicated frequency bands from the jammer in question.",
           "description": "All tests will be performed with the NEAT military jammers from Novatel placed 1 to 1.5 meters above ground on a pole and be turned on and kept active for a period (for example for 15 minutes) before being turned off. A break (of for example 4 minutes) is included between tests. The test will then be repeated with different modulation and power levels.",
           "group_id": 20,
           "group_name": "Drone testing, landing and take off in a circle of 3 Jammers",
@@ -4927,7 +4927,7 @@
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that GPS L1 and L2, Galileo E1, and Beidou B1C should be visible in the retransmitted data stream, that the Glonass G1 satellites shouldn't be visible, and that some Beidou B1I satellites might be visible, especially on RX1. However, the filter's frequency cut-offs aren't perfect, so some other satellites might \"leak\" through. \n\nThe tests are performed with constant transmission power, some with initial jamming and some without. There is planned a 10-minute break between each test. \nThe meaconed position is for RX1: (TBD1) and for RX2: (TBD2).",
           "group_id": 1,
           "group_name": "Stationary meaconing from single receiver",
-          "rationale": "Meaconing is to record live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. The objective is to observe how equipment and systems behave under meaconing from a single receiver, with and without initital jammming. Attendees should try to observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to two different power levels. Maybe especially interesting is to see how the effects of movement and speed, coupled with other sensor data, will result the total output. Some tests might be repeated, so that it is possible to try to detect differences between for example stationary and mobile test objects, or to allow for configuration of other participants setups to test different variables in the same RFI environment.",
+          "rationale": "Meaconing is to record live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. The objective is to observe how equipment and systems behave under meaconing from a single receiver, with and without initital jammming. Attendees should may observe PNT changes and/or loss of PNT, and monitor the changes when their equipment and systems are exposed to different power levels. It might be interesting to move around to see how your equipment bahves when receiving the (static) meaconed position. If your equipment has countermeasures against jamming/spoofing a meaconed signal can be a challenging test. Some tests might be repeated to allow for e.g. static vs dynamic positioning of your equipment.",
           "tests": [
             {
               "constellation_bands": [
@@ -5133,7 +5133,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"F1.1\", is explained in Appendix XX.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see appendix G. The meaconing setup employed, \"F1.1\", is explained in appendix G.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectivly. This means that GPS L1 and L2, Galileo E1, and Beidou B1C should be visible in the retransmitted data stream, that the Glonass G1 satellites shouldn't be visible, and that some Beidou B1I satellites might be visible, especially on RX1. However, the filter's frequency cut-offs aren't perfect, so some other satellites might \"leak\" through. \n\nThe tests are performed with a pyramid ramping in tranmsmission power, from 0.01 W to 10 W and back down to 0.01 W, in 5 dB steps. Each step is kept for 2 minutes before the power is increased or decreased. There is planned a 10-minute break between each test.",
           "group_id": 3,
           "group_name": "Stationary meaconing from a single or two receivers with ramping power",
