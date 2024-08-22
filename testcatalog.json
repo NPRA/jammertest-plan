@@ -5178,7 +5178,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Meaconing from receiver RX1 with low power for 2 minutes, then adding RX2 with more than 10dB higher power for 15 minutes"
+              "description": "Meaconing from receiver RX1 with low power for 2 minutes, then adding RX2 with more than 10dB higher power for 15 minutes",
               "equipment": [
                 "F1.1"
               ],
