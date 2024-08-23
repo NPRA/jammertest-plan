@@ -409,6 +409,7 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C",
@@ -436,6 +437,7 @@
             },
             {
               "constellation_bands": [
+                "G1",
                 "L1",
                 "E1",
                 "B1C"
@@ -539,6 +541,9 @@
                 "B3I",
                 "G2",
                 "L2",
+                "E5b",
+                "B2b",
+                "B2I",
                 "L5",
                 "E5a",
                 "B2a"
@@ -563,6 +568,9 @@
                 "B3I",
                 "G2",
                 "L2",
+                "E5b",
+                "B2b",
+                "B2I",
                 "L5",
                 "E5a",
                 "B2a"
@@ -1763,7 +1771,10 @@
                 "E6",
                 "B3I",
                 "G2",
-                "L2"
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I"
               ],
               "description": "Test performed with jammer H6.6 (antennas 3 and 5 activated).",
               "equipment": [
@@ -1784,7 +1795,10 @@
                 "E6",
                 "B3I",
                 "G2",
-                "L2"
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I"
               ],
               "description": "Test performed with jammer H6.6 (antennas 3 and 5 activated).",
               "equipment": [
@@ -1806,6 +1820,9 @@
                 "B3I",
                 "G2",
                 "L2",
+                "E5b",
+                "B2b",
+                "B2I",
                 "L5",
                 "E5a",
                 "B2a"
@@ -1830,6 +1847,9 @@
                 "B3I",
                 "G2",
                 "L2",
+                "E5b",
+                "B2b",
+                "B2I",
                 "L5",
                 "E5a",
                 "B2a"
@@ -1854,6 +1874,9 @@
                 "B3I",
                 "G2",
                 "L2",
+                "E5b",
+                "B2b",
+                "B2I",
                 "L5",
                 "E5a",
                 "B2a"
@@ -1878,6 +1901,9 @@
                 "B3I",
                 "G2",
                 "L2",
+                "E5b",
+                "B2b",
+                "B2I",
                 "L5",
                 "E5a",
                 "B2a"
