@@ -666,7 +666,7 @@
           "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The CW signals will be transmitted at the centre frequencies of the relevant test bands. Up to 50 W ERP jamming power will result in among the highest J/S ratios during the event. The attendees may vary their distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
           "group_id": 2,
           "group_name": "Continuous stationary high-power jamming with CW",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that errors can accumulate to a large extent in these phases (before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
@@ -743,7 +743,7 @@
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
           "group_id": 3,
           "group_name": "Continuous stationary high-power jamming with sweep",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
@@ -888,7 +888,7 @@
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
-          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting, as earlier tests have shown that position errors can increase vastly in these phases (just before availability disappears entirely).",
+          "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
           "tests": [
             {
               "constellation_bands": [
