@@ -187,7 +187,187 @@
           "test_id": "0.0.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY",
+          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T09:00:00",
+          "end_time": "2024-09-12T10:00:00",
+          "test_id": "1.20.10",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T10:30:00",
+          "end_time": "2024-09-12T11:30:00",
+          "test_id": "1.20.11",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T12:00:00",
+          "end_time": "2024-09-12T13:00:00",
+          "test_id": "1.20.12",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T13:00:00",
+          "end_time": "2024-09-12T14:00:00",
+          "test_id": "0.1.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "Lunch @ Bleik (Site1)",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T14:00:00",
+          "end_time": "2024-09-12T14:10:00",
+          "test_id": "1.19.1",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.171,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T14:16:00",
+          "end_time": "2024-09-12T14:26:00",
+          "test_id": "1.19.2",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.171,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T14:32:00",
+          "end_time": "2024-09-12T14:42:00",
+          "test_id": "1.19.3",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.171,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T14:48:00",
+          "end_time": "2024-09-12T14:58:00",
+          "test_id": "1.19.4",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 1.26,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T15:04:00",
+          "end_time": "2024-09-12T15:14:00",
+          "test_id": "1.19.5",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 1.26,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T15:20:00",
+          "end_time": "2024-09-12T15:30:00",
+          "test_id": "1.19.6",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 1.26,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T15:36:00",
+          "end_time": "2024-09-12T15:46:00",
+          "test_id": "1.19.7",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T15:52:00",
+          "end_time": "2024-09-12T16:02:00",
+          "test_id": "1.19.8",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T16:08:00",
+          "end_time": "2024-09-12T16:18:00",
+          "test_id": "1.19.9",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T16:24:00",
+          "end_time": "2024-09-12T16:34:00",
+          "test_id": "1.19.10",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 1.58,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T16:40:00",
+          "end_time": "2024-09-12T16:50:00",
+          "test_id": "1.19.11",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 1.58,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T16:56:00",
+          "end_time": "2024-09-12T17:06:00",
+          "test_id": "1.19.12",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 1.58,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T17:12:00",
+          "end_time": "2024-09-12T17:22:00",
+          "test_id": "1.19.13",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T17:28:00",
+          "end_time": "2024-09-12T17:38:00",
+          "test_id": "1.19.14",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T17:44:00",
+          "end_time": "2024-09-12T17:54:00",
+          "test_id": "1.19.15",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.1,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T18:30:00",
+          "end_time": "2024-09-12T19:00:00",
+          "test_id": "0.0.2",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY attendence at Bleik (Site 1)",
           "status": ""
         }
       ]
