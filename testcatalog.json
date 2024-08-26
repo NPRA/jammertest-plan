@@ -58,6 +58,28 @@
               "test_id": 1
             }
           ]
+        },
+        {
+          "comment": "",
+          "description": "Tests in this group are available for booking.",
+          "group_id": 2,
+          "group_name": "Booking slots",
+          "rationale": "Some participants require more specialized ad-hoc tests. Tests in this test group will allow participants to book a time slot and equipment to perform their own tests.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "N/A"
+              ],
+              "description": "This test require prebooking.",
+              "equipment": [
+                "N/A"
+              ],
+              "max_power_w": 0,
+              "min_power_w": 0,
+              "name": "Jamming booking slot",
+              "test_id": 1
+            }
+          ]
         }
       ],
       "type": "Supplemental periods",
