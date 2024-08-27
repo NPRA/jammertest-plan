@@ -234,7 +234,7 @@
           "end_time": "2024-09-10T22:00:00",
           "test_id": "1.16.4",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 200,
+          "power_w": 50,
           "comment": "",
           "status": ""
         }
