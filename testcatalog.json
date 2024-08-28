@@ -4591,7 +4591,7 @@
           ]
         },
         {
-          "comment": "Starting position will be approximately 69.194875 N, 15.837719 E in all scenarios (might change due to operational requests).",
+          "comment": "Starting position will be approximately 69.212409N,15.858314E (Stave community house) in all scenarios (might change due to operational requests).\nSpoofed time will be approximately true (depends on thelatest update of satellite data), usually within a few hours",
           "description": "A SDR spoofer will be employed in different ways in and around vehicles. The spoofed signals will be on GPS L1 only. All spoofing tests will be combined with jamming on GLONASS G1. Both jamming and spoofing will be done with 10 dBm. The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
           "group_id": 6,
           "group_name": "Incoherent GPS position and time spoofing from mobile spoofer",
@@ -4601,52 +4601,52 @@
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer placed inside of a stationary vehicle. Spoofed position starts static (at starting position) and at approximately true time (incoherently). After 10 minutes, the spoofed position starts to move south with constant speed (15 m/s), while spoofer stays stationary.",
+              "description": "Spoofer placed inside of a stationary vehicle with the transmitting antenna on the roof. The spoofed position starts static (at starting position) and at approximately true time. After 10 minutes, the spoofed position starts to move south with constant speed (40 km/h), while spoofer stays stationary.",
               "equipment": [
                 "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
-              "name": "Spoofer (inside vehicle) stationary with dynamic spoofed position.",
+              "name": "Spoofer (in vehicle with roof mounted antenna) stationary with dynamic spoofed position.",
               "test_id": 1
             },
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer placed inside of a vehicle that starts out stationary for 10 minutes, before the vehicle begins to drive south along Stavedalsveien (FV7702) at 50 km/h. The spoofed position remains fixed and approximately as the true position from starting point throughout the test.",
+              "description": "Spoofer antenna placed on the roof of a vehicle that starts out stationary for 10 minutes, before the vehicle begins to drive south along Stavedalsveien (FV7702) at 40 km/h. The spoofed position remains fixed and approximately as the true position from starting point throughout the test.",
               "equipment": [
                 "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
-              "name": "Spoofer (inside vehicle) stationary and then moving with fixed spoofed position.",
+              "name": "Spoofer (in vehicle with roof mounted antenna) stationary and then moving with fixed spoofed position.",
               "test_id": 2
             },
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer placed inside of a vehicle that moves south along Stavedalsveien (FV7702) at 50 km/h from the starting point. 10 seconds after the vehicle begin to move, the spoofing is activated, spoofing to a fixed position at 70 N, 10 E.",
+              "description": "Spoofer placed on the roof of a vehicle that moves south along Stavedalsveien (FV7702) at 40 km/h from the starting point. 10 seconds after the vehicle begins to move, the spoofing is activated, spoofing to a fixed position at 70 N, 10 E.",
               "equipment": [
                 "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
-              "name": "Spoofer (inside vehicle) moving with fixed spoofed position.",
+              "name": "Spoofer (in vehicle with roof mounted antenna) moving with fixed spoofed position.",
               "test_id": 3
             },
             {
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Spoofer placed inside of a vehicle that starts out stationary for 10 minutes, then the vehicle begins to drive south along Stavedalsveien (FV7702) at 50 km/h. Spoofed position is approximately true for the first 10 minutes, then starts to move directly south with constant speed (15 m/s) (which in effect is a slightly different direction than the vehicle is moving in).",
+              "description": "Spoofer placed on the roof of a vehicle that starts out stationary for 10 minutes, then the vehicle begins to drive south along Stavedalsveien (FV7702) at 40 km/h. Spoofed position is approximately true for the first 10 minutes, then starts to move directly south with constant speed (40 km/h) (which in effect is a slightly different direction than the vehicle is moving in).",
               "equipment": [
                 "F1.2"
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
-              "name": "Spoofer (inside vehicle) stationary and then moving with first fixed and then dynamic spoofed position.",
+              "name": "Spoofer (in vehicle with roof mounted antenna) stationary and then moving with first fixed and then dynamic spoofed position.",
               "test_id": 4
             }
           ]
