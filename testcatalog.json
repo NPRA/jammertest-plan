@@ -846,7 +846,7 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 50,
+              "max_power_w": 20,
               "min_power_w": 1,
               "name": "20 W sweep: L1, G1, L2, L5, 100 kHz",
               "test_id": 4
@@ -894,9 +894,9 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 50,
+              "max_power_w": 1,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, G1, L2, 1 kHz",
+              "name": "1 W sweep: L1, G1, L2, 1 kHz",
               "test_id": 7
             },
             {
