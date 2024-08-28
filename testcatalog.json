@@ -1050,8 +1050,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1",
               "test_id": 1
             },
@@ -1066,8 +1066,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1",
               "test_id": 2
             },
@@ -1083,8 +1083,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2",
               "test_id": 3
             },
@@ -1103,8 +1103,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2, L5",
               "test_id": 4
             }
@@ -1127,8 +1127,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1",
               "test_id": 1
             },
@@ -1143,8 +1143,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1",
               "test_id": 2
             },
@@ -1160,8 +1160,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2",
               "test_id": 3
             },
@@ -1180,8 +1180,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 1e-7,
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
               "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2, L5",
               "test_id": 4
             }
