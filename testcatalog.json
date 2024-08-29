@@ -80,6 +80,28 @@
               "test_id": 1
             }
           ]
+        },
+        {
+          "comment": "",
+          "description": "Tests in this group are created ad hoc during the event. Test comments will describe the setup.",
+          "group_id": 3,
+          "group_name": "Ad hoc tests",
+          "rationale": "Some tests can not be planned for in advance. These tests may include new scenarios or altered tests based on observations during the event.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "N/A"
+              ],
+              "description": "See log comment for description.",
+              "equipment": [
+                "N/A"
+              ],
+              "max_power_w": 0,
+              "min_power_w": 0,
+              "name": "Ad hoc test",
+              "test_id": 1
+            }
+          ]
         }
       ],
       "type": "Supplemental periods",
