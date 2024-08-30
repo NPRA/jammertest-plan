@@ -321,6 +321,15 @@
           "power_w": 1.58,
           "comment": "",
           "status": ""
+        },
+        {
+          "start_time": "2024-09-09T18:30:00",
+          "end_time": "2024-09-09T19:00:00",
+          "test_id": "0.0.2",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "status": ""
         }
       ]
     }

@@ -1683,7 +1683,7 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix XXX). Over 1 km between locations.",
+              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
                 "S2.1","S2.2","S2.3"
               ],
@@ -1709,7 +1709,7 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix XXX). Over 1 km between locations.",
+              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
                 "H6.1","H6.2","H6.3"
               ],
@@ -1735,7 +1735,7 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix XXX). Over 1 km between locations.",
+              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
                 "S2.1","H6.1","H8.1"
               ],

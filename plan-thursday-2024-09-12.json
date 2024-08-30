@@ -223,7 +223,7 @@
           "test_id": "0.1.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
-          "comment": "Lunch @ Bleik (Site1)",
+          "comment": "Lunch @ Stave (Site 3)",
           "status": ""
         },
         {
@@ -382,7 +382,79 @@
           "test_id": "0.0.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY",
+          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T10:00:00",
+          "end_time": "2024-09-12T10:20:00",
+          "test_id": "2.6.1",
+          "test_contact": "Anders Rødningsby (FFI)",
+          "power_w": 0.01,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T10:30:00",
+          "end_time": "2024-09-12T10:50:00",
+          "test_id": "2.6.2",
+          "test_contact": "Anders Rødningsby (FFI)",
+          "power_w": 0.01,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T11:00:00",
+          "end_time": "2024-09-12T11:20:00",
+          "test_id": "2.6.3",
+          "test_contact": "Anders Rødningsby (FFI)",
+          "power_w": 0.01,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T11:35:00",
+          "end_time": "2024-09-12T11:55:00",
+          "test_id": "2.6.3",
+          "test_contact": "Anders Rødningsby (FFI)",
+          "power_w": 0.01,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T12:10:00",
+          "end_time": "2024-09-12T12:30:00",
+          "test_id": "2.6.4",
+          "test_contact": "Anders Rødningsby (FFI)",
+          "power_w": 0.01,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T12:45:00",
+          "end_time": "2024-09-12T13:05:00",
+          "test_id": "2.6.4",
+          "test_contact": "Anders Rødningsby (FFI)",
+          "power_w": 0.01,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T13:05:00",
+          "end_time": "2024-09-12T14:00:00",
+          "test_id": "0.1.1",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "Lunch @ Stave (Site 3)",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-12T18:30:00",
+          "end_time": "2024-09-12T19:00:00",
+          "test_id": "0.0.2",
+          "test_contact": "Christian Skjetne (NPRA)",
+          "power_w": 0,
+          "comment": "MANDATORY attendence at Bleik (Site 1)",
           "status": ""
         }
       ]
