@@ -1424,7 +1424,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with dual-band jammer in test vehicle",
+              "name": "(Deprecated - Not available) Driving with dual-band jammer in test vehicle",
               "test_id": 1
             },
             {
@@ -1502,7 +1502,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with dual-band jammer in vehicle overtaking the test vehicle",
+              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle overtaking the test vehicle",
               "test_id": 4
             },
             {
@@ -1528,7 +1528,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "Driving with dual-band jammer in vehicle being overtaken by the test vehicle",
+              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle being overtaken by the test vehicle",
               "test_id": 5
             },
             {
@@ -1555,7 +1555,7 @@
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in test vehicle",
+              "name": "(Deprecated - Not available) Driving with multi-band jammer in test vehicle",
               "test_id": 6
             },
             {
@@ -1636,7 +1636,7 @@
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle overtaking the test vehicle",
+              "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle overtaking the test vehicle",
               "test_id": 9
             },
             {
@@ -1663,8 +1663,86 @@
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle being overtaken by the test vehicle",
+              "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle being overtaken by the test vehicle",
               "test_id": 10
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix XXX). Over 1 km between locations.",
+              "equipment": [
+                "S2.1","S2.2","S2.3"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0316,
+              "name": "Driving while passing three consecutive parked cars with dual-band jammer",
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix XXX). Over 1 km between locations.",
+              "equipment": [
+                "H6.1","H6.2","H6.3"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 0.3981,
+              "name": "Driving while passing three consecutive parked cars with multi-band jammer",
+              "test_id": 12
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix XXX). Over 1 km between locations.",
+              "equipment": [
+                "S2.1","H6.1","H8.1"
+              ],
+              "max_power_w": 0.631,
+              "min_power_w": 0.0316,
+              "name": "Driving while passing three consecutive parked cars with both dual- and multi-band jammers (in order of number of bands)",
+              "test_id": 13
             }
           ]
         },
