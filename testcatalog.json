@@ -1237,8 +1237,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
@@ -1272,8 +1272,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
@@ -2335,8 +2335,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W CW: L1",
               "test_id": 1
             },
@@ -2348,8 +2348,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W CW: L2",
               "test_id": 2
             },
@@ -2363,8 +2363,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W CW: L5",
               "test_id": 3
             },
@@ -2380,8 +2380,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
               "test_id": 4
             },
@@ -2397,8 +2397,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
               "test_id": 5
             },
@@ -2414,8 +2414,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
               "test_id": 6
             },
@@ -2431,8 +2431,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
               "test_id": 7
             },
@@ -2448,8 +2448,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 8
             },
@@ -2465,8 +2465,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 9
             },
@@ -2482,8 +2482,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 10
             },
@@ -2499,8 +2499,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 11
             },
@@ -2522,8 +2522,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
               "test_id": 12
             },
@@ -2545,8 +2545,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
               "test_id": 13
             },
@@ -2568,8 +2568,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
               "test_id": 14
             },
@@ -2591,8 +2591,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
               "test_id": 15
             },
@@ -2614,8 +2614,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 16
             },
@@ -2637,8 +2637,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 17
             },
@@ -2660,8 +2660,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 18
             },
@@ -2683,8 +2683,8 @@
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
+              "max_power_w": 50,
+              "min_power_w": 50,
               "name": "50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 19
             }
