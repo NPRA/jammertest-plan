@@ -864,13 +864,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
+              "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
+              "max_power_w": 50,
               "min_power_w": 1,
-              "name": "20 W sweep: L1, G1, L2, L5, 100 kHz",
+              "name": "50 W sweep: L1, G1, L2, L5, 100 kHz",
               "test_id": 4
             },
             {
@@ -1031,26 +1031,26 @@
               "constellation_bands": [
                 "L1"
               ],
-              "description": "20 W: L1 PRN (BPSK-modulated with Mbaud symbolrate of 3)",
+              "description": "50 W: L1 PRN (BPSK-modulated with Mbaud symbolrate of 3)",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W: L1 PRN (Mbaud of 3)",
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "50 W: L1 PRN (Mbaud of 3)",
               "test_id": 1
             },
             {
               "constellation_bands": [
                 "G1"
               ],
-              "description": "20 W: G1 PRN (BPSK-modulated with Mbaud symbolrate of 10.23)",
+              "description": "50 W: G1 PRN (BPSK-modulated with Mbaud symbolrate of 10.23)",
               "equipment": [
                 "F8.1"
               ],
-              "max_power_w": 20,
-              "min_power_w": 20,
-              "name": "20 W: G1, PRN (Mbaud of 10.23)",
+              "max_power_w": 50,
+              "min_power_w": 50,
+              "name": "50 W: G1, PRN (Mbaud of 10.23)",
               "test_id": 2
             }
           ]
@@ -1233,13 +1233,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "20 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
+              "description": "50 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
+              "name": "50 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
           ]
@@ -1268,13 +1268,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "20 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1I, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1",
+              "description": "50 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1I, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
+              "name": "50 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
           ]
@@ -2331,26 +2331,26 @@
                 "E1",
                 "B1C"
               ],
-              "description": "20 W CW: L1",
+              "description": "50 W CW: L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W CW: L1",
+              "name": "50 W CW: L1",
               "test_id": 1
             },
             {
               "constellation_bands": [
                 "L2"
               ],
-              "description": "20 W CW: L2",
+              "description": "50 W CW: L2",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W CW: L2",
+              "name": "50 W CW: L2",
               "test_id": 2
             },
             {
@@ -2359,13 +2359,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W CW: L5",
+              "description": "50 W CW: L5",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W CW: L5",
+              "name": "50 W CW: L5",
               "test_id": 3
             },
             {
@@ -2376,13 +2376,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
+              "name": "50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
               "test_id": 4
             },
             {
@@ -2393,13 +2393,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
+              "name": "50 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
               "test_id": 5
             },
             {
@@ -2410,13 +2410,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1620 to 1545 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1620 to 1545 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
+              "name": "50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
               "test_id": 6
             },
             {
@@ -2427,13 +2427,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1620 to 1545  MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1620 to 1545  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
+              "name": "50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
               "test_id": 7
             },
             {
@@ -2444,13 +2444,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 8
             },
             {
@@ -2461,13 +2461,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 9
             },
             {
@@ -2478,13 +2478,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 10
             },
             {
@@ -2495,13 +2495,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "20 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 11
             },
             {
@@ -2518,13 +2518,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
+              "name": "50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
               "test_id": 12
             },
             {
@@ -2541,13 +2541,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
+              "name": "50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
               "test_id": 13
             },
             {
@@ -2564,13 +2564,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
+              "name": "50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
               "test_id": 14
             },
             {
@@ -2587,13 +2587,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
+              "name": "50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
               "test_id": 15
             },
             {
@@ -2610,13 +2610,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 16
             },
             {
@@ -2633,13 +2633,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 17
             },
             {
@@ -2656,13 +2656,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 18
             },
             {
@@ -2679,13 +2679,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "20 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 20,
               "min_power_w": 20,
-              "name": "20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 19
             }
           ]
@@ -5102,7 +5102,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
+              "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming: PRN L1, L2, L5 and G1 at 20 W)",
               "equipment": [
                 "F1.1 and F8.1"
               ],
