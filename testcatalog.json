@@ -5102,7 +5102,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming: PRN L1, L2, L5 and G1 at 20 W)",
+              "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming: PRN L1, L2, L5 and G1 at 50 W)",
               "equipment": [
                 "F1.1 and F8.1"
               ],
@@ -5134,7 +5134,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
+              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 50 W)",
               "equipment": [
                 "F1.1 and F8.1"
               ],
@@ -5191,7 +5191,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 20 W)",
+              "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 50 W)",
               "equipment": [
                 "F1.1 and F8.1"
               ],
