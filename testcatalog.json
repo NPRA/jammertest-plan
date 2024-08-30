@@ -3468,8 +3468,7 @@
             },
             {
               "constellation_bands": [
-                "L1",
-                "E1"
+                "L1"
               ],
               "description": "Signals: GPS L1 C/A.  \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
               "equipment": [
@@ -3482,7 +3481,6 @@
             },
             {
               "constellation_bands": [
-                "L1",
                 "E1"
               ],
               "description": "Signals: Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
@@ -4004,7 +4002,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5.. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nFrequency steps means here spoofing signal transmission rate change. Frequency steps are added (10 ns/s) and starts five minutes after the spoofing starts.",
               "equipment": [
                 "S"
               ],
@@ -4081,7 +4079,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5.. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of x ns/s.",
               "equipment": [
                 "S"
               ],
@@ -4947,8 +4945,7 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1",
-                "E1"
+                "L1"
               ],
               "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start.",
               "equipment": [
@@ -5284,7 +5281,7 @@
         },
         {
           "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Major\", see Appendix G for more information about the equipment.",
-          "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmitt on the L1 and L2 bands, where the employed antennas for the receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through.",
+          "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmit on the L1 and L2 bands, where the employed antennas for the receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through.",
           "group_id": 3,
           "group_name": "Stationary meaconing from a single or two receivers with ramping power",
           "rationale": "Meaconing is to record live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. The objective of these tests is to observe how equipment and systems behave under varying meaconing tranmission power levels. It might be interesting to see when or if your device jumps from an existing PNT fix to a meaconed signal with a higher power level.",
