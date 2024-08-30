@@ -162,7 +162,7 @@
           "end_time": "2024-09-10T16:01:00",
           "test_id": "1.18.4",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -171,7 +171,7 @@
           "end_time": "2024-09-10T16:25:00",
           "test_id": "1.18.5",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -180,7 +180,7 @@
           "end_time": "2024-09-10T16:50:00",
           "test_id": "1.18.7",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -189,7 +189,7 @@
           "end_time": "2024-09-10T17:01:00",
           "test_id": "1.18.8",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -198,7 +198,7 @@
           "end_time": "2024-09-10T17:25:00",
           "test_id": "1.18.13",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -207,7 +207,7 @@
           "end_time": "2024-09-10T17:50:00",
           "test_id": "1.18.15",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -216,7 +216,7 @@
           "end_time": "2024-09-10T18:00:00",
           "test_id": "1.18.16",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 20,
+          "power_w": 50,
           "comment": "",
           "status": ""
         },
@@ -234,7 +234,7 @@
           "end_time": "2024-09-10T22:00:00",
           "test_id": "1.16.4",
           "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 50,
+          "power_w": 100,
           "comment": "",
           "status": ""
         }
