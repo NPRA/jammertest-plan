@@ -1,0 +1,243 @@
+\contentsline {section}{Introduction}{7}{section*.1}%
+\contentsline {section}{Specifications of tests}{8}{section*.2}%
+\contentsline {chapter}{\numberline {1}0 Supplemental periods}{11}{chapter.1}%
+\contentsline {section}{0.0: Mandatory briefings}{11}{section*.3}%
+\contentsline {subsection}{0.0.1 Mandatory morning briefing}{11}{subsection*.4}%
+\contentsline {subsection}{0.0.2 Mandatory afternoon (de)briefing}{11}{subsection*.5}%
+\contentsline {section}{0.1: Grace period}{12}{section*.6}%
+\contentsline {subsection}{0.1.1 Grace period}{12}{subsection*.7}%
+\contentsline {chapter}{\numberline {2}1 Jamming}{13}{chapter.2}%
+\contentsline {section}{1.1: Continuous stationary low power jamming with commercially available jammers}{13}{section*.8}%
+\contentsline {subsection}{1.1.1 Jammer S1.1}{13}{subsection*.9}%
+\contentsline {subsection}{1.1.2 Jammer S1.2}{14}{subsection*.10}%
+\contentsline {subsection}{1.1.3 Jammer S1.3}{14}{subsection*.11}%
+\contentsline {subsection}{1.1.4 Jammer S2.1}{14}{subsection*.12}%
+\contentsline {subsection}{1.1.5 Jammer S2.2}{14}{subsection*.13}%
+\contentsline {subsection}{1.1.6 Jammer S2.3}{15}{subsection*.14}%
+\contentsline {subsection}{1.1.7 Jammer S2.4}{15}{subsection*.15}%
+\contentsline {subsection}{1.1.8 Jammer U1.1}{15}{subsection*.16}%
+\contentsline {subsection}{1.1.9 Jammer U1.2}{16}{subsection*.17}%
+\contentsline {subsection}{1.1.10 Jammer U1.3}{16}{subsection*.18}%
+\contentsline {subsection}{1.1.11 Jammer U1.4}{16}{subsection*.19}%
+\contentsline {subsection}{1.1.12 Jammer H1.1}{17}{subsection*.20}%
+\contentsline {subsection}{1.1.13 Jammer H1.2}{17}{subsection*.21}%
+\contentsline {subsection}{1.1.14 Jammer H3.1}{17}{subsection*.22}%
+\contentsline {subsection}{1.1.15 Jammer H3.2}{17}{subsection*.23}%
+\contentsline {subsection}{1.1.16 Jammer H3.3}{18}{subsection*.24}%
+\contentsline {subsection}{1.1.17 Jammer H4.1}{18}{subsection*.25}%
+\contentsline {subsection}{1.1.18 Jammer H6.1}{18}{subsection*.26}%
+\contentsline {subsection}{1.1.19 Jammer H6.2}{19}{subsection*.27}%
+\contentsline {subsection}{1.1.20 Jammer H6.3}{19}{subsection*.28}%
+\contentsline {subsection}{1.1.21 Jammer H6.4}{19}{subsection*.29}%
+\contentsline {subsection}{1.1.22 Jammer H6.5}{20}{subsection*.30}%
+\contentsline {subsection}{1.1.23 Jammer H6.6}{20}{subsection*.31}%
+\contentsline {subsection}{1.1.24 Jammer H8.1}{20}{subsection*.32}%
+\contentsline {subsection}{1.1.25 Jammer F6.1}{21}{subsection*.33}%
+\contentsline {subsection}{1.1.26 Jammer H1.3}{21}{subsection*.34}%
+\contentsline {subsection}{1.1.27 Jammer H2.1}{21}{subsection*.35}%
+\contentsline {subsection}{1.1.28 Jammer H2.2}{21}{subsection*.36}%
+\contentsline {section}{1.2: Continuous stationary high-power jamming with CW}{22}{section*.37}%
+\contentsline {subsection}{1.2.1 20 W CW: L1}{22}{subsection*.38}%
+\contentsline {subsection}{1.2.2 20 W CW: L1, G1}{23}{subsection*.39}%
+\contentsline {subsection}{1.2.3 20 W CW: L1, G1, L2}{23}{subsection*.40}%
+\contentsline {subsection}{1.2.4 20 W CW: L1, G1, L2, L5}{23}{subsection*.41}%
+\contentsline {section}{1.3: Continuous stationary high-power jamming with sweep/chirp}{24}{section*.42}%
+\contentsline {subsection}{1.3.1 20 W chirp: L1}{24}{subsection*.43}%
+\contentsline {subsection}{1.3.2 20 W chirp: L1, G1}{24}{subsection*.44}%
+\contentsline {subsection}{1.3.3 20 W chirp: L1, G1, L2}{25}{subsection*.45}%
+\contentsline {subsection}{1.3.4 20 W chirp: L1, G1, L2, L5}{25}{subsection*.46}%
+\contentsline {section}{1.4: Continuous stationary high-power jamming with PRN}{25}{section*.47}%
+\contentsline {subsection}{1.4.1 20 W PRN: L1}{26}{subsection*.48}%
+\contentsline {subsection}{1.4.2 20 W PRN: L1, G1}{26}{subsection*.49}%
+\contentsline {subsection}{1.4.3 20 W PRN: L1, G1, L2}{26}{subsection*.50}%
+\contentsline {subsection}{1.4.4 20 W PRN: L1, G1, L2, L5}{27}{subsection*.51}%
+\contentsline {section}{1.5: Continuous stationary high-power jamming with "real world" PRN}{27}{section*.52}%
+\contentsline {subsection}{1.5.1 20 W: L1 PRN (Mbaud of 3)}{27}{subsection*.53}%
+\contentsline {subsection}{1.5.2 20 W: G1, PRN (Mbaud of 10.23)}{28}{subsection*.54}%
+\contentsline {section}{1.6: Stationary high-power jamming, ramp power with PRN}{28}{section*.55}%
+\contentsline {subsection}{1.6.1 0.1 µW to 20 W at 2 dB increments PRN: L1}{28}{subsection*.56}%
+\contentsline {subsection}{1.6.2 0.1 µW to 20 W at 2 dB increments PRN: L1, G1}{29}{subsection*.57}%
+\contentsline {subsection}{1.6.3 0.1 µW to 20 W at 2 dB increments PRN: L1, G1, L2}{29}{subsection*.58}%
+\contentsline {subsection}{1.6.4 0.1 µW to 20 W at 2 dB increments PRN: L1, G1, L2, L5}{29}{subsection*.59}%
+\contentsline {section}{1.7: Stationary high-power jamming, ramp power with CW}{30}{section*.60}%
+\contentsline {subsection}{1.7.1 0.1 µW to 20 W at 2 dB increments CW: L1}{30}{subsection*.61}%
+\contentsline {subsection}{1.7.2 0.1 µW to 20 W at 2 dB increments CW: L1, G1}{30}{subsection*.62}%
+\contentsline {subsection}{1.7.3 0.1 µW to 20 W at 2 dB increments CW: L1, G1, L2}{31}{subsection*.63}%
+\contentsline {subsection}{1.7.4 0.1 µW to 20 W at 2 dB increments CW: L1, G1, L2, L5}{31}{subsection*.64}%
+\contentsline {section}{1.8: Stationary pyramid jamming with PRN for all GNSS bands sequentially}{31}{section*.65}%
+\contentsline {subsection}{1.8.1 20 W PRN pyramid: E6, E5b, L5, G2, L2, B1l, G1, L1}{32}{subsection*.66}%
+\contentsline {section}{1.9: Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially}{32}{section*.67}%
+\contentsline {subsection}{1.9.1 20 W PRN inverted pyramid: E6, E5b, L5, G2, L2, B1l, G1, L1}{33}{subsection*.68}%
+\contentsline {section}{1.10: Motorcade with low-power commercially available jammers (placed on stationary vehicle)}{33}{section*.69}%
+\contentsline {subsection}{1.10.1 Driving while passing a parked car with dual-band jammer}{34}{subsection*.70}%
+\contentsline {subsection}{1.10.2 Driving while passing a parked car with multi-band jammer}{34}{subsection*.71}%
+\contentsline {subsection}{1.10.3 Vehicle starting in dual-band denied environment}{34}{subsection*.72}%
+\contentsline {subsection}{1.10.4 Vehicle starting in multi-band denied environment}{35}{subsection*.73}%
+\contentsline {section}{1.11: Motorcade with low-power commercially available jammers (placed inside mobile vehicle)}{35}{section*.74}%
+\contentsline {subsection}{1.11.1 Driving with dual-band jammer in test vehicle}{35}{subsection*.75}%
+\contentsline {subsection}{1.11.2 Driving with dual-band jammer in vehicle in front of the test vehicle}{36}{subsection*.76}%
+\contentsline {subsection}{1.11.3 Driving with dual-band jammer in vehicle behind the test vehicle}{36}{subsection*.77}%
+\contentsline {subsection}{1.11.4 Driving with dual-band jammer in vehicle overtaking the test vehicle}{36}{subsection*.78}%
+\contentsline {subsection}{1.11.5 Driving with dual-band jammer in vehicle being overtaken by the test vehicle}{36}{subsection*.79}%
+\contentsline {subsection}{1.11.6 Driving with multi-band jammer in test vehicle}{37}{subsection*.80}%
+\contentsline {subsection}{1.11.7 Driving with multi-band jammer in vehicle in front of the test vehicle}{37}{subsection*.81}%
+\contentsline {subsection}{1.11.8 Driving with multi-band jammer in vehicle behind the test vehicle}{37}{subsection*.82}%
+\contentsline {subsection}{1.11.9 Driving with multi-band jammer in vehicle overtaking the test vehicle}{38}{subsection*.83}%
+\contentsline {subsection}{1.11.10 Driving with multi-band jammer in vehicle being overtaken by the test vehicle}{38}{subsection*.84}%
+\contentsline {section}{1.12: Low power jamming with commercially available multi-band jammers in different placements in the terrain}{38}{section*.85}%
+\contentsline {subsection}{1.12.1 All jammers stationary; activate Jammer F6.1, H6.5 and H3.3 sequentially}{39}{subsection*.86}%
+\contentsline {subsection}{1.12.2 All jammers stationary in new placements; activate Jammer F6.1, H6.5 and H3.3 sequentially}{39}{subsection*.87}%
+\contentsline {subsection}{1.12.3 Jammers F6.1 and H6.5 stationary, Jammer H3.3 mobile; all jammers activated simultaneously}{39}{subsection*.88}%
+\contentsline {section}{1.13: Jamming attacks with jammers on board a ship}{40}{section*.89}%
+\contentsline {subsection}{1.13.1 Single-band jammer on the car deck outside car}{40}{subsection*.90}%
+\contentsline {subsection}{1.13.2 Single-band jammer on the car deck inside car}{40}{subsection*.91}%
+\contentsline {subsection}{1.13.3 Dual-band jammer on the car deck outside car}{41}{subsection*.92}%
+\contentsline {subsection}{1.13.4 Dual-band jammer on the car deck inside car}{41}{subsection*.93}%
+\contentsline {subsection}{1.13.5 Multi-band jammer on the car deck outside car}{41}{subsection*.94}%
+\contentsline {subsection}{1.13.6 Multi-band jammer on the car deck inside car}{42}{subsection*.95}%
+\contentsline {subsection}{1.13.7 Multi-band jammer on deck close to the ship’s antennas (by the bridge)}{42}{subsection*.96}%
+\contentsline {subsection}{1.13.8 Multi-band jammer inside public areas of boat (under the bridge)}{42}{subsection*.97}%
+\contentsline {section}{1.14: Stationary very high-power jamming, ramp power with PRN}{43}{section*.98}%
+\contentsline {subsection}{1.14.1 0.1 µW to 200 W, 2 dB increments PRN: L1}{43}{subsection*.99}%
+\contentsline {subsection}{1.14.2 0.1 µW to 200 W, 2 dB increments PRN: L1, G1}{43}{subsection*.100}%
+\contentsline {subsection}{1.14.3 0.1 µW to 200 W, 2 dB increments PRN: L1, G1, L2}{44}{subsection*.101}%
+\contentsline {subsection}{1.14.4 0.1 µW to 200 W, 2 dB increments PRN: L1, G1, L2, L5}{44}{subsection*.102}%
+\contentsline {section}{1.15: Stationary low-power jamming of L1 and G1}{44}{section*.103}%
+\contentsline {subsection}{1.15.1 WB jamming: L1}{45}{subsection*.104}%
+\contentsline {subsection}{1.15.2 WB jamming: G1}{45}{subsection*.105}%
+\contentsline {subsection}{1.15.3 WB jamming: G1 then L1}{45}{subsection*.106}%
+\contentsline {subsection}{1.15.4 WB jamming: L1 then G1}{46}{subsection*.107}%
+\contentsline {section}{1.16: Continuous stationary very high-power jamming with PRN}{46}{section*.108}%
+\contentsline {subsection}{1.16.1 200 W PRN: L1}{46}{subsection*.109}%
+\contentsline {subsection}{1.16.2 200 W PRN: L1, G1}{47}{subsection*.110}%
+\contentsline {subsection}{1.16.3 200 W PRN: L1, G1, L2}{47}{subsection*.111}%
+\contentsline {subsection}{1.16.4 200 W PRN: L1, G1, L2, L5}{47}{subsection*.112}%
+\contentsline {section}{1.17: Continuous stationary jamming with PRN at airport}{48}{section*.113}%
+\contentsline {subsection}{1.17.1 10 W PRN: L1}{48}{subsection*.114}%
+\contentsline {subsection}{1.17.2 10 W PRN: L5}{48}{subsection*.115}%
+\contentsline {subsection}{1.17.3 10 W CW: L1, L5}{49}{subsection*.116}%
+\contentsline {subsection}{1.17.4 10 W chirp: L1, L5}{49}{subsection*.117}%
+\contentsline {subsection}{1.17.5 10 W PNR: L1, L5}{49}{subsection*.118}%
+\contentsline {subsection}{1.17.6 1 W PNR: L1, L5}{50}{subsection*.119}%
+\contentsline {subsection}{1.17.7 0.1 W PNR: L1, L5}{50}{subsection*.120}%
+\contentsline {section}{1.18: Stationary unintentional RFI}{50}{section*.121}%
+\contentsline {subsection}{1.18.1 20 W CW: L1}{51}{subsection*.122}%
+\contentsline {subsection}{1.18.2 20 W CW: L2}{51}{subsection*.123}%
+\contentsline {subsection}{1.18.3 20 W CW: L5}{51}{subsection*.124}%
+\contentsline {subsection}{1.18.4 20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 1 minute}{52}{subsection*.125}%
+\contentsline {subsection}{1.18.5 20 W drift: 1545 to 1620 MHz, with BW of 10 kHz and sweep time of 5 minutes}{52}{subsection*.126}%
+\contentsline {subsection}{1.18.6 20 W drift: 1620 to 1545 MHz, with BW of 10 kHz and sweep time of 1 minute}{52}{subsection*.127}%
+\contentsline {subsection}{1.18.7 20 W drift: 1620 to 1545 MHz, with BW of 10 kHz and sweep time of 5 minutes}{53}{subsection*.128}%
+\contentsline {subsection}{1.18.8 20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute}{53}{subsection*.129}%
+\contentsline {subsection}{1.18.9 20 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 5 minutes}{53}{subsection*.130}%
+\contentsline {subsection}{1.18.10 20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute}{54}{subsection*.131}%
+\contentsline {subsection}{1.18.11 20 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 5 minutes}{54}{subsection*.132}%
+\contentsline {subsection}{1.18.12 20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 1 minute}{54}{subsection*.133}%
+\contentsline {subsection}{1.18.13 20 W drift: 1150 to 1300 MHz, with BW of 10 kHz and sweep time of 5 minutes}{55}{subsection*.134}%
+\contentsline {subsection}{1.18.14 20 W drift: 1300 to 1150 MHz, with BW of 10 kHz and sweep time of 1 minute}{55}{subsection*.135}%
+\contentsline {subsection}{1.18.15 20 W drift: 1300 to 1150 MHz, with BW of 10 kHz and sweep time of 5 minutes}{55}{subsection*.136}%
+\contentsline {subsection}{1.18.16 20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute}{56}{subsection*.137}%
+\contentsline {subsection}{1.18.17 20 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 5 minutes}{56}{subsection*.138}%
+\contentsline {subsection}{1.18.18 20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute}{56}{subsection*.139}%
+\contentsline {subsection}{1.18.19 20 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 5 minutes}{57}{subsection*.140}%
+\contentsline {chapter}{\numberline {3}2 Spoofing}{59}{chapter.3}%
+\contentsline {section}{2.1: Incoherent position spoofing from stationary spoofer using synthetic ephemerides}{59}{section*.141}%
+\contentsline {subsection}{2.1.1 Large position and time jump, with power ramp}{59}{subsection*.142}%
+\contentsline {subsection}{2.1.2 Large position and time jump. GPS L1 and Galileo E1}{60}{subsection*.143}%
+\contentsline {subsection}{2.1.3 Large position and time jump. GPS L1 and Galileo E1, with initial and continuous jamming}{60}{subsection*.144}%
+\contentsline {subsection}{2.1.4 Simulated driving (route 1), with initial jamming}{60}{subsection*.145}%
+\contentsline {subsection}{2.1.5 Simulated driving, true reference time (route 1), with initial jamming}{61}{subsection*.146}%
+\contentsline {section}{2.2: Incoherent position spoofing from stationary spoofer using broadcast(true) ephemerides}{61}{section*.147}%
+\contentsline {subsection}{2.2.1 Large position jump}{62}{subsection*.148}%
+\contentsline {subsection}{2.2.2 Small position jump, large time jump, with initial and continuous jamming}{62}{subsection*.149}%
+\contentsline {subsection}{2.2.3 Small position jump}{63}{subsection*.150}%
+\contentsline {subsection}{2.2.4 Fixed position}{63}{subsection*.151}%
+\contentsline {subsection}{2.2.5 Large position jump \#2}{63}{subsection*.152}%
+\contentsline {section}{2.3: Coherent position spoofing from stationary spoofer using broadcast(true) ephemerides}{64}{section*.153}%
+\contentsline {subsection}{2.3.1 Simulated driving (route 1). GPS only, with initial jamming.}{64}{subsection*.154}%
+\contentsline {subsection}{2.3.2 Simulated driving (route 1). Galileo only, with initial jamming.}{65}{subsection*.155}%
+\contentsline {subsection}{2.3.3 Simulated driving (route 1) with initial jamming.}{65}{subsection*.156}%
+\contentsline {subsection}{2.3.4 Simulated driving (route 1). GPS only}{65}{subsection*.157}%
+\contentsline {subsection}{2.3.5 Simulated driving (route 1). GPS L1 and Galileo E1}{66}{subsection*.158}%
+\contentsline {subsection}{2.3.6 Simulated driving (route 1)}{66}{subsection*.159}%
+\contentsline {subsection}{2.3.7 Flying (route 4) - "drone scenario"}{67}{subsection*.160}%
+\contentsline {subsection}{2.3.8 Sailing (route 5) - "ship scenario"}{67}{subsection*.161}%
+\contentsline {subsection}{2.3.9 Flying (route 2) - "helicopter scenario"}{67}{subsection*.162}%
+\contentsline {section}{2.4: Incoherent time spoofing from stationary spoofer using synthetic ephemerides}{68}{section*.163}%
+\contentsline {subsection}{2.4.1 Time offset 15 minutes from real time. GPS L1 and Galileo E1, with power ramp}{68}{subsection*.164}%
+\contentsline {subsection}{2.4.2 Time offset 15 minutes from real time, with power ramp}{69}{subsection*.165}%
+\contentsline {subsection}{2.4.3 Time offset -3 minutes from real time, with power jump}{69}{subsection*.166}%
+\contentsline {subsection}{2.4.4 Static + Frequency step. GPS L1}{69}{subsection*.167}%
+\contentsline {subsection}{2.4.5 Static + Frequency step. GPS L1 and Galileo E1, with initial jamming}{70}{subsection*.168}%
+\contentsline {section}{2.5: Coherent time spoofing from stationary spoofer using broadcast(true) ephemerides}{70}{section*.169}%
+\contentsline {subsection}{2.5.1 Static + Frequency step. GPS L1 and Galileo E1}{71}{subsection*.170}%
+\contentsline {subsection}{2.5.2 Static + Frequency step. GPS L1 and Galileo E1, with initial and continuous jamming}{71}{subsection*.171}%
+\contentsline {subsection}{2.5.3 Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1}{72}{subsection*.172}%
+\contentsline {subsection}{2.5.4 Static + Nav data manipulation (clock/frequency related). GPS L1 and Galileo E1, with initial and continuous jamming, with power ramp.}{72}{subsection*.173}%
+\contentsline {subsection}{2.5.5 Static + UTC-parameter nav. data manipulation. GPS L1 and Galileo E1, with initial jamming}{72}{subsection*.174}%
+\contentsline {subsection}{2.5.6 Time offset 15 minutes from real time - harbour}{73}{subsection*.175}%
+\contentsline {section}{2.6: Incoherent GPS position and time spoofing from mobile spoofer}{73}{section*.176}%
+\contentsline {subsection}{2.6.1 Spoofer (inside vehicle) stationary with dynamic spoofed position.}{74}{subsection*.177}%
+\contentsline {subsection}{2.6.2 Spoofer (inside vehicle) stationary and then moving with fixed spoofed position.}{74}{subsection*.178}%
+\contentsline {subsection}{2.6.3 Spoofer (inside vehicle) moving with fixed spoofed position.}{74}{subsection*.179}%
+\contentsline {subsection}{2.6.4 Spoofer (inside vehicle) stationary and then moving with first fixed and then dynamic spoofed position.}{75}{subsection*.180}%
+\contentsline {section}{2.7: Stationary coherent spoofing with extreme timeshifts (+/- years)}{75}{section*.181}%
+\contentsline {subsection}{2.7.1 Static + Time manipulation (2 years backwards). GPS L1 and Galileo E1, with initial and continuous jamming}{75}{subsection*.182}%
+\contentsline {subsection}{2.7.2 Static + Time manipulation (2 years forwards). GPS L1 and Galileo E1, with initial and continuous jamming}{76}{subsection*.183}%
+\contentsline {section}{2.8: Stationary SBAS spoofing with "Do Not Use GPS" commands}{76}{section*.184}%
+\contentsline {subsection}{2.8.1 EGNOS with "Do Not Use GPS" commands}{77}{subsection*.185}%
+\contentsline {section}{2.9: Stationary coherent spoofing with invalid ephemerids}{77}{section*.186}%
+\contentsline {subsection}{2.9.1 Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1}{77}{subsection*.187}%
+\contentsline {subsection}{2.9.2 Static + Nav. data manipulation (invalid ephemerids). GPS L1 and Galileo E1, with initial and continuous jamming}{78}{subsection*.188}%
+\contentsline {chapter}{\numberline {4}3 Meaconing}{79}{chapter.4}%
+\contentsline {section}{3.1: Stationary meaconing from single receiver}{79}{section*.189}%
+\contentsline {subsection}{3.1.1 RX1 at 1 W}{79}{subsection*.190}%
+\contentsline {subsection}{3.1.2 RX1 at 1 W with initial jamming}{80}{subsection*.191}%
+\contentsline {subsection}{3.1.3 RX1 at 10 W}{80}{subsection*.192}%
+\contentsline {subsection}{3.1.4 RX1 at 10 W with initial jamming}{80}{subsection*.193}%
+\contentsline {subsection}{3.1.5 RX2 at 10 W}{81}{subsection*.194}%
+\contentsline {section}{3.2: Stationary meaconing from two receivers}{81}{section*.195}%
+\contentsline {subsection}{3.2.1 RX1+RX2 at 10 W}{81}{subsection*.196}%
+\contentsline {subsection}{3.2.2 RX1+RX2 at 10 W with initial jamming}{82}{subsection*.197}%
+\contentsline {subsection}{3.2.3 RX1+RX2 at 10 W at different times}{82}{subsection*.198}%
+\contentsline {subsection}{3.2.4 RX1+RX2 at 10 W alternating}{82}{subsection*.199}%
+\contentsline {subsection}{3.2.5 RX1+RX2 at 10 W alternating with breaks}{83}{subsection*.200}%
+\contentsline {section}{3.3: Stationary meaconing from a single or two receivers with pyramid ramping power}{83}{section*.201}%
+\contentsline {subsection}{3.3.1 RX1 at 10 W with pyramid ramping power}{83}{subsection*.202}%
+\contentsline {subsection}{3.3.2 RX1+RX2 at 10 W with pyramid ramping power}{84}{subsection*.203}%
+\contentsline {chapter}{\numberline {5}Appendices}{85}{chapter.5}%
+\contentsline {section}{Appendix A}{85}{section*.204}%
+\contentsline {section}{Appendix B}{90}{section*.205}%
+\contentsline {section}{Appendix C}{94}{section*.206}%
+\contentsline {section}{Appendix D}{98}{section*.207}%
+\contentsline {section}{Appendix E}{101}{section*.208}%
+\contentsline {section}{Appendix F}{105}{section*.209}%
+\contentsline {section}{Appendix G}{108}{section*.210}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S1.1”}{110}{section*.211}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S1.2”}{112}{section*.212}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S1.3”}{114}{section*.213}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S2.1”}{116}{section*.214}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S2.2”}{120}{section*.215}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S2.3”}{124}{section*.216}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “S2.4”}{128}{section*.217}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “U1.1 to U1.4”}{132}{section*.218}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H1.1”}{133}{section*.219}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H1.2”}{150}{section*.220}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H1.3”}{152}{section*.221}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H1.4”}{153}{section*.222}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H1.5”}{154}{section*.223}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H2.1 and H2.2”}{155}{section*.224}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H3.1”}{156}{section*.225}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H3.2”}{158}{section*.226}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H3.3”}{160}{section*.227}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H4.1”}{166}{section*.228}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H6.1”}{175}{section*.229}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H6.2”}{179}{section*.230}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H6.3”}{186}{section*.231}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H6.4”}{193}{section*.232}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H6.5”}{199}{section*.233}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H6.6”}{205}{section*.234}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “F6.1”}{211}{section*.235}%
+\contentsline {subsection}{\ignorespaces Technical details on low-power jammer “H8.1”}{220}{section*.236}%
+\contentsline {subsection}{\ignorespaces Technical details on the meaconing setup “Porcellum” / “F1.1”}{222}{section*.237}%
+\contentsline {subsection}{\ignorespaces Technical details on the high-power jammer “Porcus Major”/ “F8.1”}{223}{section*.238}%

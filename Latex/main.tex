@@ -1,6 +1,8 @@
+\def \filsti {}%./Latex/}
 \documentclass[a4paper]{book}
 
 \usepackage[]{xcolor}
+\usepackage{pdfpages}
 
 %% Fix so sections/chapters are manually numbered
 \usepackage{tocloft}
@@ -107,7 +109,92 @@ For each test group a set of tests and test varieties are listed with their uniq
 For those wanting more information or have feedback about the test group a technical contact is provided for each test group. 
 
 %\chapter{Description of tests}
-\input{./Latex/tests}
-%\input{tests}
+%Actions
+\input{\filsti tests}
+
+
+\chapter{Appendices}
+\section{Appendix A}
+\includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix A - Description of test areas at Andøya.pdf}
+
+\section{Appendix B}
+\includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix B - GNSS systems overview with signal notation and frequency.pdf}
+
+\section{Appendix C}
+\includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix C - Timing and RF signal distribution at Bleik community house.pdf}
+
+\section{Appendix D}
+\includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix D - Overview of inside of Bleik community house.pdf}
+
+\section{Appendix E}
+\includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix E - Overview of Bleik and HQ.pdf}
+
+\section{Appendix F}
+\includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix F - Overview of spoofed routes.pdf}
+
+\section{Appendix G}
+\includepdf[pages={2-},pagecommand={},addtotoc={
+    3,subsection,2,Technical details on low-power jammer “S1.1”,p1,
+    5,subsection,2,Technical details on low-power jammer “S1.2”,p1,
+    7,subsection,2,Technical details on low-power jammer “S1.3”,p1,
+    9,subsection,2,Technical details on low-power jammer “S2.1”,p1,
+   13,subsection,2,Technical details on low-power jammer “S2.2”,p1,
+   17,subsection,2,Technical details on low-power jammer “S2.3”,p1,
+   21,subsection,2,Technical details on low-power jammer “S2.4”,p1,
+   25,subsection,2,Technical details on low-power jammer “U1.1 to U1.4”,p1,
+   26,subsection,2,Technical details on low-power jammer “H1.1”,p1,
+   43,subsection,2,Technical details on low-power jammer “H1.2”,p1,
+   45,subsection,2,Technical details on low-power jammer “H1.3”,p1,
+   46,subsection,2,Technical details on low-power jammer “H1.4”,p1,
+   47,subsection,2,Technical details on low-power jammer “H1.5”,p1,
+   48,subsection,2,Technical details on low-power jammer “H2.1 and H2.2”,p1,
+   49,subsection,2,Technical details on low-power jammer “H3.1”,p1,
+   51,subsection,2,Technical details on low-power jammer “H3.2”,p1,
+   53,subsection,2,Technical details on low-power jammer “H3.3”,p1,
+   59,subsection,2,Technical details on low-power jammer “H4.1”,p1,
+   68,subsection,2,Technical details on low-power jammer “H6.1”,p1,
+   72,subsection,2,Technical details on low-power jammer “H6.2”,p1,
+   79,subsection,2,Technical details on low-power jammer “H6.3”,p1,
+   86,subsection,2,Technical details on low-power jammer “H6.4”,p1,
+   92,subsection,2,Technical details on low-power jammer “H6.5”,p1,
+   98,subsection,2,Technical details on low-power jammer “H6.6”,p1,
+  104,subsection,2,Technical details on low-power jammer “F6.1”,p1,
+  113,subsection,2,Technical details on low-power jammer “H8.1”,p1,
+  115,subsection,2,Technical details on the meaconing setup “Porcellum” / “F1.1”,p1,
+  116,subsection,2,Technical details on the high-power jammer “Porcus Major”/ “F8.1”,p1,
+  118,subsection,2,Technical details on software defined radio mobile SDR spoofer “F1.2”,p1}]
+  {\filsti appendices/Appendix G - Technical details on jammer equipment.pdf}
+
 \end{document}
+
+% Appendix G - Technical details on jammer equipment .......................................................... 2
+% Technical details on low-power jammer “S1.1” ................................................................ 3
+% Technical details on low-power jammer “S1.2” ................................................................ 5
+% Technical details on low-power jammer “S1.3” ................................................................ 7
+% Technical details on low-power jammer “S2.1” ................................................................ 9
+% Technical details on low-power jammer “S2.2” .............................................................. 13
+% Technical details on low-power jammer “S2.3” .............................................................. 17
+% Technical details on low-power jammer “S2.4” .............................................................. 21
+% Technical details on low-power jammer “U1.1 to U1.4” .................................................. 25
+% Technical details on low-power jammer “H1.1”.............................................................. 26
+% Technical details on low-power jammer “H1.2”.............................................................. 43
+% Technical details on low-power jammer “H1.3”.............................................................. 45
+% Technical details on low-power jammer “H1.4”.............................................................. 46
+% Technical details on low-power jammer “H1.5”.............................................................. 47
+% Technical details on low-power jammer “H2.1 and H2.2” ............................................... 48
+% Technical details on low-power jammer “H3.1”.............................................................. 49
+% Technical details on low-power jammer “H3.2”.............................................................. 51
+% Technical details on low-power jammer “H3.3”.............................................................. 53
+% Technical details on low-power jammer “H4.1“ ................................................................. 59
+% Technical details on low-power jammer “H6.1”.............................................................. 68
+% Technical details on low-power jammer “H6.2”.............................................................. 72
+% Technical details on low-power jammer “H6.3”.............................................................. 79
+% Technical details on low-power jammer “H6.4”.............................................................. 86
+% Technical details on low-power jammer “H6.5”.............................................................. 92
+% Technical details on low-power jammer “H6.6”.............................................................. 98
+% Technical details on low-power jammer “F6.1” ............................................................ 104
+% Technical details on low-power jammer “H8.1“ ............................................................... 113
+% Technical details on the meaconing setup “Porcellum” / “F1.1” ................................... 115
+% Technical details on the high-power jammer “Porcus Major”/ “F8.1” ............................ 116
+% Technical details on software defined radio mobile SDR spoofer “F1.2” ........................ 118Appendices 107
 
