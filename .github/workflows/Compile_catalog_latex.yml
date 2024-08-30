@@ -5,6 +5,7 @@ on: #[push]
       - ".github/workflows/create_testcatalog_PDF.py"
       - "Latex/main.tex"
       - "testcatalog.json"
+      - "Latex/appendices/*.pdf"
 jobs:
   build_latex:
     runs-on: ubuntu-latest
