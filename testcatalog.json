@@ -5301,7 +5301,7 @@
                 "F1.1"
               ],
               "max_power_w": 10,
-              "min_power_w": 0.01,
+              "min_power_w": 0.001,
               "name": "RX1 with ramping power",
               "test_id": 1
             },
