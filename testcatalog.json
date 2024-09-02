@@ -2421,7 +2421,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W CW: L1",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1",
               "test_id": 1
             },
             {
@@ -2434,7 +2434,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W CW: L2",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L2",
               "test_id": 2
             },
             {
@@ -2449,7 +2449,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W CW: L5",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L5",
               "test_id": 3
             },
             {
@@ -2466,7 +2466,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
               "test_id": 4
             },
             {
@@ -2483,7 +2483,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
               "test_id": 5
             },
             {
@@ -2500,7 +2500,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
               "test_id": 6
             },
             {
@@ -2517,7 +2517,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
               "test_id": 7
             },
             {
@@ -2534,7 +2534,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 8
             },
             {
@@ -2551,7 +2551,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 9
             },
             {
@@ -2568,7 +2568,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 10
             },
             {
@@ -2585,7 +2585,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 11
             },
             {
@@ -2608,7 +2608,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
               "test_id": 12
             },
             {
@@ -2631,7 +2631,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
               "test_id": 13
             },
             {
@@ -2654,7 +2654,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
               "test_id": 14
             },
             {
@@ -2677,7 +2677,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
               "test_id": 15
             },
             {
@@ -2700,7 +2700,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 16
             },
             {
@@ -2723,7 +2723,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 17
             },
             {
@@ -2746,7 +2746,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 18
             },
             {
@@ -2769,7 +2769,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 19
             }
           ]
