@@ -5173,7 +5173,7 @@
               ],
               "max_power_w": 1,
               "min_power_w": 1,
-              "name": "RX1 at 1 W",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 at 1 W",
               "test_id": 1
             },
             {
@@ -5189,7 +5189,7 @@
               ],
               "max_power_w": 1,
               "min_power_w": 1,
-              "name": "RX1 at 1 W with initial jamming",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 at 1 W with initial jamming",
               "test_id": 2
             },
             {
@@ -5205,7 +5205,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 at 10 W",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 at 10 W",
               "test_id": 3
             },
             {
@@ -5221,7 +5221,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 at 10 W with initial jamming",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 at 10 W with initial jamming",
               "test_id": 4
             },
             {
@@ -5237,7 +5237,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX2 at 10 W",
+              "name": "Meacon F1.1 \"Porcellus\": RX2 at 10 W",
               "test_id": 5
             }
           ]
@@ -5262,7 +5262,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W",
               "test_id": 1
             },
             {
@@ -5278,7 +5278,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W with initial jamming",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W with initial jamming",
               "test_id": 2
             },
             {
@@ -5294,7 +5294,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W turned on and off at different times",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W turned on and off at different times",
               "test_id": 3
             },
             {
@@ -5310,7 +5310,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W alternating",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating",
               "test_id": 4
             },
             {
@@ -5326,7 +5326,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W alternating with breaks",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with breaks",
               "test_id": 5
             },
             {
@@ -5342,7 +5342,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W alternating with decreasing durations without breaks",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with decreasing durations without breaks",
               "test_id": 6
             },
             {
@@ -5358,7 +5358,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 10,
-              "name": "RX1 and RX2 at 10 W alternating with different switching frequencies.",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with different switching frequencies.",
               "test_id": 7
             }
           ]
@@ -5383,7 +5383,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 0.001,
-              "name": "RX1 with ramping power",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 with ramping power",
               "test_id": 1
             },
             {
@@ -5399,7 +5399,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
-              "name": "RX1 at constant 5 W and RX2 with ramping power",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 at constant 5 W and RX2 with ramping power",
               "test_id": 2
             },
             {
@@ -5415,7 +5415,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 0.01,
-              "name": "RX1 at less than 1 W, adding RX2 at 10 W after 5 minutes",
+              "name": "Meacon F1.1 \"Porcellus\": RX1 at less than 1 W, adding RX2 at 10 W after 5 minutes",
               "test_id": 3
             }
           ]
