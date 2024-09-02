@@ -242,33 +242,6 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-13T10:00:00",
-          "end_time": "2024-09-13T11:00:00",
-          "test_id": "0.2.1",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-13T11:00:00",
-          "end_time": "2024-09-13T12:00:00",
-          "test_id": "0.2.1",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-13T12:00:00",
-          "end_time": "2024-09-13T13:00:00",
-          "test_id": "0.2.1",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
-          "status": ""
-        },
-        {
           "start_time": "2024-09-13T13:00:00",
           "end_time": "2024-09-13T14:00:00",
           "test_id": "0.1.1",

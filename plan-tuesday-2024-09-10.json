@@ -460,7 +460,7 @@
         {
           "start_time": "2024-09-10T10:00:00",
           "end_time": "2024-09-10T11:00:00",
-          "test_id": "1.11.12",
+          "test_id": "1.10.6",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 1,
           "comment": "",
@@ -469,7 +469,7 @@
         {
           "start_time": "2024-09-10T11:00:00",
           "end_time": "2024-09-10T12:00:00",
-          "test_id": "1.11.12",
+          "test_id": "1.10.6",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 1,
           "comment": "",
@@ -478,7 +478,7 @@
         {
           "start_time": "2024-09-10T12:00:00",
           "end_time": "2024-09-10T13:00:00",
-          "test_id": "1.11.12",
+          "test_id": "1.11.6",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 1,
           "comment": "",

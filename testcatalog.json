@@ -1303,9 +1303,9 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Test performed with jammer S2.1. DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
+              "description": "Test performed with jammer S2.4. DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
               "equipment": [
-                "S2.1"
+                "S2.4"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
@@ -1330,9 +1330,9 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Test performed with jammer H6.4.  DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
+              "description": "Test performed with jammer H6.5.  DUT vehicles will start at driving from a point where they are only marginally or not at all affected by the jammer.",
               "equipment": [
-                "H6.4"
+                "H6.5"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
@@ -1356,9 +1356,9 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Test perfomred with jammer S2.1. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
+              "description": "Test perfomred with jammer S2.4. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
-                "S2.1"
+                "S2.4"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
@@ -1383,288 +1383,14 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Test performed jammer H6.4. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
+              "description": "Test performed jammer H6.5. DUT vehicles will start up close to the parked car with the jammer, and then drive away.",
               "equipment": [
-                "H6.4"
+                "H6.5"
               ],
               "max_power_w": 1.58,
               "min_power_w": 1,
               "name": "Vehicle starting in multi-band denied environment",
               "test_id": 4
-            }
-          ]
-        },
-        {
-          "comment": "Specification of jammers can be found in Appendix G. Jammer power levels are based on 2023/2024 measurements. \"Test bands/constellation\" refers to potentially afflicted signal types of the 4 GNSS constellations GPS, GLONASS, Galileo, and BeiDou, from the jammer in question. This information must be considered indicative only. The main principle for putting a signal type in the \"Test bands/constellation\" list for a given jammer or test, is that measurements done by NKOM indicate that the output signal of the jammer covers the center frequency of the given GNSS band(s).",
-          "description": "Jammers used in these tests are commercially available jammers and will be placed inside the jammer-carrying vehicle. DUT vehicles will act in motorcades during the tests and move as one unit relative to the jammer-carrying vehicle. In some specific tests, the jammer can be placed inside of a DUT vehicle, testing that one specific vehicle.",
-          "group_id": 11,
-          "group_name": "Motorcade with low-power commercially available jammers (placed inside mobile vehicle)",
-          "rationale": "These tests simulate meeting a vehicle on the road with a jammer inside of it, to explore the impact on systems in DUT vehicles.",
-          "tests": [
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "G3",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer S2.1, where the jammer is placed inside the mobile DUT vehicle.",
-              "equipment": [
-                "S2.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.0316,
-              "name": "(Deprecated - Not available) Driving with dual-band jammer in test vehicle",
-              "test_id": 1
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "G3",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer S2.1",
-              "equipment": [
-                "S2.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.0316,
-              "name": "Driving with dual-band jammer in vehicle in front of the test vehicle",
-              "test_id": 2
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "G3",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer S2.1",
-              "equipment": [
-                "S2.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.0316,
-              "name": "Driving with dual-band jammer in vehicle behind the test vehicle",
-              "test_id": 3
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "G3",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer S2.1",
-              "equipment": [
-                "S2.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.0316,
-              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle overtaking the test vehicle",
-              "test_id": 4
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "G3",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer S2.1",
-              "equipment": [
-                "S2.1"
-              ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.0316,
-              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle being overtaken by the test vehicle",
-              "test_id": 5
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "E6",
-                "B3I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer H6.4, where the jammer is placed inside the mobile DUT vehicle.",
-              "equipment": [
-                "H6.4"
-              ],
-              "max_power_w": 1.58,
-              "min_power_w": 1,
-              "name": "(Deprecated - Not available) Driving with multi-band jammer in test vehicle",
-              "test_id": 6
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "E6",
-                "B3I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer H6.4",
-              "equipment": [
-                "H6.4"
-              ],
-              "max_power_w": 1.58,
-              "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle in front of the test vehicle",
-              "test_id": 7
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "E6",
-                "B3I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer H6.4",
-              "equipment": [
-                "H6.4"
-              ],
-              "max_power_w": 1.58,
-              "min_power_w": 1,
-              "name": "Driving with multi-band jammer in vehicle behind the test vehicle",
-              "test_id": 8
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "E6",
-                "B3I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer H6.4",
-              "equipment": [
-                "H6.4"
-              ],
-              "max_power_w": 1.58,
-              "min_power_w": 1,
-              "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle overtaking the test vehicle",
-              "test_id": 9
-            },
-            {
-              "constellation_bands": [
-                "G1",
-                "L1",
-                "E1",
-                "B1C",
-                "B1I",
-                "E6",
-                "B3I",
-                "G2",
-                "L2",
-                "E5b",
-                "B2b",
-                "B2I",
-                "L5",
-                "E5a",
-                "B2a"
-              ],
-              "description": "Test performed with jammer H6.4",
-              "equipment": [
-                "H6.4"
-              ],
-              "max_power_w": 1.58,
-              "min_power_w": 1,
-              "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle being overtaken by the test vehicle",
-              "test_id": 10
             },
             {
               "constellation_bands": [
@@ -1685,14 +1411,14 @@
               ],
               "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
-                "S2.1",
+                "S2.4",
                 "S2.2",
                 "S2.3"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
               "name": "Driving while passing three consecutive parked cars with dual-band jammer",
-              "test_id": 11
+              "test_id": 5
             },
             {
               "constellation_bands": [
@@ -1720,7 +1446,7 @@
               "max_power_w": 1,
               "min_power_w": 0.3981,
               "name": "Driving while passing three consecutive parked cars with multi-band jammer",
-              "test_id": 12
+              "test_id": 6
             },
             {
               "constellation_bands": [
@@ -1741,14 +1467,288 @@
               ],
               "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
-                "S2.1",
+                "S2.4",
                 "H6.1",
                 "H8.1"
               ],
               "max_power_w": 0.631,
               "min_power_w": 0.0316,
               "name": "Driving while passing three consecutive parked cars with both dual- and multi-band jammers (in order of number of bands)",
-              "test_id": 13
+              "test_id": 7
+            }
+          ]
+        },
+        {
+          "comment": "Specification of jammers can be found in Appendix G. Jammer power levels are based on 2023/2024 measurements. \"Test bands/constellation\" refers to potentially afflicted signal types of the 4 GNSS constellations GPS, GLONASS, Galileo, and BeiDou, from the jammer in question. This information must be considered indicative only. The main principle for putting a signal type in the \"Test bands/constellation\" list for a given jammer or test, is that measurements done by NKOM indicate that the output signal of the jammer covers the center frequency of the given GNSS band(s).",
+          "description": "Jammers used in these tests are commercially available jammers and will be placed inside the jammer-carrying vehicle. DUT vehicles will act in motorcades during the tests and move as one unit relative to the jammer-carrying vehicle. In some specific tests, the jammer can be placed inside of a DUT vehicle, testing that one specific vehicle.",
+          "group_id": 11,
+          "group_name": "Motorcade with low-power commercially available jammers (placed inside mobile vehicle)",
+          "rationale": "These tests simulate meeting a vehicle on the road with a jammer inside of it, to explore the impact on systems in DUT vehicles.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer S2.4, where the jammer is placed inside the mobile DUT vehicle.",
+              "equipment": [
+                "S2.4"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0316,
+              "name": "(Deprecated - Not available) Driving with dual-band jammer in test vehicle",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer S2.4",
+              "equipment": [
+                "S2.4"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0316,
+              "name": "Driving with dual-band jammer in vehicle in front of the test vehicle",
+              "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer S2.4",
+              "equipment": [
+                "S2.4"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0316,
+              "name": "Driving with dual-band jammer in vehicle behind the test vehicle",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer S2.4",
+              "equipment": [
+                "S2.4"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0316,
+              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle overtaking the test vehicle",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "G3",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer S2.4",
+              "equipment": [
+                "S2.4"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0316,
+              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle being overtaken by the test vehicle",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer H6.5, where the jammer is placed inside the mobile DUT vehicle.",
+              "equipment": [
+                "H6.5"
+              ],
+              "max_power_w": 1.58,
+              "min_power_w": 1,
+              "name": "(Deprecated - Not available) Driving with multi-band jammer in test vehicle",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer H6.5",
+              "equipment": [
+                "H6.5"
+              ],
+              "max_power_w": 1.58,
+              "min_power_w": 1,
+              "name": "Driving with multi-band jammer in vehicle in front of the test vehicle",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer H6.5",
+              "equipment": [
+                "H6.5"
+              ],
+              "max_power_w": 1.58,
+              "min_power_w": 1,
+              "name": "Driving with multi-band jammer in vehicle behind the test vehicle",
+              "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer H6.5",
+              "equipment": [
+                "H6.5"
+              ],
+              "max_power_w": 1.58,
+              "min_power_w": 1,
+              "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle overtaking the test vehicle",
+              "test_id": 9
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "B1I",
+                "E6",
+                "B3I",
+                "G2",
+                "L2",
+                "E5b",
+                "B2b",
+                "B2I",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer H6.5",
+              "equipment": [
+                "H6.5"
+              ],
+              "max_power_w": 1.58,
+              "min_power_w": 1,
+              "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle being overtaken by the test vehicle",
+              "test_id": 10
             }
           ]
         },
