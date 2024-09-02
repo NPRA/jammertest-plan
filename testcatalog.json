@@ -734,13 +734,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "50 W CW: L1",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W CW: L1",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1",
               "test_id": 1
             },
             {
@@ -750,13 +750,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "50 W CW: L1, G1",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W CW: L1, G1",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1",
               "test_id": 2
             },
             {
@@ -767,13 +767,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "50 W CW: L1, G1, L2",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W CW: L1, G1, L2",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -787,13 +787,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W CW: L1, G1, L2, L5",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W CW: L1, G1, L2, L5",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
@@ -817,7 +817,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, 100 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, 100 kHz",
               "test_id": 1
             },
             {
@@ -827,13 +827,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "50 W sweep: L1, G1, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, G1, 100 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, 100 kHz",
               "test_id": 2
             },
             {
@@ -844,13 +844,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, G1, L2, 100 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, 100 kHz",
               "test_id": 3
             },
             {
@@ -864,13 +864,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, G1, L2, L5, 100 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, 100 kHz",
               "test_id": 4
             },
             {
@@ -879,13 +879,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "50 W sweep: L1, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, 1 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, 1 kHz",
               "test_id": 5
             },
             {
@@ -895,13 +895,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "50 W sweep: L1, G1, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, G1, 1 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, 1 kHz",
               "test_id": 6
             },
             {
@@ -912,13 +912,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
-              "name": "1 W sweep: L1, G1, L2, 1 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 1 W sweep: L1, G1, L2, 1 kHz",
               "test_id": 7
             },
             {
@@ -932,13 +932,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W sweep: L1, G1, L2, L5, 1 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, 1 kHz",
               "test_id": 8
             }
           ]
@@ -956,13 +956,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "50 W PRN: L1",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W PRN: L1",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1",
               "test_id": 1
             },
             {
@@ -972,13 +972,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "50 W PRN: L1, G1",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W PRN: L1, G1",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -989,13 +989,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "50 W PRN: L1, G1, L2",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W PRN: L1, G1, L2",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1009,13 +1009,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W PRN: L1, G1, L2, L5",
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "50 W PRN: L1, G1, L2, L5",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
@@ -1074,7 +1074,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1",
               "test_id": 1
             },
             {
@@ -1090,7 +1090,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -1107,7 +1107,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1127,7 +1127,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2, L5",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
@@ -1239,7 +1239,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "50 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
           ]
@@ -1685,7 +1685,9 @@
               ],
               "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
-                "S2.1","S2.2","S2.3"
+                "S2.1",
+                "S2.2",
+                "S2.3"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
@@ -1711,7 +1713,9 @@
               ],
               "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
-                "H6.1","H6.2","H6.3"
+                "H6.1",
+                "H6.2",
+                "H6.3"
               ],
               "max_power_w": 1,
               "min_power_w": 0.3981,
@@ -1737,7 +1741,9 @@
               ],
               "description": "All tests will be performed with the jammers placed at predetermined sites (map and coordinates in appendix A). Over 1 km between locations.",
               "equipment": [
-                "S2.1","H6.1","H8.1"
+                "S2.1",
+                "H6.1",
+                "H8.1"
               ],
               "max_power_w": 0.631,
               "min_power_w": 0.0316,
