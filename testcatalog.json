@@ -3016,7 +3016,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "3 jammers, H1.1, H1.4 and H1.5",
+              "description": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 sweep, L2 L1 sweep",
               "equipment": [
                 "H1.1",
                 "H1.4",
@@ -3024,7 +3024,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 1,
-              "name": "3 jammers, H1.1, H1.4 and H1.5 LOW PWR, L1 sweep, L2 L1 sweep",
+              "name": "3 jammers at 50 meters from center H1.1, H1.4 and H1.5",
               "test_id": 13
             },
             {
