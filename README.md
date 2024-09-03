@@ -1,5 +1,5 @@
 # jammertest-plan
-Official test catalog and test plan for Jammertest.
+Official test catalog and transmission plan for Jammertest.
 
 
 ## Test catalog
