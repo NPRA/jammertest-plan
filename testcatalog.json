@@ -885,7 +885,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, 1 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
               "test_id": 5
             },
             {
@@ -938,7 +938,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, 1 kHz",
+              "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
               "test_id": 8
             }
           ]
@@ -962,7 +962,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1",
+              "name": "Jammer F8.1 \"Porcus Major\":\n50 W PRN: L1, Chiprate: 3 MHz",
               "test_id": 1
             },
             {
@@ -1015,7 +1015,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2, L5",
+              "name": "Jammer F8.1 \"Porcus Major\": \n50 W PRN: L1, G1, L2, L5, Chiprate: 3 MHz",
               "test_id": 4
             }
           ]
@@ -1074,7 +1074,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
               "test_id": 1
             },
             {
@@ -1127,7 +1127,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2, L5",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
