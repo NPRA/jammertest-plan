@@ -59,26 +59,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T10:20:00",
-          "end_time": "2024-09-10T10:35:00",
-          "test_id": "3.2.6",
-          "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 10,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-10T10:45:00",
-          "end_time": "2024-09-10T11:00:00",
-          "test_id": "3.2.7",
-          "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 10,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-10T11:10:00",
-          "end_time": "2024-09-10T11:30:00",
+          "start_time": "2024-09-10T10:25:00",
+          "end_time": "2024-09-10T10:45:00",
           "test_id": "3.2.3",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
@@ -86,8 +68,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T11:35:00",
-          "end_time": "2024-09-10T11:45:00",
+          "start_time": "2024-09-10T10:55:00",
+          "end_time": "2024-09-10T11:05:00",
           "test_id": "3.2.4",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
@@ -95,9 +77,18 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T11:55:00",
-          "end_time": "2024-09-10T12:15:00",
+          "start_time": "2024-09-10T11:15:00",
+          "end_time": "2024-09-10T11:35:00",
           "test_id": "3.2.5",
+          "test_contact": "Nicolai Gerrard (NKOM)",
+          "power_w": 10,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T11:45:00",
+          "end_time": "2024-09-10T12:05:00",
+          "test_id": "3.2.6",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
           "comment": "",
@@ -123,7 +114,16 @@
         },
         {
           "start_time": "2024-09-10T14:00:00",
-          "end_time": "2024-09-10T14:20:00",
+          "end_time": "2024-09-10T14:40:00",
+          "test_id": "3.2.7",
+          "test_contact": "Nicolai Gerrard (NKOM)",
+          "power_w": 10,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2024-09-10T14:50:00",
+          "end_time": "2024-09-10T15:10:00",
           "test_id": "3.3.3",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
@@ -131,26 +131,8 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-10T14:35:00",
-          "end_time": "2024-09-10T14:55:00",
-          "test_id": "3.2.3",
-          "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 10,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-10T15:00:00",
-          "end_time": "2024-09-10T15:10:00",
-          "test_id": "3.2.4",
-          "test_contact": "Nicolai Gerrard (NKOM)",
-          "power_w": 10,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-10T15:15:00",
-          "end_time": "2024-09-10T15:35:00",
+          "start_time": "2024-09-10T15:20:00",
+          "end_time": "2024-09-10T15:40:00",
           "test_id": "3.2.5",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
