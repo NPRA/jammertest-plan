@@ -405,15 +405,6 @@
         },
         {
           "start_time": "2024-09-12T11:30:00",
-          "end_time": "2024-09-12T11:05:00",
-          "test_id": "2.6.3",
-          "test_contact": "Anders Rødningsby (FFI)",
-          "power_w": 0.01,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-12T11:30:00",
           "end_time": "2024-09-12T11:50:00",
           "test_id": "2.6.3",
           "test_contact": "Anders Rødningsby (FFI)",
