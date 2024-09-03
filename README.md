@@ -15,6 +15,6 @@ This is the plan with dates and times for all the tests for this years jammertes
 **The transmission plan will not contain all the tests found in the test catalog.**
 
 Links to the transmission plan:
-- [Transmissionplan.pdf](https://github.com/NPRA/jammertest-plan/blob/main/Transmissionplan.pdf) (PDF) Only Site1 and Site2 DRAFT available atm
-- [plan-monday-2024-09-09.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-monday-2024-09-09.json), [plan-tuesday-2024-09-10.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-tuesday-2024-09-10.json), [plan-wednesday-2024-09-11.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-wednesday-2024-09-11.json), [plan-thursday-2024-09-12.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-thursday-2024-09-12.json), [plan-friday-2024-09-13.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-friday-2024-09-13.json) (JSON) Only Site1 and Site2 DRAFT available atm
+- [Transmissionplan.pdf](https://github.com/NPRA/jammertest-plan/blob/main/Transmissionplan.pdf) (PDF) 
+- [plan-monday-2024-09-09.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-monday-2024-09-09.json), [plan-tuesday-2024-09-10.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-tuesday-2024-09-10.json), [plan-wednesday-2024-09-11.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-wednesday-2024-09-11.json), [plan-thursday-2024-09-12.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-thursday-2024-09-12.json), [plan-friday-2024-09-13.json](https://github.com/NPRA/jammertest-plan/blob/main/plan-friday-2024-09-13.json) (JSON) 
 
