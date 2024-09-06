@@ -160,7 +160,7 @@
         {
           "start_time": "2024-09-11T16:55:00",
           "end_time": "2024-09-11T17:05:00",
-          "test_id": "2.3.12",
+          "test_id": "2.3.15",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
           "comment": "",
@@ -169,7 +169,7 @@
         {
           "start_time": "2024-09-11T17:10:00",
           "end_time": "2024-09-11T17:20:00",
-          "test_id": "2.3.15",
+          "test_id": "2.3.12",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 0.316,
           "comment": "",
