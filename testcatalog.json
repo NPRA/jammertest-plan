@@ -938,7 +938,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
+              "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
               "test_id": 8
             }
           ]
