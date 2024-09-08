@@ -5318,7 +5318,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1 and RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until 16 minutes has passed.",
+              "description": "10 W meaconing from receivers RX1 and RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until approximately 16 minutes has passed.",
               "equipment": [
                 "F1.1"
               ],
