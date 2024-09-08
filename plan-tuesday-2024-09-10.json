@@ -87,7 +87,7 @@
         },
         {
           "start_time": "2024-09-10T11:45:00",
-          "end_time": "2024-09-10T12:05:00",
+          "end_time": "2024-09-10T12:01:00",
           "test_id": "3.2.6",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
@@ -114,7 +114,7 @@
         },
         {
           "start_time": "2024-09-10T14:00:00",
-          "end_time": "2024-09-10T14:40:00",
+          "end_time": "2024-09-10T14:14:00",
           "test_id": "3.2.7",
           "test_contact": "Nicolai Gerrard (NKOM)",
           "power_w": 10,
