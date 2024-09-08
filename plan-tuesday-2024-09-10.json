@@ -131,7 +131,7 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-14:55:00",
+          "start_time": "2024-09-10T14:55:00",
           "end_time": "2024-09-10T15:11:00",
           "test_id": "3.2.6",
           "test_contact": "Nicolai Gerrard (NKOM)",
@@ -140,7 +140,7 @@
           "status": ""
         },
         {
-          "start_time": "2024-09-15:25:00",
+          "start_time": "2024-09-10T15:25:00",
           "end_time": "2024-09-10T15:39:00",
           "test_id": "3.2.7",
           "test_contact": "Nicolai Gerrard (NKOM)",
