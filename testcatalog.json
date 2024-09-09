@@ -1068,7 +1068,7 @@
                 "E1",
                 "B1C"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test band L1.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1.",
               "equipment": [
                 "F8.1"
               ],
@@ -1084,13 +1084,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -1101,13 +1101,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1, L2.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1, L2.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments PRN: L1, G1, L2",
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1121,7 +1121,7 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1, L2, L5.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5.",
               "equipment": [
                 "F8.1"
               ],
