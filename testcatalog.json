@@ -3639,8 +3639,8 @@
               "equipment": [
                 "S"
               ],
-              "max_power_w": 1,
-              "min_power_w": 1,
+              "max_power_w": 3.16,
+              "min_power_w": 3.16,
               "name": "Large position and time jump",
               "test_id": 12
             }
