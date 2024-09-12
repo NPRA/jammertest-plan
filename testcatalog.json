@@ -3625,6 +3625,24 @@
               "min_power_w": 0.316,
               "name": "Simulated driving, true reference time (route 1), with initial jamming",
               "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 1,
+              "name": "Large position and time jump",
+              "test_id": 12
             }
           ]
         },
