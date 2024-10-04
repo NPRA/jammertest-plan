@@ -5320,7 +5320,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1+RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
+              "description": "10 W meaconing from receivers RX1 and RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "equipment": [
                 "F1.1"
               ],
@@ -5352,7 +5352,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receivers RX1 and RX2. A set of two minute tests with different switching frequencies between RX1 and RX2. Example: First test: Switch after 1 minute, second test: switch every 30 seconds, third test: switch every 15 seconds etc. ",
+              "description": "10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch after 1 minute, second session: switch every 30 seconds, third session: switch every 15 seconds, etc.",
               "equipment": [
                 "F1.1"
               ],
@@ -5360,6 +5360,54 @@
               "min_power_w": 10,
               "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with different switching frequencies.",
               "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "10 W meaconing from receivers RX1 and RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Jamming (PRN L1, L2, L5 and G1 at 50 W) is then transmitted for 1 minute (in the break from the meaconing). After the minute of jamming, RX2 is turned on and left on for 1 minute before being turned off. After another jamming break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with breaks and jamming in breaks",
+              "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "10 W meaconing from receivers RX1 and RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until approximately 16 minutes has passed. All is done while jamming (PRN G1 at 50 W) is active continuously.",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with decreasing durations without breaks and with G1 jamming",
+              "test_id": 9
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch after 1 minute, second session: switch every 30 seconds, third session: switch every 15 seconds, etc. All is done while jamming (PRN G1 at 50 W) is active continuously.",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and RX2 at 10 W alternating with different switching frequencies and with G1 jamming",
+              "test_id": 10
             }
           ]
         },
