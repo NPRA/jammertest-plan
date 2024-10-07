@@ -2528,13 +2528,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "50 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1545 to 1620 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 8
             },
             {
@@ -2545,13 +2545,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "50 W frequency drift from 1545 to 1620 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1545 to 1620 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 9
             },
             {
@@ -2562,13 +2562,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "50 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1620 to 1545 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 10
             },
             {
@@ -2579,13 +2579,13 @@
                 "B1C",
                 "B1I"
               ],
-              "description": "50 W frequency drift from 1620 to 1545 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1620 to 1545 MHz, with a gaussian noise signal width bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 11
             },
             {
@@ -2694,13 +2694,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1150 to 1300 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 16
             },
             {
@@ -2717,13 +2717,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W frequency drift from 1150 to 1300 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1150 to 1300 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 17
             },
             {
@@ -2740,13 +2740,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "description": "50 W frequency drift from 1300 to 1150 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 18
             },
             {
@@ -2763,13 +2763,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "50 W frequency drift from 1300 to 1150 MHz, with a signal bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "description": "50 W frequency drift from 1300 to 1150 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 19
             }
           ]
