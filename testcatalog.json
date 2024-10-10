@@ -5039,6 +5039,24 @@
               "min_power_w": 1,
               "name": "EGNOS with \"Do Not Use GPS\" commands",
               "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start. Test will also include coherent spoofing of GPS L1 C/A, L2, L5, E1 and E5 to ensure compliance between SBAS corrections and the GNSS signals.",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 1,
+              "name": "EGNOS with \"Do Not Use GPS\" commands",
+              "test_id": 2
             }
           ]
         },
