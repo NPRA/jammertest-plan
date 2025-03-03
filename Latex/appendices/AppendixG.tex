@@ -1,0 +1,88 @@
+\def \filsti {../} %%\def \filsti {./Latex/}
+\documentclass[a4paper]{book}
+
+\usepackage{graphicx}
+\usepackage{graphbox}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage[table,xcdraw]{xcolor}
+\graphicspath{ {./Latex} }
+\usepackage{tabularray}
+
+\begin{document}
+
+\chapter{Appendices}
+\section{Appendix G - Technical details on jammer equipment}
+
+\subsection{Introduction}
+The following section provides technical details on the jammer equipment used in the experiments. The jammers are categorized according to the following scheme:
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|}
+\hline \rowcolor[HTML]{C0C0C0} 
+\textbf{1st Letter (Norwegian / English)}    & \textbf{1St digit}                             & \textbf{2nd digit}                     \\
+\hline
+S = Sigarett / Cigarette            & \multirow{4}{*}{Number of antennas}   & \multirow{4}{*}{\# jammer within same category} \\
+\cline{1-1}
+H = Håndholdt / Handheld            &                                       &                        \\
+\cline{1-1}
+U = USB / USB stick                 &                                       &                        \\
+\cline{1-1}
+F = Fastmontert / Permanently installed (Fixed) &                                       &         \\
+\hline              
+\end{tabular}
+\end{table}
+
+\textbf{Exempli gratia:}
+S1.2, is a cigarette type jammer, that has 1 antenna, and is unit nr.2 in this category.
+\\
+\\
+\textbf{Additional information:}
+\begin{itemize}
+    \item Each chapter gives an overview of each jammer brought to Jammertest. As far as possible, it
+gives information on
+    \begin{itemize}
+        \item Centre frequency [MHz]
+        \item Bandwidth [MHz]
+        \item Power Spectral Density (PSD) [dBm/MHz] for the entire bandwidth
+        \item Total output power (TX total) [dBm] for the entire bandwidth
+        \item CF max [dBm] (maxhold power at the centre frequency)
+        \item Sweep rate [$\mu$s] (if applicable)
+        \item Modulation
+    \end{itemize}
+    \item Indicators such as “L1, L2, L5” etc. are used to indicate main bands of attack, used for
+convenience to distinguish between jammers' modus operandi
+\item 2023 measurements
+    \begin{itemize}
+        \item Technical details on low power jammers given in this appendix are from uncalibrated
+        measurements. They are rough estimates given for both the frequency and time
+        domain. Power levels are not correctly displayed on the chart, because of external
+        attenuators used during measurements with a signal analyser. There may also have
+        been some constraints in the measurement device, causing fast frequency
+        components to not be correctly displayed.
+    \end{itemize}
+    \item 2024 measurements
+    \begin{itemize}
+        \item Measurements done with a R\&S FSW. All measurements were performed connected
+        directly to the jammers' antenna port, with the other antennas disconnected and (if
+        applicable) DIP switches for the other antenna ports disabled. Powe levels etc. should
+        be as close to reality as possible for output power at the antenna port.
+        \item Throughout the measurements, bandwidth is defined as 3 dB from local (identifiable)
+        maxima along the maxhold's descent.
+        \item TX power is measured within said bandwidth. Note that TX total is measured over the
+        entire bandwidth, so that peak output power is not equal to TX total.
+    \end{itemize}
+\end{itemize}
+
+%% Content starts here
+
+
+\input{\filsti equipment}
+
+
+
+
+%% content ends here
+
+\end{document}

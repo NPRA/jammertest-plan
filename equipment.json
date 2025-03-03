@@ -1,17 +1,17 @@
 [{
   "title":"Technical details on low-power jammer 'S1.1'",
   "id":"S1.1",
-  "desc":"dfgsdfg",
-  "image":"/path.jpg",
+  "desc":"The jammer S1.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+  "image":"appendixG/s1.1-photo.png",
   "table":
   [
-    ["col1","col2"],
-    ["ant1","sdfg"]
+    ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+    ["1577.40","29.96","7.58","22.34","7.89","37.1","Sawtooth"]
   ],
   "images":[
-    {"path":"/img.jpg","desc":"ldfkjlkj"},
-    {"path":"/img.jpg","desc":"ldfkjlkj"},
-    {"path":"/img.jpg","desc":"ldfkjlkj"}
+    {"path":"appendixG/s1.1-1.png","desc":"Frequency and power measurement of jammer S1.1"},
+    {"path":"appendixG/s1.1-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.1"},
+    {"path":"appendixG/s1.1-2.png","desc":"Time domain (analog demod) measurement of jammer S1.1"}
   ]
 }
 
