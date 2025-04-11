@@ -5170,14 +5170,14 @@
           "description": "",
           "group_id": 10,
           "group_name": "Stationary coherent spoofing with circle of jammers",
-          "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. The main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered coherent spoofer between the nulls that will get passed the CRPA electronics to the protected receivers. 3 Novatel jammers of the same type is placed in a cirle 120 degrees a part. Distance from center is 50 meters (A50, B50 and C50). A coherent spoofer is placed nearby, and will spoof you away from the center position (LOK2_ORIG) onto a given route. \n\nFor the first test only the spoofing signal will be shown, the second test the cirle of jammers will start, and then the same spoofing route will come on air again. The testgroup will further expand with more jammers for each test, repeating the same spoofing route.",
+          "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. The main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered coherent spoofer between the nulls that will get passed the CRPA electronics to the protected receivers. 3 Novatel jammers of the same type is placed in a circle 120 degrees a part. Distance from center is 50 meters (A50, B50 and C50). A coherent spoofer is placed nearby, and will spoof you away from the center position (LOK2_ORIG) onto a given route. \n\nFor the first test the spoofing signal will be shown. For the second test the cirle of jammers will start, and then the same spoofing route will come on air again. The testgroup will further expand with more jammers for each test, repeating the same spoofing route.",
           "tests": [
             {
               "constellation_bands": [
                 "L1",
                 "E1"
               ],
-              "description": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp form uW to mW during the first 30 minutes of the test. Signals: GPS L1 C/A. Galileo E1.  ",
+              "description": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp form uW to mW during the first 30 minutes of the test. Signals: GPS L1 C/A. Galileo E1. No initial jamming.  ",
               "equipment": [
                 "Spoofer Wagon"
               ],
@@ -5196,9 +5196,9 @@
                 "Jammer H1.1, H1.4, HH1.5",
                 "Spoofer Wagon"
               ],
-              "max_power_w": 5,
+              "max_power_w": 3,
               "min_power_w": 1,
-              "name": "Cirle of 3 stationary jammers, L1, L2 and spoofing route GPS L1 and Galileo E1 only",
+              "name": "Circle of 3 stationary jammers, L1, L2 and spoofing route GPS L1 and Galileo E1 only",
               "test_id": 2
             },
             {
@@ -5211,9 +5211,9 @@
                 "Jammer H1.1, H1.4, HH1.5, H1.6, H1.7",
                 "Spoofer Wagon"
               ],
-              "max_power_w": 10,
+              "max_power_w": 5,
               "min_power_w": 1,
-              "name": "Cirle of 3 stationary jammers, 2 moving jammers L1, L2 and spoofing route GPS L1 and Galileo E1 only",
+              "name": "Circle of 3 stationary jammers, 2 moving jammers L1, L2 and spoofing route GPS L1 and Galileo E1 only",
               "test_id": 3
             },
             {
@@ -5228,7 +5228,7 @@
               ],
               "max_power_w": 10,
               "min_power_w": 1,
-              "name": "Cirle of 3 stationary jammers, 5 moving jammers and spoofing route GPS L1 and Galileo E1 only",
+              "name": "Circle of 3 stationary jammers, 5 moving jammers and spoofing route GPS L1 and Galileo E1 only",
               "test_id": 4
             }
           ]
