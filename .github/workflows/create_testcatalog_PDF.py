@@ -12,7 +12,7 @@ def escape(strng):
     strng = strng.replace("%","\\%")
     strng = strng.replace("$","\\$")
     strng = strng.replace("#","\\#")
-    strng = strng.replace(" _ "," \\_ ")
+    strng = strng.replace("_","\\_")
     strng = strng.replace("{","\\{")
     strng = strng.replace("}","\\}")
     strng = strng.replace("~", "\\textasciitilde")
@@ -59,7 +59,7 @@ def create_testgroup(fp, type_id, test_group):
         t_equipment =  escape(test["equipment"])
 
         fp.write(f'\\subsection{{{tid}}}\n\n')
-        fp.write('\\textcolor{lightgray}{\\noindent\\rule[0.5ex]{\linewidth}{1pt} }\n')
+        fp.write('\\textcolor{lightgray}{\\noindent\\rule[0.5ex]{\\linewidth}{1pt} }\n')
         
         
         fp.write(f'{t_text}\n')
