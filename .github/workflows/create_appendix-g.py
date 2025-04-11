@@ -8,18 +8,18 @@ def esc(strng):
     if not isinstance(strng, str):
         return strng
     #strng = strng.replace("µ", "\mu")
-    strng = strng.replace("&","\&")
-    strng = strng.replace("%","\%")
-    strng = strng.replace("$","\$")
-    strng = strng.replace("#","\#")
-    strng = strng.replace(" _ "," \_ ")
-    strng = strng.replace("{","\{")
-    strng = strng.replace("}","\}")
-    strng = strng.replace("~", "\textasciitilde")
-    strng = strng.replace("^", "\textasciicircum")
+    strng = strng.replace("&","\\&")
+    strng = strng.replace("%","\\%")
+    strng = strng.replace("$","\\$")
+    strng = strng.replace("#","\\#")
+    strng = strng.replace("_","\\_")
+    strng = strng.replace("{","\\{")
+    strng = strng.replace("}","\\}")
+    strng = strng.replace("~", "\\textasciitilde")
+    strng = strng.replace("^", "\\textasciicircum")
     strng = strng.replace("\\n", "\\\\")
     strng = strng.replace("\n", "\\\\")
-    strng = strng.replace(" \\ ", " \textbackslash ")
+    strng = strng.replace(" \\ ", " \\textbackslash ")
     strng = strng.replace("[","{[")
     strng = strng.replace("]","]}")
     return strng
@@ -50,7 +50,7 @@ def create_equipment(tex,eq):
     tex.write("\\hline\\end{tabular}\\caption{Technical characteristics of "+eq["id"]+" jammer}\\label{table:tech_char_"+eq["id"]+"}\\end{table}\n")
 
     for image in eq['images']:
-        tex.write("\\begin{figure}[h]")
+        tex.write("\\begin{figure}[H]")
         tex.write(f'\\includegraphics[scale=0.4]{{../graphics/{image["path"]}}} \n')
         tex.write("\\caption{"+image["desc"]+"}")
         tex.write("\\end{figure}")

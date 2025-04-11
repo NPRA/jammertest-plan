@@ -1,19 +1,100 @@
-[{
-  "title":"Technical details on low-power jammer 'S1.1'",
-  "id":"S1.1",
-  "desc":"The jammer S1.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
-  "image":"appendixG/s1.1-photo.png",
-  "table":
-  [
-    ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-    ["1577.40","29.96","7.58","22.34","7.89","37.1","Sawtooth"]
-  ],
-  "images":[
-    {"path":"appendixG/s1.1-1.png","desc":"Frequency and power measurement of jammer S1.1"},
-    {"path":"appendixG/s1.1-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.1"},
-    {"path":"appendixG/s1.1-2.png","desc":"Time domain (analog demod) measurement of jammer S1.1"}
-  ]
-}
+[
+  {
+    "title":"Technical details on low-power jammer 'S1.1'",
+    "id":"S1.1",
+    "desc":"The jammer S1.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image":"appendixG/s1.1-photo.png",
+    "table":
+    [
+      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["1577.40","29.96","7.58","22.34","7.89","37.1","Sawtooth"]
+    ],
+    "images":[
+      {"path":"appendixG/s1.1-1.png","desc":"Frequency and power measurement of jammer S1.1"},
+      {"path":"appendixG/s1.1-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.1"},
+      {"path":"appendixG/s1.1-3.png","desc":"Time domain (analog demod) measurement of jammer S1.1"}
+    ]
+  },
+  {
+    "title":"Technical details on low-power jammer 'S1.2'",
+    "id":"S1.2",
+    "desc":"The jammer S1.2 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.2 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image":"appendixG/s1.1-photo.png",
+    "table":
+    [
+      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["1582.56","40.03","12.38","29.01","12.61","21.56","Sawtooth"]
+    ],
+    "images":[
+      {"path":"appendixG/s1.2-1.png","desc":"Frequency and power measurement of jammer S1.2"},
+      {"path":"appendixG/s1.2-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.2"},
+      {"path":"appendixG/s1.2-3.png","desc":"Time domain (analog demod) measurement of jammer S1.2"}
+    ]
+  },
+  {
+    "title":"Technical details on low-power jammer 'S1.3'",
+    "id":"S1.3",
+    "desc":"The jammer S1.3 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.3 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image":"appendixG/s1.1-photo.png",
+    "table":
+    [
+      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["1579.63","31.88","7.56","22.60","7.93","37.5","Sawtooth"]
+    ],
+    "images":[
+      {"path":"appendixG/s1.3-1.png","desc":"Frequency and power measurement of jammer S1.3"},
+      {"path":"appendixG/s1.3-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.3"},
+      {"path":"appendixG/s1.3-3.png","desc":"Time domain (analog demod) measurement of jammer S1.3"}
+    ]
+  },
+
+
+
+
+
+
+
+  {
+    "title":"Technical details on low-power jammer 'S2.1'",
+    "id":"S2.1",
+    "desc":"The jammer S2.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.1 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image":"appendixG/s2.1-photo.png",
+    "table":
+    [
+      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["L1","1581.59","85.41","13.36","32.68","16.64","40.63","Sawtooth+burst"],
+      ["L2","1198.05","96.58","13.92","33.75","17.30","42.1","Sawtooth+burst"]
+    ],
+    "images":[
+      {"path":"appendixG/s2.1-1.png","desc":"Frequency and power measurement of jammer S2.1 on antenna 'L1'"},
+      {"path":"appendixG/s2.1-2.png","desc":"Frequency and power measurement of jammer S2.1 on antenna 'L2'"},
+      {"path":"appendixG/s2.1-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.1 on antenna 'L1'"},
+      {"path":"appendixG/s2.1-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.1 on antenna 'L2'"},
+      {"path":"appendixG/s2.1-5.png","desc":"Time domain (analog demod) measurement of jammer S2.1 on antenna 'L1'"},
+      {"path":"appendixG/s2.1-6.png","desc":"Time domain (analog demod) measurement with wider span of jammer S2.1 on antenna 'L1'"},
+      {"path":"appendixG/s2.1-7.png","desc":"Time domain (analog demod) measurement of jammer S2.1 on antenna 'L2'"}
+    ]
+  },
+  {
+    "title":"Technical details on low-power jammer 'S2.2'",
+    "id":"S2.2",
+    "desc":"The jammer S2.2 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.2 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image":"appendixG/s2.1-photo.png",
+    "table":
+    [
+      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["L1","1580.86","87.69","12.82","32.25","16.17","40.7","Sawtooth+burst"],
+      ["L2","1207.55","102.04","11.95","32.04","17.02","41.0","Sawtooth+burst"]
+    ],
+    "images":[
+      {"path":"appendixG/s2.2-1.png","desc":"Frequency and power measurement of jammer S2.2 on antenna 'L1'"},
+      {"path":"appendixG/s2.2-2.png","desc":"Frequency and power measurement of jammer S2.2 on antenna 'L2'"},
+      {"path":"appendixG/s2.2-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.2 on antenna 'L1'"},
+      {"path":"appendixG/s2.2-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.2 on antenna 'L2'"},
+      {"path":"appendixG/s2.2-5.png","desc":"Time domain (analog demod) measurement of jammer S2.2 on antenna 'L1'"},
+      {"path":"appendixG/s2.2-6.png","desc":"Time domain (analog demod) measurement of jammer S2.2 on antenna 'L2'"}
+    ]
+  }
 
 
 
