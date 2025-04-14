@@ -119,39 +119,12 @@
       "location_name": "Grunnvatn",
       "tests": [
         {
-          "start_time": "2024-09-13T08:00:00",
-          "end_time": "2024-09-13T08:30:00",
-          "test_id": "0.0.1",
-          "test_contact": "Christian Skjetne (NPRA)",
-          "power_w": 0,
-          "comment": "MANDATORY attendence at Bleik (Site 1)",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-13T09:00:00",
-          "end_time": "2024-09-13T10:00:00",
-          "test_id": "0.3.1",
+          "start_time": "2025-09-19T09:00:00",
+          "end_time": "2025-09-19T16:00:00",
+          "test_id": "N/A",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Ad hoc tests with low power jammers",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-13T13:00:00",
-          "end_time": "2024-09-13T14:00:00",
-          "test_id": "0.1.1",
-          "test_contact": "Christian Skjetne (NPRA)",
-          "power_w": 0,
-          "comment": "Lunch @ Bleik (Site1)",
-          "status": ""
-        },
-        {
-          "start_time": "2024-09-13T14:00:00",
-          "end_time": "2024-09-13T14:30:00",
-          "test_id": "0.0.2",
-          "test_contact": "Christian Skjetne (NPRA)",
-          "power_w": 0,
-          "comment": "Summary briefing and closing of event @ Bleik (Site1)",
+          "comment": "Site is closed!",
           "status": ""
         }
       ]
