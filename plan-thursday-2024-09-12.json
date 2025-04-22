@@ -192,29 +192,20 @@
         },
         {
           "start_time": "2025-09-18T09:00:00",
-          "end_time": "2025-09-18T10:00:00",
-          "test_id": "1.20.10",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T10:30:00",
-          "end_time": "2025-09-18T11:30:00",
-          "test_id": "1.20.11",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T12:00:00",
           "end_time": "2025-09-18T13:00:00",
-          "test_id": "1.20.12",
+          "test_id": "0.0.0",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 0.171,
+          "comment": "TBD",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-18T09:00:00",
+          "end_time": "2025-09-18T13:00:00",
+          "test_id": "0.0.0",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "TBD",
           "status": ""
         },
         {
@@ -224,141 +215,6 @@
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
           "comment": "Lunch @ Stave (Site 3)",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T14:00:00",
-          "end_time": "2025-09-18T14:10:00",
-          "test_id": "1.19.1",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.171,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T14:16:00",
-          "end_time": "2025-09-18T14:26:00",
-          "test_id": "1.19.2",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.171,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T14:32:00",
-          "end_time": "2025-09-18T14:42:00",
-          "test_id": "1.19.3",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.171,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T14:48:00",
-          "end_time": "2025-09-18T14:58:00",
-          "test_id": "1.19.4",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.26,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T15:04:00",
-          "end_time": "2025-09-18T15:14:00",
-          "test_id": "1.19.5",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.26,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T15:20:00",
-          "end_time": "2025-09-18T15:30:00",
-          "test_id": "1.19.6",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.26,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T15:36:00",
-          "end_time": "2025-09-18T15:46:00",
-          "test_id": "1.19.7",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T15:52:00",
-          "end_time": "2025-09-18T16:02:00",
-          "test_id": "1.19.8",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T16:08:00",
-          "end_time": "2025-09-18T16:18:00",
-          "test_id": "1.19.9",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T16:24:00",
-          "end_time": "2025-09-18T16:34:00",
-          "test_id": "1.19.10",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.58,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T16:40:00",
-          "end_time": "2025-09-18T16:50:00",
-          "test_id": "1.19.11",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.58,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T16:56:00",
-          "end_time": "2025-09-18T17:06:00",
-          "test_id": "1.19.12",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.58,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T17:12:00",
-          "end_time": "2025-09-18T17:22:00",
-          "test_id": "1.19.13",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.1,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T17:28:00",
-          "end_time": "2025-09-18T17:38:00",
-          "test_id": "1.19.14",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.1,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T17:44:00",
-          "end_time": "2025-09-18T17:54:00",
-          "test_id": "1.19.15",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.1,
-          "comment": "",
           "status": ""
         },
         {
