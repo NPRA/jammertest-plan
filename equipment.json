@@ -94,8 +94,76 @@
       {"path":"appendixG/s2.2-5.png","desc":"Time domain (analog demod) measurement of jammer S2.2 on antenna 'L1'"},
       {"path":"appendixG/s2.2-6.png","desc":"Time domain (analog demod) measurement of jammer S2.2 on antenna 'L2'"}
     ]
-  }
+  },
+  {
+    "title":"Technical details on low-power jammer 'S2.3'",
+    "id":"S2.3",
+    "desc":"The jammer S2.3 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.3 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image":"appendixG/s2.1-photo.png",
+    "table":
+    [
+      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["L1","1586.65","93.19","14.30","34.0","17.40","46.7","Sawtooth+burst"],
+      ["L2","1204.33","102.05","12.01","32.1","17.06","50.5","Sawtooth+burst"]
+    ],
+    "images":[
+      {"path":"appendixG/S2.3-1.png","desc":"Frequency and power measurement of jammer S2.3 on antenna 'L1'"},
+      {"path":"appendixG/S2.3-2.png","desc":"Frequency and power measurement of jammer S2.3 on antenna 'L2'"},
+      {"path":"appendixG/S2.3-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L1'"},
+      {"path":"appendixG/S2.3-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L2'"},
+      {"path":"appendixG/S2.3-5.png","desc":"Time domain (analog demod) measurement of jammer S2.3 on antenna 'L1'"},
+      {"path":"appendixG/S2.3-6.png","desc":"Time domain (analog demod) measurement of jammer S2.3 on antenna 'L2'"}
+    ]
+  },
+  {
+    "title":"Technical details on low-power jammer 'S2.4'",
+    "id":"S2.4",
+    "desc":"The jammer S2.4 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.4 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image":"appendixG/s2.1-photo.png",
+    "table":
+    [
+      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["L1","1582.09","86.35","12.42","31.78","15.91","43.5","Sawtooth+burst"],
+      ["L2","1202.90","96.56","13.63","33.48","17.03","47.3","Sawtooth+burst"]
+    ],
+    "images":[
+      {"path":"appendixG/S2.4-1.png","desc":"Frequency and power measurement of jammer S2.4 on antenna 'L1'"},
+      {"path":"appendixG/S2.4-2.png","desc":"Frequency and power measurement of jammer S2.4 on antenna 'L2'"},
+      {"path":"appendixG/S2.4-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L1'"},
+      {"path":"appendixG/S2.4-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L2'"},
+      {"path":"appendixG/S2.4-5.png","desc":"Time domain (analog demod) measurement of jammer S2.4 on antenna 'L1'"},
+      {"path":"appendixG/S2.4-6.png","desc":"Time domain (analog demod) measurement of jammer S2.4 on antenna 'L2'"}
+    ]
+  },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title":"Technical details on low-power jammer 'U1.1 to U1.4'",
+    "id":"U1.1-U1.4",
+    "desc":"USB jammers is category of jammers that is often installed in the USB outlet. The are intended to cover a small radius. These particular jammers suggest in the LED screen that they jam two bands, although this is not the case",
+    "image":"appendixG/u1.1-photo.png",
+    "table":
+    [
+      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["1590-1600","70-80","N/A","N/A","N/A","5-8","Sawtooth"]
+    ],
+    "images":[
+      {"path":"appendixG/u1.1-1.png","desc":"Example measurement of a U1.1 - U1.4 jammer"}
+    ]
+  }
 
 
 
