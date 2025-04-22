@@ -389,27 +389,108 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-16T14:00:00",
-          "end_time": "2025-09-16T15:00:00",
-          "test_id": "1.20.13",
+          "start_time": "2025-09-16T15:00:00",
+          "end_time": "2025-09-16T15:12:00",
+          "test_id": "1.20.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0.0592,
           "comment": "Requires booking for drones",
           "status": ""
         },
         {
-          "start_time": "2025-09-16T15:20:00",
-          "end_time": "2025-09-16T16:20:00",
-          "test_id": "1.20.14",
+          "start_time": "2025-09-16T15:18:00",
+          "end_time": "2025-09-16T15:30:00",
+          "test_id": "1.20.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0.0592,
           "comment": "Requires booking for drones",
           "status": ""
         },
         {
-          "start_time": "2025-09-16T16:40:00",
-          "end_time": "2025-09-16T17:40:00",
-          "test_id": "1.20.15",
+          "start_time": "2025-09-16T15:36:00",
+          "end_time": "2025-09-16T15:48:00",
+          "test_id": "1.20.3",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T15:54:00",
+          "end_time": "2025-09-16T16:06:00",
+          "test_id": "1.20.4",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T16:12:00",
+          "end_time": "2025-09-16T16:24:00",
+          "test_id": "1.20.5",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T16:30:00",
+          "end_time": "2025-09-16T16:42:00",
+          "test_id": "1.20.6",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T16:48:00",
+          "end_time": "2025-09-16T17:00:00",
+          "test_id": "1.20.7",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T17:06:00",
+          "end_time": "2025-09-16T17:18:00",
+          "test_id": "1.20.8",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T17:24:00",
+          "end_time": "2025-09-16T17:36:00",
+          "test_id": "1.20.9",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T17:42:00",
+          "end_time": "2025-09-16T17:54:00",
+          "test_id": "1.20.10",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T18:00:00",
+          "end_time": "2025-09-16T18:12:00",
+          "test_id": "1.20.11",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0.0592,
+          "comment": "Requires booking for drones",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-16T18:18:00",
+          "end_time": "2025-09-16T18:30:00",
+          "test_id": "1.20.12",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0.0592,
           "comment": "Requires booking for drones",
