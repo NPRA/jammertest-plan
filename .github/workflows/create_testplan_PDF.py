@@ -62,7 +62,7 @@ def create_testgroup(fp, type_id, test_group):
         t_equipment =  escape(test["equipment"])
 
         fp.write(f'\\subsection{{{tid}}}\n\n')
-        fp.write('\\textcolor{lightgray}{\\noindent\\rule[0.5ex]{\linewidth}{1pt} }\n')
+        fp.write('\\textcolor{lightgray}{\\noindent\\rule[0.5ex]{\\linewidth}{1pt} }\n')
         
         
         fp.write(f'{t_text}\n')
@@ -128,11 +128,11 @@ def printTest(testArr):
             return "{test "+str(test["test_id"])+" not found in catalog}"
         res += f'\\normalsize{{\\textbf{{{test["start_time_t"]}-{test["end_time_t"]} - {testInfo["full_id"]} \\\\ {testInfo["testObj"]["name"]} }} }} \\\\ \n \\vspace{{1mm}} '
         if test['power_w'] > 0:
-            res += f'\\footnotesize{{\hspace{{3mm}}Power: {test["power_w"]}W }} \\\\ \n'
+            res += f'\\footnotesize{{\\hspace{{3mm}}Power: {test["power_w"]}W }} \\\\ \n'
         if test['comment'] != '':
-            res += f'\\footnotesize{{\hspace{{3mm}}Comment: {test["comment"]} }} \\\\ \n'
+            res += f'\\footnotesize{{\\hspace{{3mm}}Comment: {test["comment"]} }} \\\\ \n'
         if test['test_contact'] != '':
-            res += f'\\footnotesize{{\hspace{{3mm}}Contact: {test["test_contact"]} }} \\\\ \n'
+            res += f'\\footnotesize{{\\hspace{{3mm}}Contact: {test["test_contact"]} }} \\\\ \n'
         if testArr[len(testArr)-1] != test:
             res += f' \\hrulefill \\\\' 
     res += "}"
@@ -155,7 +155,7 @@ def create_daytable(tp, dayname, locArr):
         if l < numOfLocs-1:
             tp.write(' & ')
         else:
-            tp.write(' \\\\ \hline \n')
+            tp.write(' \\\\ \\hline \n')
     # each hour:
     for i in range(8,23):
         hr = i
