@@ -163,6 +163,66 @@
     "images":[
       {"path":"appendixG/u1.1-1.png","desc":"Example measurement of a U1.1 - U1.4 jammer"}
     ]
+  },
+  {
+    "title":"Technical details on low-power jammer 'H1.1'",
+    "id":"H1.1",
+    "desc":"The jammer H1.1 belongs to the 'Handheld category' of jammers. It is a medium weight battery driven jammer with a configuration panel for operation: multi-frequency and multi-modulation for both low and high output power. Its commercially available for military training purposes as Novatel's NEAT-jammer. Antenna has TNC-connector.\nH1.1 is a one-antenna, yet multi-frequency, jammer, therefore a so-called 'L1+L2', disrupting parts of both the upper and lower L-band.\n\n Configuration choices are (as provided by the producer):\n - Centre frequency: 1575.42 MHz and 1227.6 MHz\n - Estimated output power: low power -5 dBm, high power 20 dBm\n - Type of modulation: narrow band (NB), wide band (WB), continuous wave (CW), chirp/sweep and other (optional to program)\n\n In the 2024 measurements below, bandwidth is defined as\n - main lobe in PRN signal\n - 3 dB from local (identifiable) maxima",
+    "image":"appendixG/h1.1-photo.png",
+    "table":
+    [
+      ["Antenna\nconfiguration","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
+      ["L1, NB, HIGH PWR"    ,"1575.42", "2.05","17.52","20.63","11.07","N/A","PRN\n(spreading code of 1 MHz)"],
+      ["L1, WB, HIGH PWR"    ,"1575.40", "20.03","8.20","21.25","11.43","N/A","PRN\n(spreading code of 10 MHz)"],
+      ["L1, CW, HIGH PWR"    ,"1575.42", "0.103","22.50","12.62","13.67","N/A","CW"],
+      ["L1, CHIRP, HIGH PWR" ,"1575.60", "18.75","3.10","15.83","-5.73","10.42","Sawtooth"],
+      ["L1, NB, LOW PWR"     ,"1575.42", "2.05","-12.84","-9.73","-19.35","N/A","PRN\n(spreading code of 1 MHz)"],
+      ["L1, WB, LOW PWR"     ,"1575.40", "19.93","-21.66","-8.66","-17.91","N/A","PRN\n(spreading code of 10 MHz)"],
+      ["L1, CW, LOW PWR"     ,"1575.42", "0.10","-7.55","-17.46","-16.37","N/A","CW"],
+      ["L1, CHIRP, LOW PWR"  ,"1575.60", "18.75","-27.03","-14.31","-35.65","10.46","Sawtooth"],
+      ["L2, NB, HIGH PWR"    ,"1227.42", "2.049","18.73","21.84","12.17","N/A","PRN\n(spreading code of 1 MHz)"],
+      ["L2, WB, HIGH PWR"    ,"1227.36", "20.30","9.27","22.34","12.09","N/A","PRN\n(spreading code of 10 MHz)"],
+      ["L2, CW, HIGH PWR"    ,"1227.42", "0.10","23.96","14.13","15.17","N/A","CW"],
+      ["L2, CHIRP, HIGH PWR" ,"1227.22", "18.79","4.98","17.72","-4.11","10.4","Sawtooth"],
+      ["L2, NB, LOW PWR"     ,"1227.42", "2.05","-11.20","-8.09","-17.79","N/A","PRN\n(spreading code of 1 MHz)"],
+      ["L2, WB, LOW PWR"     ,"1227.36", "20.30","-20.39","-7.32","-17.41","N/A","PRN\n(spreading code of 10 MHz)"],
+      ["L2, CW, LOW PWR"     ,"1227.42", "0.10","-5.98","-15.81","-14.77","N/A","CW"],
+      ["L2, CHIRP, LOW PWR"  ,"1227.22", "18.76","-24.97","-12.23","-33.98","10.4","Sawtooth"]
+      
+    ],
+    "images":[
+      {"path":"appendixG/h1.1-1.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-2.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
+
+      {"path":"appendixG/h1.1-3.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"},
+      {"path":"appendixG/h1.1-4.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"},
+      {"path":"appendixG/h1.1-5.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
+
+      {"path":"appendixG/h1.1-6.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-7.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-8.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-9.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"},
+      {"path":"appendixG/h1.1-10.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"},
+      {"path":"appendixG/h1.1-11.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-12.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-13.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"},
+
+      {"path":"appendixG/h1.1-14.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"},
+      {"path":"appendixG/h1.1-15.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-16.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-17.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"},
+      {"path":"appendixG/h1.1-18.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"},
+      {"path":"appendixG/h1.1-19.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-20.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-21.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-22.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-23.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"},
+      {"path":"appendixG/h1.1-24.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"},
+      {"path":"appendixG/h1.1-25.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
+      {"path":"appendixG/h1.1-26.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
+      {"path":"appendixG/h1.1-27.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"},
+      {"path":"appendixG/h1.1-28.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"}
+    ]
   }
 
 
