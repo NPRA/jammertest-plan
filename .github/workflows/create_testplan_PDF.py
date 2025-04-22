@@ -15,17 +15,17 @@ def escape(strng):
     if not isinstance(strng, str):
         return strng
     #strng = strng.replace("µ", "\mu")
-    strng = strng.replace("&","\&")
-    strng = strng.replace("%","\%")
-    strng = strng.replace("$","\$")
-    strng = strng.replace("#","\#")
-    strng = strng.replace(" _ "," \_ ")
-    strng = strng.replace("{","\{")
-    strng = strng.replace("}","\}")
-    strng = strng.replace("~", "\textasciitilde")
-    strng = strng.replace("^", "\textasciicircum")
+    strng = strng.replace("&","\\&")
+    strng = strng.replace("%","\\%")
+    strng = strng.replace("$","\\$")
+    strng = strng.replace("#","\\#")
+    strng = strng.replace("_","\\_")
+    strng = strng.replace("{","\\{")
+    strng = strng.replace("}","\\}")
+    strng = strng.replace("~", "\\textasciitilde")
+    strng = strng.replace("^", "\\textasciicircum")
     strng = strng.replace("\\n", "\\\\")
-    strng = strng.replace(" \\ ", " \textbackslash ")
+    strng = strng.replace(" \\ ", " \\textbackslash ")
     return strng
 
 
