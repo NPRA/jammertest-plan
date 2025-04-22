@@ -393,8 +393,8 @@
           "end_time": "2025-09-16T15:12:00",
           "test_id": "1.20.1",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output) ",
           "status": ""
         },
         {
@@ -402,8 +402,8 @@
           "end_time": "2025-09-16T15:30:00",
           "test_id": "1.20.2",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -411,8 +411,8 @@
           "end_time": "2025-09-16T15:48:00",
           "test_id": "1.20.3",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -420,8 +420,8 @@
           "end_time": "2025-09-16T16:06:00",
           "test_id": "1.20.4",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -429,8 +429,8 @@
           "end_time": "2025-09-16T16:24:00",
           "test_id": "1.20.5",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -438,8 +438,8 @@
           "end_time": "2025-09-16T16:42:00",
           "test_id": "1.20.6",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -447,8 +447,8 @@
           "end_time": "2025-09-16T17:00:00",
           "test_id": "1.20.7",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -456,8 +456,8 @@
           "end_time": "2025-09-16T17:18:00",
           "test_id": "1.20.8",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -465,8 +465,8 @@
           "end_time": "2025-09-16T17:36:00",
           "test_id": "1.20.9",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -474,8 +474,8 @@
           "end_time": "2025-09-16T17:54:00",
           "test_id": "1.20.10",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -483,8 +483,8 @@
           "end_time": "2025-09-16T18:12:00",
           "test_id": "1.20.11",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
@@ -492,8 +492,8 @@
           "end_time": "2025-09-16T18:30:00",
           "test_id": "1.20.12",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.0592,
-          "comment": "Requires booking for drones",
+          "power_w": 1,
+          "comment": "+30dBm from each direction (ca: +10dB antenna gain and +20dBm output)",
           "status": ""
         },
         {
