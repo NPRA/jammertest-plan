@@ -20,6 +20,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: ./Latex/transmissionplan/plan-main.tex
+          texlive_version: 2024
       # Code to commit the file created by the python script 
       - name: Commit changes
         run: |
