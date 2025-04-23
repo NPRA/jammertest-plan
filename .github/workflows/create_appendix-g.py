@@ -32,26 +32,28 @@ def create_equipment(tex,eq):
     #\subsection{Technical details on low-power jammer “S1.1”}
     tex.write(f'\\subsection{{{eq["title"]}}}\n')
     #\includegraphics[scale=0.4]{../graphics/appendixG/s1.1-photo.png}\\
-    tex.write(f'\\includegraphics[scale=0.4]{{../graphics/{eq["image"]}}}\\\\ \\\\ \n')
+    if eq["image"] != "":
+        tex.write(f'\\includegraphics[scale=0.4]{{../graphics/{eq["image"]}}}\\\\ \\\\ \n')
     #Description
     tex.write(f'{esc(eq["desc"])}\\\\\n')
     #table:
-    cols = len(eq['table'][0])
-    tex.write("\\begin{table}[H]\\centering\n")
-    tex.write("\\begin{tabular}{"+"|c"*cols+"|}\\rowcolor[HTML]{C0C0C0} \n")
-    for row in eq['table']:
-        tex.write("\\hline\n")
-        for cell in row:
-            tex.write("\\makecell{"+esc(cell)+"}")
-            if row.index(cell) < cols-1:
-                tex.write(" & ")
-            else:
-                tex.write("\\\\ \n")
-    tex.write("\\hline\\end{tabular}\\caption{Technical characteristics of "+eq["id"]+" jammer}\\label{table:tech_char_"+eq["id"]+"}\\end{table}\n")
+    if len(eq["table"]) > 0:
+        cols = len(eq['table'][0])
+        tex.write("\\begin{table}[H]\\centering\n")
+        tex.write("\\begin{tabular}{"+"|c"*cols+"|}\\rowcolor[HTML]{C0C0C0} \n")
+        for row in eq['table']:
+            tex.write("\\hline\n")
+            for cell in row:
+                tex.write("\\makecell{"+esc(cell)+"}")
+                if row.index(cell) < cols-1:
+                    tex.write(" & ")
+                else:
+                    tex.write("\\\\ \n")
+        tex.write("\\hline\\end{tabular}\\caption{Technical characteristics of "+eq["id"]+" jammer}\\label{table:tech_char_"+eq["id"]+"}\\end{table}\n")
 
     for image in eq['images']:
         tex.write("\\begin{figure}[H]")
-        tex.write(f'\\includegraphics[scale=0.4]{{../graphics/{image["path"]}}} \n')
+        tex.write(f'\\includegraphics[width=\\textwidth]{{../graphics/{image["path"]}}} \n')
         tex.write("\\caption{"+image["desc"]+"}")
         tex.write("\\end{figure}")
         #\\caption{Technical characteristics of "+eq["id"]+" jammer}\\label{table:tech_char_"+eq["id"]+"}
