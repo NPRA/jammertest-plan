@@ -1,364 +1,881 @@
 [
   {
-    "title":"Technical details on low-power jammer 'S1.1'",
-    "id":"S1.1",
-    "desc":"The jammer S1.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
-    "image":"appendixG/s1.1-photo.png",
-    "table":
-    [
-      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["1577.40","29.96","7.58","22.34","7.89","37.1","Sawtooth"]
+    "title": "Technical details on low-power jammer 'S1.1'",
+    "id": "S1.1",
+    "desc": "The jammer S1.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image": "appendixG/s1.1-photo.png",
+    "table": [
+      [
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "1577.40",
+        "29.96",
+        "7.58",
+        "22.34",
+        "7.89",
+        "37.1",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/s1.1-1.png","desc":"Frequency and power measurement of jammer S1.1"},
-      {"path":"appendixG/s1.1-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.1"},
-      {"path":"appendixG/s1.1-3.png","desc":"Time domain (analog demod) measurement of jammer S1.1"}
+    "images": [
+      {
+        "path": "appendixG/s1.1-1.png",
+        "desc": "Frequency and power measurement of jammer S1.1"
+      },
+      {
+        "path": "appendixG/s1.1-2.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S1.1"
+      },
+      {
+        "path": "appendixG/s1.1-3.png",
+        "desc": "Time domain (analog demod) measurement of jammer S1.1"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'S1.2'",
-    "id":"S1.2",
-    "desc":"The jammer S1.2 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.2 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
-    "image":"appendixG/s1.1-photo.png",
-    "table":
-    [
-      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["1582.56","40.03","12.38","29.01","12.61","21.56","Sawtooth"]
+    "title": "Technical details on low-power jammer 'S1.2'",
+    "id": "S1.2",
+    "desc": "The jammer S1.2 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.2 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image": "appendixG/s1.1-photo.png",
+    "table": [
+      [
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "1582.56",
+        "40.03",
+        "12.38",
+        "29.01",
+        "12.61",
+        "21.56",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/s1.2-1.png","desc":"Frequency and power measurement of jammer S1.2"},
-      {"path":"appendixG/s1.2-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.2"},
-      {"path":"appendixG/s1.2-3.png","desc":"Time domain (analog demod) measurement of jammer S1.2"}
+    "images": [
+      {
+        "path": "appendixG/s1.2-1.png",
+        "desc": "Frequency and power measurement of jammer S1.2"
+      },
+      {
+        "path": "appendixG/s1.2-2.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S1.2"
+      },
+      {
+        "path": "appendixG/s1.2-3.png",
+        "desc": "Time domain (analog demod) measurement of jammer S1.2"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'S1.3'",
-    "id":"S1.3",
-    "desc":"The jammer S1.3 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.3 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
-    "image":"appendixG/s1.1-photo.png",
-    "table":
-    [
-      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["1579.63","31.88","7.56","22.60","7.93","37.5","Sawtooth"]
+    "title": "Technical details on low-power jammer 'S1.3'",
+    "id": "S1.3",
+    "desc": "The jammer S1.3 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.3 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image": "appendixG/s1.1-photo.png",
+    "table": [
+      [
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "1579.63",
+        "31.88",
+        "7.56",
+        "22.60",
+        "7.93",
+        "37.5",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/s1.3-1.png","desc":"Frequency and power measurement of jammer S1.3"},
-      {"path":"appendixG/s1.3-2.png","desc":"Real-time persistence and spectrogram measurement of jammer S1.3"},
-      {"path":"appendixG/s1.3-3.png","desc":"Time domain (analog demod) measurement of jammer S1.3"}
-    ]
-  },
-
-
-
-
-
-
-
-  {
-    "title":"Technical details on low-power jammer 'S2.1'",
-    "id":"S2.1",
-    "desc":"The jammer S2.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.1 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
-    "image":"appendixG/s2.1-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["L1","1581.59","85.41","13.36","32.68","16.64","40.63","Sawtooth+burst"],
-      ["L2","1198.05","96.58","13.92","33.75","17.30","42.1","Sawtooth+burst"]
-    ],
-    "images":[
-      {"path":"appendixG/s2.1-1.png","desc":"Frequency and power measurement of jammer S2.1 on antenna 'L1'"},
-      {"path":"appendixG/s2.1-2.png","desc":"Frequency and power measurement of jammer S2.1 on antenna 'L2'"},
-      {"path":"appendixG/s2.1-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.1 on antenna 'L1'"},
-      {"path":"appendixG/s2.1-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.1 on antenna 'L2'"},
-      {"path":"appendixG/s2.1-5.png","desc":"Time domain (analog demod) measurement of jammer S2.1 on antenna 'L1'"},
-      {"path":"appendixG/s2.1-6.png","desc":"Time domain (analog demod) measurement with wider span of jammer S2.1 on antenna 'L1'"},
-      {"path":"appendixG/s2.1-7.png","desc":"Time domain (analog demod) measurement of jammer S2.1 on antenna 'L2'"}
+    "images": [
+      {
+        "path": "appendixG/s1.3-1.png",
+        "desc": "Frequency and power measurement of jammer S1.3"
+      },
+      {
+        "path": "appendixG/s1.3-2.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S1.3"
+      },
+      {
+        "path": "appendixG/s1.3-3.png",
+        "desc": "Time domain (analog demod) measurement of jammer S1.3"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'S2.2'",
-    "id":"S2.2",
-    "desc":"The jammer S2.2 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.2 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
-    "image":"appendixG/s2.1-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["L1","1580.86","87.69","12.82","32.25","16.17","40.7","Sawtooth+burst"],
-      ["L2","1207.55","102.04","11.95","32.04","17.02","41.0","Sawtooth+burst"]
+    "title": "Technical details on low-power jammer 'S2.1'",
+    "id": "S2.1",
+    "desc": "The jammer S2.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.1 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image": "appendixG/s2.1-photo.png",
+    "table": [
+      [
+        "Antenna",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "L1",
+        "1581.59",
+        "85.41",
+        "13.36",
+        "32.68",
+        "16.64",
+        "40.63",
+        "Sawtooth+burst"
+      ],
+      [
+        "L2",
+        "1198.05",
+        "96.58",
+        "13.92",
+        "33.75",
+        "17.30",
+        "42.1",
+        "Sawtooth+burst"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/s2.2-1.png","desc":"Frequency and power measurement of jammer S2.2 on antenna 'L1'"},
-      {"path":"appendixG/s2.2-2.png","desc":"Frequency and power measurement of jammer S2.2 on antenna 'L2'"},
-      {"path":"appendixG/s2.2-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.2 on antenna 'L1'"},
-      {"path":"appendixG/s2.2-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.2 on antenna 'L2'"},
-      {"path":"appendixG/s2.2-5.png","desc":"Time domain (analog demod) measurement of jammer S2.2 on antenna 'L1'"},
-      {"path":"appendixG/s2.2-6.png","desc":"Time domain (analog demod) measurement of jammer S2.2 on antenna 'L2'"}
+    "images": [
+      {
+        "path": "appendixG/s2.1-1.png",
+        "desc": "Frequency and power measurement of jammer S2.1 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.1-2.png",
+        "desc": "Frequency and power measurement of jammer S2.1 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/s2.1-3.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.1 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.1-4.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.1 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/s2.1-5.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.1 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.1-6.png",
+        "desc": "Time domain (analog demod) measurement with wider span of jammer S2.1 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.1-7.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.1 on antenna 'L2'"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'S2.3'",
-    "id":"S2.3",
-    "desc":"The jammer S2.3 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.3 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
-    "image":"appendixG/s2.1-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["L1","1586.65","93.19","14.30","34.0","17.40","46.7","Sawtooth+burst"],
-      ["L2","1204.33","102.05","12.01","32.1","17.06","50.5","Sawtooth+burst"]
+    "title": "Technical details on low-power jammer 'S2.2'",
+    "id": "S2.2",
+    "desc": "The jammer S2.2 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.2 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image": "appendixG/s2.1-photo.png",
+    "table": [
+      [
+        "Antenna",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "L1",
+        "1580.86",
+        "87.69",
+        "12.82",
+        "32.25",
+        "16.17",
+        "40.7",
+        "Sawtooth+burst"
+      ],
+      [
+        "L2",
+        "1207.55",
+        "102.04",
+        "11.95",
+        "32.04",
+        "17.02",
+        "41.0",
+        "Sawtooth+burst"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/S2.3-1.png","desc":"Frequency and power measurement of jammer S2.3 on antenna 'L1'"},
-      {"path":"appendixG/S2.3-2.png","desc":"Frequency and power measurement of jammer S2.3 on antenna 'L2'"},
-      {"path":"appendixG/S2.3-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L1'"},
-      {"path":"appendixG/S2.3-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L2'"},
-      {"path":"appendixG/S2.3-5.png","desc":"Time domain (analog demod) measurement of jammer S2.3 on antenna 'L1'"},
-      {"path":"appendixG/S2.3-6.png","desc":"Time domain (analog demod) measurement of jammer S2.3 on antenna 'L2'"}
+    "images": [
+      {
+        "path": "appendixG/s2.2-1.png",
+        "desc": "Frequency and power measurement of jammer S2.2 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.2-2.png",
+        "desc": "Frequency and power measurement of jammer S2.2 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/s2.2-3.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.2 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.2-4.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.2 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/s2.2-5.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.2 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/s2.2-6.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.2 on antenna 'L2'"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'S2.4'",
-    "id":"S2.4",
-    "desc":"The jammer S2.4 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.4 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
-    "image":"appendixG/s2.1-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["L1","1582.09","86.35","12.42","31.78","15.91","43.5","Sawtooth+burst"],
-      ["L2","1202.90","96.56","13.63","33.48","17.03","47.3","Sawtooth+burst"]
+    "title": "Technical details on low-power jammer 'S2.3'",
+    "id": "S2.3",
+    "desc": "The jammer S2.3 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.3 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image": "appendixG/s2.1-photo.png",
+    "table": [
+      [
+        "Antenna",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "L1",
+        "1586.65",
+        "93.19",
+        "14.30",
+        "34.0",
+        "17.40",
+        "46.7",
+        "Sawtooth+burst"
+      ],
+      [
+        "L2",
+        "1204.33",
+        "102.05",
+        "12.01",
+        "32.1",
+        "17.06",
+        "50.5",
+        "Sawtooth+burst"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/S2.4-1.png","desc":"Frequency and power measurement of jammer S2.4 on antenna 'L1'"},
-      {"path":"appendixG/S2.4-2.png","desc":"Frequency and power measurement of jammer S2.4 on antenna 'L2'"},
-      {"path":"appendixG/S2.4-3.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L1'"},
-      {"path":"appendixG/S2.4-4.png","desc":"Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L2'"},
-      {"path":"appendixG/S2.4-5.png","desc":"Time domain (analog demod) measurement of jammer S2.4 on antenna 'L1'"},
-      {"path":"appendixG/S2.4-6.png","desc":"Time domain (analog demod) measurement of jammer S2.4 on antenna 'L2'"}
-    ]
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  {
-    "title":"Technical details on low-power jammer 'U1.1 to U1.4'",
-    "id":"U1.1-U1.4",
-    "desc":"USB jammers is category of jammers that is often installed in the USB outlet. The are intended to cover a small radius. These particular jammers suggest in the LED screen that they jam two bands, although this is not the case",
-    "image":"appendixG/u1.1-photo.png",
-    "table":
-    [
-      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["1590-1600","70-80","N/A","N/A","N/A","5-8","Sawtooth"]
-    ],
-    "images":[
-      {"path":"appendixG/u1.1-1.png","desc":"Example measurement of a U1.1 - U1.4 jammer"}
-    ]
-  },
-  {
-    "title":"Technical details on low-power jammer 'H1.1'",
-    "id":"H1.1",
-    "desc":"The jammer H1.1 belongs to the 'Handheld category' of jammers. It is a medium weight battery driven jammer with a configuration panel for operation: multi-frequency and multi-modulation for both low and high output power. Its commercially available for military training purposes as Novatel's NEAT-jammer. Antenna has TNC-connector.\nH1.1 is a one-antenna, yet multi-frequency, jammer, therefore a so-called 'L1+L2', disrupting parts of both the upper and lower L-band.\n\n Configuration choices are (as provided by the producer):\n - Centre frequency: 1575.42 MHz and 1227.6 MHz\n - Estimated output power: low power -5 dBm, high power 20 dBm\n - Type of modulation: narrow band (NB), wide band (WB), continuous wave (CW), chirp/sweep and other (optional to program)\n\n In the 2024 measurements below, bandwidth is defined as\n - main lobe in PRN signal\n - 3 dB from local (identifiable) maxima",
-    "image":"appendixG/h1.1-photo.png",
-    "table":
-    [
-      ["Antenna\nconfiguration","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["L1, NB, HIGH PWR"    ,"1575.42", "2.05","17.52","20.63","11.07","N/A","PRN\n(spreading code of 1 MHz)"],
-      ["L1, WB, HIGH PWR"    ,"1575.40", "20.03","8.20","21.25","11.43","N/A","PRN\n(spreading code of 10 MHz)"],
-      ["L1, CW, HIGH PWR"    ,"1575.42", "0.103","22.50","12.62","13.67","N/A","CW"],
-      ["L1, CHIRP, HIGH PWR" ,"1575.60", "18.75","3.10","15.83","-5.73","10.42","Sawtooth"],
-      ["L1, NB, LOW PWR"     ,"1575.42", "2.05","-12.84","-9.73","-19.35","N/A","PRN\n(spreading code of 1 MHz)"],
-      ["L1, WB, LOW PWR"     ,"1575.40", "19.93","-21.66","-8.66","-17.91","N/A","PRN\n(spreading code of 10 MHz)"],
-      ["L1, CW, LOW PWR"     ,"1575.42", "0.10","-7.55","-17.46","-16.37","N/A","CW"],
-      ["L1, CHIRP, LOW PWR"  ,"1575.60", "18.75","-27.03","-14.31","-35.65","10.46","Sawtooth"],
-      ["L2, NB, HIGH PWR"    ,"1227.42", "2.049","18.73","21.84","12.17","N/A","PRN\n(spreading code of 1 MHz)"],
-      ["L2, WB, HIGH PWR"    ,"1227.36", "20.30","9.27","22.34","12.09","N/A","PRN\n(spreading code of 10 MHz)"],
-      ["L2, CW, HIGH PWR"    ,"1227.42", "0.10","23.96","14.13","15.17","N/A","CW"],
-      ["L2, CHIRP, HIGH PWR" ,"1227.22", "18.79","4.98","17.72","-4.11","10.4","Sawtooth"],
-      ["L2, NB, LOW PWR"     ,"1227.42", "2.05","-11.20","-8.09","-17.79","N/A","PRN\n(spreading code of 1 MHz)"],
-      ["L2, WB, LOW PWR"     ,"1227.36", "20.30","-20.39","-7.32","-17.41","N/A","PRN\n(spreading code of 10 MHz)"],
-      ["L2, CW, LOW PWR"     ,"1227.42", "0.10","-5.98","-15.81","-14.77","N/A","CW"],
-      ["L2, CHIRP, LOW PWR"  ,"1227.22", "18.76","-24.97","-12.23","-33.98","10.4","Sawtooth"]
-      
-    ],
-    "images":[
-      {"path":"appendixG/h1.1-1.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-2.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
-
-      {"path":"appendixG/h1.1-3.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"},
-      {"path":"appendixG/h1.1-4.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"},
-      {"path":"appendixG/h1.1-5.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
-
-      {"path":"appendixG/h1.1-6.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-7.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-8.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-9.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"},
-      {"path":"appendixG/h1.1-10.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"},
-      {"path":"appendixG/h1.1-11.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-12.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-13.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"},
-
-      {"path":"appendixG/h1.1-14.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"},
-      {"path":"appendixG/h1.1-15.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-16.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-17.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"},
-      {"path":"appendixG/h1.1-18.png","desc":"Frequency and power measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"},
-      {"path":"appendixG/h1.1-19.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-20.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-21.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-22.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-23.png","desc":"Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"},
-      {"path":"appendixG/h1.1-24.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"},
-      {"path":"appendixG/h1.1-25.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"},
-      {"path":"appendixG/h1.1-26.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"},
-      {"path":"appendixG/h1.1-27.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"},
-      {"path":"appendixG/h1.1-28.png","desc":"Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"}
+    "images": [
+      {
+        "path": "appendixG/S2.3-1.png",
+        "desc": "Frequency and power measurement of jammer S2.3 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/S2.3-2.png",
+        "desc": "Frequency and power measurement of jammer S2.3 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/S2.3-3.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/S2.3-4.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/S2.3-5.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.3 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/S2.3-6.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.3 on antenna 'L2'"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'H1.2'",
-    "id":"H1.2",
-    "desc":"The jammer H1.2 belongs to the 'Handheld category' of jammers. It is a small and light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\nH1.2 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
-    "image":"appendixG/h1.2-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["L1","1575,22","21,99","14,35","27,78","9,36","6,08","Sawtooth"]
+    "title": "Technical details on low-power jammer 'S2.4'",
+    "id": "S2.4",
+    "desc": "The jammer S2.4 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS2.4 is a two-antenna, so-called 'L1+L2', jammer, disrupting both the upper and lower L-band.",
+    "image": "appendixG/s2.1-photo.png",
+    "table": [
+      [
+        "Antenna",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "L1",
+        "1582.09",
+        "86.35",
+        "12.42",
+        "31.78",
+        "15.91",
+        "43.5",
+        "Sawtooth+burst"
+      ],
+      [
+        "L2",
+        "1202.90",
+        "96.56",
+        "13.63",
+        "33.48",
+        "17.03",
+        "47.3",
+        "Sawtooth+burst"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/h1.2-1.png","desc":"Frequency and power measurement of jammer H1.2"},
-      {"path":"appendixG/h1.2-2.png","desc":"Real-time persistence and spectrogram measurement of jammer H1.2"},
-      {"path":"appendixG/h1.2-3.png","desc":"Time domain (analog demod) measurement of jammer H1.2"}
+    "images": [
+      {
+        "path": "appendixG/S2.4-1.png",
+        "desc": "Frequency and power measurement of jammer S2.4 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/S2.4-2.png",
+        "desc": "Frequency and power measurement of jammer S2.4 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/S2.4-3.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/S2.4-4.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L2'"
+      },
+      {
+        "path": "appendixG/S2.4-5.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.4 on antenna 'L1'"
+      },
+      {
+        "path": "appendixG/S2.4-6.png",
+        "desc": "Time domain (analog demod) measurement of jammer S2.4 on antenna 'L2'"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'H1.3'",
-    "id":"H1.3",
-    "desc":"H1.3 is a small, handheld and battery driven jammer using frequency hopping (normally commercially available jammers employ chirp signals, making this jammer an oddity).\nH1.3 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.\n\nType of modulation: frequency hopping\n- Jumping between 6 separated frequencies. Every 50 ms the frequency increases 200 kHz, starting with 1574.62 MHz. After approximately 1 MHz the frequency jumps back to the start frequency at 1574.62 MHz.",
-    "image":"appendixG/h1.3-photo.png",
-    "table":
-    [
-      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["1575", "1", "N/A", "N/A", "N/A", "5-8", "Frequency hopping"]
+    "title": "Technical details on low-power jammer 'U1.1 to U1.4'",
+    "id": "U1.1-U1.4",
+    "desc": "USB jammers is category of jammers that is often installed in the USB outlet. The are intended to cover a small radius. These particular jammers suggest in the LED screen that they jam two bands, although this is not the case",
+    "image": "appendixG/u1.1-photo.png",
+    "table": [
+      [
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "1590-1600",
+        "70-80",
+        "N/A",
+        "N/A",
+        "N/A",
+        "5-8",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/h1.3-1.png","desc":"Example measurement of H1.3 jammer"}
+    "images": [
+      {
+        "path": "appendixG/u1.1-1.png",
+        "desc": "Example measurement of a U1.1 - U1.4 jammer"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'H1.4'",
-    "id":"H1.4",
-    "desc":"Jammer H1.4 is assumed more or less identical to jammer H1.1 (originating from the same source and built by the same producer).",
-    "image":"",
-    "table":[],
-    "images":[]
-  },
-  {
-    "title":"Technical details on low-power jammer 'H1.5'",
-    "id":"H1.5",
-    "desc":"Jammer H1.5 is assumed more or less identical to jammer H1.1 (originating from the same source and built by the same producer).",
-    "image":"",
-    "table":[],
-    "images":[]
-  },
-
-
-
-
-
-
-
-
-
-
-  {
-    "title":"Technical details on low-power jammer 'H2.1 and H2.2'",
-    "id":"H2.1-H2.2",
-    "desc":"H2.1 and H2.2 are small and light handheld, battery driven jammers with built-in antennas.\nThey are two-antenna, so-called 'L1+L2', jammers, disrupting both the upper and lower L-band.",
-    "image":"appendixG/h2.1-photo.png",
-    "table":
-    [
-      ["Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["1580","20","N/A","N/A","N/A","9","Sawtooth"],
-      ["1227","20","N/A","N/A","N/A","9","Sawtooth"]
+    "title": "Technical details on low-power jammer 'H1.1'",
+    "id": "H1.1",
+    "desc": "The jammer H1.1 belongs to the 'Handheld category' of jammers. It is a medium weight battery driven jammer with a configuration panel for operation: multi-frequency and multi-modulation for both low and high output power. Its commercially available for military training purposes as Novatel's NEAT-jammer. Antenna has TNC-connector.\nH1.1 is a one-antenna, yet multi-frequency, jammer, therefore a so-called 'L1+L2', disrupting parts of both the upper and lower L-band. Jammer (H1.4, H1.5, H1.6 and H1.7) are the same type as H1.1, but the measuremensts are all done on H1.1. \n\n Configuration choices are (as provided by the producer):\n - Centre frequency: 1575.42 MHz and 1227.6 MHz\n - Estimated output power: low power -5 dBm, high power 20 dBm\n - Type of modulation: narrow band (NB), wide band (WB), continuous wave (CW), chirp/sweep and other (optional to program)\n\n In the 2024 measurements below, bandwidth is defined as\n - main lobe in PRN signal\n - 3 dB from local (identifiable) maxima",
+    "image": "appendixG/h1.1-photo.png",
+    "table": [
+      [
+        "Antenna\nconfiguration",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "L1, NB, HIGH PWR",
+        "1575.42",
+        "2.05",
+        "17.52",
+        "20.63",
+        "11.07",
+        "N/A",
+        "PRN\n(spreading code of 1 MHz)"
+      ],
+      [
+        "L1, WB, HIGH PWR",
+        "1575.40",
+        "20.03",
+        "8.20",
+        "21.25",
+        "11.43",
+        "N/A",
+        "PRN\n(spreading code of 10 MHz)"
+      ],
+      [
+        "L1, CW, HIGH PWR",
+        "1575.42",
+        "0.103",
+        "22.50",
+        "12.62",
+        "13.67",
+        "N/A",
+        "CW"
+      ],
+      [
+        "L1, CHIRP, HIGH PWR",
+        "1575.60",
+        "18.75",
+        "3.10",
+        "15.83",
+        "-5.73",
+        "10.42",
+        "Sawtooth"
+      ],
+      [
+        "L1, NB, LOW PWR",
+        "1575.42",
+        "2.05",
+        "-12.84",
+        "-9.73",
+        "-19.35",
+        "N/A",
+        "PRN\n(spreading code of 1 MHz)"
+      ],
+      [
+        "L1, WB, LOW PWR",
+        "1575.40",
+        "19.93",
+        "-21.66",
+        "-8.66",
+        "-17.91",
+        "N/A",
+        "PRN\n(spreading code of 10 MHz)"
+      ],
+      [
+        "L1, CW, LOW PWR",
+        "1575.42",
+        "0.10",
+        "-7.55",
+        "-17.46",
+        "-16.37",
+        "N/A",
+        "CW"
+      ],
+      [
+        "L1, CHIRP, LOW PWR",
+        "1575.60",
+        "18.75",
+        "-27.03",
+        "-14.31",
+        "-35.65",
+        "10.46",
+        "Sawtooth"
+      ],
+      [
+        "L2, NB, HIGH PWR",
+        "1227.42",
+        "2.049",
+        "18.73",
+        "21.84",
+        "12.17",
+        "N/A",
+        "PRN\n(spreading code of 1 MHz)"
+      ],
+      [
+        "L2, WB, HIGH PWR",
+        "1227.36",
+        "20.30",
+        "9.27",
+        "22.34",
+        "12.09",
+        "N/A",
+        "PRN\n(spreading code of 10 MHz)"
+      ],
+      [
+        "L2, CW, HIGH PWR",
+        "1227.42",
+        "0.10",
+        "23.96",
+        "14.13",
+        "15.17",
+        "N/A",
+        "CW"
+      ],
+      [
+        "L2, CHIRP, HIGH PWR",
+        "1227.22",
+        "18.79",
+        "4.98",
+        "17.72",
+        "-4.11",
+        "10.4",
+        "Sawtooth"
+      ],
+      [
+        "L2, NB, LOW PWR",
+        "1227.42",
+        "2.05",
+        "-11.20",
+        "-8.09",
+        "-17.79",
+        "N/A",
+        "PRN\n(spreading code of 1 MHz)"
+      ],
+      [
+        "L2, WB, LOW PWR",
+        "1227.36",
+        "20.30",
+        "-20.39",
+        "-7.32",
+        "-17.41",
+        "N/A",
+        "PRN\n(spreading code of 10 MHz)"
+      ],
+      [
+        "L2, CW, LOW PWR",
+        "1227.42",
+        "0.10",
+        "-5.98",
+        "-15.81",
+        "-14.77",
+        "N/A",
+        "CW"
+      ],
+      [
+        "L2, CHIRP, LOW PWR",
+        "1227.22",
+        "18.76",
+        "-24.97",
+        "-12.23",
+        "-33.98",
+        "10.4",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/h2.1-1.png","desc":"Example measurement of H2.1 and H2.2 jammer"}
+    "images": [
+      {
+        "path": "appendixG/h1.1-1.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-2.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-3.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-4.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-5.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-6.png",
+        "desc": "Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-7.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-8.png",
+        "desc": "Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-9.png",
+        "desc": "Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-10.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-11.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-12.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-13.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Continuous Wave band High Power (CW HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-14.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L1 Chirp High Power (CHIRP HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-15.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-16.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-17.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-18.png",
+        "desc": "Frequency and power measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-19.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-20.png",
+        "desc": "Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-21.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-22.png",
+        "desc": "Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-23.png",
+        "desc": "Real-time persistence and spectrogram measurement with wider span of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-24.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-25.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Narrow band High Power (NB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-26.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Wide band High Power (WB HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-27.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Continuous Wave band High Power (CW HIGH PWR)"
+      },
+      {
+        "path": "appendixG/h1.1-28.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.1 with antenna configuration L2 Chirp High Power (CHIRP HIGH PWR)"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'H3.1'",
-    "id":"H3.1",
-    "desc":"The jammer H3.1 belongs to the 'Handheld category' of jammers. It is a small and light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\n\n H3.1 is a three-antenna, so-called 'multi-frequency', jammer, but not a 'multi-GNSS-jammer'. It jams three different bands, but only one channel is relevant for GNSS bands ('L1-only'), so disrupting only the upper L-band.\n\nRelevant GNSS antenna is marked: 'GPS'",
-    "image":"appendixG/h3.1-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["'GPS'","1577,93","28,29","17,34","31,86","16,17","6,16","Sawtooth"]
+    "title": "Technical details on low-power jammer 'H1.2'",
+    "id": "H1.2",
+    "desc": "The jammer H1.2 belongs to the 'Handheld category' of jammers. It is a small and light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\nH1.2 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "image": "appendixG/h1.2-photo.png",
+    "table": [
+      [
+        "Antenna",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "L1",
+        "1575,22",
+        "21,99",
+        "14,35",
+        "27,78",
+        "9,36",
+        "6,08",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/h3.1-1.png","desc":"Frequency and power measurement of jammer H3.1 on antenna 'GPS'"},
-      {"path":"appendixG/h3.1-2.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.1 on antenna 'GPS'"},
-      {"path":"appendixG/h3.1-3.png","desc":"Time domain (analog demod) measurement of jammer H3.1 on antenna 'GPS'"}
+    "images": [
+      {
+        "path": "appendixG/h1.2-1.png",
+        "desc": "Frequency and power measurement of jammer H1.2"
+      },
+      {
+        "path": "appendixG/h1.2-2.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H1.2"
+      },
+      {
+        "path": "appendixG/h1.2-3.png",
+        "desc": "Time domain (analog demod) measurement of jammer H1.2"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'H3.2'",
-    "id":"H3.2",
-    "desc":"The jammer H3.2 belongs to the 'Handheld category' of jammers. It is a small and light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\n\nH3.2 is a three-antenna, so-called 'multi-frequency', jammer, but not a 'multi-GNSS-jammer'. It jams three different bands, but only one channel is relevant for GNSS bands ('L1-only'), so disrupting only the upper L-band.\n\nRelevant GNSS antenna is marked:'GPS'",
-    "image":"appendixG/h3.1-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["'GPS'","1579,52","30,81","17,97","32,86","16,65","6,44","Sawtooth"]
+    "title": "Technical details on low-power jammer 'H1.3'",
+    "id": "H1.3",
+    "desc": "H1.3 is a small, handheld and battery driven jammer using frequency hopping (normally commercially available jammers employ chirp signals, making this jammer an oddity).\nH1.3 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.\n\nType of modulation: frequency hopping\n- Jumping between 6 separated frequencies. Every 50 ms the frequency increases 200 kHz, starting with 1574.62 MHz. After approximately 1 MHz the frequency jumps back to the start frequency at 1574.62 MHz.",
+    "image": "appendixG/h1.3-photo.png",
+    "table": [
+      [
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "1575",
+        "1",
+        "N/A",
+        "N/A",
+        "N/A",
+        "5-8",
+        "Frequency hopping"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/h3.2-1.png","desc":"Frequency and power measurement of jammer H3.2 on antenna 'GPS'"},
-      {"path":"appendixG/h3.1-2.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.2 on antenna 'GPS'"},
-      {"path":"appendixG/h3.2-3.png","desc":"Time domain (analog demod) measurement of jammer H3.2 on antenna 'GPS'"}
+    "images": [
+      {
+        "path": "appendixG/h1.3-1.png",
+        "desc": "Example measurement of H1.3 jammer"
+      }
     ]
   },
   {
-    "title":"Technical details on low-power jammer 'H3.3'",
-    "id":"H3.3",
-    "desc":"The jammer H3.3 belongs to the 'Handheld category' of jammers. It is a small and relatively light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\n\nH3.3 is a three-antenna, so-called 'L1+L2+L5', jammer, disrupting both the upper and lower L-band.\n\nThe three antennas are marked with white lines of different length: short=L1,medium=L2, long=L5\n\nThe jammer has additional noise in several other (non GNSS) frequency bands,but with significant lower power.",
-    "image":"appendixG/h3.3-photo.png",
-    "table":
-    [
-      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]", "PSD\n[dBm/MHz]", "TX total\n[dBm]", "CF max\n[dBm]", "Sweep rate\n[µs]", "Modulation"],
-      ["'short'(L1)","1575,35","19,93","26,37","39,36","23,56","12,96","Sawtooth"],
-      ["'medium'(L2)","1228,06","14,36","27,38","38,95","22,44","12,51","Sawtooth"],
-      ["'long'(L5)","1176,24","17,45","28,62","41,04","25,83","12,51","Sawtooth"]
+    "title": "Technical details on low-power jammer 'H1.4'",
+    "id": "H1.4",
+    "desc": "Jammer H1.4 is assumed more or less identical to jammer H1.1 (originating from the same source and built by the same producer).",
+    "image": "",
+    "table": [],
+    "images": []
+  },
+  {
+    "title": "Technical details on low-power jammer 'H1.5'",
+    "id": "H1.5",
+    "desc": "Jammer H1.5 is assumed more or less identical to jammer H1.1 (originating from the same source and built by the same producer).",
+    "image": "",
+    "table": [],
+    "images": []
+  },
+  {
+    "title": "Technical details on low-power jammer 'H2.1 and H2.2'",
+    "id": "H2.1-H2.2",
+    "desc": "H2.1 and H2.2 are small and light handheld, battery driven jammers with built-in antennas.\nThey are two-antenna, so-called 'L1+L2', jammers, disrupting both the upper and lower L-band.",
+    "image": "appendixG/h2.1-photo.png",
+    "table": [
+      [
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "1580",
+        "20",
+        "N/A",
+        "N/A",
+        "N/A",
+        "9",
+        "Sawtooth"
+      ],
+      [
+        "1227",
+        "20",
+        "N/A",
+        "N/A",
+        "N/A",
+        "9",
+        "Sawtooth"
+      ]
     ],
-    "images":[
-      {"path":"appendixG/h3.3-1.png","desc":"Frequency and power measurement of jammer H3.3 on antenna 'short' (L1)"},
-      {"path":"appendixG/h3.3-2.png","desc":"Frequency and power measurement of jammer H3.3 on antenna 'medium' (L2)"},
-      {"path":"appendixG/h3.3-3.png","desc":"Frequency and power measurement of jammer H3.3 on antenna 'long' (L5)"},
-
-      {"path":"appendixG/h3.3-4.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.3 on antenna 'short' (L1)"},
-      {"path":"appendixG/h3.3-5.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.3 on antenna 'medium' (L2)"},
-      {"path":"appendixG/h3.3-6.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.3 on antenna 'long' (L5)"},
-
-      {"path":"appendixG/h3.3-7.png","desc":"Time domain (analog demod) measurement of jammer H3.3 on antenna 'short' (L1)"},
-      {"path":"appendixG/h3.3-8.png","desc":"Time domain (analog demod) measurement of jammer H3.3 on antenna 'medium' (L2)"},
-      {"path":"appendixG/h3.3-9.png","desc":"Time domain (analog demod) measurement of jammer H3.3 on antenna 'long' (L5)"}
+    "images": [
+      {
+        "path": "appendixG/h2.1-1.png",
+        "desc": "Example measurement of H2.1 and H2.2 jammer"
+      }
     ]
   },
-
-
-
-
-
-
+  {
+    "title": "Technical details on low-power jammer 'H3.1'",
+    "id": "H3.1",
+    "desc": "The jammer H3.1 belongs to the 'Handheld category' of jammers. It is a small and light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\n\n H3.1 is a three-antenna, so-called 'multi-frequency', jammer, but not a 'multi-GNSS-jammer'. It jams three different bands, but only one channel is relevant for GNSS bands ('L1-only'), so disrupting only the upper L-band.\n\nRelevant GNSS antenna is marked: 'GPS'",
+    "image": "appendixG/h3.1-photo.png",
+    "table": [
+      [
+        "Antenna",
+        "Centre frequency\n[MHz]",
+        "Bandwidth\n[MHz]",
+        "PSD\n[dBm/MHz]",
+        "TX total\n[dBm]",
+        "CF max\n[dBm]",
+        "Sweep rate\n[µs]",
+        "Modulation"
+      ],
+      [
+        "'GPS'",
+        "1577,93",
+        "28,29",
+        "17,34",
+        "31,86",
+        "16,17",
+        "6,16",
+        "Sawtooth"
+      ]
+    ],
+    "images": [
+      {
+        "path": "appendixG/h3.1-1.png",
+        "desc": "Frequency and power measurement of jammer H3.1 on antenna 'GPS'"
+      },
+      {
+        "path": "appendixG/h3.1-2.png",
+        "desc": "Real-time persistence and spectrogram measurement of jammer H3.1 on antenna 'GPS'"
+      },
+      {
+        "path": "appendixG/h3.1-3.png",
+        "desc": "Time domain (analog demod) measurement of jammer H3.1 on antenna 'GPS'"
+      }
+    ]
+  },
   {
     "title":"Technical details on low-power jammer 'H4.1'",
     "id":"H4.1",
@@ -394,6 +911,4 @@
       {"path":"appendixG/h4.1-16.png","desc":"Time domain (analog demod) measurement of jammer H4.1 on antenna '4' (L5)"}
     ]
   }
-
-
 ]

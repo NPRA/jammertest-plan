@@ -263,12 +263,39 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-17T15:00:00",
-          "end_time": "2025-09-17T18:00:00",
-          "test_id": "0.0.0",
+          "start_time": "2025-09-17T13:10:00",
+          "end_time": "2025-09-17T13:50:00",
+          "test_id": "2.10.1",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.001,
+          "comment": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150,\nB150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes\nof the test. Signals: GPS L1 C/A. Galileo E1. No initial jamming. Spoofing route duration is 40\nminutes.",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-17T14:00:00",
+          "end_time": "2025-09-17T14:55:00",
+          "test_id": "2.10.2",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 3,
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming\nfirst. Then spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing\ncirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW\nduring the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route\nduration is 40 minutes.",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-17T15:05:00",
+          "end_time": "2025-09-17T16:00:00",
+          "test_id": "2.10.3",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 4,
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Two additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 15 minutes of initial jamming first. Then\nspoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above\nposition A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the\nfirst 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is\n40 minutes.",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-17T16:10:00",
+          "end_time": "2025-09-17T17:05:00",
+          "test_id": "2.10.4",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 5,
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Five additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 15\nminutes of initial jamming first. Then spoofing starts. Spoofing route will start at LOK2-ORIG, and\ngoes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A.\nGalileo E1. Spoofing route duration is 40 minutes.",
           "status": ""
         },
         {
