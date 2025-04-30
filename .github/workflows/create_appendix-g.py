@@ -44,7 +44,7 @@ def create_equipment(tex,eq):
         for row in eq['table']:
             tex.write("\\hline\n")
             for cell in row:
-                tex.write("\\makecell{"+esc(cell)+"}")
+                tex.write("\\makecell{"+esc(cell.replace(",","."))+"}")
                 if row.index(cell) < cols-1:
                     tex.write(" & ")
                 else:
