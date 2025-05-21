@@ -16,7 +16,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Build AppendixG
-        run: python .github/workflows/create_appendixG.py
+        run: python .github/workflows/create_appendix-g.py
       - name: Run the python script to generate latex from JSON testfile
         run: python .github/workflows/create_testcatalog_PDF.py
         #Starting to build environment with latex in it and comple
