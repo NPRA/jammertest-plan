@@ -1,4 +1,4 @@
-\def \filsti {./Latex/}%\def \filsti {./}%
+\def \filsti {./Latex/}%\filsti {./}%
 \documentclass[a4paper]{book}
 
 \usepackage[]{xcolor}
@@ -34,6 +34,11 @@
 %% Stop text from indenting
 \setlength\parindent{0pt}
 
+%% appendix G
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage[table,xcdraw]{xcolor}
 
 %% Graphics are stored in the graphics path
 \usepackage{graphicx}
@@ -133,37 +138,38 @@ For those wanting more information or have feedback about the test group a techn
 \includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix F - Overview of spoofed routes.pdf}
 
 \section{Appendix G - Technical details on jammer equipment}
-\includepdf[pages={2-},pagecommand={},addtotoc={
-    3,subsection,2,Technical details on low-power jammer “S1.1”,p1,
-    5,subsection,2,Technical details on low-power jammer “S1.2”,p1,
-    7,subsection,2,Technical details on low-power jammer “S1.3”,p1,
-    9,subsection,2,Technical details on low-power jammer “S2.1”,p1,
-   13,subsection,2,Technical details on low-power jammer “S2.2”,p1,
-   17,subsection,2,Technical details on low-power jammer “S2.3”,p1,
-   21,subsection,2,Technical details on low-power jammer “S2.4”,p1,
-   25,subsection,2,Technical details on low-power jammer “U1.1 to U1.4”,p1,
-   26,subsection,2,Technical details on low-power jammer “H1.1”,p1,
-   43,subsection,2,Technical details on low-power jammer “H1.2”,p1,
-   45,subsection,2,Technical details on low-power jammer “H1.3”,p1,
-   46,subsection,2,Technical details on low-power jammer “H1.4”,p1,
-   47,subsection,2,Technical details on low-power jammer “H1.5”,p1,
-   48,subsection,2,Technical details on low-power jammer “H2.1 and H2.2”,p1,
-   49,subsection,2,Technical details on low-power jammer “H3.1”,p1,
-   51,subsection,2,Technical details on low-power jammer “H3.2”,p1,
-   53,subsection,2,Technical details on low-power jammer “H3.3”,p1,
-   59,subsection,2,Technical details on low-power jammer “H4.1”,p1,
-   68,subsection,2,Technical details on low-power jammer “H6.1”,p1,
-   72,subsection,2,Technical details on low-power jammer “H6.2”,p1,
-   79,subsection,2,Technical details on low-power jammer “H6.3”,p1,
-   86,subsection,2,Technical details on low-power jammer “H6.4”,p1,
-   92,subsection,2,Technical details on low-power jammer “H6.5”,p1,
-   98,subsection,2,Technical details on low-power jammer “H6.6”,p1,
-  104,subsection,2,Technical details on low-power jammer “F6.1”,p1,
-  113,subsection,2,Technical details on low-power jammer “H8.1”,p1,
-  115,subsection,2,Technical details on the meaconing setup “Porcellus” / “F1.1”,p1,
-  116,subsection,2,Technical details on the high-power jammer “Porcus Major”/ “F8.1”,p1,
-  118,subsection,2,Technical details on software defined radio mobile SDR spoofer “F1.2”,p1}]
-  {\filsti appendices/Appendix G - Technical details on jammer equipment.pdf}
+\input{appendices/includeAppendixG.tex}
+% \includepdf[pages={2-},pagecommand={},addtotoc={
+%     3,subsection,2,Technical details on low-power jammer “S1.1”,p1,
+%     5,subsection,2,Technical details on low-power jammer “S1.2”,p1,
+%     7,subsection,2,Technical details on low-power jammer “S1.3”,p1,
+%     9,subsection,2,Technical details on low-power jammer “S2.1”,p1,
+%    13,subsection,2,Technical details on low-power jammer “S2.2”,p1,
+%    17,subsection,2,Technical details on low-power jammer “S2.3”,p1,
+%    21,subsection,2,Technical details on low-power jammer “S2.4”,p1,
+%    25,subsection,2,Technical details on low-power jammer “U1.1 to U1.4”,p1,
+%    26,subsection,2,Technical details on low-power jammer “H1.1”,p1,
+%    43,subsection,2,Technical details on low-power jammer “H1.2”,p1,
+%    45,subsection,2,Technical details on low-power jammer “H1.3”,p1,
+%    46,subsection,2,Technical details on low-power jammer “H1.4”,p1,
+%    47,subsection,2,Technical details on low-power jammer “H1.5”,p1,
+%    48,subsection,2,Technical details on low-power jammer “H2.1 and H2.2”,p1,
+%    49,subsection,2,Technical details on low-power jammer “H3.1”,p1,
+%    51,subsection,2,Technical details on low-power jammer “H3.2”,p1,
+%    53,subsection,2,Technical details on low-power jammer “H3.3”,p1,
+%    59,subsection,2,Technical details on low-power jammer “H4.1”,p1,
+%    68,subsection,2,Technical details on low-power jammer “H6.1”,p1,
+%    72,subsection,2,Technical details on low-power jammer “H6.2”,p1,
+%    79,subsection,2,Technical details on low-power jammer “H6.3”,p1,
+%    86,subsection,2,Technical details on low-power jammer “H6.4”,p1,
+%    92,subsection,2,Technical details on low-power jammer “H6.5”,p1,
+%    98,subsection,2,Technical details on low-power jammer “H6.6”,p1,
+%   104,subsection,2,Technical details on low-power jammer “F6.1”,p1,
+%   113,subsection,2,Technical details on low-power jammer “H8.1”,p1,
+%   115,subsection,2,Technical details on the meaconing setup “Porcellus” / “F1.1”,p1,
+%   116,subsection,2,Technical details on the high-power jammer “Porcus Major”/ “F8.1”,p1,
+%   118,subsection,2,Technical details on software defined radio mobile SDR spoofer “F1.2”,p1}]
+%   {\filsti appendices/Appendix G - Technical details on jammer equipment.pdf}
 
 \section{Appendix H - Andøya ground truth}
 \includepdf[pages=-,pagecommand={}]{\filsti appendices/Appendix H - Andoya_Ground_Truth.pdf}

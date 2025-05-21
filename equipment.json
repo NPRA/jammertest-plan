@@ -877,6 +877,51 @@
     ]
   },
   {
+    "title": "Technical details on low-power jammer 'H3.2'",
+    "id": "H3.2",
+    "desc": "The jammer H3.2 belongs to the 'Handheld category' of jammers. It is a small and light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\n\n H3.2 is a three-antenna, so-called 'multi-frequency', jammer, but not a 'multi-GNSS-jammer'. It jams three different bands, but only one channel is relevant for GNSS bands ('L1-only'), so disrupting only the upper L-band.\n\nRelevant GNSS antenna is marked: 'GPS'",
+    "image": "appendixG/h3.1-photo.png",
+    "table": [
+      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]","PSD\n[dBm/MHz]","TX total\n[dBm]","CF max\n[dBm]","Sweep rate\n[µs]","Modulation"],
+      ["'GPS'","1579.52","30.81","17.97","32.86","16.65","6.44","Sawtooth"]
+    ],
+    "images": [
+      {"path": "appendixG/h3.2-1.png","desc": "Frequency and power measurement of jammer H3.2 on antenna 'GPS'"},
+      {"path": "appendixG/h3.2-2.png","desc": "Real-time persistence and spectrogram measurement of jammer H3.2 on antenna 'GPS'"},
+      {"path": "appendixG/h3.2-3.png","desc": "Time domain (analog demod) measurement of jammer H3.2 on antenna 'GPS'"}
+    ]
+  },
+  {
+    "title": "Technical details on low-power jammer 'H3.3'",
+    "id": "H3.3",
+    "desc": "The jammer H3.3 belongs to the 'Handheld category' of jammers. It is a small and relatively light battery driven jammer with an easy operation, just an on/off-button with a LED-light to indicate activation.\n\nH3.3 is a three-antenna, so-called 'L1+L2+L5', jammer, disrupting both the upper and lower L-band.\n\nThe three antennas are marked with white lines of different length: short=L1, medium=L2, long=L5\n\nThe jammer has additional noise in several other (non GNSS) frequency bands,but with significant lower power.",
+    "image": "appendixG/h3.3-photo.png",
+    "table": [
+      ["Antenna","Centre frequency\n[MHz]","Bandwidth\n[MHz]","PSD\n[dBm/MHz]","TX total\n[dBm]","CF max\n[dBm]","Sweep rate\n[µs]","Modulation"],
+      ["'short' (L1) ","1575.35","19.93","26.37","39.36","23.56","12.96","Sawtooth"],
+      ["'medium' (L2)","1228.06","14.36","27.38","38.95","22.44","12.51","Sawtooth"],
+      ["'long' (L5)  ","1176.24","17.45","28.62","41.04","25.83","12.51","Sawtooth"]
+    ],
+    "images": [
+      {"path":"appendixG/h3.3-1.png","desc":"Frequency and power measurement of jammer H3.3 on antenna 'short' (L1)"},
+      {"path":"appendixG/h3.3-2.png","desc":"Frequency and power measurement of jammer H3.3 on antenna 'medium' (L2)"},
+      {"path":"appendixG/h3.3-3.png","desc":"Frequency and power measurement of jammer H3.3 on antenna 'long' (L5)"},
+ 
+      {"path":"appendixG/h3.3-4.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.3 on antenna 'short' (L1)"},
+      {"path":"appendixG/h3.3-5.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.3 on antenna 'medium' (L2)"},
+      {"path":"appendixG/h3.3-6.png","desc":"Real-time persistence and spectrogram measurement of jammer H3.3 on antenna 'long' (L5)"},
+ 
+      {"path":"appendixG/h3.3-7.png","desc":"Time domain (analog demod) measurement of jammer H3.3 on antenna 'short' (L1)"},
+      {"path":"appendixG/h3.3-8.png","desc":"Time domain (analog demod) measurement of jammer H3.3 on antenna 'medium' (L2)"},
+      {"path":"appendixG/h3.3-9.png","desc":"Time domain (analog demod) measurement of jammer H3.3 on antenna 'long' (L5)"}
+    ]
+  },
+
+
+
+
+
+  {
     "title":"Technical details on low-power jammer 'H4.1'",
     "id":"H4.1",
     "desc":"The jammer H4.1 belongs to the 'Handheld category' of jammers. It is a small and relatively light battery driven jammer with a relatively easy operation, just an on/off-button with a LED-light to indicate activation and DIP switches to change between channels.\n\nH4.1 is a four-antenna, so-called 'L1+L2+L5+E6', jammer, disrupting both the upper and lower L-band.\n\nThe four antennas are marked with numbers: '1' (L1), '2' (E6), '3' (L2) and '4' (L5)\n\nThe jammer has additional noise (harmonics) in several other (non GNSS) frequency bands.",

@@ -4,7 +4,9 @@ on: #[push]
     paths:
       - ".github/workflows/create_testcatalog_PDF.py"
       - "Latex/main.tex"
+      - "Latex/appendices/includeAppendixG.tex"
       - "testcatalog.json"
+      - "equipment.json"
       - "Latex/appendices/*.pdf"
 jobs:
   build_latex:
@@ -13,6 +15,8 @@ jobs:
     # Runs a python script 
       - name: Set up Git repository
         uses: actions/checkout@v3
+      - name: Build AppendixG
+        run: python .github/workflows/create_appendixG.py
       - name: Run the python script to generate latex from JSON testfile
         run: python .github/workflows/create_testcatalog_PDF.py
         #Starting to build environment with latex in it and comple
