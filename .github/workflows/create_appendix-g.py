@@ -29,11 +29,9 @@ json_equipment_file = open('equipment.json')
 List_of_equipment = json.load(json_equipment_file)
 
 def create_equipment(tex,eq):
-    #\subsection{Technical details on low-power jammer “S1.1”}
     tex.write(f'\\subsection{{{eq["title"]}}}\n')
-    #\includegraphics[scale=0.4]{../graphics/appendixG/s1.1-photo.png}\\
     if eq["image"] != "":
-        tex.write(f'\\includegraphics[scale=0.4]{{../graphics/{eq["image"]}}}\\\\ \\\\ \n')
+        tex.write(f'\\includegraphics[scale=0.4]{{graphics/{eq["image"]}}}\\\\ \\\\ \n')
     #Description
     tex.write(f'{esc(eq["desc"])}\\\\\n')
     #table:
@@ -53,7 +51,7 @@ def create_equipment(tex,eq):
 
     for image in eq['images']:
         tex.write("\\begin{figure}[H]")
-        tex.write(f'\\includegraphics[width=\\textwidth]{{../graphics/{image["path"]}}} \n')
+        tex.write(f'\\includegraphics[width=\\textwidth]{{graphics/{image["path"]}}} \n')
         tex.write("\\caption{"+image["desc"]+"}")
         tex.write("\\end{figure}")
         #\\caption{Technical characteristics of "+eq["id"]+" jammer}\\label{table:tech_char_"+eq["id"]+"}
