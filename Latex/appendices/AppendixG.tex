@@ -5,6 +5,7 @@
 \usepackage{graphbox}
 \usepackage{makecell}
 \usepackage{multirow}
+\usepackage{hyperref}
 \usepackage{float}
 \usepackage[table,xcdraw]{xcolor}
 \graphicspath{ {./Latex} }
@@ -84,8 +85,79 @@ convenience to distinguish between jammers' modus operandi
 \input{\filsti equipment}
 
 
+%% Manual content that does not fit the template;
+\subsection{Technical details on the meaconing setup 'Porcellum' / 'F1.1'}
+The meaconing setup consists of two GNSS antennas 'E1' and 'E2' at two respective locations some
+distance from the transmitting antenna. Real live sky signals from the receivers are (after travelling
+through long cables) retransmitted with a directional antenna 'E3' pointing towards the community
+house in Bleik. The locations of the receiving antennas are outside of the line-of-sight to the
+transmitter antenna to avoid a feedback loop. The setup allows for switching between the two
+receiving antennas, ramping power and simultaneous transmission of both signals.
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{../graphics/appendixG/meaconingSetup.png}
+    \caption{Diagram of the meaconing setup}
+\end{figure}
 
+\subsection{Technical details on the high-power jammer 'Porcus Major'/ 'F8.1'}
+The high-power jammer provides jamming signals with up to 50 W EIRP simultaneously on eight GNSS
+bands, where the maximum available power depends on the signal modulations. Figure G 176 is a
+block diagram of the high-power jammer that shows how it works in pniciple. The jammer uses two
+USRP X410 SDR from Ettus Research as exciters. Each SDR have four output channels covering the
+frequency range of 1 MHz to 7.2 GHz, with maximum 400 MHz instantaneous bandwidth. The SDRs
+have an internal gain range of 60 dB in 1 dB steps. Each of the exciter output signals are fed to the
+corresponding channel of the programmable step-attenuator. The jammer can also utilize other signal
+generators. The attenuator has an attenuation range of 95 dB in 0.25 dB steps. The output signal from
+the attenuators is then fed to the power amplifiers. The amplifiers connect to eight individual
+antennas via a 10 m coax. The antennas are directional helical antennas with right hand circular
+polarization (RHCP) and 10 dB gain.
 
+\begin{table}[H]
+\begin{tabular}{|c|c|cc|ccc|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\cellcolor[HTML]{C0C0C0} & \textbf{CW} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{PRN}} & \multicolumn{3}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Frequency sweep}} \\ \cline{2-7} 
+\rowcolor[HTML]{C0C0C0} 
+\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Frequency\\ band name\end{tabular}}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Frequency\\ (MHz)\end{tabular}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Center\\ frequency\\ (MHz)\end{tabular}}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}BPSK\\ chiprate\\ (MHz)\end{tabular}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Center\\ frequency\\ (MHz)\end{tabular}}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{\begin{tabular}[c]{@{}c@{}}Sweep rates\\ (kHz)\end{tabular}}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Frequency\\ bandwidth\\ (MHz)\end{tabular}} \\ \hline
+L1  & 1575.42  & 1575.42  & 3 & 1575.42  & 1-100 & 6 \\ \hline
+L2  & 1227.6   & 1227.6   & 3 & 1227.6   & 1-100 & 6 \\ \hline
+L5  & 1176.45  & 1176.45  & 3 & 1176.45  & 1-100 & 6 \\ \hline
+G1  & 1602     & 1602     & 3 & 1602     & 1-100 & 6 \\ \hline
+G2  & 1246     & 1246     & 3 & 1246     & 1-100 & 6 \\ \hline
+E5b & 1207.14  & 1207.14  & 3 & 1207.14  & 1-100 & 6 \\ \hline
+E6  & 1278.75  & 1278.75  & 3 & 1278.75  & 1-100 & 6 \\ \hline
+B1I & 1561.098 & 1561.098 & 3 & 1561.098 & 1-100 & 6 \\ \hline
+\end{tabular}
+\caption{Overview of the signal modulations employed by 'Porcus Major'}
+\end{table}
+
+A PC controls the high-power jammer, that is both exciters and the step-attenuators. Software allows
+for the jammer to automatically execute individual tests described for the high-power jammer and
+supports all jamming signals described therein.
+The high-power jammer is connected to Internet and time synchronized using Network Time Protocol
+(NTP). After a jamming activity, it can upload the activity log to the central server.
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{../graphics/appendixG/blockDiagramHighPowerJammer.png}
+    \caption{Diagram of the high-power jammer}
+\end{figure}
+
+\subsection{Technical details on software defined radio mobile SDR spoofer 'F1.2'}
+A software defined radio (SDR) of type BladeRF x115 from Nuand is used for the mobile spoofing
+tests. The output signal is amplified 45 dB through an AA MCS 800 – 2200MHz amplifier, so that the
+maximum total EIRP is about 10 dBm. This signal is transmitted by a dipole antenna on the top of the
+vehicle, see \href{https://www.european-antennas.co.uk/media/1900/ds1036-080410.pdf}{ds1036-080410.pdf} (european-antennas.co.uk). \\\\
+\begin{figure}[hbt!]
+    \includegraphics[scale=0.4]{../graphics/appendixG/SDR.png}
+    \caption{Picture of the SDR without casing}
+\end{figure}
+
+The spoofed signals are GPS C/A only and may be combined with Glonass jamming (G1).
 %% content ends here
 
 \end{document}
