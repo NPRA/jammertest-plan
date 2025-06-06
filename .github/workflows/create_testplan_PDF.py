@@ -199,17 +199,17 @@ def writeTestPlan(dayname, date, dayjson):
 json_cat = open('testcatalog.json')
 cat = json.load(json_cat)
 
-json_mon = open('plan-monday-2024-09-09.json')
-writeTestPlan('monday', '2024-09-09', json.load(json_mon))
+json_mon = open('plan-monday-2025-09-15.json')
+writeTestPlan('monday', '2025-09-15', json.load(json_mon))
 
-json_tue = open('plan-tuesday-2024-09-10.json')
-writeTestPlan('tuesday', '2024-09-10', json.load(json_tue))
+json_tue = open('plan-tuesday-2025-09-16.json')
+writeTestPlan('tuesday', '2025-09-16', json.load(json_tue))
 
-json_wed = open('plan-wednesday-2024-09-11.json')
-writeTestPlan('wednesday', '2024-09-11', json.load(json_wed))
+json_wed = open('plan-wednesday-2025-09-17.json')
+writeTestPlan('wednesday', '2025-09-17', json.load(json_wed))
 
-json_thu = open('plan-thursday-2024-09-12.json')
-writeTestPlan('thursday', '2024-09-12', json.load(json_thu))
+json_thu = open('plan-thursday-2025-09-18.json')
+writeTestPlan('thursday', '2025-09-18', json.load(json_thu))
 
-json_fri = open('plan-friday-2024-09-13.json')
-writeTestPlan('friday', '2024-09-13', json.load(json_fri))
+json_fri = open('plan-friday-2025-09-19.json')
+writeTestPlan('friday', '2025-09-19', json.load(json_fri))
