@@ -795,6 +795,27 @@
               "min_power_w": 1,
               "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5, E6",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5, E6",
+              "test_id": 5
             }
           ]
         },
@@ -940,12 +961,33 @@
               "min_power_w": 1,
               "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
               "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, E6, 100 kHz",
+              "test_id": 9
             }
           ]
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
-          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
+          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The chiprate used is described in each test. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
           "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
@@ -1017,6 +1059,42 @@
               "min_power_w": 1,
               "name": "Jammer F8.1 \"Porcus Major\": \n50 W PRN: L1, G1, L2, L5, Chiprate: 3 MHz",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "Jammer F8.1 \"Porcus Major\":\n50 W PRN: L1, Chiprate: 1.023 MHz",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2, L5, E6",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 1,
+              "name": "Jammer F8.1 \"Porcus Major\": \n50 W PRN: L1, G1, L2, L5, E6, Chiprate: 1.023 MHz",
+              "test_id": 6
             }
           ]
         },
@@ -1057,7 +1135,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
-          "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test, with 10 seconds hold time for each power level, with ramping steps of 2 dB. The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
+          "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test. The time between power level steps is specified for each test, with ramping steps of 2 dB. The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 6,
           "group_name": "Stationary high-power jamming, ramp power with PRN",
           "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, and at which power level. This will allow for evaluation of the sensitivity thresholds for various systems and algorithms.",
@@ -1068,7 +1146,7 @@
                 "E1",
                 "B1C"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1. Power level step time 10 seconds",
               "equipment": [
                 "F8.1"
               ],
@@ -1084,7 +1162,7 @@
                 "B1C",
                 "G1"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1. Power level step time 10 seconds",
               "equipment": [
                 "F8.1"
               ],
@@ -1101,7 +1179,7 @@
                 "G1",
                 "L2"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1, L2.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1, L2. Power level step time 10 seconds",
               "equipment": [
                 "F8.1"
               ],
@@ -1121,7 +1199,7 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5.",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5. Power level step time 10 seconds",
               "equipment": [
                 "F8.1"
               ],
@@ -1129,6 +1207,42 @@
               "min_power_w": 2e-7,
               "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+              ],
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1. Power level step time 20 seconds",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5, E6. Power level step time 20 seconds",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 2e-7,
+              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
+              "test_id": 6
             }
           ]
         },
@@ -2270,6 +2384,28 @@
               "min_power_w": 50,
               "name": "High Power PRN jamming: L1, G1, L2, L5",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "High Power PRN jamming from multiple locations: L1, G1, L2, L5, E6. One hour jamming from F8.1, then one hour jamming from both F8.1 and M1.1, then last hour jamming from M1.1 only",
+              "equipment": [
+                "F8.1",
+                "M1.1"
+              ],
+              "max_power_w": 100,
+              "min_power_w": 50,
+              "name": "High Power PRN jamming from multiple locations: L1, G1, L2, L5, E6",
+              "test_id": 5
             }
           ]
         },
@@ -4011,6 +4147,24 @@
               "min_power_w": 0.316,
               "name": "Flying (route 2) - \"helicopter scenario\"",
               "test_id": 15
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b"
+              ],
+              "description": "",
+              "equipment": [
+                "S"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.316,
+              "name": "Longer period with position and time spoofing",
+              "test_id": 16
             }
           ]
         },
@@ -5585,6 +5739,63 @@
               "max_power_w": 10,
               "min_power_w": 0.01,
               "name": "Meacon F1.1 \"Porcellus\": RX1 at less than 1 W, adding RX2 at 10 W after 5 minutes",
+              "test_id": 3
+            }
+          ]
+        },
+        {
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Major\", see Appendix G for more information about the equipment.",
+          "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmit on the L1 and L2 bands, where the employed antenna for the receiver have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through.",
+          "group_id": 4,
+          "group_name": "Stationary meaconing from a single receiver in combination with other deceptive signals",
+          "rationale": "Meaconing is to record live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. In addition, multiple spoofing signals will be transmitted from different directions. The objective of these tests is to observe how equipment and systems behave under varying meaconing tranmission power levels. It might be interesting to see when or if your device jumps from an existing PNT fix to a meaconed signal with a higher power level.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "Meaconing from receiver RX1, combined with spoofing signal from location ???",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and spoofing frm F?.? Winnie the Spoof",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "Meaconing from receiver RX1, combined with mobile spoofing signal",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 10,
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and spoofing from F?.? Winnie the Spoof",
+              "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "Meaconing from receiver RX1 combined with meaconing from community house. RX1 power level is constant 10W, while the community house signal power level is ramped up",
+              "equipment": [
+                "F1.1"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 0.001,
+              "name": "Meacon F1.1 \"Porcellus\": RX1 and JV",
               "test_id": 3
             }
           ]
