@@ -193,18 +193,18 @@
         {
           "start_time": "2025-09-18T09:00:00",
           "end_time": "2025-09-18T11:00:00",
-          "test_id": "0.0.0",
+          "test_id": "1.23.1",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
+          "power_w": 0.316,
           "comment": "Drone with jammer onboard. Dependent on weather conditions",
           "status": ""
         },
         {
           "start_time": "2025-09-18T11:00:00",
           "end_time": "2025-09-18T13:00:00",
-          "test_id": "0.0.0",
+          "test_id": "1.23.2",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
+          "power_w": 0.316,
           "comment": "Drone with jammer onboard. Dependent on weather conditions",
           "status": ""
         },
@@ -219,20 +219,11 @@
         },
         {
           "start_time": "2025-09-18T14:00:00",
-          "end_time": "2025-09-18T15:55:00",
-          "test_id": "0.0.0",
+          "end_time": "2025-09-18T16:00:00",
+          "test_id": "0.3.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "TBD",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-18T16:05:00",
-          "end_time": "2025-09-18T16:15:00",
-          "test_id": "0.0.0",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "TBD",
+          "comment": "",
           "status": ""
         },
         {
@@ -240,8 +231,8 @@
           "end_time": "2025-09-18T16:15:00",
           "test_id": "1.1.1",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.0316,
+          "comment": "",
           "status": ""
         },
         {
@@ -249,8 +240,8 @@
           "end_time": "2025-09-18T16:30:00",
           "test_id": "1.1.4",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.1,
+          "comment": "",
           "status": ""
         },
         {
@@ -258,8 +249,7 @@
           "end_time": "2025-09-18T16:45:00",
           "test_id": "1.1.8",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "TBD",
+          "comment": "",
           "status": ""
         },
         {
@@ -267,8 +257,8 @@
           "end_time": "2025-09-18T17:00:00",
           "test_id": "1.1.12",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.1,
+          "comment": "",
           "status": ""
         },
         {
@@ -276,7 +266,7 @@
           "end_time": "2025-09-18T17:15:00",
           "test_id": "1.1.18",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
+          "power_w": 1,
           "comment": "TBD",
           "status": ""
         },
@@ -285,7 +275,7 @@
           "end_time": "2025-09-18T17:30:00",
           "test_id": "1.1.19",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
+          "power_w": 0.631,
           "comment": "TBD",
           "status": ""
         },
@@ -303,7 +293,7 @@
           "end_time": "2025-09-18T18:00:00",
           "test_id": "1.1.23",
           "test_contact": "Christian Skjetne (NPRA)",
-          "power_w": 0,
+          "power_w": 1,
           "comment": "Lunch @ Stave (Site 3)",
           "status": ""
         },
