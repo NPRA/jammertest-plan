@@ -3613,6 +3613,41 @@
               "test_id": 1
             }
           ]
+        },
+        {
+          "comment": "",
+          "description": "Jammer is placed onboard a drone. The drone will try to fly in a cirle above the 50, 100 and 150 meter positions from origo at Test Area 2.",
+          "group_id": 23,
+          "group_name": "Jammer in the air",
+          "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it\nproduces inaccurate PNT data, when the jamming signal (J) is generated for the air by a drone. Relevant for CRPA null steering and TDOA testing.",
+          "tests": [
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Cigarette jammer S1.1 with Helix antenna",
+              "equipment": [
+                "S1.1"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.0316,
+              "name": "Jammer S1.1 with 10dB gain at 50 meters above ground",
+              "test_id": 1
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Cigarette jammer S1.1 with Helix antenna",
+              "equipment": [
+                "S1.1"
+              ],
+              "max_power_w": 0.316,
+              "min_power_w": 0.0316,
+              "name": "Jammer S1.1 with 10dB gain at 100 meters above ground",
+              "test_id": 2
+            }
+          ]
         }
       ],
       "type": "Jamming",
