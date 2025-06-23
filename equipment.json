@@ -794,6 +794,22 @@
     "images": []
   },
   {
+    "title": "Technical details on low-power jammer 'H1.6'",
+    "id": "H1.6",
+    "desc": "Jammer H1.6 is assumed more or less identical to jammer H1.1 (originating from the same source and built by the same producer).",
+    "image": "",
+    "table": [],
+    "images": []
+  },
+  {
+    "title": "Technical details on low-power jammer 'H1.7'",
+    "id": "H1.7",
+    "desc": "Jammer H1.7 is assumed more or less identical to jammer H1.1 (originating from the same source and built by the same producer).",
+    "image": "",
+    "table": [],
+    "images": []
+  },
+  {
     "title": "Technical details on low-power jammer 'H2.1 and H2.2'",
     "id": "H2.1-H2.2",
     "desc": "H2.1 and H2.2 are small and light handheld, battery driven jammers with built-in antennas.\nThey are two-antenna, so-called 'L1+L2', jammers, disrupting both the upper and lower L-band.",
