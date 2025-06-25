@@ -5033,7 +5033,7 @@
               ],
               "max_power_w": 0.01,
               "min_power_w": 0.01,
-              "name": "Spoofing:  Motorcade driving south, while the spoofed speed is following the road at a high speed, stops and returns at low speed",
+              "name": "Spoofing: Motorcade driving south, while the spoofed speed is following the road at a high speed, stops and returns at low speed",
               "test_id": 7
             }
           ]
