@@ -317,81 +317,63 @@
           "start_time": "2025-09-17T08:00:00",
           "end_time": "2025-09-17T08:30:00",
           "test_id": "0.0.1",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "comment": "MANDATORY attendence at Stave (Site 3)",
           "status": ""
         },
         {
-          "start_time": "2025-09-17T10:00:00",
+          "start_time": "2025-09-17T09:00:00",
           "end_time": "2025-09-17T11:00:00",
-          "test_id": "0.2.1",
+          "test_id": "1.10.3",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
+          "power_w": 1,
+          "comment": "Jammers available for testing: H3.2,H4.1,H6.1,H6.3",
           "status": ""
         },
         {
           "start_time": "2025-09-17T11:00:00",
-          "end_time": "2025-09-17T12:00:00",
-          "test_id": "0.2.1",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-17T12:00:00",
           "end_time": "2025-09-17T13:00:00",
-          "test_id": "0.2.1",
+          "test_id": "1.10.2",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
+          "power_w": 6.31,
+          "comment": "Jammers available for testing: H3.3,H4.1,H8.1,F6.1",
           "status": ""
         },
         {
           "start_time": "2025-09-17T13:00:00",
           "end_time": "2025-09-17T14:00:00",
           "test_id": "0.1.1",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
           "comment": "Lunch @ Stave (Site 3)",
           "status": ""
         },
         {
           "start_time": "2025-09-17T14:00:00",
-          "end_time": "2025-09-17T15:00:00",
-          "test_id": "0.2.1",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-17T15:00:00",
           "end_time": "2025-09-17T16:00:00",
-          "test_id": "0.2.1",
+          "test_id": "1.11.11",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
+          "power_w": 6.31,
+          "comment": "Jammers available for testing: H3.3,H6.1,H8.1,F6.1",
           "status": ""
         },
         {
           "start_time": "2025-09-17T16:00:00",
-          "end_time": "2025-09-17T17:00:00",
-          "test_id": "0.2.1",
+          "end_time": "2025-09-17T18:00:00",
+          "test_id": "1.11.4",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0,
-          "comment": "Pre-booking required. Inform staff of required jammer equipment (see Appendix G of test catalog)",
+          "power_w": 6.31,
+          "comment": "Jammers available for testing: H3.3,H6.1,H8.1,F6.1",
           "status": ""
         },
         {
           "start_time": "2025-09-17T18:30:00",
           "end_time": "2025-09-17T19:00:00",
           "test_id": "0.0.2",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "comment": "MANDATORY attendence at Stave (Site 3)",
           "status": ""
         }
       ]

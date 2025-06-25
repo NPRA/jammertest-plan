@@ -515,108 +515,63 @@
           "start_time": "2025-09-16T08:00:00",
           "end_time": "2025-09-16T08:30:00",
           "test_id": "0.0.1",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "comment": "MANDATORY attendence at Stave (Site 3)",
           "status": ""
         },
         {
-          "start_time": "2025-09-16T10:00:00",
+          "start_time": "2025-09-16T09:00:00",
           "end_time": "2025-09-16T11:00:00",
-          "test_id": "1.10.6",
+          "test_id": "1.10.3",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1,
-          "comment": "",
+          "power_w": 6.31,
+          "comment": "Jammers available for testing: H1.6,H1.6,H3.2,F6.1",
           "status": ""
         },
         {
           "start_time": "2025-09-16T11:00:00",
-          "end_time": "2025-09-16T12:00:00",
-          "test_id": "1.10.6",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-16T12:00:00",
           "end_time": "2025-09-16T13:00:00",
-          "test_id": "1.11.6",
+          "test_id": "1.10.2",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 1,
-          "comment": "",
+          "comment": "Jammers available for testing: H3.2,H4.1,H3.3,H8.1",
           "status": ""
         },
         {
           "start_time": "2025-09-16T13:00:00",
           "end_time": "2025-09-16T14:00:00",
           "test_id": "0.1.1",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
           "comment": "Lunch @ Stave (Site 3)",
           "status": ""
         },
         {
           "start_time": "2025-09-16T14:00:00",
-          "end_time": "2025-09-16T14:30:00",
-          "test_id": "1.10.3",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-16T14:30:00",
-          "end_time": "2025-09-16T15:00:00",
-          "test_id": "1.10.4",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1.58,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-16T15:00:00",
-          "end_time": "2025-09-16T15:30:00",
-          "test_id": "1.10.3",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-16T15:30:00",
           "end_time": "2025-09-16T16:00:00",
-          "test_id": "1.10.4",
+          "test_id": "1.11.11",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1.58,
-          "comment": "",
+          "power_w": 1,
+          "comment": "Jammers available for testing: H6.1,H3.3",
           "status": ""
         },
         {
           "start_time": "2025-09-16T16:00:00",
-          "end_time": "2025-09-16T16:30:00",
-          "test_id": "1.10.3",
+          "end_time": "2025-09-16T18:00:00",
+          "test_id": "1.11.4",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-16T16:30:00",
-          "end_time": "2025-09-16T17:00:00",
-          "test_id": "1.10.4",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1.58,
-          "comment": "",
+          "power_w": 6.31,
+          "comment": "Jammers available for testing: H1.6,H3.3,H4.1,F6.1",
           "status": ""
         },
         {
           "start_time": "2025-09-16T18:30:00",
           "end_time": "2025-09-16T19:00:00",
           "test_id": "0.0.2",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY attendence at Bleik (Site 1)",
+          "comment": "MANDATORY attendence at Stave (Site 3)",
           "status": ""
         }
       ]

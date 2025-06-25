@@ -1700,7 +1700,7 @@
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.0316,
-              "name": "(Deprecated - Not available due to safety) Driving with dual-band jammer in vehicle overtaking the test vehicle",
+              "name": "Driving with dual-band jammer in vehicle overtaking the test vehicle",
               "test_id": 4
             },
             {
@@ -1863,6 +1863,26 @@
               "min_power_w": 1,
               "name": "(Deprecated - Not available due to safety) Driving with multi-band jammer in vehicle being overtaken by the test vehicle",
               "test_id": 10
+            },
+            {
+              "constellation_bands": [
+                "G1",
+                "L1",
+                "E1",
+                "B1C",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Test performed with jammer H6.1 and H3.3",
+              "equipment": [
+                "H6.1","H3.3"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 0.631,
+              "name": "Motorcade while jammer vehicle is in the middle of the motorcade",
+              "test_id": 11
             }
           ]
         },
@@ -4976,6 +4996,45 @@
               "min_power_w": 0.01,
               "name": "Spoofer (in vehicle with roof mounted antenna) stationary and then moving with first fixed and then dynamic spoofed position.",
               "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "B1,L1C,E1,G1"
+              ],
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. 10 seconds after the vehicle begins to move, the spoofing is activated, spoofing to a fixed position. Spoofing on B1, L1C, E1, G1 (Beidou, GPS, Galileo, Glonass) everything else is jammed. The test starts with 5 minutes of stationary jamming (1W max). Timing is in sync with UTC (1us~300m)",
+              "equipment": [
+                "M1.1"
+              ],
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofing: Motorcade moving with fixed spoofed position",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "B1,L1C,E1,G1"
+              ],
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. 10 seconds after the vehicle begins to move, the spoofing is activated. While the motorcade is driving north, the spoofed position is driving south. Spoofing on B1, L1C, E1, G1 (Beidou, GPS, Galileo, Glonass) everything else is jammed. The test starts with 5 minutes of stationary jamming (1W max). Timing is in sync with UTC (1us~300m)",
+              "equipment": [
+                "M1.1"
+              ],
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofing: Motorcade moving north, while the dynamic fixed position moves south",
+              "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "B1,L1C,E1,G1"
+              ],
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. 10 seconds after the vehicle begins to move, the spoofing is activated, and starts moving at 150km/h southbound. When the spoofed position arrives at end location, the position will turn around and continue back northbound at 35km/h. Spoofing on B1, L1C, E1, G1 (Beidou, GPS, Galileo, Glonass) everything else is jammed. The test starts with 5 minutes of stationary jamming (1W max). Timing is in sync with UTC (1us~300m)",
+              "equipment": [
+                "M1.1"
+              ],
+              "max_power_w": 0.01,
+              "min_power_w": 0.01,
+              "name": "Spoofing:  Motorcade driving south, while the spoofed speed is following the road at a high speed, stops and returns at low speed",
+              "test_id": 7
             }
           ]
         },

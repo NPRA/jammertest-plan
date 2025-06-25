@@ -299,26 +299,71 @@
           "start_time": "2025-09-15T13:00:00",
           "end_time": "2025-09-15T14:00:00",
           "test_id": "0.1.1",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "Lunch @ Bleik (Site 1)",
+          "comment": "Lunch @ Stave (Site 3)",
           "status": ""
         },
         {
-          "start_time": "2025-09-15T15:00:00",
-          "end_time": "2025-09-15T16:15:00",
-          "test_id": "1.11.7",
+          "start_time": "2025-09-15T14:00:00",
+          "end_time": "2025-09-15T14:15:00",
+          "test_id": "2.6.1",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1.58,
+          "power_w": 0.001,
           "comment": "",
           "status": ""
         },
         {
-          "start_time": "2025-09-15T16:30:00",
-          "end_time": "2025-09-15T17:45:00",
-          "test_id": "1.11.8",
+          "start_time": "2025-09-15T14:20:00",
+          "end_time": "2025-09-15T14:40:00",
+          "test_id": "2.6.2",
           "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 1.58,
+          "power_w": 0.001,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-15T14:50:00",
+          "end_time": "2025-09-15T15:10:00",
+          "test_id": "2.6.3",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-15T15:20:00",
+          "end_time": "2025-09-15T15:40:00",
+          "test_id": "2.6.4",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-15T15:50:00",
+          "end_time": "2025-09-15T16:10:00",
+          "test_id": "2.6.5",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-15T16:20:00",
+          "end_time": "2025-09-15T16:40:00",
+          "test_id": "2.6.6",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-15T16:50:00",
+          "end_time": "2025-09-15T17:10:00",
+          "test_id": "2.6.7",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
           "comment": "",
           "status": ""
         },
