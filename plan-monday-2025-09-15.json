@@ -26,43 +26,34 @@
           "start_time": "2025-09-15T14:00:00",
           "end_time": "2025-09-15T14:10:00",
           "test_id": "1.2.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "",
           "status": ""
         },
         {
-          "start_time": "2025-09-15T14:20:00",
-          "end_time": "2025-09-15T14:30:00",
-          "test_id": "1.2.4",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "start_time": "2025-09-15T14:25:00",
+          "end_time": "2025-09-15T14:35:00",
+          "test_id": "1.2.5",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "",
           "status": ""
         },
         {
-          "start_time": "2025-09-15T14:40:00",
-          "end_time": "2025-09-15T14:50:00",
+          "start_time": "2025-09-15T14:50:00",
+          "end_time": "2025-09-15T15:00:00",
+          "test_id": "1.3.1",
+          "test_contact": "Jørn Skorstad (Nkom)",
+          "power_w": 50,
+          "comment": "",
+          "status": ""
+        },
+        {
+          "start_time": "2025-09-15T15:15:00",
+          "end_time": "2025-09-15T15:25:00",
           "test_id": "1.3.5",
-          "test_contact": "Anders Eriksen (NKOM)",
-          "power_w": 50,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-15T15:00:00",
-          "end_time": "2025-09-15T15:10:00",
-          "test_id": "1.3.8",
-          "test_contact": "Anders Eriksen (NKOM)",
-          "power_w": 50,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-15T15:20:00",
-          "end_time": "2025-09-15T15:30:00",
-          "test_id": "1.4.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "",
           "status": ""
@@ -70,35 +61,26 @@
         {
           "start_time": "2025-09-15T15:40:00",
           "end_time": "2025-09-15T15:50:00",
-          "test_id": "1.4.4",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_id": "1.4.5",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "",
           "status": ""
         },
         {
-          "start_time": "2025-09-15T16:00:00",
-          "end_time": "2025-09-15T16:14:10",
-          "test_id": "1.6.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "start_time": "2025-09-15T16:05:00",
+          "end_time": "2025-09-15T16:15:00",
+          "test_id": "1.4.6",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "",
           "status": ""
         },
         {
-          "start_time": "2025-09-15T16:25:00",
-          "end_time": "2025-09-15T16:39:10",
-          "test_id": "1.6.4",
-          "test_contact": "Anders Eriksen (NKOM)",
-          "power_w": 50,
-          "comment": "",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-15T16:50:00",
-          "end_time": "2025-09-15T18:05:00",
+          "start_time": "2025-09-15T16:30:00",
+          "end_time": "2025-09-15T17:45:00",
           "test_id": "1.8.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "",
           "status": ""

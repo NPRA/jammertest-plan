@@ -17,7 +17,7 @@
           "start_time": "2025-09-19T09:00:00",
           "end_time": "2025-09-19T09:10:00",
           "test_id": "0.3.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "L2 only spoofing",
           "status": ""
@@ -26,7 +26,7 @@
           "start_time": "2025-09-19T09:20:00",
           "end_time": "2025-09-19T09:40:00",
           "test_id": "0.3.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "3.1.3 + 2.1.2, meaconing (10 W) + spoofing (20 dBm)",
           "status": ""
@@ -35,7 +35,7 @@
           "start_time": "2025-09-19T09:50:00",
           "end_time": "2025-09-19T10:00:00",
           "test_id": "3.2.5",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Only using RX1",
           "status": ""
@@ -44,7 +44,7 @@
           "start_time": "2025-09-19T10:10:00",
           "end_time": "2025-09-19T10:33:00",
           "test_id": "1.6.4",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "20 seconds per step, power ramp (up and down) from -21 (to 47) dBm",
           "status": ""
@@ -53,7 +53,7 @@
           "start_time": "2025-09-19T10:50:00",
           "end_time": "2025-09-19T11:10:00",
           "test_id": "2.7.12",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.0316,
           "comment": "",
           "status": ""
@@ -62,7 +62,7 @@
           "start_time": "2025-09-19T11:30:00",
           "end_time": "2025-09-19T11:50:00",
           "test_id": "2.7.16",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.0316,
           "comment": "",
           "status": ""
@@ -71,7 +71,7 @@
           "start_time": "2025-09-19T12:00:00",
           "end_time": "2025-09-19T12:22:00",
           "test_id": "2.4.2",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.0316,
           "comment": "",
           "status": ""
@@ -80,7 +80,7 @@
           "start_time": "2025-09-19T12:30:00",
           "end_time": "2025-09-19T12:40:00",
           "test_id": "2.5.5",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.0316,
           "comment": "",
           "status": ""
@@ -89,7 +89,7 @@
           "start_time": "2025-09-19T12:50:00",
           "end_time": "2025-09-19T13:00:00",
           "test_id": "0.3.1",
-          "test_contact": "Anders Eriksen (NKOM)",
+          "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Jamming of L1, G1, B1I from S (the spoofing system)",
           "status": ""
