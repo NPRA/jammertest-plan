@@ -2,7 +2,7 @@
   "locations": [
     {
       "location_id": 1,
-      "location_name": "Bleik",
+      "location_name": "Test Area 1",
       "tests": [
         {
           "start_time": "2025-09-19T08:00:00",
@@ -116,7 +116,7 @@
     },
     {
       "location_id": 2,
-      "location_name": "Grunnvatn",
+      "location_name": "Test Area 2",
       "tests": [
         {
           "start_time": "2025-09-19T09:00:00",
@@ -131,7 +131,7 @@
     },
     {
       "location_id": 3,
-      "location_name": "Motorcade",
+      "location_name": "Test Area 3",
       "tests": [
         {
           "start_time": "2025-09-19T09:00:00",
