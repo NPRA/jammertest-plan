@@ -4212,7 +4212,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals. \n\n5 minutes static position, then position drift(3m/s). Modified signal transmission rate, resulting in aa drift in the timing solution of approximately 10 ns/s",
               "equipment": [
                 "S"
               ],
