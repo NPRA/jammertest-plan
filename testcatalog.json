@@ -2418,14 +2418,14 @@
                 "B2a",
                 "E6"
               ],
-              "description": "High Power PRN jamming from multiple locations: L1, G1, L2, L5, E6. One hour jamming from F8.1, then one hour jamming from both F8.1 and M1.1, then last hour jamming from M1.1 only",
+              "description": "High Power PRN jamming from two locations: L1, G1, L2, L5, E6. One hour jamming from F8.1, then one hour jamming from both F8.1 and M1.1, then last hour jamming from M1.1 only",
               "equipment": [
                 "F8.1",
                 "M1.1"
               ],
               "max_power_w": 100,
               "min_power_w": 50,
-              "name": "High Power PRN jamming from multiple locations: L1, G1, L2, L5, E6",
+              "name": "High Power PRN jamming from two locations: L1, G1, L2, L5, E6",
               "test_id": 5
             }
           ]
