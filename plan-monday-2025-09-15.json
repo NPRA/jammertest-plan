@@ -28,7 +28,7 @@
           "test_id": "1.2.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Jamming from the mountain top",
+          "comment": "47dBm Jamming from Porcus Maior at the mountain top. ",
           "status": ""
         },
         {
@@ -37,7 +37,7 @@
           "test_id": "1.2.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Jamming from the mountain top",
+          "comment": "47dBm Jamming from Porcus Maior at the mountain top.",
           "status": ""
         },
         {
@@ -46,7 +46,7 @@
           "test_id": "1.3.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Jamming from the mountain top",
+          "comment": "47dBm Jamming from Porcus Maior at the mountain top.",
           "status": ""
         },
         {
@@ -55,7 +55,7 @@
           "test_id": "1.3.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Jamming from the mountain top",
+          "comment": "47dBm Jamming from Porcus Maior at the mountain top.",
           "status": ""
         },
         {
@@ -64,7 +64,7 @@
           "test_id": "1.4.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Jamming from the mountain top",
+          "comment": "47dBm Jamming from Porcus Maior at the mountain top.",
           "status": ""
         },
         {
@@ -73,7 +73,7 @@
           "test_id": "1.4.6",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Jamming from the mountain top",
+          "comment": "47dBm Jamming from Porcus Maior at the mountain top.",
           "status": ""
         },
         {
@@ -82,7 +82,7 @@
           "test_id": "1.8.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "Pyramid jamming from the mountain top. Jamming bands in sequence: E6, E5b, L5, G2, L2, B1I, G1, L1",
+          "comment": "47dBm Pyramid jamming from Porcus Maior at the mountain top. Jamming bands in sequence: E6, E5b, L5, G2, L2, B1I, G1, L1",
           "status": ""
         },
         {

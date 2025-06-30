@@ -1072,7 +1072,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, Chiprate: 1.023 MHz",
+              "name": "Jammer F8.1: 50 W PRN: L1, Chiprate: 10.23 MHz",
               "test_id": 5
             },
             {
@@ -4219,7 +4219,7 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Longer period with drifting position and time spoofing",
+              "name": "Long duration with slowly drifting position and time spoofing",
               "test_id": 16
             },
             {
