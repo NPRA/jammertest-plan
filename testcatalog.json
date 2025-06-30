@@ -4219,7 +4219,7 @@
               ],
               "max_power_w": 0.316,
               "min_power_w": 0.316,
-              "name": "Longer period with drifting position and time spoofing",
+              "name": "Long duration with slowly drifting position and time spoofing",
               "test_id": 16
             }
           ]
