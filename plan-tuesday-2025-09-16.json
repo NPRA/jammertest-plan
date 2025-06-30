@@ -18,8 +18,8 @@
           "end_time": "2025-09-16T09:28:20",
           "test_id": "1.6.5",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 50,
-          "comment": "",
+          "power_w": 0,
+          "comment": "Power ramping test from the mountain top",
           "status": ""
         },
         {
@@ -27,8 +27,8 @@
           "end_time": "2025-09-16T10:13:20",
           "test_id": "1.6.6",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 50,
-          "comment": "",
+          "power_w": 0,
+          "comment": "Power ramping test from the mountain top",
           "status": ""
         },
         {
@@ -99,7 +99,7 @@
           "end_time": "2025-09-16T15:25:00",
           "test_id": "1.18.5",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 50,
+          "power_w": 0,
           "comment": "Out of band jamming from the mountain top",
           "status": ""
         },
@@ -108,7 +108,7 @@
           "end_time": "2025-09-16T15:50:00",
           "test_id": "1.18.7",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 50,
+          "power_w": 0,
           "comment": "Out of band jamming from the mountain top",
           "status": ""
         },
