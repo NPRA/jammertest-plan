@@ -186,7 +186,7 @@
           "end_time": "2025-09-16T09:10:00",
           "test_id": "1.19.1",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.171,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -195,7 +195,7 @@
           "end_time": "2025-09-16T09:26:00",
           "test_id": "1.19.2",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.171,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -204,7 +204,7 @@
           "end_time": "2025-09-16T09:42:00",
           "test_id": "1.19.3",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.171,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -213,7 +213,7 @@
           "end_time": "2025-09-16T09:58:00",
           "test_id": "1.19.4",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.26,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -222,7 +222,7 @@
           "end_time": "2025-09-16T10:14:00",
           "test_id": "1.19.5",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.26,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -231,7 +231,7 @@
           "end_time": "2025-09-16T10:30:00",
           "test_id": "1.19.6",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.26,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -267,7 +267,7 @@
           "end_time": "2025-09-16T11:34:00",
           "test_id": "1.19.10",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.58,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -276,7 +276,7 @@
           "end_time": "2025-09-16T11:50:00",
           "test_id": "1.19.11",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.58,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -285,7 +285,7 @@
           "end_time": "2025-09-16T12:06:00",
           "test_id": "1.19.12",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 1.58,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -294,7 +294,7 @@
           "end_time": "2025-09-16T12:22:00",
           "test_id": "1.19.13",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.1,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -303,7 +303,7 @@
           "end_time": "2025-09-16T12:38:00",
           "test_id": "1.19.14",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.1,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
@@ -312,7 +312,7 @@
           "end_time": "2025-09-16T12:54:00",
           "test_id": "1.19.15",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0.1,
+          "power_w": 0,
           "comment": "",
           "status": ""
         },
