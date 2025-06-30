@@ -2623,7 +2623,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1: CW signal drift: 1545 to 1620 MHz, 1 minute sweep time",
               "test_id": 4
             },
             {
@@ -2657,7 +2657,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1: CW signal drift: 1620 to 1545  MHz, 1 minute sweep time",
               "test_id": 6
             },
             {
@@ -2674,7 +2674,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1: CW signal drift: 1620 to 1545 MHz, 15 minutes sweep time",
               "test_id": 7
             },
             {
