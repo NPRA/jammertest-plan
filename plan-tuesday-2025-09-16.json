@@ -19,7 +19,7 @@
           "test_id": "1.6.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Power ramping test from the mountain top",
+          "comment": "Power ramping test from Porcus Maior at the mountain top",
           "status": ""
         },
         {
@@ -28,7 +28,7 @@
           "test_id": "1.6.6",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Power ramping test from the mountain top",
+          "comment": "Power ramping test from Porcus Maior at the mountain top",
           "status": ""
         },
         {
@@ -37,7 +37,7 @@
           "test_id": "3.1.3",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "40dBm meaconing from Porcellus at the mountain top",
           "status": ""
         },
         {
@@ -46,7 +46,7 @@
           "test_id": "3.1.4",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "40dBm meaconing from Porcellus at the mountain top",
           "status": ""
         },
         {
@@ -55,7 +55,7 @@
           "test_id": "3.3.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "",
+          "comment": "Ramping up meaconing signal power from 0dBm to 40dBm with Porcellus at the mountain top",
           "status": ""
         },
         {
@@ -64,7 +64,7 @@
           "test_id": "3.2.6",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "40dBm Meaconing from Porcellus at the mountain top. More and more rapid switching between receiving antennas RX1 and RX2.",
           "status": ""
         },
         {
@@ -73,7 +73,7 @@
           "test_id": "3.2.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "40dBm Meaconing from Porcellus at the mountain top. More and more rapid switching between receiving antennas RX1 and RX2.",
           "status": ""
         },
         {
@@ -91,7 +91,7 @@
           "test_id": "3.2.10",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "40dBm Meaconing from Porcellus at the mountain top. More and more rapid switching between receiving antennas RX1 and RX2. Now also with jamming from Porcus Maior.",
           "status": ""
         },
         {
@@ -100,7 +100,7 @@
           "test_id": "1.18.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Out of band jamming from the mountain top",
+          "comment": "47dBm Out of band jamming from Porcus Maior at the mountain top",
           "status": ""
         },
         {
@@ -109,7 +109,7 @@
           "test_id": "1.18.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Out of band jamming from the mountain top",
+          "comment": "47dBm Out of band jamming from Porcus Maior at the mountain top",
           "status": ""
         },
         {
@@ -118,7 +118,7 @@
           "test_id": "1.18.13",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "47dBm Out of band jamming from Porcus Maior at the mountain top",
           "status": ""
         },
         {
@@ -127,7 +127,7 @@
           "test_id": "1.18.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "",
+          "comment": "47dBm Out of band jamming from Porcus Maior at the mountain top",
           "status": ""
         },
         {
@@ -136,7 +136,7 @@
           "test_id": "3.4.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Meaconing from the mountain top and spoofing from the cemetery at the same time.",
+          "comment": "40dBm Meaconing from Porcellus at the mountain top and spoofing from the cemetery at the same time.",
           "status": ""
         },
         {
@@ -145,7 +145,7 @@
           "test_id": "3.4.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Meaconing from the mountain top and spoofing from the cemetery at the same time.",
+          "comment": "40dBm Meaconing from Porcellus at the mountain top and spoofing from the cemetery at the same time.",
           "status": ""
         },
         {
@@ -163,7 +163,7 @@
           "test_id": "1.16.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 100,
-          "comment": "One hour jamming from the mountain top, then one hour jamming from both the mountain top and the cemetery, then one hour of jamming from the cemetery.",
+          "comment": "One hour of 50dBm jamming from Porcus Maior at the mountain top, then one hour jamming from both Porcus Maior and Winnie the Spoof at the cemetery, then one hour of jamming from Winnie the Spoof.",
           "status": ""
         }
       ]
@@ -330,7 +330,7 @@
           "end_time": "2025-09-16T14:42:00",
           "test_id": "1.20.1",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C ",
           "status": ""
         },
@@ -339,7 +339,7 @@
           "end_time": "2025-09-16T15:00:00",
           "test_id": "1.20.2",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -348,7 +348,7 @@
           "end_time": "2025-09-16T15:18:00",
           "test_id": "1.20.3",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -357,7 +357,7 @@
           "end_time": "2025-09-16T15:36:00",
           "test_id": "1.20.4",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -366,7 +366,7 @@
           "end_time": "2025-09-16T15:54:00",
           "test_id": "1.20.5",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -375,7 +375,7 @@
           "end_time": "2025-09-16T16:12:00",
           "test_id": "1.20.6",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -384,7 +384,7 @@
           "end_time": "2025-09-16T16:30:00",
           "test_id": "1.20.7",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -393,7 +393,7 @@
           "end_time": "2025-09-16T16:48:00",
           "test_id": "1.20.8",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -402,7 +402,7 @@
           "end_time": "2025-09-16T17:06:00",
           "test_id": "1.20.9",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -411,7 +411,7 @@
           "end_time": "2025-09-16T17:24:00",
           "test_id": "1.20.10",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -420,7 +420,7 @@
           "end_time": "2025-09-16T17:40:00",
           "test_id": "1.20.11",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
@@ -429,7 +429,7 @@
           "end_time": "2025-09-16T17:58:00",
           "test_id": "1.20.12",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
+          "power_w": 1,
           "comment": "30dBm from each direction, A, B and C",
           "status": ""
         },
