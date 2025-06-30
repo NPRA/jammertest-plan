@@ -722,7 +722,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The CW signals will be transmitted at the centre frequencies of the relevant test bands. Up to 50 W ERP jamming power will result in among the highest J/S ratios during the event. The attendees may vary their distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
           "group_id": 2,
           "group_name": "Continuous stationary high-power jamming with CW",
@@ -734,13 +734,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1",
+              "description": "Jammer F8.1: 50 W CW: L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1",
+              "name": "50 W CW: L1",
               "test_id": 1
             },
             {
@@ -750,13 +750,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1",
+              "name": "50 W CW: L1, G1",
               "test_id": 2
             },
             {
@@ -767,13 +767,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2",
+              "name": "50 W CW: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -787,13 +787,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5",
+              "name": "50 W CW: L1, G1, L2, L5",
               "test_id": 4
             },
             {
@@ -808,19 +808,19 @@
                 "B2a",
                 "E6"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5, E6",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1, L2, L5, E6",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1, G1, L2, L5, E6",
+              "name": "50 W CW: L1, G1, L2, L5, E6",
               "test_id": 5
             }
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
           "group_id": 3,
           "group_name": "Continuous stationary high-power jamming with sweep",
@@ -838,7 +838,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, 100 kHz",
+              "name": "50 W sweep: L1, 100 kHz",
               "test_id": 1
             },
             {
@@ -848,13 +848,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, 100 kHz",
+              "name": "50 W sweep: L1, G1, 100 kHz",
               "test_id": 2
             },
             {
@@ -865,13 +865,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, 100 kHz",
+              "name": "50 W sweep: L1, G1, L2, 100 kHz",
               "test_id": 3
             },
             {
@@ -885,13 +885,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, 100 kHz",
+              "name": "50 W sweep: L1, G1, L2, L5, 100 kHz",
               "test_id": 4
             },
             {
@@ -900,13 +900,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
+              "name": "50 W sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
               "test_id": 5
             },
             {
@@ -916,13 +916,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, 1 kHz",
+              "name": "50 W sweep: L1, G1, 1 kHz",
               "test_id": 6
             },
             {
@@ -933,13 +933,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 1 W sweep: L1, G1, L2, 1 kHz",
+              "name": "1 W sweep: L1, G1, L2, 1 kHz",
               "test_id": 7
             },
             {
@@ -953,13 +953,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": \n50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
+              "name": "50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
               "test_id": 8
             },
             {
@@ -974,19 +974,19 @@
                 "B2a",
                 "E6"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W sweep: L1, G1, L2, L5, E6, 100 kHz",
+              "name": "50 W sweep: L1, G1, L2, L5, E6, 100 kHz",
               "test_id": 9
             }
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The chiprate used is described in each test. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
@@ -998,13 +998,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\":\n50 W PRN: L1, Chiprate: 3 MHz",
+              "name": "50 W PRN: L1, Chiprate: 3 MHz",
               "test_id": 1
             },
             {
@@ -1014,13 +1014,13 @@
                 "B1C",
                 "G1"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1",
+              "name": "50 W PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -1031,13 +1031,13 @@
                 "G1",
                 "L2"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1, L2",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2",
+              "name": "50 W PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1051,13 +1051,13 @@
                 "E5a",
                 "B2a"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2, L5",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1, L2, L5",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": \n50 W PRN: L1, G1, L2, L5, Chiprate: 3 MHz",
+              "name": "50 W PRN: L1, G1, L2, L5, Chiprate: 3 MHz",
               "test_id": 4
             },
             {
@@ -1066,13 +1066,13 @@
                 "E1",
                 "B1C"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\":\n50 W PRN: L1, Chiprate: 1.023 MHz",
+              "name": "50 W PRN: L1, Chiprate: 1.023 MHz",
               "test_id": 5
             },
             {
@@ -1087,19 +1087,19 @@
                 "B2a",
                 "E6"
               ],
-              "description": "Jammer F8.1 \"Porcus Major\": 50 W PRN: L1, G1, L2, L5, E6",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1, L2, L5, E6",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1 \"Porcus Major\": \n50 W PRN: L1, G1, L2, L5, E6, Chiprate: 10.23 MHz",
+              "name": "50 W PRN: L1, G1, L2, L5, E6, Chiprate: 10.23 MHz",
               "test_id": 6
             }
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "The tests will be performed with BPSK modulation with a pseudo random symbol rate of 3 Mbaud at GPS L1 and 10.23 Mbaud at GLONASS G1. The test cases refer to which centre frequency of the relevant test bands the signal will be centred at.",
           "group_id": 5,
           "group_name": "Continuous stationary high-power jamming with \"real world\" PRN",
@@ -1134,7 +1134,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test. The time between power level steps is specified for each test, with ramping steps of 2 dB. The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 6,
           "group_name": "Stationary high-power jamming, ramp power with PRN",
@@ -1152,7 +1152,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
               "test_id": 1
             },
             {
@@ -1168,7 +1168,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1",
               "test_id": 2
             },
             {
@@ -1185,7 +1185,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1205,7 +1205,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5",
               "test_id": 4
             },
             {
@@ -1220,7 +1220,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
               "test_id": 5
             },
             {
@@ -1241,13 +1241,13 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "Power ramping with Jammer F8.1 \"Porcus Major\": 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
               "test_id": 6
             }
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test, with 10 seconds hold time for each power level, with ramping steps 2 dB. The modulation will be CW. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 7,
           "group_name": "Stationary high-power jamming, ramp power with CW",
@@ -1265,7 +1265,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1",
               "test_id": 1
             },
             {
@@ -1281,7 +1281,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1",
               "test_id": 2
             },
             {
@@ -1298,7 +1298,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2",
               "test_id": 3
             },
             {
@@ -1318,13 +1318,13 @@
               ],
               "max_power_w": 50,
               "min_power_w": 2e-7,
-              "name": "0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2, L5",
+              "name": "Power ramp: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2, L5",
               "test_id": 4
             }
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "A jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The test will jam most GNSS bands, incrementally adding bands (\"pyramid steps\") to the list of jammed signals, then removing them in the reverse order.",
           "group_id": 8,
           "group_name": "Stationary pyramid jamming with PRN for all GNSS bands sequentially",
@@ -1353,13 +1353,13 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
+              "name": "50 W PRN pyramid: E6, E5b, L5, G2, L2, B1I, G1, L1",
               "test_id": 1
             }
           ]
         },
         {
-          "comment": "The jammer employed will be F8.1 \"Porcus Major\", see Appendix G.",
+          "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
           "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
           "group_id": 9,
           "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
@@ -1877,7 +1877,8 @@
               ],
               "description": "Test performed with jammer H6.1 and H3.3",
               "equipment": [
-                "H6.1","H3.3"
+                "H6.1",
+                "H3.3"
               ],
               "max_power_w": 1,
               "min_power_w": 0.631,
@@ -2182,7 +2183,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see Appendix G.",
+          "comment": "The jammer employed will be \"Porcus Maior\" F8.1, see Appendix G.",
           "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test, where the max power is the highest power that will be experience during the Jammertest event. Each power level holds for 10 seconds, with ramping steps of a certain amount of dB. If the last step doesn't add up to a whole dB step (e.g. from [...] 48, 50, 52 dBm to 53.0103 dBm (200 W)), it will be the exact amount of dB to realise the max power (e.g. a 1.0103 dB increment, not a 2 dB increment). The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
           "group_id": 14,
           "group_name": "Stationary very high-power jamming, ramp power with PRN",
@@ -2331,7 +2332,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see Appendix G.",
+          "comment": "The jammer employed will be \"Porcus Maior\" F8.1, see Appendix G.",
           "description": "The use of continuous very high-power jamming will block out a very large area at the event. There will be transmitted with a PseudoRandom Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals sent from the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see Appendix G . \n\nThese tests will have the highest transmission power experienced during the Jammertest event.",
           "group_id": 16,
           "group_name": "Continuous stationary very high-power jamming with PRN",
@@ -2430,7 +2431,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see Appendix G.",
+          "comment": "The jammer employed will be \"Porcus Maior\" F8.1, see Appendix G.",
           "description": "The transmissions will be done at aviation relevant frequencies with varying degrees of transmission power and jamming modulations. The jammer will be placed and directed (with a RHCP directional antenna) along the runway of the airport. There will be transmitted with a Pseudo Random Noise (PRN) modulation using a BPSK spreading codes modulated onto the centre frequency of the relevant test bands. For Mbaud rates, see Appendix G.",
           "group_id": 17,
           "group_name": "Continuous stationary jamming with PRN at airport",
@@ -2559,7 +2560,7 @@
           ]
         },
         {
-          "comment": "The jammer employed will be \"Porcus Major\" F8.1, see Appendix G.",
+          "comment": "The jammer employed will be \"Porcus Maior\" F8.1, see Appendix G.",
           "description": "The tests will simulate different very common types of unintentional GNSS interference. The transmission power might be higher than what is common, but this can be mitigated by adjusting your distance to the interference source. Some of the interference frequencies will be outside of the GNSS bands, this is to create out-of-band interference.",
           "group_id": 18,
           "group_name": "Stationary unintentional RFI",
@@ -2577,7 +2578,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L1",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1",
               "test_id": 1
             },
             {
@@ -2590,7 +2591,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L2",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L2",
               "test_id": 2
             },
             {
@@ -2605,7 +2606,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W CW: L5",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L5",
               "test_id": 3
             },
             {
@@ -2622,7 +2623,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 1 minute",
               "test_id": 4
             },
             {
@@ -2639,7 +2640,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1545 to 1620 MHz, with CW and sweep time of 15 minutes",
               "test_id": 5
             },
             {
@@ -2656,7 +2657,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1620 to 1545  MHz, with CW and sweep time of 1 minute",
               "test_id": 6
             },
             {
@@ -2673,7 +2674,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1620 to 1545 MHz, with CW and sweep time of 15 minutes",
               "test_id": 7
             },
             {
@@ -2690,7 +2691,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 8
             },
             {
@@ -2707,7 +2708,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 9
             },
             {
@@ -2724,7 +2725,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 10
             },
             {
@@ -2741,7 +2742,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 11
             },
             {
@@ -2764,7 +2765,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
               "test_id": 12
             },
             {
@@ -2787,7 +2788,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
               "test_id": 13
             },
             {
@@ -2810,7 +2811,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
               "test_id": 14
             },
             {
@@ -2833,7 +2834,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
               "test_id": 15
             },
             {
@@ -2856,7 +2857,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 16
             },
             {
@@ -2879,7 +2880,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 17
             },
             {
@@ -2902,7 +2903,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
               "test_id": 18
             },
             {
@@ -2925,7 +2926,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1 \"Porcus Major\": 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "name": "Jammer F8.1 \"Porcus Maior\": 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
               "test_id": 19
             }
           ]
@@ -5523,7 +5524,7 @@
     {
       "test_groups": [
         {
-          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Major\", see Appendix G for more information about the equipment. ",
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Maior\", see Appendix G for more information about the equipment. ",
           "description": "GNSS retransmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will retransmit on the L1 and L2 bands, where the employed antennas for the receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through. \n\nThe tests are performed with constant transmission power, some with initial jamming and some without. A 10-minute break between each test is planned. \nThe meaconed position is for RX1: (TBD1) and for RX2: (TBD2).",
           "group_id": 1,
           "group_name": "Stationary meaconing from single receiver",
@@ -5612,7 +5613,7 @@
           ]
         },
         {
-          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Major\", see Appendix G for more information about the equipment.",
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Maior\", see Appendix G for more information about the equipment.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\n The test will re-transmit on the L1 and L2 bands, where the employed antennas for the receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through. \n\nThe tests are performed with constant power outputs, some with initial jamming and some without. A 10-minute break between each test is planned.",
           "group_id": 2,
           "group_name": "Stationary meaconing from two receivers",
@@ -5781,7 +5782,7 @@
           ]
         },
         {
-          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Major\", see Appendix G for more information about the equipment.",
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Maior\", see Appendix G for more information about the equipment.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmit on the L1 and L2 bands, where the employed antennas for the receivers RX1 and RX2 have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through.",
           "group_id": 3,
           "group_name": "Stationary meaconing from a single or two receivers with ramping power",
@@ -5838,7 +5839,7 @@
           ]
         },
         {
-          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Major\", see Appendix G for more information about the equipment.",
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Maior\", see Appendix G for more information about the equipment.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmit on the L1 and L2 bands, where the employed antenna for the receiver have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through.",
           "group_id": 4,
           "group_name": "Stationary meaconing from a single receiver in combination with other deceptive signals",
