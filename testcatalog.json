@@ -723,7 +723,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "The use of continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted with a continuous wave (CW) modulation (single frequency component) using Right Hand Circular Polarized (RHCP) antennas. The CW signals will be transmitted at the centre frequencies of the relevant test bands. Up to 50 W ERP jamming power will result in among the highest J/S ratios during the event. The attendees may vary their distance to the transmitter and observe the changes and try to identify the protection ratio for their GNSS receiving system.",
+          "description": "Continuous high-power jamming will be used to block GNSS signals over a wide area during the event. The jamming signals will use continuous wave (CW) modulation—transmitting a single frequency—and will be broadcast using Right Hand Circular Polarized (RHCP) antennas. These CW signals will be centered on the frequencies of the relevant test bands. \n The jamming power will reach up to 50 watts effective radiated power (ERP), resulting in some of the highest jamming-to-signal (J/S) ratios during the event. Attendees can move closer to or farther from the transmitter to observe how signal reception changes and attempt to determine the protection ratio of their GNSS receivers.",
           "group_id": 2,
           "group_name": "Continuous stationary high-power jamming with CW",
           "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
@@ -821,7 +821,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted linear sawtooth modulated signals sweeping over the selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. This means that the frequency component will sweep back and forth inside the specific frequency band with a given sweep rate. The sweeping signal will have a sweeping rate of up to 100 kHz at selected bandwidths, centred at the centre frequency of the relevant test band. The attendees may vary their distance to the transmitter and observe the changes and try to identify the thresholds of their GNSS equipment.",
+          "description": "Continuous high-power jamming will disrupt GNSS signals across a wide area during the event. The jammer will transmit linearly modulated sawtooth signals that sweep across selected frequency bands using Right Hand Circular Polarized (RHCP) antennas. These signals will repeatedly sweep back and forth within the designated frequency range at a sweep rate of up to 100 kHz, centred on the test band’s centre frequency. Attendees can move closer to or farther from the transmitter to observe how their GNSS equipment responds and identify its performance thresholds.",
           "group_id": 3,
           "group_name": "Continuous stationary high-power jamming with sweep",
           "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
@@ -987,7 +987,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "Continuous high-power jamming will block GNSS signals in a large area at the event. There will be transmitted signals with Pseudo Random Noise (PRN) modulation using Right Hand Circular Polarized (RHCP) antennas. PRN signals have the same spectral form as the true signals transmitted by the GNSS satellites but with different spreading codes. The spreading codes are Binary Phase Shift Keying (BPSK) modulated onto the centre frequency of the relevant test bands. The chiprate used is described in each test. The attendees may vary their distance to the transmitter and observe the behaviour of their GNSS equipment.",
+          "description": "Continuous high-power jamming will interfere with GNSS signals over a wide area during the event. The jammer will transmit signals modulated with Pseudo Random Noise (PRN) using Right Hand Circular Polarized (RHCP) antennas. These PRN signals mimic the spectral characteristics of genuine GNSS satellite signals but use different spreading codes. The spreading is achieved through Binary Phase Shift Keying (BPSK) modulation centred on the relevant test band frequencies. The chip rate for each test will be specified individually. Attendees can adjust their distance from the transmitter to observe how their GNSS equipment responds under these conditions.",
           "group_id": 4,
           "group_name": "Continuous stationary high-power jamming with PRN",
           "rationale": "The main objective is to observe how the Jammer signal to GNSS signal (J/S) ratio affect the availability of PNT, and/or how it produces inaccurate PNT data. Phase transitions, going from not being jammed to being jammed and vice versa, are especially interesting. Tests have shown that errors can vastly increase in these phases (before availability disappears entirely).",
@@ -1135,7 +1135,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test. The time between power level steps is specified for each test, with ramping steps of 2 dB. The modulation will be PRN. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
+          "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test. The duration of each power level step is specified for each test, with steps of 2 dB. The modulation is PRN. The attendees should remain stationary with a known distance to the jammer and observe how different levels will affect the PNT equipment.",
           "group_id": 6,
           "group_name": "Stationary high-power jamming, ramp power with PRN",
           "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, and at which power level. This will allow for evaluation of the sensitivity thresholds for various systems and algorithms.",
@@ -1248,7 +1248,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test, with 10 seconds hold time for each power level, with ramping steps 2 dB. The modulation will be CW. The attendees should be at a stationary location with a known distance to the jammer, so they can observe how different levels will affect the PNT.",
+          "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test. The duration of each power level step is specified for each test, with steps of 2 dB. The modulation is CW. The attendees should remain stationary with a known distance to the jammer and observe how different levels will affect the PNT equipment.",
           "group_id": 7,
           "group_name": "Stationary high-power jamming, ramp power with CW",
           "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, and at which power level. This will allow for evaluation of the sensitivity thresholds for various systems and algorithms.",
@@ -1325,7 +1325,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "A jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The test will jam most GNSS bands, incrementally adding bands (\"pyramid steps\") to the list of jammed signals, then removing them in the reverse order.",
+          "description": "A jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step lasts for 5 minutes, with active jamming during the first 3 minutes, and then two minutes off. The test will jam most GNSS bands, incrementally adding bands (\"pyramid steps\") to the list of jammed signals, then removing them in the reverse order.",
           "group_id": 8,
           "group_name": "Stationary pyramid jamming with PRN for all GNSS bands sequentially",
           "rationale": "This \"pyramid\" is intended to test the potential fallback behaviour of modern multi-constellation, multi-frequency receivers.",
@@ -1360,7 +1360,7 @@
         },
         {
           "comment": "The jammer employed will be F8.1 \"Porcus Maior\", see Appendix G.",
-          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step will lastfor 5 minutes, with first 3 minutes active jamming, and then two minutes off. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
+          "description": "An inverted jamming pyramid test of GNSS bands. The jamming is performed with PRN modulation and a constant power level. Each pyramid step lasts for 5 minutes, with active jamming during the first 3 minutes, and then two minutes off. The tests will jam most GNSS bands, incrementally removing bands (\"pyramid steps\") from the list of jammed signals, then adding them in the reverse order.",
           "group_id": 9,
           "group_name": "Stationary inverted pyramid jamming with PRN for all GNSS bands sequentially",
           "rationale": "This ‘inverted pyramid’ is intended to test the potential fallback behaviour of modern multi-constellation, multi-frequency receivers, in an opposite way than a normal pyramid test.",
