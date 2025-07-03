@@ -5521,7 +5521,9 @@
               ],
               "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming first. Then spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes. \n",
               "equipment": [
-                "Jammer H1.1, H1.4, H1.5",
+                "H1.1",
+                "H1.4", 
+                "H1.5",
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "max_power_w": 3,
@@ -5536,7 +5538,11 @@
               ],
               "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power.  Two additional mobile jammers will be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 15 minutes of initial jamming first. Then spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes. \n\n",
               "equipment": [
-                "Jammer H1.1, H1.4, H1.5, H1.6, H1.7",
+                "H1.1",
+                "H1.4",
+                "H1.5",
+                "H1.6",
+                "H1.7",
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "max_power_w": 4,
@@ -5551,7 +5557,14 @@
               ],
               "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. Five additional mobile jammers will be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 15 minutes of initial jamming first. Then spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes. \n \n\n",
               "equipment": [
-                "Jammer H1.1, H1.4, H1.5, H1.6, H1.7, H6.3, H6.4, H6.5",
+                "H1.1",
+                "H1.4",
+                "H1.5",
+                "H1.6",
+                "H1.7",
+                "H6.3",
+                "H6.4",
+                "H6.5",
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "max_power_w": 5,
@@ -5599,7 +5612,8 @@
               ],
               "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming: PRN L1, L2, L5 and G1 at 50 W)",
               "equipment": [
-                "F1.1 and F8.1"
+                "F1.1",
+                "F8.1"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
@@ -5631,7 +5645,8 @@
               ],
               "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 50 W)",
               "equipment": [
-                "F1.1 and F8.1"
+                "F1.1",
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
@@ -5688,7 +5703,8 @@
               ],
               "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 50 W)",
               "equipment": [
-                "F1.1 and F8.1"
+                "F1.1",
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 10,
