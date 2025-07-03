@@ -266,7 +266,7 @@
           "start_time": "2025-09-17T13:00:00",
           "end_time": "2025-09-17T14:00:00",
           "test_id": "0.1.1",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
           "comment": "Lunch @ Stave (Site 3)",
           "status": ""
@@ -311,9 +311,9 @@
           "start_time": "2025-09-17T18:30:00",
           "end_time": "2025-09-17T19:00:00",
           "test_id": "0.0.2",
-          "test_contact": "Christian Skjetne (NPRA)",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "MANDATORY attendence at Test Area 1 (Site 1)",
+          "comment": "MANDATORY attendence at Stave (Site 3)",
           "status": ""
         }
       ]
