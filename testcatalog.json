@@ -2445,7 +2445,7 @@
               ],
               "description": "10 W PRN: L1",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 1,
@@ -2460,7 +2460,7 @@
               ],
               "description": "10 W PRN: L5",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 1,
@@ -2478,7 +2478,7 @@
               ],
               "description": "10 W CW: L1, L5",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 1,
@@ -2496,7 +2496,7 @@
               ],
               "description": "10 W sweep: L1, L5",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 1,
@@ -2514,7 +2514,7 @@
               ],
               "description": "10 W PRN: L1, L5",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 10,
               "min_power_w": 1,
@@ -2532,7 +2532,7 @@
               ],
               "description": "1 W PRN: L1, L5",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 1,
               "min_power_w": 1,
@@ -2550,7 +2550,7 @@
               ],
               "description": "0.1 W PRN: L1, L5",
               "equipment": [
-                "APJ"
+                "F8.1"
               ],
               "max_power_w": 0.1,
               "min_power_w": 0.1,
@@ -5562,9 +5562,9 @@
                 "H1.5",
                 "H1.6",
                 "H1.7",
-                "H6.3",
                 "H6.4",
                 "H6.5",
+                "H6.6",
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "max_power_w": 5,
