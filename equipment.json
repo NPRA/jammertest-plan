@@ -290,27 +290,27 @@
     ],
     "images": [
       {
-        "path": "appendixG/S2.3-1.png",
+        "path": "appendixG/s2.3-1.png",
         "desc": "Frequency and power measurement of jammer S2.3 on antenna 'L1'"
       },
       {
-        "path": "appendixG/S2.3-2.png",
+        "path": "appendixG/s2.3-2.png",
         "desc": "Frequency and power measurement of jammer S2.3 on antenna 'L2'"
       },
       {
-        "path": "appendixG/S2.3-3.png",
+        "path": "appendixG/s2.3-3.png",
         "desc": "Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L1'"
       },
       {
-        "path": "appendixG/S2.3-4.png",
+        "path": "appendixG/s2.3-4.png",
         "desc": "Real-time persistence and spectrogram measurement of jammer S2.3 on antenna 'L2'"
       },
       {
-        "path": "appendixG/S2.3-5.png",
+        "path": "appendixG/s2.3-5.png",
         "desc": "Time domain (analog demod) measurement of jammer S2.3 on antenna 'L1'"
       },
       {
-        "path": "appendixG/S2.3-6.png",
+        "path": "appendixG/s2.3-6.png",
         "desc": "Time domain (analog demod) measurement of jammer S2.3 on antenna 'L2'"
       }
     ]
@@ -354,27 +354,27 @@
     ],
     "images": [
       {
-        "path": "appendixG/S2.4-1.png",
+        "path": "appendixG/s2.4-1.png",
         "desc": "Frequency and power measurement of jammer S2.4 on antenna 'L1'"
       },
       {
-        "path": "appendixG/S2.4-2.png",
+        "path": "appendixG/s2.4-2.png",
         "desc": "Frequency and power measurement of jammer S2.4 on antenna 'L2'"
       },
       {
-        "path": "appendixG/S2.4-3.png",
+        "path": "appendixG/s2.4-3.png",
         "desc": "Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L1'"
       },
       {
-        "path": "appendixG/S2.4-4.png",
+        "path": "appendixG/s2.4-4.png",
         "desc": "Real-time persistence and spectrogram measurement of jammer S2.4 on antenna 'L2'"
       },
       {
-        "path": "appendixG/S2.4-5.png",
+        "path": "appendixG/s2.4-5.png",
         "desc": "Time domain (analog demod) measurement of jammer S2.4 on antenna 'L1'"
       },
       {
-        "path": "appendixG/S2.4-6.png",
+        "path": "appendixG/s2.4-6.png",
         "desc": "Time domain (analog demod) measurement of jammer S2.4 on antenna 'L2'"
       }
     ]
