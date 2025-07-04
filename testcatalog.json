@@ -726,7 +726,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Test with jammer H1.6",
+              "description": "Test with jammer H1.6 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
                 "H1.6"
               ],
@@ -742,7 +742,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Test with jammer H1.7",
+              "description": "Test with jammer H1.7 with function settings set at high power and GPS L1+L2 wideband modulation.",
               "equipment": [
                 "H1.7"
               ],
