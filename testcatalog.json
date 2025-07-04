@@ -3780,7 +3780,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
               "equipment": [
                 "S"
               ],
@@ -3793,7 +3793,7 @@
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Signals: GPS L1 C/A \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3806,7 +3806,7 @@
               "constellation_bands": [
                 "E1"
               ],
-              "description": "Signals: Galileo E1. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: Galileo E1. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3820,7 +3820,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3838,7 +3838,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b. \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3851,7 +3851,7 @@
               "constellation_bands": [
                 "L1"
               ],
-              "description": "Signals: GPS L1 C/A.  \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A.  \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3864,7 +3864,7 @@
               "constellation_bands": [
                 "E1"
               ],
-              "description": "Signals: Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3882,7 +3882,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3896,7 +3896,7 @@
                 "L1",
                 "E1"
               ],
-              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A. Galileo E1. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3914,7 +3914,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5. \n\n5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. \n\nSimulated start position: Bleik community house parking lot. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
@@ -3950,7 +3950,7 @@
                 "E5a",
                 "E5b"
               ],
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2024 12:00.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2025 12:00.",
               "equipment": [
                 "S"
               ],
