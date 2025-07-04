@@ -718,6 +718,38 @@
               "min_power_w": 0,
               "name": "Jammer H2.2",
               "test_id": 30
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "Test with jammer H1.6 with function settings set at high power and GPS L1+L2 wideband modulation.",
+              "equipment": [
+                "H1.6"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0003,
+              "name": "Jammer H1.6",
+              "test_id": 31
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "Test with jammer H1.7 with function settings set at high power and GPS L1+L2 wideband modulation.",
+              "equipment": [
+                "H1.7"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.0003,
+              "name": "Jammer H1.7",
+              "test_id": 32
             }
           ]
         },
@@ -3640,7 +3672,7 @@
           "description": "Jammer is placed onboard a drone. The drone will try to fly in a cirle above the 50, 100 and 150 meter positions from origo at Test Area 2.",
           "group_id": 23,
           "group_name": "Jammer in the air",
-          "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it\nproduces inaccurate PNT data, when the jamming signal (J) is generated for the air by a drone. Relevant for CRPA null steering and TDOA testing.",
+          "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it\nproduces inaccurate PNT data, when the jamming signal (J) is generated from the air by a drone. Relevant for CRPA null steering and TDOA testing.",
           "tests": [
             {
               "constellation_bands": [
@@ -3667,6 +3699,62 @@
               "min_power_w": 0.0316,
               "name": "Jammer S1.1 with 10dB gain at 100 meters above ground",
               "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 0.1,
+              "name": "Jammer H1.1, L1, L2, CHIRP. HIGH PWR with 10dB gain at 50 meters above ground",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 0.1,
+              "name": "Jammer H1.1, L1, L2, CHIRP. HIGH PWR with 10dB gain at 100 meters above ground",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.00316,
+              "name": "Jammer H1.1, L1, L2, WB. LOW PWR with 10dB gain at 50 meters above ground",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.00316,
+              "name": "Jammer H1.1, L1, L2, WB. LOW PWR with 10dB gain at 100 meters above ground",
+              "test_id": 6
             }
           ]
         }
@@ -4984,7 +5072,10 @@
           "tests": [
             {
               "constellation_bands": [
-                "B1", "L1", "E1", "G1"
+                "B1",
+                "L1",
+                "E1",
+                "G1"
               ],
               "description": "Spoofer placed inside of a stationary vehicle with the transmitting antennae on the roof. The spoofed position starts static (at starting position) and at approximately true time. After 5 minutes, the spoofed position starts to move directly south with constant speed (35 km/h), while the motorcade stays stationary.",
               "equipment": [
@@ -4997,7 +5088,10 @@
             },
             {
               "constellation_bands": [
-                "B1", "L1", "E1", "G1"
+                "B1",
+                "L1",
+                "E1",
+                "G1"
               ],
               "description": "Spoofer placed on the roof of a vehicle that moves south along Stavedalsveien (FV7702) to the intersection with KV71206 (in the following tests, this location will be referred to as Crossroads) at 35 km/h. 10 seconds after the vehicle begins to drive, the spoofing is activated, spoofing to a fixed position at 70.00 N, 10.00 E.",
               "equipment": [
@@ -5010,7 +5104,10 @@
             },
             {
               "constellation_bands": [
-                "B1", "L1", "E1", "G1"
+                "B1",
+                "L1",
+                "E1",
+                "G1"
               ],
               "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. The spoofed position starts static (at starting position) and at approximately true time. When the motorcade starts driving, the spoofed position starts to move directly south with constant speed (35 km/h) ",
               "equipment": [
@@ -5023,7 +5120,10 @@
             },
             {
               "constellation_bands": [
-                "B1", "L1", "E1", "G1"
+                "B1",
+                "L1",
+                "E1",
+                "G1"
               ],
               "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. The spoofed position starts static (at starting position) and at approximately true time. When the motorcade starts driving, the spoofed position starts to move in the side terrain next to the road, with constant speed (35 km/h. The spoofed position will continue to drift toward the west diverging more and more from the road).",
               "equipment": [
@@ -5541,7 +5641,7 @@
               "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming first. Then spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes. \n",
               "equipment": [
                 "H1.1",
-                "H1.4", 
+                "H1.4",
                 "H1.5",
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
