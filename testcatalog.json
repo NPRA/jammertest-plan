@@ -3672,7 +3672,7 @@
           "description": "Jammer is placed onboard a drone. The drone will try to fly in a cirle above the 50, 100 and 150 meter positions from origo at Test Area 2.",
           "group_id": 23,
           "group_name": "Jammer in the air",
-          "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it\nproduces inaccurate PNT data, when the jamming signal (J) is generated for the air by a drone. Relevant for CRPA null steering and TDOA testing.",
+          "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it\nproduces inaccurate PNT data, when the jamming signal (J) is generated from the air by a drone. Relevant for CRPA null steering and TDOA testing.",
           "tests": [
             {
               "constellation_bands": [
@@ -3699,6 +3699,62 @@
               "min_power_w": 0.0316,
               "name": "Jammer S1.1 with 10dB gain at 100 meters above ground",
               "test_id": 2
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 0.1,
+              "name": "Jammer H1.1, L1, L2, CHIRP. HIGH PWR with 10dB gain at 50 meters above ground",
+              "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 1,
+              "min_power_w": 0.1,
+              "name": "Jammer H1.1, L1, L2, CHIRP. HIGH PWR with 10dB gain at 100 meters above ground",
+              "test_id": 4
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.00316,
+              "name": "Jammer H1.1, L1, L2, WB. LOW PWR with 10dB gain at 50 meters above ground",
+              "test_id": 5
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1 with Helix antenna",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.1,
+              "min_power_w": 0.00316,
+              "name": "Jammer H1.1, L1, L2, WB. LOW PWR with 10dB gain at 100 meters above ground",
+              "test_id": 6
             }
           ]
         }
