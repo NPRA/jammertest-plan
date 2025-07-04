@@ -43,7 +43,7 @@
         {
           "start_time": "2025-09-17T10:40:00",
           "end_time": "2025-09-17T10:55:00",
-          "test_id": "2.1.4",
+          "test_id": "2.1.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "",
@@ -79,7 +79,7 @@
         {
           "start_time": "2025-09-17T12:45:00",
           "end_time": "2025-09-17T13:00:00",
-          "test_id": "2.8.1",
+          "test_id": "2.8.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 1,
           "comment": "",
@@ -106,7 +106,7 @@
         {
           "start_time": "2025-09-17T14:20:00",
           "end_time": "2025-09-17T14:35:00",
-          "test_id": "2.3.3",
+          "test_id": "2.2.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "",
@@ -115,7 +115,7 @@
         {
           "start_time": "2025-09-17T14:40:00",
           "end_time": "2025-09-17T14:55:00",
-          "test_id": "2.3.2",
+          "test_id": "2.2.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "",
@@ -163,7 +163,7 @@
           "test_id": "2.3.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
-          "comment": "",
+          "comment": "Actual test not decided yet, will depend on helicopters need",
           "status": ""
         },
         {
@@ -172,7 +172,7 @@
           "test_id": "2.3.12",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
-          "comment": "",
+          "comment": "Actual route not yet decided",
           "status": ""
         },
         {
@@ -181,7 +181,7 @@
           "test_id": "2.3.13",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
-          "comment": "",
+          "comment": "Actual route not yet decided",
           "status": ""
         },
         {
@@ -190,7 +190,7 @@
           "test_id": "2.3.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
-          "comment": "",
+          "comment": "Actual test not decided yet, will depend on helicopters need",
           "status": ""
         },
         {
