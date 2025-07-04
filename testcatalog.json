@@ -5375,7 +5375,7 @@
           "tests": [
             {
               "constellation_bands": [
-                "L1"
+                "EGNOS L1"
               ],
               "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start.",
               "equipment": [
@@ -5388,6 +5388,7 @@
             },
             {
               "constellation_bands": [
+                "EGNOS L1",
                 "L1",
                 "L2",
                 "L5",
