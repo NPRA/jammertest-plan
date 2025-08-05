@@ -15,7 +15,7 @@
         },
         {
           "start_time": "2025-09-16T09:00:00",
-          "end_time": "2025-09-16T09:28:20",
+          "end_time": "2025-09-16T09:28:00",
           "test_id": "1.6.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
@@ -24,7 +24,7 @@
         },
         {
           "start_time": "2025-09-16T09:45:00",
-          "end_time": "2025-09-16T10:13:20",
+          "end_time": "2025-09-16T10:13:00",
           "test_id": "1.6.6",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
