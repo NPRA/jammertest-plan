@@ -3737,8 +3737,8 @@
               "equipment": [
                 "H1.1"
               ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.00316,
+              "max_power_w": 0.00316,
+              "min_power_w": 0.001,
               "name": "Jammer H1.1, L1, L2, WB. LOW PWR with 10dB gain at 50 meters above ground",
               "test_id": 5
             },
@@ -3751,10 +3751,92 @@
               "equipment": [
                 "H1.1"
               ],
-              "max_power_w": 0.1,
-              "min_power_w": 0.00316,
+              "max_power_w": 0.00316,
+              "min_power_w": 0.001,
               "name": "Jammer H1.1, L1, L2, WB. LOW PWR with 10dB gain at 100 meters above ground",
               "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Cigarette jammer S1.1 ",
+              "equipment": [
+                "S1.1"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.01,
+              "name": "Jammer S1.1 at 50 meters above ground",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1"
+              ],
+              "description": "Cigarette jammer S1.1 ",
+              "equipment": [
+                "S1.1"
+              ],
+              "max_power_w": 0.0316,
+              "min_power_w": 0.01,
+              "name": "Jammer S1.1 at 100 meters above ground",
+              "test_id": 8
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.000316,
+              "name": "Jammer H1.1, L1, L2, CHIRP. LOW PWR at 50 meters above ground",
+              "test_id": 9
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.000316,
+              "name": "Jammer H1.1, L1, L2, CHIRP. LOW PWR at 100 meters above ground",
+              "test_id": 10
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.000316,
+              "name": "Jammer H1.1, L1, L2, WB. LOW PWR at 50 meters above ground",
+              "test_id": 11
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "description": "Handheld jammer H1.1",
+              "equipment": [
+                "H1.1"
+              ],
+              "max_power_w": 0.001,
+              "min_power_w": 0.000316,
+              "name": "Jammer H1.1, L1, L2, WB. LOW PWR at 100 meters above ground",
+              "test_id": 12
             }
           ]
         }
