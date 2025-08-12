@@ -156,15 +156,6 @@
           "power_w": 0,
           "comment": "MANDATORY",
           "status": ""
-        },
-        {
-          "start_time": "2025-09-18T19:30:00",
-          "end_time": "2025-09-18T22:00:00",
-          "test_id": "3.1.3",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 10,
-          "comment": "",
-          "status": ""
         }
       ]
     },
