@@ -1014,6 +1014,47 @@
               "min_power_w": 1,
               "name": "Jammer F8.1: 50 W sweep: L1, G1, L2, L5, E6, 100 kHz",
               "test_id": 9
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 50,
+              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz, BW: 20MHz, Bands: L1, G1, L2, L5, E6",
+              "test_id": 10
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a"
+              ],
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6 sweep rate: 1 kHz",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 50,
+              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 1kHz, BW: 20MHz, Bands: L1, G1, L2, L5, E6",
+              "test_id": 11
             }
           ]
         },
@@ -1275,6 +1316,43 @@
               "min_power_w": 2e-7,
               "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
               "test_id": 6
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C"
+
+              ],
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test band L1. Power level step time 20 seconds",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 7.9e-6,
+              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
+              "test_id": 7
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "G1",
+                "L2",
+                "L5",
+                "E5a",
+                "B2a",
+                "E6"
+              ],
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5, E6. Power level step time 20 seconds",
+              "equipment": [
+                "F8.1"
+              ],
+              "max_power_w": 50,
+              "min_power_w": 7.9e-6,
+              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
+              "test_id": 8
             }
           ]
         },
