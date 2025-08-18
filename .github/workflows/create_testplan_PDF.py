@@ -108,7 +108,7 @@ def findTestInCatalog(catalog, testId):
 def getTime(isoStr):
     return datetime.fromisoformat(isoStr).astimezone(tz=zoneinfo.ZoneInfo('Europe/Oslo'))
 
-def findTestInHour(locationObj, hour):
+def findTestStartInHour(locationObj, hour):
     foundTests = []
     for test in locationObj['tests']:
         startTime = getTime(test['start_time'])
@@ -116,6 +116,17 @@ def findTestInHour(locationObj, hour):
         endTime = getTime(test['end_time'])
         test['end_time_t'] = endTime.strftime('%H:%M')
         if int(startTime.strftime("%H")) == hour:
+            foundTests.append(test)
+    return foundTests
+
+def findTestRunningInHour(locationObj, hour):
+    foundTests = []
+    for test in locationObj['tests']:
+        startTime = getTime(test['start_time'])
+        test['start_time_t'] = startTime.strftime('%H:%M')
+        endTime = getTime(test['end_time'])
+        test['end_time_t'] = endTime.strftime('%H:%M')
+        if int(startTime.strftime("%H")) < hour and int(endTime.strftime("%H")) > hour: 
             foundTests.append(test)
     return foundTests
 
@@ -162,10 +173,13 @@ def create_daytable(tp, dayname, locArr):
         tp.write(f"{{{hr:02d}:00}} & ")
         # each location:
         for l in range(0,numOfLocs):
-            testsInHour = findTestInHour(locArr[l], hr)
+            testsInHour = findTestStartInHour(locArr[l], hr)
+            testRunningInHour = findTestRunningInHour(locArr[l], hr)
             #print(testsInHour)
             if len(testsInHour) > 0:
                 tp.write(printTest(testsInHour))
+            elif len(testRunningInHour) > 0:
+                tp.write('Ongoing event. See above.')
             else:
                 tp.write(' ')
             if l < numOfLocs-1:
@@ -182,7 +196,8 @@ def writeTestPlan(dayname, date, dayjson):
         tp.write('\\begin{longtblr}[caption={'+dayname.capitalize()+'}]{colspec={|Q[2.5cm]')
         for loc in dayjson["locations"]:
             tp.write('|Q[7cm]')
-        tp.write('|},rowhead=2,cell{even[4-Z]}{1-Z}={lightlightgray},rows={halign=l}}\n')
+        #tp.write('|},rowhead=2,cell{even[4-Z]}{1-Z}={lightlightgray},rows={halign=l}}\n')
+        tp.write('|},rowhead=2,row{4,6,8,10,12,14,16,18,20,22,24,26,28,30} = {bg=lightlightgray},rows={halign=l}}\n')
         # add day and date:
         tp.write('\\large{'+dayname.capitalize()+'} &\\\\ \n')
         tp.write('\\footnotesize{'+date+'} ')
