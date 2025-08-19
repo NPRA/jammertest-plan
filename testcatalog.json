@@ -6236,8 +6236,8 @@
           "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Maior\", see Appendix G for more information about the equipment.",
           "description": "GNSS re-transmission of real live sky signals from one receiver, where the goal is that GNSS user equipment calculates a wrong position using real satellite data, only slightly time delayed.\nThe test will re-transmit on the L1 and L2 bands, where the employed antenna for the receiver have cut-off frequencies at 1562 – 1588 MHz (L1) & 1216 – 1240 MHz (L2) and 1564 – 1586 MHz (L1) & 1218 – 1238 MHz (L2), respectively. This means that GPS L1 and L2, Galileo E1, and BeiDou B1C should be visible in the retransmitted data stream, that GLONASS G1 should not be visible, and that B1I signals from some BeiDou satellites might be visible, especially on RX1. There is also a possibility that G2 signals from some GLONASS satellites might be visible. Please note that the filter's frequency cut-offs are not perfect, so some other signals might \"leak\" through.",
           "group_id": 4,
-          "group_name": "Stationary meaconing from a single receiver in combination with other deceptive signals",
-          "rationale": "Meaconing is to record live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. In addition, multiple spoofing signals will be transmitted from different directions. The objective of these tests is to observe how equipment and systems behave under varying meaconing tranmission power levels. It might be interesting to see when or if your device jumps from an existing PNT fix to a meaconed signal with a higher power level.",
+          "group_name": "Meaconing and spoofing from multiple transmitters",
+          "rationale": "Meaconing is to receive live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. In addition, multiple spoofing signals will be transmitted from different directions. The objective of these tests is to observe how equipment and systems behave during combined meaconing and spoofing scenarios.",
           "tests": [
             {
               "constellation_bands": [
@@ -6246,7 +6246,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Meaconing from receiver RX1, combined with spoofing signal from other location",
+              "description": "Meaconing from RX1, combined with spoofing signal from other location",
               "equipment": [
                 "F1.1"
               ],
