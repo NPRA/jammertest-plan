@@ -1140,7 +1140,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, Chiprate: 10.23 MHz",
+              "name": "Jammer F8.1: 50 W PRN: L1, Chiprate: 10 MHz",
               "test_id": 5
             },
             {
@@ -1161,7 +1161,7 @@
               ],
               "max_power_w": 50,
               "min_power_w": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, G1, L2, L5, E6, Chiprate: 10.23 MHz",
+              "name": "Jammer F8.1: 50 W PRN: L1, G1, L2, L5, E6, Chiprate: 10 MHz",
               "test_id": 6
             }
           ]
