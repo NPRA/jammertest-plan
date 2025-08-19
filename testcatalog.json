@@ -1019,21 +1019,15 @@
               "constellation_bands": [
                 "L1",
                 "E1",
-                "B1C",
-                "G1",
-                "L2",
-                "L5",
-                "E5a",
-                "B2a",
-                "E6"
+                "B1C"
               ],
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz, BW: 20MHz, Bands: L1, G1, L2, L5, E6",
+              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz, BW: 20MHz, Bands: L1",
               "test_id": 10
             },
             {
@@ -1045,15 +1039,16 @@
                 "L2",
                 "L5",
                 "E5a",
-                "B2a"
+                "B2a",
+                "E6"
               ],
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6 sweep rate: 1 kHz",
+              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6 sweep rate: 100 kHz",
               "equipment": [
                 "F8.1"
               ],
               "max_power_w": 50,
               "min_power_w": 50,
-              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 1kHz, BW: 20MHz, Bands: L1, G1, L2, L5, E6",
+              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz, BW: 20MHz, Bands: L1, G1, L2, L5, E6",
               "test_id": 11
             }
           ]
