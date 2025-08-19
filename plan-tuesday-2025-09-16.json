@@ -127,7 +127,7 @@
           "test_id": "3.4.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "40dBm Meaconing from Porcellus at Ramnan and spoofing from the cemetery at the same time.",
+          "comment": "Meaconing and spoofing at the same time.",
           "status": ""
         },
         {
@@ -136,7 +136,7 @@
           "test_id": "3.4.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "40dBm Meaconing from Porcellus at Ramnan and spoofing from the cemetery at the same time.",
+          "comment": "Switching between meaconing and spoofing.",
           "status": ""
         },
         {
