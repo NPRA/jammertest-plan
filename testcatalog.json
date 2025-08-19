@@ -1452,7 +1452,7 @@
                 "E1",
                 "B1C"
               ],
-              "description": "50 W PRN pyramid jamming, starting with only E6 and adding bands all the way up to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
+              "description": "50 W PRN pyramid jamming, starting with only E6 and adding bands sequentially to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look like this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
               "equipment": [
                 "F8.1"
               ],
