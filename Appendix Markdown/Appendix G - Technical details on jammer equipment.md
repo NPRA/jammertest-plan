@@ -59,7 +59,7 @@
 
 [Technical details on the meaconing setup “Porcellum” / “F1.1”](#technical-details-on-the-meaconing-setup-porcellum--f11)
 
-[Technical details on the high-power jammer “Porcus Maior”/ “F8.1”](#technical-details-on-the-high-power-jammer-porcus-major-f81)
+[Technical details on the high-power jammer “Porcus Maior”/ “F8.1”](#technical-details-on-the-high-power-jammer-porcus-maior-f81)
 
 [Technical details on software defined radio mobile SDR spoofer “F1.2”](#technical-details-on-software-defined-radio-mobile-sdr-spoofer-f12)
 
