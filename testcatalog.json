@@ -1206,7 +1206,7 @@
           "description": "The transmitted power will be ramped up and down from a lower to a higher ERP for each test. The duration of each power level step is specified for each test, with steps of 2 dB. The modulation is PRN. The attendees should remain stationary with a known distance to the jammer and observe how different levels will affect the PNT equipment.",
           "group_id": 6,
           "group_name": "Stationary high-power jamming, ramp power with PRN",
-          "rationale": "The main objective is to observe how the J/S signal affect the loss of PNT, and/or how it produces inaccurate PNT data, and at which power level. This will allow for evaluation of the sensitivity thresholds for various systems and algorithms.",
+          "rationale": "The main objective is to observe how the J/S signal affect loss of PNT, and/or how it produces inaccurate PNT data, and at which power level. This will allow for evaluation of the sensitivity thresholds for various systems and algorithms.",
           "tests": [
             {
               "constellation_bands": [
