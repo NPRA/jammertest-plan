@@ -6278,7 +6278,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Meaconing from receiver RX1 combined with meaconing from community house. RX1 power level is constant 10W, while the community house signal power level is ramped up",
+              "description": "Meaconing from RX1 combined with meaconing from community house. RX1 power level is constant 10W, while the community house signal power level is ramped up",
               "equipment": [
                 "F1.1",
                 "S"
@@ -6287,6 +6287,23 @@
               "min_power_w": 0.001,
               "name": "Meaconing with F1.1 and S: RX1 and meaconing from the community house",
               "test_id": 3
+            },
+            {
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "B1C",
+                "L2"
+              ],
+              "description": "Meaconing and spoofing from four emitters located at Ramnan, the cemetery and the community house. 5 minutes per emitter, then 2 minutes each with 10 second overlapping.",
+              "equipment": [
+                "F1.1",
+                "S"
+              ],
+              "max_power_w": 10,
+              "min_power_w": 0.001,
+              "name": "Meaconing and spoofing from four emitters in three locations in sequence.",
+              "test_id": 4
             }
           ]
         }
