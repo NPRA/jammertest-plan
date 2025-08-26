@@ -2,7 +2,7 @@
   {
     "title": "Technical details on low-power jammer 'S1.1'",
     "id": "S1.1",
-    "desc": "The jammer S1.1 belongs to the 'Cigarette jammer' category of jammers. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
+    "desc": "The jammer S1.1 belongs to the 'Cigarette jammer' category. Such jammers are often installed in the cigarette lighter outlet in cars. They are intended to cover the car, and a given radius around the car. \nS1.1 is an one-antenna, so-called 'L1-only', jammer, disrupting only the upper L-band.",
     "image": "appendixG/s1.1-photo.png",
     "table": [
       [
