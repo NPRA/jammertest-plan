@@ -46,7 +46,7 @@
           "test_id": "3.1.4",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "10 minutes of 40dBm meaconing from Porcellus preceded by 5 minutes of PRN jamming from Porcus Maior at Ramnan",
+          "comment": "10 minutes of 40dBm meaconing from Porcellus preceded by 5 minutes of PRN jamming (L1, L2, L5, G1, E6 and E5b) from Porcus Maior at Ramnan",
           "status": ""
         },
         {

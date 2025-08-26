@@ -5977,7 +5977,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 50 W)",
+              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5, G1, E6 and E5b at 50 W)",
               "equipment": [
                 "F1.1",
                 "F8.1"
