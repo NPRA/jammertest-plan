@@ -5268,7 +5268,7 @@
         },
         {
           "comment": "Starting position will be approximately at either 69.212409N,15.858314E (Stave community house) or 69.144068N, 15.758476E (cross roads between FV7702 and KV71206) in all scenarios (might change due to operational requests).\nSpoofed time will be approximately true (depends on the latest update of satellite data), usually within synch of UTC (1us~300m)",
-          "description": "A SDR spoofer will be employed in different ways in and around vehicles. All spoofing tests will be on B1, L1C, E1, G1 combined with jamming on all other bands. Jamming will be at 1W max and spoofing will be done with ~1 mW. The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
+          "description": "A SDR spoofer will be employed in different ways in and around vehicles. During the first 5 minutes there will be simultanious spoofing and jamming on L1, G1, and B1. After 5 minutes, jamming will stop only spoofing will continue on L1, G1, and B1. There will be continuous jamming on L2, L5, E5b, and E6. Jamming will be at 1W max and spoofing will be done with ~1 mW. The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
           "group_id": 6,
           "group_name": "Incoherent GPS position and time spoofing from mobile spoofer",
           "rationale": "The objective is to simulate a vehicle-borne spoofing device \"out in the wild\", so that attendees can experience how a mobile spoofing source affects their (stationary or mobile) equipment and systems.",
@@ -5280,7 +5280,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed inside of a stationary vehicle with the transmitting antennae on the roof. The spoofed position starts static (at starting position) and at approximately true time. After 5 minutes, the spoofed position starts to move directly south with constant speed (35 km/h), while the motorcade stays stationary.",
+              "description": "Spoofer placed inside of a stationary vehicle with the transmitting antennae on the roof. After the spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h), while the motorcade stays stationary.",
               "equipment": [
                 "M1.1"
               ],
@@ -5296,7 +5296,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle that moves south along Stavedalsveien (FV7702) to the intersection with KV71206 (in the following tests, this location will be referred to as Crossroads) at 35 km/h. 10 seconds after the vehicle begins to drive, the spoofing is activated, spoofing to a fixed position at 70.00 N, 10.00 E.",
+              "description": "Spoofer placed on the roof of a vehicle that moves south along Stavedalsveien (FV7702) to the intersection with KV71206 (in the following tests, this location will be referred to as Crossroads) at 35 km/h. After the spoofing is activated, the position will be spoofed to a fixed location at 70.00 N, 10.00 E.",
               "equipment": [
                 "M1.1"
               ],
@@ -5312,7 +5312,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. The spoofed position starts static (at starting position) and at approximately true time. When the motorcade starts driving, the spoofed position starts to move directly south with constant speed (35 km/h) ",
+              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h) ",
               "equipment": [
                 "M1.1"
               ],
@@ -5328,7 +5328,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. The spoofed position starts static (at starting position) and at approximately true time. When the motorcade starts driving, the spoofed position starts to move in the side terrain next to the road, with constant speed (35 km/h. The spoofed position will continue to drift toward the west diverging more and more from the road).",
+              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move in the side terrain next to the road, with constant speed (35 km/h. The spoofed position will continue to drift toward the west diverging more and more from the road).",
               "equipment": [
                 "M1.1"
               ],
@@ -5341,7 +5341,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. 10 seconds after the vehicle begins to drive, the spoofing is activated. While the motorcade is driving north, the spoofed position is driving south to Nordmela.",
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. While the motorcade is driving north, the spoofed position is driving south to Nordmela.",
               "equipment": [
                 "M1.1"
               ],
@@ -5354,7 +5354,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. 10 seconds after the vehicle begins to drive, the spoofing is activated, spoofing to a fixed position at 69.212321, 15.858171 (close to the motorcade starting position).",
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. After the spoofing is activated, the position will be spoofed to a fixed location at 69.212321, 15.858171 (close to the motorcade starting position).",
               "equipment": [
                 "M1.1"
               ],
@@ -5367,7 +5367,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Motorcade speed is at 35 km/h. 10 seconds after the vehicle begins to drive, the spoofing is activated, and starts moving at 100km/h northbound along the road to Stave.",
+              "description": "Spoofer placed on the roof of a vehicle. Motorcade speed is at 35 km/h. After the spoofing is activated, the spoofed position starts moving at 100km/h northbound along the road to Stave.",
               "equipment": [
                 "M1.1"
               ],
