@@ -5280,7 +5280,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed inside of a stationary vehicle with the transmitting antennae on the roof. After the spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h), while the motorcade stays stationary.",
+              "description": "Spoofer placed inside of a stationary vehicle with the transmitting antennae on the roof. After the spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h), while the motorcade stays stationary. There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "equipment": [
                 "M1.1"
               ],
@@ -5296,7 +5296,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle that moves south along Stavedalsveien (FV7702) to the intersection with KV71206 (in the following tests, this location will be referred to as Crossroads) at 35 km/h. After the spoofing is activated, the position will be spoofed to a fixed location at 70.00 N, 10.00 E.",
+              "description": "Spoofer placed on the roof of a vehicle that moves south along Stavedalsveien (FV7702) to the intersection with KV71206 (in the following tests, this location will be referred to as Crossroads) at 35 km/h. There will be no initial jamming. The spoofing will start 10 seconds after the vehicles have begun to move. Spoofing will be a sudden jump to a fixed position at 70.00 N, 10.00 E.",
               "equipment": [
                 "M1.1"
               ],
@@ -5312,7 +5312,7 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h) ",
+              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h). There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "equipment": [
                 "M1.1"
               ],
@@ -5328,20 +5328,20 @@
                 "E1",
                 "G1"
               ],
-              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move in the side terrain next to the road, with constant speed (35 km/h. The spoofed position will continue to drift toward the west diverging more and more from the road).",
+              "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move in the side terrain next to the road, with constant speed (35 km/h. The spoofed position will continue to drift toward the west diverging more and more from the road). There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "equipment": [
                 "M1.1"
               ],
               "max_power_w": 0.001,
               "min_power_w": 0.001,
-              "name": "Spoofing: Motorcade is driving while the spoofed position is driving in the terrain next to the road",
+              "name": "Spoofing: Motorcade is driving while the spoofed position is driving in the terrain next to the road. Spoofing route will be route 8 (See appendix F)",
               "test_id": 4
             },
             {
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. While the motorcade is driving north, the spoofed position is driving south to Nordmela.",
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. While the motorcade is driving north, the spoofed position is driving south to Nordmela. There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "equipment": [
                 "M1.1"
               ],
@@ -5354,7 +5354,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. After the spoofing is activated, the position will be spoofed to a fixed location at 69.212321, 15.858171 (close to the motorcade starting position).",
+              "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. After the spoofing is activated, the position will be spoofed to a fixed location at 69.212321, 15.858171 (close to the motorcade starting position). There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "equipment": [
                 "M1.1"
               ],
@@ -5367,7 +5367,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Motorcade speed is at 35 km/h. After the spoofing is activated, the spoofed position starts moving at 100km/h northbound along the road to Stave.",
+              "description": "Spoofer placed on the roof of a vehicle. Motorcade speed is at 35 km/h. After the spoofing is activated, the spoofed position starts moving at 100km/h northbound along the road to Stave. There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts. In the dynamic phase the spoofing accelerates from stationary to 100km/h in 50 seconds.",
               "equipment": [
                 "M1.1"
               ],
@@ -5380,7 +5380,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Motorcade is stationary at Stave. The clock will jump forward in time by 1 hour and 15 minutes.",
+              "description": "Spoofer placed on the roof of a vehicle. Motorcade is stationary at Stave. The clock will jump forward in time by 1 hour and 15 minutes. There will be 5 min of initial jamming during which stationary spoofing has already started.",
               "equipment": [
                 "M1.1"
               ],
@@ -5393,7 +5393,7 @@
               "constellation_bands": [
                 "B1,L1,E1,G1"
               ],
-              "description": "Spoofer placed on the roof of a vehicle. Motorcade is stationary at Stave. The clock will jump forward in time by 13 years (to the year 2038). If the equipment is using 32 bit signed integers to represent time, this will cause an overflow and the clock will jump back to 1970.",
+              "description": "Spoofer placed on the roof of a vehicle. Motorcade is stationary at Stave. The clock will jump forward in time by 13 years (to the year 2038). If the equipment is using 32 bit signed integers to represent time, this will cause an overflow and the clock will jump back to 1970. There will be 5 min of initial jamming during which stationary spoofing has already started.",
               "equipment": [
                 "M1.1"
               ],
@@ -5829,7 +5829,7 @@
         },
         {
           "comment": "",
-          "description": "",
+          "description": "Spoofing route will be route 7 (See appendix F)",
           "group_id": 10,
           "group_name": "Stationary coherent spoofing with circle of jammers",
           "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. The main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered coherent spoofer between the nulls that will get passed the CRPA electronics to the protected receivers. Three Novatel jammers of the same type are placed in a circle 120 degrees a part. Distance from center is 50 meters (A50, B50 and C50). A coherent spoofer is placed nearby, and will spoof you away from the center position (LOK2_ORIG) onto a given route. \n\nFor the first test the spoofing signal will be shown. For the second test the cirle of jammers will start, and then the same spoofing route will come on air again. The testgroup will further expand with more jammers for each test, repeating the same spoofing route. You might want to set your protected receiver to use L1/E1 only for these tests. ",
@@ -6246,7 +6246,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Meaconing from RX1, combined with spoofing signal from other location",
+              "description": "Meaconing from RX1, combined with spoofing signal from other location. Meaconing will contains both L1 and L2 bands while spoofing is only L1 band. Spoofing route will be route 6 (See appendix F)",
               "equipment": [
                 "F1.1"
               ],
