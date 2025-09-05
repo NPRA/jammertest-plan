@@ -1317,7 +1317,6 @@
                 "L1",
                 "E1",
                 "B1C"
-
               ],
               "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test band L1. Power level step time 20 seconds",
               "equipment": [
@@ -5832,7 +5831,7 @@
           "description": "Spoofing route will be route 7 (See appendix F)",
           "group_id": 10,
           "group_name": "Stationary coherent spoofing with circle of jammers",
-          "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. The main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered coherent spoofer between the nulls that will get passed the CRPA electronics to the protected receivers. Three Novatel jammers of the same type are placed in a circle 120 degrees a part. Distance from center is 50 meters (A50, B50 and C50). A coherent spoofer is placed nearby, and will spoof you away from the center position (LOK2_ORIG) onto a given route. \n\nFor the first test the spoofing signal will be shown. For the second test the cirle of jammers will start, and then the same spoofing route will come on air again. The testgroup will further expand with more jammers for each test, repeating the same spoofing route. You might want to set your protected receiver to use L1/E1 only for these tests. ",
+          "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. The main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered coherent spoofer between the nulls that will get passed the CRPA electronics to the protected receivers. Three Novatel jammers of the same type are placed in a circle 120 degrees a part. Distance from center is 50 meters (A50, B50 and C50). A coherent spoofer is placed nearby, and will spoof you away from the center position (LOK2_ORIG) onto a given route. \n\nFor the first test the spoofing signal will be shown. For the second test the cirle of jammers will start, and then the same spoofing route will come on air again. The testgroup will further expand with more jammers for each test, repeating the same spoofing route. You might want to set your protected receiver to use L1/E1 only for these tests. The spoofing route is called \"Cirle of fire\", and it runs clockwise circular movement at 3 m/s. ",
           "tests": [
             {
               "constellation_bands": [
