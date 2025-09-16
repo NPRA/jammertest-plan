@@ -6245,7 +6245,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Meaconing from RX1, combined with spoofing signal from other location. Meaconing will contains both L1 and L2 bands while spoofing is only L1 band. Spoofing route will be route 6 (See appendix F)",
+              "description": "Meaconing from RX1, combined with spoofing signal from other location. Meaconing will contains both L1 and L2 bands while spoofing is only L1 band. Meaconing from Ramnan (mountain top) and cemetery. Spoofing from cemetery and Bleik. Spoofing route will be route 6 (See appendix F)",
               "equipment": [
                 "F1.1"
               ],
@@ -6294,7 +6294,7 @@
                 "B1C",
                 "L2"
               ],
-              "description": "Meaconing and spoofing from four emitters located at Ramnan, the cemetery and the community house. 5 minutes per emitter, then 2 minutes each with 10 second overlapping.",
+              "description": "Meaconing and spoofing from four emitters located at Ramnan, the cemetery and the community house. 5 minutes per emitter, then 2 minutes each with 10 second overlapping. The order of transmissions is as follows: Meaconing Ramnan (mountain top). Meaconing Cemetery. Spoofing from Cemetery. Spoofing from Bleik. Break for two minutes. Then repeat the cycle with 2 minute interval.",
               "equipment": [
                 "F1.1",
                 "S"

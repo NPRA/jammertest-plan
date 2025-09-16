@@ -153,7 +153,7 @@
           "end_time": "2025-09-16T22:00:00",
           "test_id": "1.16.5",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 100,
+          "power_w": 50,
           "comment": "One hour of 50dBm jamming from Porcus Maior at Ramnan, then one hour jamming from both Porcus Maior and Winnie the Spoof at the cemetery, then one hour of jamming from Winnie the Spoof.",
           "status": ""
         }
