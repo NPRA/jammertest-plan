@@ -236,8 +236,8 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-17T09:50:00",
-          "end_time": "2025-09-17T10:55:00",
+          "start_time": "2025-09-17T10:00:00",
+          "end_time": "2025-09-17T10:45:00",
           "test_id": "2.10.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
@@ -245,8 +245,8 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-17T11:05:00",
-          "end_time": "2025-09-17T12:00:00",
+          "start_time": "2025-09-17T11:00:00",
+          "end_time": "2025-09-17T11:45:00",
           "test_id": "2.10.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 4,
@@ -254,8 +254,8 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-17T12:10:00",
-          "end_time": "2025-09-17T13:05:00",
+          "start_time": "2025-09-17T12:00:00",
+          "end_time": "2025-09-17T12:45:00",
           "test_id": "2.10.4",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 5,
@@ -282,7 +282,7 @@
         },
         {
           "start_time": "2025-09-17T15:00:00",
-          "end_time": "2025-09-17T15:55:00",
+          "end_time": "2025-09-17T15:45:00",
           "test_id": "2.10.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
@@ -290,8 +290,8 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-17T16:05:00",
-          "end_time": "2025-09-17T17:00:00",
+          "start_time": "2025-09-17T16:00:00",
+          "end_time": "2025-09-17T16:45:00",
           "test_id": "2.10.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 4,
@@ -299,8 +299,8 @@
           "status": ""
         },
         {
-          "start_time": "2025-09-17T17:10:00",
-          "end_time": "2025-09-17T18:05:00",
+          "start_time": "2025-09-17T17:00:00",
+          "end_time": "2025-09-17T17:45:00",
           "test_id": "2.10.4",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 5,
