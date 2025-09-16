@@ -241,7 +241,7 @@
           "test_id": "2.10.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
-          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming\nfirst. Then spoofing starts, same spoofing route as test 2.10.1",
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. 5 minutes of initial jamming\nfirst. Then spoofing starts, same spoofing route as test 2.10.1, but power ramp is only 10 minutes. After 10 minutes the jammers will drop to LOW PWR.",
           "status": ""
         },
         {
@@ -250,7 +250,7 @@
           "test_id": "2.10.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 4,
-          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Two additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 15 minutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1",
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Two additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 5 minutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1, but power ramp is only 10 minutes",
           "status": ""
         },
         {
@@ -259,7 +259,7 @@
           "test_id": "2.10.4",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 5,
-          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Five additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 15\nminutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1.",
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Five additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 5\nminutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1, but power ramp is only 10 minutes",
           "status": ""
         },
         {
@@ -277,7 +277,7 @@
           "test_id": "2.10.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0.001,
-          "comment": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150,\nB150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes\nof the test. Signals: GPS L1 C/A. Galileo E1. No initial jamming. Spoofing route duration is 40\nminutes.",
+          "comment": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150,\nB150 and C150. Spoofing signal will perfom power ramp from 1 uW to 1 mW during the first 30 minutes\nof the test. Signals: GPS L1 C/A. Galileo E1. No initial jamming. Spoofing route duration is 40\nminutes.",
           "status": ""
         },
         {
@@ -286,7 +286,7 @@
           "test_id": "2.10.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
-          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming\nfirst. Then spoofing starts, same spoofing route as test 2.10.1",
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. 5 minutes of initial jamming\nfirst. Then spoofing starts, same spoofing route as test 2.10.1, but power ramp is only 10 minutes. After 10 minutes the jammers will drop to LOW PWR.",
           "status": ""
         },
         {
@@ -295,7 +295,7 @@
           "test_id": "2.10.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 4,
-          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Two additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 15 minutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1",
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Two additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 5 minutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1, but power ramp is only 10 minutes",
           "status": ""
         },
         {
@@ -304,7 +304,7 @@
           "test_id": "2.10.4",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 5,
-          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Five additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 15\nminutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1",
+          "comment": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR.\nThe Jammers are connected to RHCP antennas to boost the power. Five additional mobile jammers\nwill be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 5\nminutes of initial jamming first. Then spoofing starts, same spoofing route as test 2.10.1, but power ramp is only 10 minutes",
           "status": ""
         },
         {
