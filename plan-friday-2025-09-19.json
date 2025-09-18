@@ -15,83 +15,65 @@
         },
         {
           "start_time": "2025-09-19T09:00:00",
-          "end_time": "2025-09-19T09:10:00",
-          "test_id": "0.3.1",
+          "end_time": "2025-09-19T09:15:00",
+          "test_id": "3.4.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "TBD",
+          "comment": "10w meaconing from Ramnan combined with about 10-30w spoofing from winnie the spoof at the cemetery.",
           "status": ""
         },
         {
-          "start_time": "2025-09-19T09:20:00",
-          "end_time": "2025-09-19T09:40:00",
-          "test_id": "0.3.1",
+          "start_time": "2025-09-19T09:30:00",
+          "end_time": "2025-09-19T09:45:00",
+          "test_id": "3.2.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "TBD",
+          "comment": "Meaconing RX1 and RX2 alternating with breaks. 1 min RX1 on, 1 min off, 1 min RX2 on, 1 min off, repeat.",
           "status": ""
         },
         {
-          "start_time": "2025-09-19T09:50:00",
-          "end_time": "2025-09-19T10:00:00",
+          "start_time": "2025-09-19T10:00:00",
+          "end_time": "2025-09-19T11:00:00",
           "test_id": "0.3.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "TBD",
+          "comment": "Sequential powering on of jammers with 2 minutes intervals: 5 small jammers at Bleik (one lifted), Mountain Top, Cemetery and finally Meaconing from Cemetery. After 14 minutes all jammers are turned on, and will stay on for the rest of the hour. Small jammers: L1, high power jammers: L1,L2,L5,G1,E6. Meaconing of all bands",
           "status": ""
         },
         {
-          "start_time": "2025-09-19T10:10:00",
-          "end_time": "2025-09-19T10:33:00",
-          "test_id": "0.3.1",
+          "start_time": "2025-09-19T11:15:00",
+          "end_time": "2025-09-19T11:35:00",
+          "test_id": "2.7.15",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.001,
+          "comment": "Spoofing, time jump back to 2019 - GPS week rollover",
           "status": ""
         },
         {
-          "start_time": "2025-09-19T10:50:00",
-          "end_time": "2025-09-19T11:10:00",
-          "test_id": "0.3.1",
+          "start_time": "2025-09-19T11:50:00",
+          "end_time": "2025-09-19T12:05:00",
+          "test_id": "2.7.10",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.001,
+          "comment": "Spoofing, time jump 2 years forward",
           "status": ""
         },
         {
-          "start_time": "2025-09-19T11:30:00",
-          "end_time": "2025-09-19T11:50:00",
-          "test_id": "0.3.1",
+          "start_time": "2025-09-19T12:20:00",
+          "end_time": "2025-09-19T12:35:00",
+          "test_id": "2.3.10",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.001,
+          "comment": "Spoofing route 1",
           "status": ""
         },
         {
-          "start_time": "2025-09-19T12:00:00",
-          "end_time": "2025-09-19T12:22:00",
-          "test_id": "0.3.1",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "TBD",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-19T12:30:00",
-          "end_time": "2025-09-19T12:40:00",
-          "test_id": "0.3.1",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "TBD",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-19T12:50:00",
+          "start_time": "2025-09-19T12:45:00",
           "end_time": "2025-09-19T13:00:00",
-          "test_id": "0.3.1",
+          "test_id": "2.3.13",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "TBD",
+          "power_w": 0.001,
+          "comment": "Spoofing Jammertest route. Changed from catalog: 5 minutes of static start",
           "status": ""
         },
         {
@@ -100,16 +82,7 @@
           "test_id": "0.1.1",
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
-          "comment": "Lunch",
-          "status": ""
-        },
-        {
-          "start_time": "2025-09-19T14:00:00",
-          "end_time": "2025-09-19T14:30:00",
-          "test_id": "0.0.2",
-          "test_contact": "Christian Skjetne (NPRA)",
-          "power_w": 0,
-          "comment": "Summary briefing and closing of event",
+          "comment": "Lunch, summary briefing and closing of event",
           "status": ""
         }
       ]
