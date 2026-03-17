@@ -3,7 +3,7 @@ Official test catalog and transmission plan for Jammertest.
 
 
 ## Test catalog
-The test catalog contains all of the test we are planning to run, and all test we have run in the past.  
+The test catalog contains all of the tests we are planning to run, and all tests we have run in the past.  
 **The test catalog will contain tests that is not scheduled to be run this year.**
 
 Links to the test catalog:
