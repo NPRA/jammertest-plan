@@ -4679,8 +4679,8 @@
         {
           "group_id": 24,
           "group_name": "Multiple low and high power jammer, spoofing and meaconing sources",
-          "description": null,
-          "rationale": null,
+          "description": "DUMMY",
+          "rationale": "DUMMY",
           "comment": "",
           "tests": [
             {
@@ -7055,8 +7055,8 @@
         {
           "group_id": 9,
           "group_name": "Stationary coherent spoofing with invalid ephemerids",
-          "description": null,
-          "rationale": null,
+          "description": "DUMMY",
+          "rationale": "DUMMY",
           "comment": "The effect on subsystems is not known and hence care should be taken to limit the range of the transmission to include (as best as possible) only DUT eqipment and systems.",
           "tests": [
             {
@@ -7886,7 +7886,7 @@
         {
           "group_id": 5,
           "group_name": "Stationary meaconing with circle of jammers",
-          "description": null,
+          "description": "DUMMY",
           "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. \n\nThe main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered meaconing signal between the nulls that will get passed the CRPA electronics to the protected receivers.\n\nFor the first tests the meaconing signal will be shown in power ramp tests. The testgroup will further expand with different levels of meaconing and different levels of background jamming. ",
           "comment": "",
           "tests": [

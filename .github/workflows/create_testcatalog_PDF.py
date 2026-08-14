@@ -37,6 +37,8 @@ def create_testgroup(fp, type_id, test_group):
     rationale = escape(test_group['rationale'])
     description = escape(test_group['description'])
     comment = escape(test_group["comment"])
+
+    print(f'Creating test group {tgroup_title}')
     
     fp.write(f'\\section{{{tgroup_title}}}\n\n')
     fp.write(f'\\subsection*{{Rationale}}\n\n')
