@@ -74,7 +74,10 @@ def create_testgroup(fp, type_id, test_group):
         fp.write(f'\\subsubsection*{{Test bands/constellation}}\n')
         fp.write(f'{t_bands}\n'.replace('[','').replace(']',''))
         fp.write(f'\\subsubsection*{{Transmitter equipment}}\n')
-        fp.write(f'{t_equipment}\n'.replace('[','').replace(']',''))
+        if len(t_equipment) == 0:
+            fp.write("'N/A'\n")
+        else:
+            fp.write(f'{t_equipment}\n'.replace('[','').replace(']',''))
         fp.write('\\\\')
 
        
