@@ -8,6 +8,10 @@ latex_replacements = {
     0x2019: "'",    # Right smart single quote (’)
     0x0025: "\\%",  # Percentage sign (%) escaped for LaTeX
     0x0026: "\\&",  # Ampersand sign (&) escaped for LaTeX
+    0x202f: "\\,",  # Narrow no-break space (U+202F) replaced with LaTeX thin space
+    0x2020: "\\,",  # En space (U+2002) replaced with LaTeX thin space
+    0x2021: "\\,",  # Em space (U+2003) replaced with LaTeX thin space
+    0x00A0: "\\,",  # Non-breaking space (U+00A0) replaced with LaTeX thin space
     
     # Special LaTeX Characters (Escaped)
     ord("&"): "\\&",
@@ -49,31 +53,7 @@ def escape(strng):
     strng = strng.translate(latex_replacements)
 
     #strng = strng.replace("µ", "\mu")
-    strng = strng.replace("&","\\&")
-    strng = strng.replace("%","\\%")
-    strng = strng.replace("$","\\$")
-    strng = strng.replace("#","\\#")
-    strng = strng.replace("_","\\_")
-    strng = strng.replace("{","\\{")
-    strng = strng.replace("}","\\}")
-
-    #strng = strng.replace("\u2013","-")  # en dash
-    #strng = strng.replace("\u2014","-")  # em dash
-    #strng = strng.replace(" – "," - ")
-    #strng = strng.replace("–","-")
-    #strng = strng.replace("—","-")
-    #strng = strng.replace("—","-")
     
-    #strng = strng.replace("…","...")
-    #strng = strng.replace("‘","'")
-    #strng = strng.replace("’","'")
-    #strng = strng.replace("“","''")
-    #strng = strng.replace("”","''")
-    #strng = strng.replace("°","^{\\circ}")
-    #strng = strng.replace("±","\\pm")
-    
-    strng = strng.replace("~", "\\textasciitilde")
-    strng = strng.replace("^", "\\textasciicircum")
     strng = strng.replace("\\n", "\\\\")
     strng = strng.replace(" \\ ", " \\textbackslash ")
     return strng
