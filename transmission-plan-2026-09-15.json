@@ -25,15 +25,6 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-15T09:15:00",
-          "end_time": "2026-09-15T09:49:00",
-          "test_id": "3.3.1",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 10,
-          "comment": "Meaconing from F1.1 Porcellus using receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
-          "status": "hasRun"
-        },
-        {
           "start_time": "2026-09-15T09:40:00",
           "end_time": "2026-09-15T10:03:00",
           "test_id": "1.6.9",
@@ -102,7 +93,7 @@
           "test_id": "1.18.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "Out of band jamming from Porcus Maior at Ramnan",
+          "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
           "status": "notRun"
         },
         {
@@ -111,7 +102,7 @@
           "test_id": "1.18.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "Out of band jamming from Porcus Maior at Ramnan",
+          "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
           "status": "notRun"
         },
         {
@@ -120,7 +111,7 @@
           "test_id": "1.18.13",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50.1,
-          "comment": "Out of band jamming from Porcus Maior at Ramnan",
+          "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
           "status": "notRun"
         },
         {
@@ -129,7 +120,7 @@
           "test_id": "1.18.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "Out of band jamming from Porcus Maior at Ramnan",
+          "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
           "status": "notRun"
         },
         {
@@ -138,7 +129,7 @@
           "test_id": "3.4.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "5 minutes per emitter for 20 minutes, then 2 minutes each for the last 8 minutes. 10 second overlapping when switching emitter. Meaconing will be conducted with a power level of approximately 40 dBm from Porcellus at  Ramnan, while spoofing will be at 25 dBm from the antenna at the community house.",
+          "comment": "5 minutes per emitter for 20 minutes, then 2 minutes each for the last 8 minutes. 10 second overlapping when switching emitter. Meaconing will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus at  Ramnan using receiver RX1, while spoofing will be at 10 dBm from the antenna at the community house (using S).",
           "status": "notRun"
         },
         {
@@ -147,7 +138,7 @@
           "test_id": "3.4.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "Meaconing from Ramnan and spoofing from the community house at the same time. Meaconing will be conducted with a power level of approximately 40 dBm from Porcellus at Ramnan, while spoofing will be at 25 dBm from the antenna at the community house.",
+          "comment": "Meaconing from Ramnan and spoofing from the community house at the same time. Meaconing will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus at Ramnan using receiver RX1, while spoofing will be at 10 dBm from the antenna at the community house (using S).",
           "status": "notRun"
         },
         {
@@ -165,7 +156,7 @@
           "test_id": "1.16.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "One hour of high power jamming from Porcus Maior at Ramnan, followed by one hour jamming from both Porcus Maior and the community house, followed by one hour of jamming from the community house. Periodic jamming in the Iridium band. Power output from the community house will be adjusted so that the field strength outside the community house is approximately equal to that from Porcus Maior.",
+          "comment": "One hour of high power jamming from F8.1 Porcus Maior at Ramnan, followed by one hour jamming from both F8.1 Porcus Maior and the community house (S), followed by one hour of jamming from the community house (S). Power output from the community house will be adjusted so that the field strength outside the community house is approximately equal to that from F8.1 Porcus Maior (which will be 50 W).",
           "status": "notRun"
         }
       ]
@@ -189,7 +180,7 @@
           "test_id": "1.25.4",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.",
           "status": "notRun"
         },
         {
@@ -198,7 +189,7 @@
           "test_id": "1.25.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps. 20 min until max power level.",
           "status": "notRun"
         },
         {
@@ -207,7 +198,7 @@
           "test_id": "1.25.5",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down\n30 sec pr. dB steps. 10 min until max power level.",
           "status": "notRun"
         },
         {
@@ -225,7 +216,7 @@
           "test_id": "1.25.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps. 20 min until max power level.",
           "status": "notRun"
         },
         {
@@ -234,7 +225,7 @@
           "test_id": "1.25.5",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down\n30 sec pr. dB steps. 10 min until max power level.",
           "status": "notRun"
         },
         {
@@ -243,7 +234,7 @@
           "test_id": "1.25.8",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "5 min for ramp up - 15 min at max level - 5 min for ramp down",
           "status": "notRun"
         },
         {
@@ -252,7 +243,7 @@
           "test_id": "1.25.6",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jammers will be on for the whole test.",
           "status": "notRun"
         },
         {
@@ -261,7 +252,7 @@
           "test_id": "1.25.9",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "7 min for ramp up - 10 min at max level - 7 min for ramp down",
           "status": "notRun"
         },
         {
@@ -270,7 +261,7 @@
           "test_id": "1.25.7",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jammers will be on for the whole test.",
           "status": "notRun"
         },
         {
