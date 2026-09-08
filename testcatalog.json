@@ -925,8 +925,8 @@
               "test_id": 1,
               "test_code": "1.2.1",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1",
-              "description": "Jammer F8.1: 50 W CW: L1",
+              "name": "Jamming: CW: L1",
+              "description": "Continuous stationary high-power jamming with CW on L1",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -942,8 +942,8 @@
               "test_id": 2,
               "test_code": "1.2.2",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1, G1",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1",
+              "name": "Jamming: CW: L1, G1",
+              "description": "Continuous stationary high-power jamming with CW on L1, G1",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -960,8 +960,8 @@
               "test_id": 3,
               "test_code": "1.2.3",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1, G1, L2",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1, L2",
+              "name": "Jamming: CW: L1, G1, L2",
+              "description": "Continuous stationary high-power jamming with CW on L1, G1, L2",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -979,8 +979,8 @@
               "test_id": 4,
               "test_code": "1.2.4",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1, G1, L2, L5",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1, L2, L5",
+              "name": "Jamming: CW: L1, G1, L2, L5",
+              "description": "Continuous stationary high-power jamming with CW on L1, G1, L2, L5",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1001,8 +1001,8 @@
               "test_id": 5,
               "test_code": "1.2.5",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1, G1, L2, L5, E6",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W CW: L1, G1, L2, L5, E6",
+              "name": "Jamming: CW: L1, G1, L2, L5, E6",
+              "description": "Continuous stationary high-power jamming with CW on L1, G1, L2, L5, E6",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1024,8 +1024,8 @@
               "test_id": 6,
               "test_code": "1.2.6",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1, L2, L5, G1, G2, E5b, E6, B1I",
-              "description": "Continuous stationary high-power jamming with CW",
+              "name": "Jamming: CW: L1, L2, L5, G1, G2, E5b, E6, B1I",
+              "description": "Continuous stationary high-power jamming with CW on L1, L2, L5, G1, G2, E5b, E6, B1I",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -1055,8 +1055,8 @@
               "test_id": 1,
               "test_code": "1.3.1",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, 100 kHz",
-              "description": "50 W sweep: L1, sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, rate: 100 kHz. See Testcatalog for BW.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1072,8 +1072,8 @@
               "test_id": 2,
               "test_code": "1.3.2",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, G1, 100 kHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, G1, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, sweep rate: 100 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1090,8 +1090,8 @@
               "test_id": 3,
               "test_code": "1.3.3",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, G1, L2, 100 kHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, G1, L2, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, L2, sweep rate: 100 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1109,8 +1109,8 @@
               "test_id": 4,
               "test_code": "1.3.4",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, G1, L2, L5, 100 kHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, G1, L2, L5, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, L2, L5, sweep rate: 100 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1131,8 +1131,8 @@
               "test_id": 5,
               "test_code": "1.3.5",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, sweep rate: 1 kHz",
+              "name": "Jamming: sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, sweep rate: 1 kHz, BW: 6 MHz",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1148,8 +1148,8 @@
               "test_id": 6,
               "test_code": "1.3.6",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, G1, 1 kHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, sweep rate: 1 kHz",
+              "name": "Jamming: sweep: L1, G1, 1 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, sweep rate: 1 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1166,8 +1166,8 @@
               "test_id": 7,
               "test_code": "1.3.7",
               "version": 1,
-              "name": "Jammer F8.1: 1 W sweep: L1, G1, L2, 1 kHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 1 W sweep: L1, G1, L2, sweep rate: 1 kHz",
+              "name": "Jamming: sweep: L1, G1, L2, 1 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, L2, sweep rate: 1 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1185,8 +1185,8 @@
               "test_id": 8,
               "test_code": "1.3.8",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, sweep rate: 1 kHz",
+              "name": "Jamming: sweep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
+              "description": "Continuous stationary high-power jamming with weep: L1, G1, L2, L5, sweep rate: 1 kHz, BW: 6 MHz",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1207,8 +1207,8 @@
               "test_id": 9,
               "test_code": "1.3.9",
               "version": 1,
-              "name": "Jammer F8.1: 50 W sweep: L1, G1, L2, L5, E6, 100 kHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, G1, L2, L5, E6, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, L2, L5, E6, sweep rate: 100 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1230,8 +1230,8 @@
               "test_id": 10,
               "test_code": "1.3.10",
               "version": 1,
-              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz, BW: 20MHz, Bands: L1",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, sweep rate: 100 kHz. See Testcatalog for BW.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1247,8 +1247,8 @@
               "test_id": 11,
               "test_code": "1.3.11",
               "version": 1,
-              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz, BW: 20MHz, Bands: L1, G1, L2, L5, E6",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W sweep: L1, G1, L2, L5, E6 sweep rate: 100 kHz",
+              "name": "Jamming: sweep: L1, G1, L2, L5, E6, 100 kHz,",
+              "description": "Continuous stationary high-power jamming with sweep: L1, G1, L2, L5, E6 sweep rate: 100 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1270,8 +1270,8 @@
               "test_id": 12,
               "test_code": "1.3.12",
               "version": 1,
-              "name": "Jammer F8.1: 50W frequency sweep, Sweep rate: 100kHz. Bands: L1, L2, L5, G1, G2, E5b, E6, B1I",
-              "description": "Continuous stationary high-power jamming with sweep",
+              "name": "Jamming: sweep: L1, L2, L5, G1, G2, E5b, E6, B1I, 100 kHz",
+              "description": "Continuous stationary high-power jamming with sweep: L1, L2, L5, G1, G2, E5b, E6, B1I, sweep rate: 100 kHz. See Testcatalog for BWs.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -1301,8 +1301,8 @@
               "test_id": 1,
               "test_code": "1.4.1",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, Chiprate: 3 MHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1",
+              "name": "Jamming: PRN: L1, Chiprate: 3 MHz",
+              "description": "Continuous stationary high-power jamming with PRN: L1, chiprate: 3 MHz",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1318,8 +1318,8 @@
               "test_id": 2,
               "test_code": "1.4.2",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, G1",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1",
+              "name": "Jamming: PRN: L1, G1",
+              "description": "Continuous stationary high-power jamming with PRN: L1, G1. For chiprates, see Testcatalog.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1336,8 +1336,8 @@
               "test_id": 3,
               "test_code": "1.4.3",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, G1, L2",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1, L2",
+              "name": "Jamming: PRN: L1, G1, L2",
+              "description": "Continuous stationary high-power jamming with PRN: L1, G1, L2. For chiprates, see Testcatalog.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1355,8 +1355,8 @@
               "test_id": 4,
               "test_code": "1.4.4",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, G1, L2, L5, Chiprate: 3 MHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1, L2, L5",
+              "name": "Jamming: PRN: L1, G1, L2, L5, Chiprate: 3 MHz",
+              "description": "Continuous stationary high-power jamming with PRN: L1, G1, L2, L5. Chiprate: 3 MHz.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1377,8 +1377,8 @@
               "test_id": 5,
               "test_code": "1.4.5",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, Chiprate: 10 MHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1",
+              "name": "Jamming: PRN: L1, Chiprate: 10 MHz",
+              "description": "Continuous stationary high-power jamming with PRN: L1, chiprate: 10 MHz",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1394,8 +1394,8 @@
               "test_id": 6,
               "test_code": "1.4.6",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, G1, L2, L5, E6, Chiprate: 10 MHz",
-              "description": "Jammer F8.1 \"Porcus Maior\": 50 W PRN: L1, G1, L2, L5, E6",
+              "name": "Jamming: PRN: L1, G1, L2, L5, E6, Chiprate: 10 MHz",
+              "description": "Continuous stationary high-power jamming with PRN: L1, L2, L5, G1, G2, E5b, E6, B1I, chiprate: 10 MHz",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1417,8 +1417,8 @@
               "test_id": 7,
               "test_code": "1.4.7",
               "version": 1,
-              "name": "Jammer F8.1: 50 W PRN: L1, L2, L5, G1, G2, E5b, E6, B1I, Chiprate: See test catalogue",
-              "description": "Continuous stationary high-power jamming with PRN",
+              "name": "Jamming: PRN: L1, L2, L5, G1, G2, E5b, E6, B1I",
+              "description": "Continuous stationary high-power jamming with PRN: L1, L2, L5, G1, G2, E5b, E6, B1I. For chiprates, see Testcatalog.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -1448,8 +1448,8 @@
               "test_id": 1,
               "test_code": "1.5.1",
               "version": 1,
-              "name": "Jammer F8.1: 50 W: L1 PRN (Mbaud of 3)",
-              "description": "50 W: L1 PRN (BPSK-modulated with Mbaud symbolrate of 3)",
+              "name": "Jamming: PRN: L1, (Mbaud of 3)",
+              "description": "PRN: L1 (BPSK-modulated with Mbaud symbolrate of 3)",
               "constellation_bands": [
                 "L1"
               ],
@@ -1463,8 +1463,8 @@
               "test_id": 2,
               "test_code": "1.5.2",
               "version": 1,
-              "name": "Jammer F8.1: 50 W: G1, PRN (Mbaud of 10.23)",
-              "description": "50 W: G1 PRN (BPSK-modulated with Mbaud symbolrate of 10.23)",
+              "name": "Jamming: PRN: G1 (Mbaud of 10.23)",
+              "description": "PRN: G1 (BPSK-modulated with Mbaud symbolrate of 10.23)",
               "constellation_bands": [
                 "G1"
               ],
@@ -1487,8 +1487,8 @@
               "test_id": 1,
               "test_code": "1.6.1",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1. Power level step time 10 seconds",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, step time: 10 s",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1. Power level step time is 10 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1504,8 +1504,8 @@
               "test_id": 2,
               "test_code": "1.6.2",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1",
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1. Power level step time 10 seconds",
+              "name": "Jamming 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, step time: 10 s",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1. Power level step time is 10 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1522,8 +1522,8 @@
               "test_id": 3,
               "test_code": "1.6.3",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2",
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1, L2. Power level step time 10 seconds",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, step time: 10 s",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test bands L1, G1, L2. Power level step time is 10 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1541,8 +1541,8 @@
               "test_id": 4,
               "test_code": "1.6.4",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5",
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5. Power level step time 10 seconds",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, step time: 10 s",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5. Power level step time is 10 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1563,8 +1563,8 @@
               "test_id": 5,
               "test_code": "1.6.5",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1. Power level step time 20 seconds",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) with 2 dB increments, within the test band L1. Power level step time is 20 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1580,8 +1580,8 @@
               "test_id": 6,
               "test_code": "1.6.6",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
-              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5, E6. Power level step time 20 seconds",
+              "name": "Jamming 0.2 µW (-37dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5, E6. Power level step time is 20 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1603,8 +1603,8 @@
               "test_id": 7,
               "test_code": "1.6.7",
               "version": 1,
-              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1",
-              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test band L1. Power level step time 20 seconds",
+              "name": "Jamming: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test band L1. Power level step time is 20 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1620,8 +1620,8 @@
               "test_id": 8,
               "test_code": "1.6.8",
               "version": 1,
-              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6",
-              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5, E6. Power level step time 20 seconds",
+              "name": "Jamming: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, G1, L2, L5, E6, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, G1, L2, L5, E6. Power level step time is 20 seconds",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1643,8 +1643,8 @@
               "test_id": 9,
               "test_code": "1.6.9",
               "version": 1,
-              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, L2, L5, G1, G2, E5b, E6, B1I",
-              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, L2, L5, G1, G2, E5b, E6, B1I. Power level step time 20 seconds",
+              "name": "Jamming 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, L2, L5, G1, G2, E5b, E6, B1I, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, L2, L5, G1, G2, E5b, E6, B1I. Power level step time is 20 seconds",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -1665,11 +1665,11 @@
               "test_id": 10,
               "test_code": "1.6.10",
               "version": 1,
-              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1 and Iridium STL (TBD)",
-              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test band L1 and Iridium STL (if allowed). Power level step time 20 seconds",
+              "name": "Jamming: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, sweep: Iridium STL, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1 and sweep jamming within the Iridium band 1626 - 1626.5 MHz. Power level step time is 20 seconds. ",
               "constellation_bands": [
                 "L1",
-                "Iridium STL"
+                "Iridium"
               ],
               "equipment": [
                 "F8.1"
@@ -1681,8 +1681,8 @@
               "test_id": 11,
               "test_code": "1.6.11",
               "version": 1,
-              "name": "Jammer F8.1: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, L2, L5, G1, G2, E5b, E6, B1I, Iridium STL",
-              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within all GNSS bands and Iridium STL. Power level step time 20 seconds",
+              "name": "Jamming: 7.9 µW (-21dBm) to 50 W (47dBm) with 2 dB increments PRN: L1, L2, L5, G1, G2, E5b, E6, B1I, sweep: Iridium STL, step time: 20 s",
+              "description": "PRN jamming with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) at 2 dB increments, within the test bands L1, L2, L5, G1, G2, E5b, E6, B1I and sweep jamming within the Iridium band 1626 - 1626.5 MHz. Power level step time is 20 seconds",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -1713,8 +1713,8 @@
               "test_id": 1,
               "test_code": "1.7.1",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1",
-              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1.",
+              "name": "Jamming 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, step time: 10 s",
+              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1. Power level step time is 10 seconds.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1730,8 +1730,8 @@
               "test_id": 2,
               "test_code": "1.7.2",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1",
-              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1.",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, step time: 10 s",
+              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1.. Power level step time is 10 seconds.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1748,8 +1748,8 @@
               "test_id": 3,
               "test_code": "1.7.3",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2",
-              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1, L2.",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2, step time: 10 s",
+              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1, L2.. Power level step time is 10 seconds.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1767,8 +1767,8 @@
               "test_id": 4,
               "test_code": "1.7.4",
               "version": 1,
-              "name": "Jammer F8.1: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2, L5",
-              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1, L2, L5.",
+              "name": "Jamming: 0.2 µW (-37dBm) to 50 W (47dBm) at 2 dB increments CW: L1, G1, L2, L5, step time: 10 s",
+              "description": "CW jamming with a power ramp from 0.2 µW (-37dBm) to a maximum of 50 W (47dBm) at 2 dB increments, at the test bands L1, G1, L2, L5.. Power level step time is 10 seconds.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -1798,8 +1798,8 @@
               "test_id": 1,
               "test_code": "1.8.1",
               "version": 1,
-              "name": "Jammer F8.1: PRN pyramid ending at L1",
-              "description": "50 W PRN pyramid jamming, starting with only E6 and adding bands sequentially to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look like this: \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6",
+              "name": "Jamming: PRN pyramid ending at L1",
+              "description": "PRN pyramid jamming, starting with only E6 and adding bands sequentially to E6, E5b, L5, G2, L2, B1I, G1, L1. The test then continues by removing bands one by one in reverse order, until ending up with only E6. In total, it will look like this: \n\nE6 \nE6, E5b \nE6, E5b, L5\nE6, E5b, L5, G2 \nE6, E5b, L5, G2, L2 \nE6, E5b, L5, G2, L2, B1I \nE6, E5b, L5, G2, L2, B1I, G1 \nE6, E5b, L5, G2, L2, B1I, G1, L1 \nE6, E5b, L5, G2, L2, B1I, G1 \nE6, E5b, L5, G2, L2, B1I \nE6, E5b, L5, G2, L2 \nE6, E5b, L5, G2 \nE6, E5b, L5 \nE6, E5b \nE6\n\nFor chiprates, see Testcatalog.",
               "constellation_bands": [
                 "E6",
                 "E5b",
@@ -1826,8 +1826,8 @@
               "test_id": 2,
               "test_code": "1.8.2",
               "version": 1,
-              "name": "Jammer F8.1: PRN pyramid starting with L1",
-              "description": "50 W PRN pyramid jamming, starting with L1, then adding bands sequentially to G1, L2, L5, L6, B1I, E5b, G2. The test then continues by removing bands one by one in reverse order, until ending up with only L1. In total, it will look like this: \n\nL1\nL1, G1\nL1, G1, L2\nL1, G1, L2, L5\nL1, G1, L2, L5, E6\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I, E5b, G2\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6\nL1, G1, L2, L5\nL1, G1, L2\nL1, G1\nL1",
+              "name": "Jamming: PRN pyramid starting with L1",
+              "description": "PRN pyramid jamming, starting with L1, then adding bands sequentially to G1, L2, L5, L6, B1I, E5b, G2. The test then continues by removing bands one by one in reverse order, until ending up with only L1. In total, it will look like this: \n\nL1\nL1, G1\nL1, G1, L2\nL1, G1, L2, L5\nL1, G1, L2, L5, E6\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I, E5b, G2\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6\nL1, G1, L2, L5\nL1, G1, L2\nL1, G1\nL1\n\nFor chiprates, see Testcatalog.",
               "constellation_bands": [
                 "L1",
                 "G1",
@@ -1857,8 +1857,8 @@
               "test_id": 1,
               "test_code": "1.9.1",
               "version": 1,
-              "name": "Jammer F8.1: PRN inverted pyramid",
-              "description": "50 W PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1I, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1",
+              "name": "Jamming: PRN inverted pyramid",
+              "description": "PRN inverted pyramid jamming, starting with E6, E5b, L5, G2, L2, B1I, G1, L1 and removing bands all the way down to only E6. The test then continues by adding bands one by one in reverse order, until ending back at the starting frequency bands. In total, it will look like this: \n\nE6, E5b, L5, G2, L2, B1I, G1, L1 \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5 \n\nE6, E5b \n\nE6 \n\nE6, E5b \n\nE6, E5b, L5 \n\nE6, E5b, L5, G2 \n\nE6, E5b, L5, G2, L2 \n\nE6, E5b, L5, G2, L2, B1I \n\nE6, E5b, L5, G2, L2, B1I, G1 \n\nE6, E5b, L5, G2, L2, B1I, G1, L1",
               "constellation_bands": [
                 "E6",
                 "E5b",
@@ -2415,14 +2415,14 @@
               "test_id": 12,
               "test_code": "1.11.12",
               "version": 1,
-              "name": "Driving past a parked car with one commercially available military training jammer",
-              "description": "The test will be performed with one Novatel jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of a jammed area.",
+              "name": "Driving past a parked car with one commercially available military training jammer inside",
+              "description": "The test will be performed with one military training jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of a jammed area.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
               "equipment": [
-                "H1.1"
+                "H1.6"
               ],
               "min_power_w": "0.1000",
               "max_power_w": "0.1000"
@@ -2431,15 +2431,15 @@
               "test_id": 13,
               "test_code": "1.11.13",
               "version": 1,
-              "name": "Driving past two parked cars, each with one commercially available military training jammer",
-              "description": "The test will be performed with two Novatel jammers. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
+              "name": "Driving past two parked cars, each with one commercially available military training jammer inside",
+              "description": "The test will be performed with two military training jammers. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
               "equipment": [
-                "H1.1",
-                "H1.4"
+                "H1.6",
+                "H1.7"
               ],
               "min_power_w": "0.1000",
               "max_power_w": "0.1000"
@@ -2449,15 +2449,15 @@
               "test_code": "1.11.14",
               "version": 1,
               "name": "Driving past three parked cars, each with a jammer inside",
-              "description": "The test will be performed with two Novatel jammers and another commercial available jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
+              "description": "The test will be performed with two military training jammers and another commercial available jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
               "equipment": [
-                "H1.1",
                 "H4.1",
-                "H1.4"
+                "H1.6",
+                "H1.7"
               ],
               "min_power_w": "0.1000",
               "max_power_w": "0.1000"
@@ -2472,9 +2472,7 @@
                 "L1",
                 "L2"
               ],
-              "equipment": [
-                "H1.1"
-              ],
+              "equipment": [],
               "min_power_w": "0.1000",
               "max_power_w": "0.1000"
             },
@@ -2489,8 +2487,8 @@
                 "L2"
               ],
               "equipment": [
-                "H1.1",
-                "H1.4"
+                "H1.6",
+                "H1.7"
               ],
               "min_power_w": "0.1000",
               "max_power_w": "0.1000"
@@ -3005,7 +3003,7 @@
               "test_id": 1,
               "test_code": "1.16.1",
               "version": 1,
-              "name": "High Power PRN jamming: L1",
+              "name": "High power jamming: PNR: L1",
               "description": "High Power PRN jamming: L1",
               "constellation_bands": [
                 "L1",
@@ -3022,7 +3020,7 @@
               "test_id": 2,
               "test_code": "1.16.2",
               "version": 1,
-              "name": "High Power PRN jamming:: L1, G1",
+              "name": "High power jamming: PNR: L1, G1",
               "description": "High Power PRN jamming: L1, G1",
               "constellation_bands": [
                 "L1",
@@ -3040,7 +3038,7 @@
               "test_id": 3,
               "test_code": "1.16.3",
               "version": 1,
-              "name": "High Power PRN jamming: L1, G1, L2",
+              "name": "High power jamming: PNR: L1, G1, L2",
               "description": "High Power PRN jamming: L1, G1, L2",
               "constellation_bands": [
                 "L1",
@@ -3059,7 +3057,7 @@
               "test_id": 4,
               "test_code": "1.16.4",
               "version": 1,
-              "name": "High Power PRN jamming: L1, G1, L2, L5",
+              "name": "High power jamming: PNR: L1, G1, L2, L5",
               "description": "High Power PRN jamming: L1, G1, L2, L5",
               "constellation_bands": [
                 "L1",
@@ -3081,8 +3079,8 @@
               "test_id": 5,
               "test_code": "1.16.5",
               "version": 1,
-              "name": "High Power PRN jamming from two locations: L1, G1, L2, L5, E6",
-              "description": "High Power PRN jamming from two locations: L1, G1, L2, L5, E6. One hour jamming from F8.1, then one hour jamming from both F8.1 and M1.1, then last hour jamming from M1.1 only",
+              "name": "High power jamming: PNR: L1, G1, L2, L5, E6, from two locations",
+              "description": "High Power PRN jamming from two locations on bands: L1, G1, L2, L5, E6. One hour jamming from one emitter, then one hour jamming from both,  then last hour jamming from the second emitter only",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -3096,7 +3094,7 @@
               ],
               "equipment": [
                 "F8.1",
-                "M1.1"
+                "S"
               ],
               "min_power_w": "50.0000",
               "max_power_w": "100.0000"
@@ -3105,8 +3103,8 @@
               "test_id": 6,
               "test_code": "1.16.6",
               "version": 1,
-              "name": "High Power PRN jamming from two locations: L1, G1, B1I, L2, L5, E5b, E6, G2",
-              "description": "Continuous stationary very high-power jamming with PRN",
+              "name": "High power jamming: PNR: L1, G1, B1I, L2, L5, E5b, E6, G2, from two locations",
+              "description": "High Power PRN jamming from two locations on bands: L1, G1, B1I, L2, L5, E5b, E6, G2. One hour jamming from one emitter, then one hour jamming from both,  then last hour jamming from the second emitter only",
               "constellation_bands": [
                 "L1",
                 "G1",
@@ -3118,17 +3116,18 @@
                 "G2"
               ],
               "equipment": [
-                "F8.1"
+                "F8.1",
+                "S"
               ],
-              "min_power_w": "0.0000",
-              "max_power_w": "0.0000"
+              "min_power_w": "50.0000",
+              "max_power_w": "100.0000"
             },
             {
               "test_id": 7,
               "test_code": "1.16.7",
               "version": 1,
-              "name": "High Power PRN jamming from two locations: L1, G1, B1I, L2, L5, E5b, E6, G2, (\"Iridium STL\" TBD)",
-              "description": "Continuous stationary very high-power jamming with PRN, all GNSS bands. (Periodic jamming on \"Iridium STL\" TBD)",
+              "name": "High power jamming: PNR: L1, G1, B1I, L2, L5, E5b, E6, G2, Iridium STL, from two locations",
+              "description": "High Power PRN jamming from two locations on bands:  L1, G1, B1I, L2, L5, E5b, E6, G2, Iridium STL. One hour jamming from one emitter, then one hour jamming from both,  then last hour jamming from the second emitter only\n\nContinuous stationary high-power jamming with PRN, all GNSS bands. Periodic jamming in the Iridium band. ",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -3138,13 +3137,14 @@
                 "E5b",
                 "E6",
                 "B1I",
-                "Iridium STL"
+                "Iridium"
               ],
               "equipment": [
-                "F8.1"
+                "F8.1",
+                "S"
               ],
-              "min_power_w": "0.0000",
-              "max_power_w": "0.0000"
+              "min_power_w": "50.0000",
+              "max_power_w": "100.0000"
             }
           ]
         },
@@ -3302,8 +3302,8 @@
               "test_id": 1,
               "test_code": "1.18.1",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L1",
-              "description": "50 W CW: L1",
+              "name": "Unintentional RFI: CW: L1",
+              "description": "CW: L1 with constant power",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -3319,8 +3319,8 @@
               "test_id": 2,
               "test_code": "1.18.2",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L2",
-              "description": "50 W CW: L2",
+              "name": "Unintentional RFI: CW: L2",
+              "description": "CW: L2 with constant power",
               "constellation_bands": [
                 "L2"
               ],
@@ -3334,8 +3334,8 @@
               "test_id": 3,
               "test_code": "1.18.3",
               "version": 1,
-              "name": "Jammer F8.1: 50 W CW: L5",
-              "description": "50 W CW: L5",
+              "name": "Unintentional RFI: CW: L5",
+              "description": "CW: L5 with constant power",
               "constellation_bands": [
                 "L5",
                 "E5a",
@@ -3351,8 +3351,8 @@
               "test_id": 4,
               "test_code": "1.18.4",
               "version": 1,
-              "name": "Jammer F8.1: CW signal drift: 1545 to 1620 MHz, 1 minute sweep time",
-              "description": "50 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: CW signal drift: 1545 to 1620 MHz, 1 minute sweep time",
+              "description": "Frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3370,8 +3370,8 @@
               "test_id": 5,
               "test_code": "1.18.5",
               "version": 1,
-              "name": "Jammer F8.1: CW signal drift: 1545 to 1620 MHz, 15 minutes sweep time",
-              "description": "50 W frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: CW signal drift: 1545 to 1620 MHz, 15 minutes sweep time",
+              "description": "Frequency drift from 1545 to 1620 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3389,8 +3389,8 @@
               "test_id": 6,
               "test_code": "1.18.6",
               "version": 1,
-              "name": "Jammer F8.1: CW signal drift: 1620 to 1545  MHz, 1 minute sweep time",
-              "description": "50 W frequency drift from 1620 to 1545 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: CW signal drift: 1620 to 1545  MHz, 1 minute sweep time",
+              "description": "Frequency drift from 1620 to 1545 MHz, with a CW signal and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3408,8 +3408,8 @@
               "test_id": 7,
               "test_code": "1.18.7",
               "version": 1,
-              "name": "Jammer F8.1: CW signal drift: 1620 to 1545 MHz, 15 minutes sweep time",
-              "description": "50 W frequency drift from 1620 to 1545  MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: CW signal drift: 1620 to 1545 MHz, 15 minutes sweep time",
+              "description": "Frequency drift from 1620 to 1545  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3427,8 +3427,8 @@
               "test_id": 8,
               "test_code": "1.18.8",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
-              "description": "50 W frequency drift from 1545 to 1620 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "description": "Frequency drift from 1545 to 1620 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3446,8 +3446,8 @@
               "test_id": 9,
               "test_code": "1.18.9",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
-              "description": "50 W frequency drift from 1545 to 1620 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: drift: 1545 to 1620 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "description": "Frequency drift from 1545 to 1620 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3465,8 +3465,8 @@
               "test_id": 10,
               "test_code": "1.18.10",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
-              "description": "50 W frequency drift from 1620 to 1545 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "description": "Frequency drift from 1620 to 1545 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3484,8 +3484,8 @@
               "test_id": 11,
               "test_code": "1.18.11",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
-              "description": "50 W frequency drift from 1620 to 1545 MHz, with a gaussian noise signal width bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: drift: 1620 to 1545 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "description": "Frequency drift from 1620 to 1545 MHz, with a gaussian noise signal width bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "G1",
                 "L1",
@@ -3503,8 +3503,8 @@
               "test_id": 12,
               "test_code": "1.18.12",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
-              "description": "50 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: drift: 1150 to 1300 MHz, with CW and sweep time of 1 minute",
+              "description": "Frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -3528,7 +3528,7 @@
               "test_id": 13,
               "test_code": "1.18.13",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
+              "name": "Unintentional RFI: drift: 1150 to 1300 MHz, with CW and sweep time of 15 minutes",
               "description": "50 W frequency drift from 1150 to 1300 MHz, with a CW signal and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "E6",
@@ -3553,8 +3553,8 @@
               "test_id": 14,
               "test_code": "1.18.14",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
-              "description": "50 W frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: drift: 1300 to 1150  MHz, with CW and sweep time of 1 minute",
+              "description": "Frequency drift from 1300 to 1150 MHz, with a CW signal and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -3578,8 +3578,8 @@
               "test_id": 15,
               "test_code": "1.18.15",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
-              "description": "50 W frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: drift: 1300 to 1150 MHz, with CW and sweep time of 15 minutes",
+              "description": "Frequency drift from 1300 to 1150  MHz, with a CW signal and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -3603,8 +3603,8 @@
               "test_id": 16,
               "test_code": "1.18.16",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
-              "description": "50 W frequency drift from 1150 to 1300 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "description": "Frequency drift from 1150 to 1300 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -3628,8 +3628,8 @@
               "test_id": 17,
               "test_code": "1.18.17",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
-              "description": "50 W frequency drift from 1150 to 1300 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: drift: 1150 to 1300 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "description": "Frequency drift from 1150 to 1300 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -3653,8 +3653,8 @@
               "test_id": 18,
               "test_code": "1.18.18",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
-              "description": "50 W frequency drift from 1300 to 1150 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
+              "name": "Unintentional RFI: drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 1 minute",
+              "description": "Frequency drift from 1300 to 1150 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 1 minute.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -3678,8 +3678,8 @@
               "test_id": 19,
               "test_code": "1.18.19",
               "version": 1,
-              "name": "Jammer F8.1: 50 W drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
-              "description": "50 W frequency drift from 1300 to 1150 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
+              "name": "Unintentional RFI: drift: 1300 to 1150 MHz, gaussian noise with BW of 500 kHz and sweep time of 15 minutes",
+              "description": "Frequency drift from 1300 to 1150 MHz, with a gaussian noise signal with bandwidth (BW) of 500 kHz and a sweep duration of 15 minutes.",
               "constellation_bands": [
                 "E6",
                 "B3I",
@@ -4679,8 +4679,8 @@
         {
           "group_id": 24,
           "group_name": "Multiple low and high power jammer, spoofing and meaconing sources",
-          "description": "DUMMY",
-          "rationale": "DUMMY",
+          "description": "Jamming, spoofing and/or meaconing transmitters will be used at the same time, in different combinations and with different variations of power.  The transmitters will be spread out so that the signals do not all arrive from the same direction. ",
+          "rationale": "Exposing receivers and systems to multiple denial and deception attacks at once will challenge protection mechanisms, both direction based and processing ones.",
           "comment": "",
           "tests": [
             {
@@ -4688,7 +4688,7 @@
               "test_code": "1.24.1",
               "version": 1,
               "name": "The symphony",
-              "description": "Sequential powering on of jammers with 2 minutes intervals: 5 small  jammers at Bleik (one lifted), Porcus Maior, and finally meaconing from the community house. After 14 minutes all jammers are turned on, and will stay on for the rest of the hour. Small jammers: L1, high power\njammers: L1,L2,L5,G1, G2, E5b,E6, B1I. Meaconing on all bands.",
+              "description": "Sequential powering on of emitters with two minute intervals: 5 small jammers at Bleik (one lifted), Ramnan, spoofing from cemetary, and finally meaconing from the community house. After 14 minutes all emittersare turned on, and will stay on for the rest of the hour. Small jammers: L1. High power jammer: L1, L2, L5, G1, G2, E5b, E6, B1I. Meaconing on all bands. Spoofing: TBD",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4700,7 +4700,9 @@
                 "B1I"
               ],
               "equipment": [
-                "F8.1"
+                "F8.1",
+                "S",
+                "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "min_power_w": "1.0000",
               "max_power_w": "50.0000"
@@ -4709,8 +4711,8 @@
         },
         {
           "group_id": 25,
-          "group_name": "Circular, stationary low-power SDR jamming",
-          "description": "Circular testing with SDR jammers from multiple directions.\nDifferent power ramp duration, different power levels, and different jamming modulation.",
+          "group_name": "Circular, stationary low-power jamming with SDR and handheld jammers",
+          "description": "Circular testing with SDR and handheld jammers from multiple directions. \nThe testgroup exploits different power ramp duration, different power levels, and different jamming modulation.\n\n",
           "rationale": "The main objective is to observe how the J/S signal affect the availability of PNT, and/or how it produces inaccurate PNT data, when the jamming signal (J) is generated by SDR jammers from mulitple directions. Theshold testing for both receivers and CRPA antennas",
           "comment": "",
           "tests": [
@@ -4719,108 +4721,169 @@
               "test_code": "1.25.1",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 2 dB increments, 1min pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n45 min for ramp up - 20 min at max level - 45 min for ramp down\n5 min of jamming at starting level, 1 min pr. dB steps.\n50 min until max power level.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n40 min for ramp up - 20 min at max level - 40 min for ramp down\n1 min pr. dB steps. 40 min until max power level.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
-              "equipment": [],
+              "equipment": [
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
               "min_power_w": "0.0000",
-              "max_power_w": "1.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 2,
               "test_code": "1.25.2",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 4 dB increments, 1min pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n25 min for ramp up - 5 min at max level - 25 min for ramp down\n5 min of jamming at starting level, 1 min pr. dB steps.\n25 min until max level, and same timeduration for ramp down.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps. \n20 min until max level, and same timeduration for ramp down.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
               "equipment": [
-                "JAKO"
+                "F1.3 KASTREL",
+                "F1.4 KASTREL"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "1.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 3,
               "test_code": "1.25.3",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 4 dB increments and pulse duration 1ms, 10 % duty cycle",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n25 min for ramp up - 5 min at max level - 25 min for ramp down\n5 min of jamming at starting level, 1 min pr. dB steps.\n25 min until max level, and same timeduration for ramp down.\n\nThe PRN coded jamming will pulse with 1ms duration and appr. 10% duty cycle within the \"1 minute power step.\"\n\n",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps.\n20 min until max level, and same timeduration for ramp down.\n\nThe PRN coded jamming will pulse with 1ms duration and appr. 10% duty cycle within the \"1 minute power step.\"\n\n",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
               "equipment": [
-                "JAKO"
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "0.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 4,
               "test_code": "1.25.4",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 2 dB increments, 30 sec pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n25 min for ramp up - 5 min at max level - 25 min for ramp down\n5 min of jamming at starting level, 30 sec pr. dB steps.\n30 min until max power level.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level is reached.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
-              "equipment": [],
+              "equipment": [
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
               "min_power_w": "0.0000",
-              "max_power_w": "1.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 5,
               "test_code": "1.25.5",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 4 dB increments, 30 sec pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n15 min for ramp up - 20 min at max level - 15 min for ramp down\n5 min of jamming at starting level, 30 sec pr. dB steps.\n20 min until max power level.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n10 min for ramp up - 10 min at max level - 10 min for ramp down\n30 sec pr. dB steps. 10 min until max power level.",
               "constellation_bands": [
                 "L1",
                 "L2"
               ],
               "equipment": [
-                "JAKO"
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "1.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 6,
               "test_code": "1.25.6",
               "version": 1,
-              "name": "Circular AWGN jamming power ramp with 2 dB increments, 30 sec pr. steps",
-              "description": "Additative White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n25 min for ramp up - 5 min at max level - 25 min for ramp down\n5 min of jamming at starting level, 30 sec pr. dB steps.\n30 min until max power level.\n\nThe AWGN jamming will cover both GPS and Xona.",
+              "name": "Circular PRN jamming power ramp with 2 dB increments, 30 sec pr. steps from 1 SDR jammer and 3 CHIRP jammers",
+              "description": "SDR jamming:\nPRN coded jamming from 1 SDR jammers from A50.\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jamming:\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. LOW PWR. The Jammers are connected to RHCP antennas to boost the power. ",
               "constellation_bands": [
                 "L1",
-                "L5",
-                "X1",
-                "X5"
+                "L5"
               ],
-              "equipment": [],
+              "equipment": [
+                "F1.3 KASTREL ",
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
               "min_power_w": "0.0000",
-              "max_power_w": "1.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 7,
               "test_code": "1.25.7",
               "version": 1,
-              "name": "Circular AWGN jamming power ramp with 2 dB increments, 1 min pr. step.",
-              "description": "Additative White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n25 min for ramp up - 5 min at max level - 25 min for ramp down\n5 min of jamming at starting level, 1min pr. dB steps.\n30 min until max power level.\n\nThe AWGN jamming wil cover both GPS and Xona.",
+              "name": "Circular PRN jamming power ramp with 2 dB increments, 30 sec pr. steps from 3 SDR jammer and 3 CHIRP jammers",
+              "description": "SDR jamming:\nPRN coded jamming from 1 SDR jammers from A50, B50 and C50.\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jamming:\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. LOW PWR. The Jammers are connected to RHCP antennas to boost the power. ",
+              "constellation_bands": [
+                "L1",
+                "L2"
+              ],
+              "equipment": [
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL",
+                "H1.1",
+                "H1.4",
+                "H1.5"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "3.0000"
+            },
+            {
+              "test_id": 8,
+              "test_code": "1.25.8",
+              "version": 1,
+              "name": "Circular AWGN jamming power ramp with 2 dB increments, 6 sec pr. step",
+              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dB with AWGN modulation.\nPower ramp will the be 2 dB steps every 6 sec. \nAt = 5 min. jamming J/S will be at -50dB.\n\n5 min for ramp up - 15 min at max level - 5 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
               "constellation_bands": [
                 "L1",
                 "L2",
                 "X1",
                 "X5"
               ],
-              "equipment": [],
+              "equipment": [
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
               "min_power_w": "0.0000",
-              "max_power_w": "1.0000"
+              "max_power_w": "3.0000"
+            },
+            {
+              "test_id": 9,
+              "test_code": "1.25.9",
+              "version": 1,
+              "name": "Circular AWGN jamming power ramp with 5 dB increments, 30 sec pr. step",
+              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dBm with AWGN modulation.\nPower ramp will the be 5 dB steps every 30 sec. \nAt = 7 min. jamming J/S will be at -50dBm.\n\n7 min for ramp up - 10 min at max level - 7 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "X1",
+                "X5"
+              ],
+              "equipment": [
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "3.0000"
             }
           ]
         }
@@ -4842,7 +4905,7 @@
               "test_code": "2.1.1",
               "version": 2,
               "name": "Large position and time jump, with power ramp",
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5 E6 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2026 12:00. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6 \n\nNo jamming. \n\nSimulated position: 70 N, 10 E. Simulated start time: 01.10.2026 12:00. \n\nPower will be ramp up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -5461,7 +5524,7 @@
               "test_code": "2.3.13",
               "version": 1,
               "name": "Flying (route 4) - \"drone scenario\"",
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals.\n\nSpoofing transmission will be corrected for signal delay to simulated start position. Drones at start position (victim position) should see coherent signals.",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals.\n\nSpoofing transmission will be corrected for signal delay to simulated start position. DUTs, such as drones, at start position (victim position) should see coherent signals. Route 4 is static for 5 minutes, then followed by 10 minutes of movement. ",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -5581,7 +5644,7 @@
               "test_code": "2.3.19",
               "version": 1,
               "name": "Long period with circular position drift",
-              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals. \n\nThe test is split into three hour-long periods: \n\nFirst period: 5 min static position, then drifting 0.1 m/s\nSecond period: 5 min static position, then drifting 3 m/s\nThird period: 5 min static position, then drifting 30 m/s",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nSimulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals. \n\nThe test is split into three hour-long periods: \n\nFirst period: 5 min static position, then drifting 0.1 m/s\nSecond period: 5 min static position, then drifting 3 m/s\nThird period: 5 min static position, then drifting 30 m/s\n\nThe posisjon is reset to origial position immediately upon the change from one hour to the next.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -5610,7 +5673,7 @@
               "test_id": 1,
               "test_code": "2.4.1",
               "version": 1,
-              "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
+              "name": "Time offset: 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
               "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". \n\nThe spoofing power will be ramped from -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
               "constellation_bands": [
                 "L1",
@@ -5626,7 +5689,7 @@
               "test_id": 2,
               "test_code": "2.4.2",
               "version": 1,
-              "name": "Time offset 15 minutes from real time, with power ramp",
+              "name": "Time offset: 15 minutes from real time, with power ramp",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". \n\nSpoofing power ramp -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
               "constellation_bands": [
                 "L1",
@@ -5647,7 +5710,7 @@
               "test_id": 3,
               "test_code": "2.4.3",
               "version": 1,
-              "name": "Time offset -3 minutes from real time, with power jump",
+              "name": "Time offset: -3 minutes from real time, with power jump",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is - 3 minutes (180 seconds), so \"back into the past\". \n\nSpoofing power will start at -20 dBm and be stepped up to 15 dBm in one step after 10 minutes.",
               "constellation_bands": [
                 "L1",
@@ -5846,7 +5909,7 @@
               "test_id": 14,
               "test_code": "2.4.14",
               "version": 1,
-              "name": "Time offset -3 minutes from real time, with power ramp",
+              "name": "Time offset: -3 minutes from real time, with power ramp",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is - 3 minutes (180 seconds), so \"back into the past\". ",
               "constellation_bands": [
                 "L1",
@@ -5867,8 +5930,8 @@
               "test_id": 15,
               "test_code": "2.4.15",
               "version": 1,
-              "name": "UNIX time rollover test 19.01.2038 (incoherent)",
-              "description": "Bands used: TBD\n\nStart time: 03:04:00 19.01.2038. \n\nThe test transmits an incoherent GNSS scenario where the reported start time is 03:04:00 19.01.2038 UTC.",
+              "name": "UNIX time rollover test 19.01.2038. GPS L1 C/A only",
+              "description": "Bands used: GPS L1 C/A\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae.\n\nStart time: 03:04:00 19.01.2038. \n\nThe test transmits an incoherent GNSS scenario where the reported start time is 03:04:00 19.01.2038 UTC.",
               "constellation_bands": [
                 "L1"
               ],
@@ -5891,7 +5954,7 @@
               "test_id": 1,
               "test_code": "2.5.1",
               "version": 1,
-              "name": "Time offset 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
+              "name": "Time offset: 15 minutes from real time. GPS L1 and Galileo E1 only, with power ramp",
               "description": "Signals: GPS L1 C/A. Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". \n\nThe spoofing power will be ramped from -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
               "constellation_bands": [
                 "L1",
@@ -5907,7 +5970,7 @@
               "test_id": 2,
               "test_code": "2.5.2",
               "version": 1,
-              "name": "Time offset 15 minutes from real time, with power ramp",
+              "name": "Time offset: 15 minutes from real time, with power ramp",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". \n\nSpoofing power ramp -35 dBm to +15 dBm in steps of 5 dB every two minutes.",
               "constellation_bands": [
                 "L1",
@@ -5928,7 +5991,7 @@
               "test_id": 3,
               "test_code": "2.5.3",
               "version": 1,
-              "name": "Time offset -3 minutes from real time, with power jump",
+              "name": "Time offset: -3 minutes from real time, with power jump",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is - 3 minutes (180 seconds), so \"back into the past\". \n\nSpoofing power will start at -20 dBm and be stepped up to 15 dBm in one step after 10 minutes.",
               "constellation_bands": [
                 "L1",
@@ -5949,7 +6012,7 @@
               "test_id": 4,
               "test_code": "2.5.4",
               "version": 1,
-              "name": "Time offset 15 minutes from real time. GPS L1 C/A",
+              "name": "Time offset: 15 minutes from real time. GPS L1 C/A",
               "description": "Signals: GPS L1 C/A. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". ",
               "constellation_bands": [
                 "L1"
@@ -5964,7 +6027,7 @@
               "test_id": 5,
               "test_code": "2.5.5",
               "version": 1,
-              "name": "Time offset 15 minutes from real time. Galileo E1",
+              "name": "Time offset: 15 minutes from real time. Galileo E1",
               "description": "Signals: Galileo E1. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\". ",
               "constellation_bands": [
                 "E1"
@@ -5979,7 +6042,7 @@
               "test_id": 6,
               "test_code": "2.5.6",
               "version": 1,
-              "name": "Time offset 15 minutes from real time",
+              "name": "Time offset: 15 minutes from real time",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
               "constellation_bands": [
                 "L1",
@@ -6000,7 +6063,7 @@
               "test_id": 7,
               "test_code": "2.5.7",
               "version": 1,
-              "name": "Time offset -3 minutes from real time",
+              "name": "Time offset: -3 minutes from real time",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is - 3 minutes (180 seconds), so \"back into the past\". ",
               "constellation_bands": [
                 "L1",
@@ -6421,7 +6484,7 @@
               "test_id": 29,
               "test_code": "2.5.29",
               "version": 1,
-              "name": "Time offset 15 minutes from real time - \"harbour scenario\"",
+              "name": "Time offset: 15 minutes from real time - \"harbour scenario\"",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nFixed spoofed position: Bleik harbour. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
               "constellation_bands": [
                 "L1",
@@ -6442,7 +6505,7 @@
               "test_id": 30,
               "test_code": "2.5.30",
               "version": 1,
-              "name": "Time offset 15 minutes from real time - \"helicopter scenario\"",
+              "name": "Time offset: 15 minutes from real time - \"helicopter scenario\"",
               "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. \n\nNo jamming. \n\nSimulated start position: Over the sea 1 km N (Midnattskjæran) at 200 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
               "constellation_bands": [
                 "L1",
@@ -6464,7 +6527,7 @@
         {
           "group_id": 6,
           "group_name": "Incoherent position and time spoofing from mobile spoofer",
-          "description": "A SDR spoofer will be employed in different ways in and around vehicles. During the first 5 minutes there will be simultanious spoofing and jamming on L1, G1, and B1. After 5 minutes, jamming will stop only spoofing will continue on L1, G1, and B1. There will be continuous jamming on L2, L5, E5b, and E6. Jamming will be at 1W max and spoofing will be done with ~1 mW. The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.",
+          "description": "A SDR spoofer will be employed in different ways in and around vehicles. During the first 5 minutes there will be simultanious spoofing and jamming on L1, G1, and B1. After 5 minutes, jamming will stop only spoofing will continue on L1, G1, and B1. There will be continuous jamming on L2, L5, E5b, and E6. Jamming will be at 1W max and spoofing will be done with ~1 mW. The indicated \"Test bands / constellation\" refers to which signals are spoofed. \n\nThere will be a break between each test to allow receivers to reacquire fix onto real satellite signals.\n\nThe height of the monidirectional spoofing antenna is 4 m.",
           "rationale": "The objective is to simulate a vehicle-borne spoofing device \"out in the wild\", so that attendees can experience how a mobile spoofing source affects their (stationary or mobile) equipment and systems.",
           "comment": "Starting position will be approximately at either 69.212409N,15.858314E (Stave community house) or 69.144068N, 15.758476E (cross roads between FV7702 and KV71206) in all scenarios (might change due to operational requests).\nSpoofed time will be approximately true (depends on the latest update of satellite data), usually within synch of UTC (1us~300m)",
           "tests": [
@@ -6472,7 +6535,7 @@
               "test_id": 1,
               "test_code": "2.6.1",
               "version": 1,
-              "name": "Motorcade is stationary with dynamic spoofed position moving south",
+              "name": "Motorcade is stationary with dynamic spoofed position moving south, with initial jamming",
               "description": "Spoofer placed inside of a stationary vehicle with the transmitting antennae on the roof. After the spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h), while the motorcade stays stationary. There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "constellation_bands": [
                 "B1",
@@ -6490,7 +6553,7 @@
               "test_id": 2,
               "test_code": "2.6.2",
               "version": 1,
-              "name": "Motorcade moving with fixed spoofed position",
+              "name": "Motorcade is driving with fixed spoofed position, large position jump",
               "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is 35 km/h. \nSpoofing to a fixed position at 70,000000N, 10,000000E.  \n\nThis scenario will start without initial jamming – just to give an example of what will happen without breaking the lock to the real satellites beforehand. \nThe starting point is Stave. ",
               "constellation_bands": [
                 "B1",
@@ -6508,7 +6571,7 @@
               "test_id": 3,
               "test_code": "2.6.3",
               "version": 1,
-              "name": "Motorcade is driving while the spoofed position is moving south",
+              "name": "Motorcade is driving while the spoofed position is moving south, with initial jamming",
               "description": "Spoofer placed inside of a driving vehicle with the transmitting antennae on the roof. After spoofing is activated, the spoofed position starts to move directly south with constant speed (35 km/h). There will be 4 min of initial jamming during which stationary spoofing has already started. After 4 min jamming will stop and the spoofing remains stationary. After further 1 min the dynamic spoofing phase starts.",
               "constellation_bands": [
                 "B1",
@@ -6544,7 +6607,7 @@
               "test_id": 5,
               "test_code": "2.6.5",
               "version": 1,
-              "name": "Motorcade moving from Crossroads northbound to Stave, while the spoofed position moves southbound towards Nordmela",
+              "name": "Motorcade is driving from Crossroads northbound to Stave, while the spoofed position moves southbound towards Nordmela",
               "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is at 35 km/h. While the motorcade is driving north, the spoofed position is moving south to Nordmela. The starting point is Crossroads. ",
               "constellation_bands": [
                 "B1",
@@ -6562,7 +6625,7 @@
               "test_id": 6,
               "test_code": "2.6.6",
               "version": 1,
-              "name": "Motorcade moving with fixed spoofed position",
+              "name": "Motorcade is driving with fixed spoofed position, small position jump",
               "description": "Spoofer placed on the roof of a vehicle. Vehicle speed is 35 km/h. After the spoofing is activated, the position will be spoofed to a fixed location at 69.212321N, 15.858171E (close to the motorcade starting position). \nBefore driving starts, the motorcade will remain stationary for the first 5 minutes to allow the spoofing effect to take hold before the vehicles begin driving. \nThe starting point is Stave. ",
               "constellation_bands": [
                 "B1",
@@ -6580,7 +6643,7 @@
               "test_id": 7,
               "test_code": "2.6.7",
               "version": 1,
-              "name": "Motorcade is driving from Crossroads to Stave, while the spoofed location is following the road at a higher speed 100km/h",
+              "name": "Motorcade is driving from Crossroads to Stave, while the spoofed location is following the road at a higher speed (100km/h)",
               "description": "Spoofer placed on the roof of a vehicle. Motorcade speed is at 35 km/h. After the spoofing is activated, the spoofed position starts to accelerate up to 100km/h within 50 seconds, northbound along the road to Stave. \nThe starting point is Crossroads.",
               "constellation_bands": [
                 "B1",
@@ -6598,7 +6661,7 @@
               "test_id": 8,
               "test_code": "2.6.8",
               "version": 1,
-              "name": "The motorcade is stationary at Stave. The clock will jump forward in time by 1 hour and 15 minutes",
+              "name": "The motorcade is stationary at Stave. The clock will jump forward in time by 1 hour and 15 minutes, with initial jamming",
               "description": "Spoofer placed on the roof of a vehicle. Motorcade is stationary at Stave. The clock will jump forward in time by 1 hour and 15 minutes. There will be 5 min of initial jamming during which stationary spoofing has already started.",
               "constellation_bands": [
                 "B1",
@@ -6634,8 +6697,8 @@
               "test_id": 10,
               "test_code": "2.6.10",
               "version": 1,
-              "name": "Motorcade driving while the power of the spoofer is ramping up",
-              "description": "The route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level is increasing. The motorcade will drive at a speed of 35km/h. \nThe estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop.\n\nThere will be no initial jamming during this test.\nThe ramping power will start at low power level.\nThe starting and end point is Stave.\n\n\n",
+              "name": "Motorcade is driving, with power ramp",
+              "description": "The route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level is increasing. The motorcade will drive at a speed of 35km/h. \nThe estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop.\n\nThere will be no initial jamming during this test.\nThe ramping power will start at a low power level.\nThe starting and end point is Stave.",
               "constellation_bands": [
                 "B1",
                 "L1",
@@ -6652,7 +6715,7 @@
               "test_id": 11,
               "test_code": "2.6.11",
               "version": 1,
-              "name": "Position jump and driving through a tunnel",
+              "name": "Motorcade is driving, with spoofed position jump and spoofed moving position through a tunnel",
               "description": "Motorcade moving while the spoofed position starts at 60.900009N, 7.197629E which is approximately 1km driving distance south of the Lærdal tunnel entrance. Throughout this test the spoofed position will continuously move north and through the tunnel.  \n\nWhen starting the test, the spoofed speed will be the same as the motorcade speed (35km/h). After approximately 1 km inside the tunnel, the spoofed speed will gradually accelerate up to 160 km/h. \n\nThroughout this test, the motorcade will remain in motion while the reported GNSS position moves inside the tunnel. \n\nThe starting point is Crossroads. \n\nFun fact: The Lærdal Tunnel is 24.5 km long and is currently the world's longest road tunnel ",
               "constellation_bands": [
                 "B1",
@@ -6993,8 +7056,8 @@
               "test_id": 17,
               "test_code": "2.7.17",
               "version": 1,
-              "name": "UNIX time rollover test 19.01.2038 (coherent)",
-              "description": "Bands used: TBD\n\nStart time: 03:04:00 19.01.2038. \n\nThe test transmits a coherent GNSS scenario where the reported start time is 03:04:00 19.01.2038. ",
+              "name": "UNIX time rollover test 19.01.2038. GPS L1 C/A only",
+              "description": "Bands used: L1 C/A\n\nFixed spoofed position: 69.27547832, 15.96832496, 35 m hae.\n\nStart time: 03:04:00 19.01.2038. \n\nThe test transmits a coherent GNSS scenario where the reported start time is 03:04:00 19.01.2038. ",
               "constellation_bands": [
                 "L1"
               ],
@@ -7018,7 +7081,7 @@
               "test_code": "2.8.1",
               "version": 1,
               "name": "EGNOS with \"Do Not Use GPS\" commands",
-              "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start.",
+              "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start. It will corrupt the MT0. ",
               "constellation_bands": [
                 "EGNOS L1"
               ],
@@ -7033,7 +7096,7 @@
               "test_code": "2.8.2",
               "version": 1,
               "name": "EGNOS with \"Do Not Use GPS\" commands and normal spoofing",
-              "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start. Test will also include coherent spoofing of GPS L1 C/A, L2, L5, E1 and E5 to ensure compliance between SBAS corrections and the GNSS signals. This spoofing will be coherent and the spoofed position will be in front of the HQ.",
+              "description": "Signals: EGNOS L1. \n\nNo jamming. \n\nThe transmission of false SBAS signals will start immediately upon test start.  It will corrupt the MT0. Test will also include coherent spoofing of GPS L1 C/A, L2, L5, E1 and E5 to ensure compliance between SBAS corrections and the GNSS signals. This spoofing will be coherent and the spoofed position will be the Bleik community house parking lot.",
               "constellation_bands": [
                 "EGNOS L1",
                 "L1",
@@ -7055,8 +7118,8 @@
         {
           "group_id": 9,
           "group_name": "Stationary coherent spoofing with invalid ephemerids",
-          "description": "DUMMY",
-          "rationale": "DUMMY",
+          "description": "Simulated signals will be transmitted from a stationary antenna. Generated spoofing scenarios will introduce invalid ephemerids parameters, while staying coherent. Simulated signals may use one or more constellations and one or more signal bands.\nThe data manipulation starts five minutes after the spoofing starts,\nInitial positions are True (target location, normally close to the transmitter antenna location). Initial time is True (less than 100 ns timing error for a receiver at target location). Some test scenarios may be started with jamming (lasting for 5 min, one or several test bands, before the spoofing transmission is activated). Some spoofing scenarios may be accompanied by continuous jamming (one or several test bands). The indicated \"Test bands / constellation\" refers to which signals are spoofed. \nFor all tests in this group, spoofing transmission will be corrected for signal delay to simulated start position. \nWhen max and min powers are indicated, this refers to spoofing power. Some tests ramp the emitted power.",
+          "rationale": "The idea is to test equipment and systems when exposed to invalid ephemerids  information. The transmitted spoofing signals are intended to align (to within a few 100 ns) with those received from actual satellites at the target location (coherent). Receivers using the spoofed signals at rest at the target location will initially generate no major changes in the navigation solution, either in position, time and/or velocity, compared to the solution estimated from actual satellite signals. ",
           "comment": "The effect on subsystems is not known and hence care should be taken to limit the range of the transmission to include (as best as possible) only DUT eqipment and systems.",
           "tests": [
             {
@@ -7175,7 +7238,7 @@
         {
           "group_id": 10,
           "group_name": "Stationary coherent spoofing with circle of jammers",
-          "description": "Spoofing route will be route 7 (See appendix F)",
+          "description": "Spoofing in combination with different types of jamming, jammers in circular setup. Spoofing route will be route 7 (See appendix F) (a circle movement at 66,9 m hae, approx. 34 m AGL)",
           "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. The main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered coherent spoofer between the nulls that will get passed the CRPA electronics to the protected receivers. Three Novatel jammers of the same type are placed in a circle 120 degrees a part. Distance from center is 50 meters (A50, B50 and C50). A coherent spoofer is placed nearby, and will spoof you away from the center position (LOK2_ORIG) onto a given route. \n\nFor the first test the spoofing signal will be shown. For the second test the cirle of jammers will start, and then the same spoofing route will come on air again. The testgroup will further expand with more jammers, or different jamming for each test, repeating the same spoofing route. You might want to set your protected receiver to use L1/E1 only for these tests. The spoofing route is called \"Cirle of fire\", and it runs clockwise circular movement at 3 m/s. ",
           "comment": "",
           "tests": [
@@ -7183,8 +7246,8 @@
               "test_id": 1,
               "test_code": "2.10.1",
               "version": 1,
-              "name": "Spoofing route GPS L1 and Galileo E1 only",
-              "description": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Signals: GPS L1 C/A. Galileo E1. No initial jamming. Spoofing route duration is 40 minutes.  ",
+              "name": "Spoofing circle (route 7), GPS L1 and Galileo E1",
+              "description": "Spoofing route that start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Signals: GPS L1 C/A. Galileo E1. No initial jamming. Spoofing route duration is 40 minutes.  \n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "L1",
                 "E1"
@@ -7193,14 +7256,14 @@
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "min_power_w": "0.0001",
-              "max_power_w": "0.0010"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 2,
               "test_code": "2.10.2",
               "version": 1,
-              "name": "Circle of 3 stationary jammers, L1, L2 and spoofing route GPS L1 and Galileo E1 only (Chirp jamming)",
-              "description": "Chirp jamming\nJamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming first. \n\nThen spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes. \n",
+              "name": "Circle of 3 stationary jammers (chirp) and spoofing circle (route 7), GPS L1 and Galileo E1",
+              "description": "Chirp jamming\nJamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming first. \n\nThen spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes.\n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "JAM L1, L2",
                 "SPOOF L1 C/A, E1"
@@ -7218,8 +7281,8 @@
               "test_id": 3,
               "test_code": "2.10.3",
               "version": 1,
-              "name": "Circle of 3 stationary jammers, 2 moving jammers L1, L2 and spoofing route GPS L1 and Galileo E1 only (Chirp & Narrowband jamming)",
-              "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power.  \n\nTwo additional mobile jammers will be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR. 15 minutes of initial jamming first. Then spoofing starts. \n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes. \n\n",
+              "name": "Circle of 3 stationary jammers (chirp), 2 moving jammers (NB) and spoofing circle (route 7), GPS L1 and Galileo E1",
+              "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power.  \n\nTwo additional mobile jammers will be added H1.6 and H1.7 (settings: L1, L2 NB, HIGH PWR). 15 minutes of initial jamming first. Then spoofing starts. \n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes.\n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "JAM L1, L2",
                 "SPOOF L1 C/A, E1"
@@ -7233,14 +7296,14 @@
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "min_power_w": "1.0000",
-              "max_power_w": "4.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 4,
               "test_code": "2.10.4",
               "version": 1,
-              "name": "Circle of 3 stationary jammers, 5 moving jammers and spoofing route GPS L1 and Galileo E1 only (Chrip, Narrowband and PPD jammers)",
-              "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. \n\nFive additional mobile jammers will be added H1.6 and H1.7 with L1, L2 NB, HIGH PWR, and H6.3, H6.4 and H6.5, L1, L2. 15 minutes of initial jamming first. \n\nThen spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes. \n \n\n",
+              "name": "Circle of 3 stationary jammers, 5 moving jammers (chrip, NB and PPD) and spoofing (route 7), GPS L1 and Galileo E1",
+              "description": "Jamming from A50, B50 and C50, with jammer H1.1, H1.4 and H1.5 (settings:L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. \n\nFive additional mobile jammers will be added H1.6 and H1.7 (settings: L1, L2 NB, HIGH PWR), and H6.3, H6.4 and H6.5 (settings: L1, L2). 15 minutes of initial jamming first. \n\nThen spoofing starts. Spoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes.\n\n\n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "JAM L1, L2",
                 "SPOOF L1 C/A, E1"
@@ -7257,14 +7320,14 @@
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
               "min_power_w": "1.0000",
-              "max_power_w": "5.0000"
+              "max_power_w": "3.0000"
             },
             {
               "test_id": 5,
               "test_code": "2.10.5",
               "version": 1,
-              "name": "Circle of 3 stationary jammers, L1, L2 and spoofing route GPS L1 and Galileo E1 only (Narrow band jamming)",
-              "description": "Narrow band Jamming.\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5, L1, L2, NB. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming first. Then spoofing starts. \n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes. ",
+              "name": "Circle of 3 stationary jammers (NB) and spoofing circle (route 7), GPS L1 and Galileo E1",
+              "description": "Jamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5, (settings: L1, L2, NB. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. 15 minutes of initial jamming first. Then spoofing starts. \n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. \nSpoofing route duration is 40 minutes. \n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -7273,7 +7336,8 @@
               "equipment": [
                 "H1.1",
                 "H1.4",
-                "H1.5"
+                "H1.5",
+                "M1.1 Winnie-the-Spoof"
               ],
               "min_power_w": "0.0000",
               "max_power_w": "3.0000"
@@ -7282,17 +7346,20 @@
               "test_id": 6,
               "test_code": "2.10.6",
               "version": 1,
-              "name": "Circle of 3 stationary SDR jammers, L1, L2 and spoofing route GPS L1 and Galileo E1 only (power ramping)",
-              "description": "PRN coded jamming from SDR jammers from A50, B50 and C50, with the FOI JAKO system. The Jammers are connected to RHCP antennas to boost the power. \n\n25min for ramp up. 5min at max level and then 25min for ramp down of jamming. The jamming duration is 55minutes.  The ramp up and down will be performed in 4 dB steps, with an intention to have 80 dB J/S at max reception level from LOK2-ORIG.\n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing cirle above position A150, B150 and C150. Spoofing signal will perfom power ramp from uW to mW during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes.\n",
+              "name": "Circle of 3 stationary SDR jammers (PRN) and spoofing circle (route 7), GPS L1 and Galileo E1, power ramping",
+              "description": "PRN coded jamming from SDR jammers from A50, B50 and C50, with the KASTREL system. The jammers are connected to RHCP antennas to boost the power. \n\n20min for ramp up and then 20min for ramp down of jamming. The jamming duration is 40 minutes.  The ramp up and down will be performed in 2 dB steps, 30sec pr. dB steps with an intention to have 80 dB J/S at max reception level from LOK2-ORIG.\n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing circle above position A150, B150 and C150. Spoofing signal will also perform power ramp during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes.\n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "JAM L1, L2",
                 "SPOOF L1 C/A, E1"
               ],
               "equipment": [
-                "Spoofer M1.1 Winnie-the-Spoof"
+                "Spoofer M1.1 Winnie-the-Spoof",
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "0.0000"
+              "max_power_w": "3.0000"
             }
           ]
         }
@@ -7313,8 +7380,8 @@
               "test_id": 1,
               "test_code": "3.1.1",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at 1 W",
-              "description": "1 W meaconing from receiver RX1",
+              "name": "Meaconing: RX1 at 1 W",
+              "description": "Meaconing at 1 Wfrom receiver RX1",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7331,8 +7398,8 @@
               "test_id": 2,
               "test_code": "3.1.2",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at 1 W with initial jamming",
-              "description": "1 W meaconing from receiver RX1 preceded by 5 min. jamming: PRN L1, L2, L5 and G1 at 50 W)",
+              "name": "Meaconing: RX1 at 1 W with initial jamming",
+              "description": "Meaconing at 1 W from receiver RX1, preceded by 5 minutes of jamming, PRN: L1, L2, L5, G1 at 50 W from the same location",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7350,7 +7417,7 @@
               "test_id": 3,
               "test_code": "3.1.3",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at 10 W",
+              "name": "Meaconing: RX1 at 10 W",
               "description": "10 W meaconing from receiver RX1",
               "constellation_bands": [
                 "L1",
@@ -7368,8 +7435,8 @@
               "test_id": 4,
               "test_code": "3.1.4",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at 10 W with initial jamming",
-              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5, G1, E6 and E5b at 50 W)",
+              "name": "Meaconing: RX1 at 10 W with initial jamming",
+              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming, PRN: L1, L2, L5, G1, E6, E5b at 50 W from the same location",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7387,7 +7454,7 @@
               "test_id": 5,
               "test_code": "3.1.5",
               "version": 1,
-              "name": "Meaconing with F1.1: RX2 at 10 W",
+              "name": "Meaconing: RX2 at 10 W",
               "description": "10 W meaconing from receiver RX2",
               "constellation_bands": [
                 "L1",
@@ -7405,8 +7472,8 @@
               "test_id": 6,
               "test_code": "3.1.6",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at 10 W with initial jamming",
-              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5, G1, G2, E5b, E6 and B1I at 50 W)",
+              "name": "Meaconing: RX2 at 10 W with initial jamming",
+              "description": "10 W meaconing from receiver RX2 preceded by 5 min. jamming, PRN: L1, L2, L5, G1, G2, E5b, E6, B1I at 50 W from the same location",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -7417,7 +7484,10 @@
                 "E6",
                 "B1I"
               ],
-              "equipment": [],
+              "equipment": [
+                "F1.1",
+                "F8.1"
+              ],
               "min_power_w": "10.0000",
               "max_power_w": "10.0000"
             },
@@ -7425,8 +7495,8 @@
               "test_id": 7,
               "test_code": "3.1.7",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at 10 W with initial jamming from the community house",
-              "description": "40 dBm meaconing from receiver RX1 preceded by 5 min. jamming (PRN L1, L2, L5, G1, G2, E5b, E6 and B1I) from Bleik community house at 30 dBm.",
+              "name": "Meaconing: RX1 at 10 W with initial jamming from the community house",
+              "description": "10 W meaconing from receiver RX1 preceded by 5 min. jamming, PRN: L1, L2, L5, G1, G2, E5b, E6, B1I from Bleik community house at 30 dBm. The meaconing will begin 4 minutes after the start of the jamming, resulting in a 1-minute overlap between the two activities.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -7454,7 +7524,7 @@
               "test_id": 1,
               "test_code": "3.2.1",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W",
+              "name": "Meaconing: RX1 and RX2 at 10 W",
               "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time.",
               "constellation_bands": [
                 "L1",
@@ -7472,7 +7542,7 @@
               "test_id": 2,
               "test_code": "3.2.2",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W with initial jamming",
+              "name": "Meaconing: RX1 and RX2 at 10 W with initial jamming",
               "description": "10 W meaconing from receivers RX1 and RX2, activated at the same time, preceded by 5 min. jamming (PRN L1, L2, L5 and G1 at 50 W)",
               "constellation_bands": [
                 "L1",
@@ -7491,7 +7561,7 @@
               "test_id": 3,
               "test_code": "3.2.3",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W turned on and off at different times",
+              "name": "Meaconing: RX1 and RX2 at 10 W turned on and off at different times",
               "description": "10 W meaconing from receivers RX1 and RX2, activated at different times. RX2 is turned on 5 minutes after RX1 is activated. RX1 is turned off after another 10 minutes and RX2 is turned off after the test has lasted 20 minutes.",
               "constellation_bands": [
                 "L1",
@@ -7509,7 +7579,7 @@
               "test_id": 4,
               "test_code": "3.2.4",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating",
               "description": "10 W meaconing from receivers RX1 and RX2, alternating continuously. RX1 is activated first, then turned off after 1 minute while RX2 is being turned on. RX2 is then turned off after 1 more minute and RX1 is turned on. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "constellation_bands": [
                 "L1",
@@ -7527,7 +7597,7 @@
               "test_id": 5,
               "test_code": "3.2.5",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with breaks",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating with breaks",
               "description": "10 W meaconing from receivers RX1 and RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Nothing is then transmitted for 1 minute (transmission break). After the minute, RX2 is turned on and left on for 1 minute before being turned off. After another transmission break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "constellation_bands": [
                 "L1",
@@ -7545,7 +7615,7 @@
               "test_id": 6,
               "test_code": "3.2.6",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with decreasing durations without breaks",
+              "name": "Meaconing RX1 and RX2 at 10 W alternating with decreasing durations without breaks",
               "description": "10 W meaconing from receivers RX1 and RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until approximately 16 minutes has passed.",
               "constellation_bands": [
                 "L1",
@@ -7563,8 +7633,8 @@
               "test_id": 7,
               "test_code": "3.2.7",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with different switching frequencies.",
-              "description": "10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch after 1 minute, second session: switch every 30 seconds, third session: switch every 15 seconds, etc.",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating with different switching frequencies",
+              "description": "10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch between RX1 to RX2 every 1 minute (so RX1 -> RX2 -> RX1), second session: switch every 30 seconds, third session: switch every 15 seconds, etc. There is no pause between the different modes.",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7581,7 +7651,7 @@
               "test_id": 8,
               "test_code": "3.2.8",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with breaks and jamming in breaks",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating with breaks and jamming in breaks",
               "description": "10 W meaconing from receivers RX1 and RX2, alternating with breaks. RX1 is activated first and left on for 1 minute, before being turned off. Jamming (PRN L1, L2, L5 and G1 at 50 W) is then transmitted for 1 minute (in the break from the meaconing). After the minute of jamming, RX2 is turned on and left on for 1 minute before being turned off. After another jamming break of 1 minute, repeat the cycle. The cycle is repeated for as long as the test is set up (for example 5 cycles).",
               "constellation_bands": [
                 "L1",
@@ -7599,7 +7669,7 @@
               "test_id": 9,
               "test_code": "3.2.9",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with decreasing durations without breaks and with jamming",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating with decreasing durations without breaks and with jamming",
               "description": "10 W meaconing from receivers RX1 and RX2, alternating more and more rapidly. RX1 is activated first and left on for 4 minutes, before switching to RX2 for 4 minutes. Then, 2 minutes RX1, 2 minutes RX2, 1 minute RX1, 1 minute RX2 and continues with halving durations until approximately 16 minutes has passed. All is done while jamming (PRN G1 at 50 W) is active continuously.",
               "constellation_bands": [
                 "L1",
@@ -7617,7 +7687,7 @@
               "test_id": 10,
               "test_code": "3.2.10",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with different switching frequencies and with jamming",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating with different switching frequencies and with jamming",
               "description": "10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch after 1 minute, second session: switch every 30 seconds, third session: switch every 15 seconds, etc. All is done while jamming (PRN at bands L5, G1, G2, B1I, E5b and E6  at 50 W) is active continuously.",
               "constellation_bands": [
                 "L1",
@@ -7641,8 +7711,8 @@
               "test_id": 11,
               "test_code": "3.2.11",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 and RX2 at 10 W alternating with different switching frequencies and with jamming from a different location",
-              "description": "10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch after 1 minute, second session: switch every 30 seconds, third session: switch every 15 seconds, etc. All is done while jamming (PRN at bands L5, G1, G2, B1I, E5b and E6 ) is active continuously from a different location.",
+              "name": "Meaconing: RX1 and RX2 at 10 W alternating with different switching frequencies and with jamming from a different location",
+              "description": "\n10 W meaconing from receivers RX1 and RX2. Test consists of sets of two minutes, with different switching frequencies between RX1 and RX2 for each session. Example: First session: switch between RX1 to RX2 every 1 minute (so RX1 -> RX2 -> RX1), second session: switch every 30 seconds, third session: switch every 15 seconds, etc. There is no pause between the different modes. \nAll is done while jamming (PRN at bands L5, G1, G2, B1I, E5b, E6, so bands not being meaconed ) is active continuously from a different location.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -7654,7 +7724,8 @@
                 "B1I"
               ],
               "equipment": [
-                "F1.1"
+                "F1.1",
+                "S"
               ],
               "min_power_w": "0.0000",
               "max_power_w": "0.0000"
@@ -7672,7 +7743,7 @@
               "test_id": 1,
               "test_code": "3.3.1",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 with ramping power",
+              "name": "Meaconing: RX1 with ramping power",
               "description": "Meaconing from receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "constellation_bands": [
                 "L1",
@@ -7690,7 +7761,7 @@
               "test_id": 2,
               "test_code": "3.3.2",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at constant 5 W and RX2 with ramping power",
+              "name": "Meaconing: RX1 at constant 1 W and RX2 with ramping power",
               "description": "1 W meaconing from receiver RX1, with receiver RX2 ramping power. Power for RX1 is kept constant, while power for RX2 is ramped up from 0.001 W to 10 W and then back down again to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
               "constellation_bands": [
                 "L1",
@@ -7708,8 +7779,8 @@
               "test_id": 3,
               "test_code": "3.3.3",
               "version": 1,
-              "name": "Meaconing with F1.1: RX1 at less than 1 W, adding RX2 at 10 W after 5 minutes",
-              "description": "Meaconing from receiver RX1 with low power for 5 minutes, then adding RX2 with more than 10dB higher power for 15 minutes",
+              "name": "Meaconing: RX1 at 1 W, adding RX2 at 10 W after 5 minutes",
+              "description": "Meaconing from receiver RX1 at 1 W for 5 minutes, then adding RX2 at 10 W",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7767,8 +7838,8 @@
               "test_id": 1,
               "test_code": "3.4.1",
               "version": 1,
-              "name": "Meaconing and spoofing at the same time from different locations.",
-              "description": "Meaconing from RX1, combined with spoofing signal from other location. Meaconing will contains both L1 and L2 bands while spoofing is only L1 band. Spoofing route will be route 6 (See appendix F)",
+              "name": "Meaconing and spoofing at the same time from two different locations.",
+              "description": "Meaconing from RX1, combined with spoofing signal from other location. Meaconing will contains both L1 and L2 bands while spoofing is only L1 band. Spoofing route will be route 6 (See appendix F the in Testcatalog)",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7776,7 +7847,8 @@
                 "L2"
               ],
               "equipment": [
-                "F1.1"
+                "F1.1",
+                "S"
               ],
               "min_power_w": "10.0000",
               "max_power_w": "10.0000"
@@ -7803,8 +7875,8 @@
               "test_id": 3,
               "test_code": "3.4.3",
               "version": 1,
-              "name": "Meaconing with F1.1 and S: RX1 and meaconing from the community house",
-              "description": "Meaconing from RX1 combined with meaconing from community house. RX1 power level is constant 10W, while the community house signal power level is ramped up",
+              "name": "Meaconing at the same time from two different locations, power ramp from one",
+              "description": "Meaconing from RX1 combined with meaconing from community house. RX1 power level is constant 10 W, while the community house signal power level is ramped up",
               "constellation_bands": [
                 "L1",
                 "E1",
@@ -7832,7 +7904,9 @@
               ],
               "equipment": [
                 "F1.1",
-                "S"
+                "S",
+                "JAKO",
+                "F1.1"
               ],
               "min_power_w": "0.0010",
               "max_power_w": "10.0000"
@@ -7854,7 +7928,8 @@
                 "B1I"
               ],
               "equipment": [
-                "F8.1"
+                "S",
+                "F1.1"
               ],
               "min_power_w": "0.0000",
               "max_power_w": "0.0000"
@@ -7876,7 +7951,8 @@
                 "B1I"
               ],
               "equipment": [
-                "F8.1"
+                "S",
+                "F1.1"
               ],
               "min_power_w": "0.0000",
               "max_power_w": "0.0000"
@@ -7886,61 +7962,275 @@
         {
           "group_id": 5,
           "group_name": "Stationary meaconing with circle of jammers",
-          "description": "DUMMY",
+          "description": "This testgroup will perform meaconing with different power levels and cover different GNSS bands. As the tests evolve in this tesgroup there will be added background jamming with a circle of jammers.",
           "rationale": "This testgroup is relevant for CRPA antenna testing and TDOA detection equipment, as well as drone testing. \n\nThe main objective is saturate the CRPA nulling channels with jamming from many directions and then bring in a low powered meaconing signal between the nulls that will get passed the CRPA electronics to the protected receivers.\n\nFor the first tests the meaconing signal will be shown in power ramp tests. The testgroup will further expand with different levels of meaconing and different levels of background jamming. ",
           "comment": "",
           "tests": [
             {
+              "test_id": 1,
+              "test_code": "3.5.1",
+              "version": 1,
+              "name": "Power ramp meaconing, 2 dB increments, 30 sec pr. steps",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nTotal test time 55 min\n\nAll GNSS bands will be affected.\n\nThere will be no background jamming",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
+              ],
+              "equipment": [
+                "F5.1 JAKO"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "1.0000"
+            },
+            {
+              "test_id": 2,
+              "test_code": "3.5.2",
+              "version": 1,
+              "name": "Power ramp meaconing, 2 dB increments, 1min pr. steps",
+              "description": "Power ramp meaconing ,2 dB increments, 1min sec pr. steps.\n\n40 min for ramp up - 20 min at max level - 40 min for ramp down\n\nThere will be no background jamming\n\nAll GNSS bands will be affected.\n\nTotal test time 100 min",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
+              ],
+              "equipment": [
+                "F5.1 JAKO"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "1.0000"
+            },
+            {
               "test_id": 3,
               "test_code": "3.5.3",
               "version": 1,
-              "name": "Power ramp meaconing  with 2 dB increments, 1min pr. steps",
-              "description": "Long meaconing power ramp test in 4 dB increments.\n45 min for ramp up - 20 min at max level - 45 min for ramp down.\n\nThere will be no background jamming.\n",
+              "name": "Power ramp meaconing, 2 dB increments, 30 sec pr. steps, with 3 background jammers (chirp)",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. \n\nJamming will start together with the meaconing power ramp.\nTotal test time is 55min",
               "constellation_bands": [
                 "L1",
-                "L2"
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
               ],
               "equipment": [
-                "JAKO",
+                "F5.1 Jako",
                 "H1.1",
                 "H1.4",
                 "H1.5"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "3.0000"
+              "max_power_w": "1.0000"
             },
             {
               "test_id": 4,
               "test_code": "3.5.4",
               "version": 1,
-              "name": "Power ramp meaconing with 4 dB increments, 1min pr steps",
-              "description": "Long meaconing power ramp test in 4 dB increments.\n\n45 min for ramp up - 20 min at max level - 45 min for ramp down\n\n",
-              "constellation_bands": [
-                "L1",
-                "L2"
-              ],
+              "name": "Power ramp meaconing, 2 dB increments, 1min pr. steps, with 3 background jammers (chirp)",
+              "description": "Power ramp meaconing test in 2 dB increments, 1min sec pr. steps.\n\n40 min for ramp up - 15 min at max level - 40 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. \n\nJamming will start together with the meaconing power ramp.\nTotal test time is 55 min.",
+              "constellation_bands": [],
               "equipment": [
-                "JAKO"
+                "F5.1 JAKO",
+                "H1.1",
+                "H1.4",
+                "H1.5"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "0.0000"
+              "max_power_w": "1.0000"
             },
             {
               "test_id": 5,
               "test_code": "3.5.5",
               "version": 1,
-              "name": "pulsed meaconing and jamming",
-              "description": "Long meaconing power ramp test in 4 dB increments.\n\n45 min for ramp up - 20 min at max level - 45 min for ramp down\n\n",
+              "name": "Pulsed meaconing and jamming with 1 SDR jammer (PRN)",
+              "description": "Step 1: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 2: Meaconing is turned on at J/Smax – 60 dB attenuation for 4 min\nStep 3: No jamming for 5 min  \nStep 4: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 5: Meaconing is turned on at J/Smax – 50 dB attenuation for 4 min\nStep 6: No jamming for 5 min  \nStep 7: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 8: Meaconing is turned on at J/Smax – 40 dB attenuation for 4 min\nStep 9: No jamming for 5 min  \nStep 10: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 30 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nStep 10: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 20 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nTest time: 50 min\n\nF1.3 KASTREL (SDR jammer) will be placed at A50.\nF5.1 JAKO will perform meaconing on all GNSS bands.",
               "constellation_bands": [
                 "L1",
-                "L2"
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
               ],
               "equipment": [
-                "JAKO",
-                "FOI SDR jammers"
+                "F5.1 JAKO",
+                "F1.3 KASTREL"
               ],
               "min_power_w": "0.0000",
-              "max_power_w": "0.0000"
+              "max_power_w": "1.0000"
+            },
+            {
+              "test_id": 6,
+              "test_code": "3.5.6",
+              "version": 1,
+              "name": "Power ramp meaconing, 2 dB increments, 30 sec pr. steps and 1 SDR jammer (PRN)",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nPower ramp jamming from F1.3 KASTREL in 2 dB increments, 30 sec pr. steps. 20 min for ramp up - 35 min at max level\nPRN jamming @ L1 and L2 bands \n\nJamming will start togethert with the meaconing power ramp\n\nF1.3 KASTREL (SDR jammer) will be at A50.\nF5.1 JAKO will perform meaconing on all GNSS bands.",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
+              ],
+              "equipment": [
+                "F5.1 JAKO",
+                "F1.3 KASTREL"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "1.0000"
+            },
+            {
+              "test_id": 7,
+              "test_code": "3.5.7",
+              "version": 1,
+              "name": "Power ramp meaconing, 2 dB increments, 30 sec pr. steps with 3 SDR jammers (PRN)",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nPower ramp jamming from F1.3, F1.4 and F1.5 KASTREL (SDR jammers) in 2 dB increments, 30 sec pr. steps. 20 min for ramp up - 35 min at max level. PRN jamming @ L1 and L2 bands \n\nJamming will start togethert with the meaconing power ramp\n\nSDR jammers will be at A50, B50 and C50.\nJako will perform meaconing on all GNSS bands.\n",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
+              ],
+              "equipment": [
+                "F5.1 JAKO",
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "3.0000"
+            },
+            {
+              "test_id": 8,
+              "test_code": "3.5.8",
+              "version": 1,
+              "name": "Power ramp meaconing, 2 dB increments, 30s pr. steps, with 3 background jammers (chirp) and 1 SDR jammer (PRN)",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. \n\nSDR jammer will be at A50.\n\nPower ramp of one SDR jammer in 2 dB increments, 30 sec pr. steps.\n20 min for ramp up - 35 min at max level\n\nJamming will start together with the meaconing power ramp",
+              "constellation_bands": [],
+              "equipment": [
+                "F5.1 JAKO",
+                "H1.1",
+                "H1.4",
+                "H1.5",
+                "F1.3 KASTREL"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "3.0000"
+            },
+            {
+              "test_id": 9,
+              "test_code": "3.5.9",
+              "version": 1,
+              "name": "Power ramp meaconing, 2 dB increments, 30s pr. steps, with 3 background jammers (chirp) and 3 SDR jammers (PRN)",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. (appr. 10dBm output.)\n\n/Power ramp jamming from A50, B50 and C50 with F1.3, F1. 4 and F1.5 KASTREL (SDR jammers) in 2 dB increments, 30 sec pr. steps. 20 min for ramp up - 35 min at max level. (appr. 80dB J/S).\n\nJamming will start together with the meaconing power ramp.\nNovatel jammer will turn on and stay on for the duration of the test.\nSDR jammers will perform power ramp.\nJako will perform meaconing power ramp up and down on all GNSS bands.\n",
+              "constellation_bands": [],
+              "equipment": [
+                "F5.1 JAKO",
+                "H1.1",
+                "H1.4",
+                "H1.5",
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "3.0000"
+            },
+            {
+              "test_id": 10,
+              "test_code": "3.5.10",
+              "version": 1,
+              "name": "Pulsed meaconing and jamming with 3 SDR jammers (PRN)",
+              "description": "Step 1: F1.3, F1.4 and F1.5 KASTREL is turned on J/Smax for 60s and then turned off\nStep 2: Meaconing is turned on at J/Smax – 60 dB attenuation for 4 min\nStep 3: No jamming for 5 min  \nStep 4: F1.3, F1.4 and F1.5 KASTREL is turned on J/Smax for 60s and then turned off\nStep 5: Meaconing is turned on at J/Smax – 50 dB attenuation for 4 min\nStep 6: No jamming for 5 min  \nStep 7: F1.3, F1.4 and F1.5 KASTREL is turned on J/Smax for 60s and then turned off\nStep 8: Meaconing is turned on at J/Smax – 40 dB attenuation for 4 min\nStep 9: No jamming for 5 min  \nStep 10: F1.3, F1.4 and F1.5 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 30 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nStep 10: F1.3, F1.4 and F1.5 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 20 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nTest time: 50 min\n\nF1.3, F1.4, F1.5 KASTREL (SDR jammers) will be at A50, B50 and C50.\nJAKO will perform GNSS meaconing on all GNSS bands.",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "G3",
+                "B1I",
+                "B1C",
+                "B2a",
+                "B2b",
+                "B3I",
+                "E5a",
+                "E5b",
+                "E1",
+                "E6"
+              ],
+              "equipment": [
+                "F5.1 JAKO",
+                "F1.3 KASTREL",
+                "F1.4 KASTREL",
+                "F1.5 KASTREL"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "3.0000"
             }
           ]
         }
