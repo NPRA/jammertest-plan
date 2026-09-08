@@ -117,7 +117,7 @@
           "test_id": "0.1.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Lunch @ Grunnvatn (Site 2)",
+          "comment": "Lunch @ Stave (Site 3)",
           "status": "notRun"
         },
         {
@@ -294,7 +294,7 @@
           "test_id": "2.6.6",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "This actual test will take 5 minutes extra than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads 14.23 which allows us to have a 7 minute break instead of the regular 10 min.",
+          "comment": "Employing M1.1 Winnie-the-Spoof.\nThis actual test will take 5 minutes more than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads 14.23 which gives us a 7 minutes break instead of the regular 10 min.",
           "status": "notRun"
         },
         {
@@ -303,7 +303,7 @@
           "test_id": "2.6.5",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "",
+          "comment": "Employing M1.1 Winnie-the-Spoof.",
           "status": "notRun"
         },
         {
@@ -312,7 +312,7 @@
           "test_id": "2.6.2",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "",
+          "comment": "Employing M1.1 Winnie-the-Spoof.",
           "status": "notRun"
         },
         {
@@ -321,7 +321,7 @@
           "test_id": "2.6.7",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "",
+          "comment": "Employing M1.1 Winnie-the-Spoof.",
           "status": "notRun"
         },
         {
@@ -330,7 +330,7 @@
           "test_id": "2.6.10",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "The route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level is increasing. The motorcade will drive at a speed of 35km/h. \nThe estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop.\nThere will be no initial jamming during this test\nThe starting and end point is Stave",
+          "comment": "Employing M1.1 Winnie-the-Spoof.\nThe route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level of the spoofer is increasing. The motorcade will drive at a speed of 35km/h. The estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop. There will be no initial jamming during this test. The starting and end point is Stave",
           "status": "notRun"
         },
         {
@@ -339,7 +339,7 @@
           "test_id": "2.6.4",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "",
+          "comment": "Employing M1.1 Winnie-the-Spoof.",
           "status": "notRun"
         },
         {
@@ -348,7 +348,7 @@
           "test_id": "2.6.11",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "",
+          "comment": "Employing M1.1 Winnie-the-Spoof.",
           "status": "notRun"
         },
         {
@@ -357,7 +357,7 @@
           "test_id": "2.6.12",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "",
+          "comment": "Employing M1.1 Winnie-the-Spoof.",
           "status": "notRun"
         },
         {
