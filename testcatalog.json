@@ -2416,7 +2416,7 @@
               "test_code": "1.11.12",
               "version": 1,
               "name": "Driving past a parked car with one commercially available military training jammer inside",
-              "description": "The test will be performed with one military training jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of a jammed area.",
+              "description": "The test will be performed with one military training jammer (settings: L1, L2, CHIRP, HIGH PWR). The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of a jammed area.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -2432,7 +2432,7 @@
               "test_code": "1.11.13",
               "version": 1,
               "name": "Driving past two parked cars, each with one commercially available military training jammer inside",
-              "description": "The test will be performed with two military training jammers. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
+              "description": "The test will be performed with two military training jammers (settings: L1, L2, CHIRP, HIGH PWR). The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -2449,7 +2449,7 @@
               "test_code": "1.11.14",
               "version": 1,
               "name": "Driving past three parked cars, each with a jammer inside",
-              "description": "The test will be performed with two military training jammers and another commercial available jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
+              "description": "The test will be performed with two military training jammers (settings: L1, L2, CHIRP, HIGH PWR) and another commercial available jammer. The test will be performed on route 1 starting from Stave communal house. Test vehicles/participants will continuously drive in and out of jammed areas.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -2467,7 +2467,7 @@
               "test_code": "1.11.15",
               "version": 1,
               "name": "One commercially available military training jammer in the center of the moving motorcade",
-              "description": "The test will be performed with one commercially available military training jammer, located in the center of the motorcade.\nThe length of the route is approximately 18km. The test will not stop at the turning point at the Crossroads, but will continue driving the full route back to Stave throughout the testscenario. The motorcade will maintain a fixed speed of 35km/h.\nThe start and end point is Stave and the route is #2.",
+              "description": "The test will be performed with one commercially available military training jammer (settings: L1, L2, CHIRP, HIGH PWR), located in the center of the motorcade.\nThe length of the route is approximately 18km. The test will not stop at the turning point at the Crossroads, but will continue driving the full route back to Stave throughout the testscenario. The motorcade will maintain a fixed speed of 35km/h.\nThe start and end point is Stave and the route is #2.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -2481,7 +2481,7 @@
               "test_code": "1.11.16",
               "version": 1,
               "name": "Two commercially available military training jammers in the moving motorcade",
-              "description": "The test will be performed with two commercially available military training jammers, located at both ends of the motorcade.\nThe length of the route is approximately 18km. The test will not stop at the turning point at the Crossroads, but will continue driving the full route back to Stave throughout the testscenario. The motorcade will maintain a fixed speed of 35km/h.\nThe start and end point is Stave and the route is #2.",
+              "description": "The test will be performed with two commercially available military training jammers (settings: L1, L2, CHIRP, HIGH PWR), located at both ends of the motorcade.\nThe length of the route is approximately 18km. The test will not stop at the turning point at the Crossroads, but will continue driving the full route back to Stave throughout the testscenario. The motorcade will maintain a fixed speed of 35km/h.\nThe start and end point is Stave and the route is #2.",
               "constellation_bands": [
                 "L1",
                 "L2"

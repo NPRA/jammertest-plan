@@ -312,7 +312,7 @@
           "test_id": "1.11.12",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6 (settings: L1, L2, CHIRP, HI_GH PWR).",
+          "comment": "Employing H1.6",
           "status": "notRun"
         },
         {
@@ -321,7 +321,7 @@
           "test_id": "1.11.13",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7 (settings: L1, L2, CHIRP, HI_GH PWR).",
+          "comment": "Employing H1.6, H1.7",
           "status": "notRun"
         },
         {
@@ -330,7 +330,7 @@
           "test_id": "1.11.14",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7 (settings: L1, L2, CHIRP, HI_GH PWR) and H4.1.",
+          "comment": "Employing H1.6, H1.7 and H4.1.",
           "status": "notRun"
         },
         {
@@ -339,7 +339,7 @@
           "test_id": "1.11.15",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6 (settings: L1, L2, CHIRP, HI_GH PWR).",
+          "comment": "Employing H1.6",
           "status": "notRun"
         },
         {
@@ -348,7 +348,7 @@
           "test_id": "1.11.16",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7 (settings: L1, L2, CHIRP, HI_GH PWR).",
+          "comment": "Employing H1.6, H1.7",
           "status": "notRun"
         },
         {
