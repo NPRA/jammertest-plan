@@ -162,7 +162,7 @@
           "test_id": "3.5.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. 20 min for ramp up - 15 min at max level - 20 min for ramp down",
+          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \n20 min for ramp up - 15 min at max level - 20 min for ramp down",
           "status": "notRun"
         },
         {
@@ -171,7 +171,7 @@
           "test_id": "3.5.6",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing jammer F1.3 KASTREL.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp for SDR jammer:\n20 min for ramp up - 35 min at max level for the duration of the test",
+          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing SDR jammer F1.3 KASTREL.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp for SDR jammer:\n20 min for ramp up - 35 min at max level for the duration of the test",
           "status": "notRun"
         },
         {
@@ -180,7 +180,7 @@
           "test_id": "3.5.7",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing all three KASTREL jammers.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nPower ramp for SDR jammers:\n20 min for ramp up - 35 min at max level for the duration of the test",
+          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing all three SDR KASTREL jammers. F1.3, F1.4 and F1.5\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nPower ramp for SDR jammers:\n20 min for ramp up - 35 min at max level for the duration of the test",
           "status": "notRun"
         },
         {
@@ -207,7 +207,7 @@
           "test_id": "3.5.5",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing F1.3 KASTREL . Pulsed meaconing and jamming. Several pulsed steps at different output levels. See TC for details.",
+          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing F1.3 KASTREL . Pulsed meaconing and jamming. Several pulsed steps at different output levels. \n\nSee Test Catalog (TC) for details.",
           "status": "notRun"
         },
         {
@@ -234,7 +234,7 @@
           "test_id": "3.5.9",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing all three KASTREL jammers and H1.1, H1.4 and H1.5. Jammers active for the whole duration of the test.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp from SDR jammers:\n20 min for ramp up - 35 min at max level for the duration of the test",
+          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \n\nEmploying all three KASTREL SDR jammers, F1.3, F1.4, F1.5. \nHandheld jammers, H1.1, H1.4 and H1.5 are active for the whole duration of the test.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp from SDR jammers:\n20 min for ramp up - 35 min at max level for the duration of the test",
           "status": "notRun"
         },
         {

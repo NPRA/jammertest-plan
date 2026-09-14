@@ -7,6 +7,15 @@
       "location_name": "Test Area 1",
       "tests": [
         {
+          "start_time": "2026-09-14T09:30:00",
+          "end_time": "2026-09-14T09:45:00",
+          "test_id": "0.3.1",
+          "test_contact": "Kenneth",
+          "power_w": 0,
+          "comment": "This is just a demo",
+          "status": "hasRun"
+        },
+        {
           "start_time": "2026-09-14T11:00:00",
           "end_time": "2026-09-14T13:00:00",
           "test_id": "0.0.1",
@@ -75,7 +84,7 @@
           "test_id": "1.4.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "PRN jamming at all GNSS bands from F8.1 Porcus Maior at Ramnan.",
+          "comment": "PRN jamming at all GNSS bands from F8.1 Porcus Maior at Ramnan. See TC for bandwidths.",
           "status": "notRun"
         },
         {
@@ -160,15 +169,6 @@
           "start_time": "2026-09-14T15:04:00",
           "end_time": "2026-09-14T15:16:00",
           "test_id": "1.1.13",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-14T15:20:00",
-          "end_time": "2026-09-14T15:32:00",
-          "test_id": "1.1.16",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",

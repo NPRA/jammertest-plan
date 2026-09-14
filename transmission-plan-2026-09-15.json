@@ -48,7 +48,7 @@
           "test_id": "3.1.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "Meaconing from F1.1 Porcellus at approximately 40 dBm will be conducted from F1.1 Porcellus for 10 minutes of the L1 and L2 bands using receiver RX1. This will be preceded by 5 minutes of PRN jamming at 30 dBm from Bleik (PRN L1, L2, L5, G1, G2, E5b, E6 and B1I). The meaconing will begin 4 minutes after the start of the jamming, resulting in a 1-minute overlap between the two activities.",
+          "comment": "Meaconing of the L1 and L2 bands will be conducted from F1.1 Porcellus at approximately 40 dBm using receiver RX1 for 11 minutes. Prior to this, PRN jamming will be transmitted from Bleik at 30 dBm for 5 minutes (PRNs: L1, L2, L5, G1, G2, E5b, E6, and B1I). The meaconing activity will start 4 minutes after the jamming begins, resulting in a 1-minute overlap between the two activities.",
           "status": "notRun"
         },
         {
@@ -126,19 +126,19 @@
         {
           "start_time": "2026-09-15T17:00:00",
           "end_time": "2026-09-15T17:28:00",
-          "test_id": "3.4.5",
+          "test_id": "3.6.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "5 minutes per emitter for 20 minutes, then 2 minutes each for the last 8 minutes. 10 second overlapping when switching emitter. Meaconing will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus at  Ramnan using receiver RX1, while spoofing will be at 10 dBm from the antenna at the community house (using S).",
+          "comment": "5 minutes per emitter for 20 minutes, then 2 minutes each for the last 8 minutes. 10 second overlapping when switching emitter. Meaconing from Ramnan will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus using receiver RX1, while meaconing from the community house using RXO will be at 0 dBm from M. The power levels should then be comparable at the community house.",
           "status": "notRun"
         },
         {
           "start_time": "2026-09-15T17:45:00",
           "end_time": "2026-09-15T18:00:00",
-          "test_id": "3.4.1",
+          "test_id": "3.6.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "Meaconing from Ramnan and spoofing from the community house at the same time. Meaconing will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus at Ramnan using receiver RX1, while spoofing will be at 10 dBm from the antenna at the community house (using S).",
+          "comment": "Meaconing from Ramnan and from the community house at the same time. Meaconing from Ramnan will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus using receiver RX1, while meaconing from the community house using RXO will be at 0 dBm from M. The power levels should then be comparable at the community house.",
           "status": "notRun"
         },
         {
@@ -179,8 +179,8 @@
           "end_time": "2026-09-15T09:55:00",
           "test_id": "1.25.4",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers.",
+          "power_w": 3,
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
           "status": "notRun"
         },
         {
@@ -188,8 +188,8 @@
           "end_time": "2026-09-15T11:10:00",
           "test_id": "1.25.2",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers.",
+          "power_w": 3,
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
           "status": "notRun"
         },
         {
@@ -197,8 +197,8 @@
           "end_time": "2026-09-15T11:45:00",
           "test_id": "1.25.5",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers.",
+          "power_w": 3,
+          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
           "status": "notRun"
         },
         {
@@ -215,8 +215,8 @@
           "end_time": "2026-09-15T13:55:00",
           "test_id": "1.25.3",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers.",
+          "power_w": 3,
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
           "status": "notRun"
         },
         {
@@ -224,26 +224,17 @@
           "end_time": "2026-09-15T14:30:00",
           "test_id": "1.25.5",
           "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers.",
+          "power_w": 3,
+          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-15T14:40:00",
-          "end_time": "2026-09-15T15:05:00",
-          "test_id": "1.25.8",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "5 min for ramp up - 15 min at max level - 5 min for ramp down. 6 sec pr. dB steps. Employing all three KASTREL jammers.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T15:10:00",
-          "end_time": "2026-09-15T16:05:00",
+          "start_time": "2026-09-15T14:45:00",
+          "end_time": "2026-09-15T15:40:00",
           "test_id": "1.25.6",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. F1.3 KASTREL is used for the ramping. H1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. LOW PWR), CHIRP jammers, will be on for the whole test.",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. F1.3 KASTREL is used for the ramping.\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n H1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. HIGH PWR), \nCHIRP jammers, will be on for the whole test from D150, E150 and F150.",
           "status": "notRun"
         },
         {
@@ -252,7 +243,7 @@
           "test_id": "1.25.9",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "7 min for ramp up - 10 min at max level - 7 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers.",
+          "comment": "7 min for ramp up - 10 min at max level - 7 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)",
           "status": "notRun"
         },
         {
@@ -261,7 +252,7 @@
           "test_id": "1.25.7",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. mploying all three KASTREL jammers for the ramping. H1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. LOW PWR), CHIRP jammers, will be on for the whole test.",
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5) Jamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\nH1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. HIGH PWR), \nCHIRP jammers, will be on for the whole test from D150, E150 and F150.",
           "status": "notRun"
         },
         {

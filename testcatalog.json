@@ -4721,7 +4721,7 @@
               "test_code": "1.25.1",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 2 dB increments, 1min pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n40 min for ramp up - 20 min at max level - 40 min for ramp down\n1 min pr. dB steps. 40 min until max power level.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n40 min for ramp up - 20 min at max level - 40 min for ramp down\n1 min pr. dB steps. 40 min until max power level.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -4739,7 +4739,7 @@
               "test_code": "1.25.2",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 4 dB increments, 1min pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps. \n20 min until max level, and same timeduration for ramp down.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps. \n20 min until max level, and same timeduration for ramp down.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -4756,7 +4756,7 @@
               "test_code": "1.25.3",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 4 dB increments and pulse duration 1ms, 10 % duty cycle",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps.\n20 min until max level, and same timeduration for ramp down.\n\nThe PRN coded jamming will pulse with 1ms duration and appr. 10% duty cycle within the \"1 minute power step.\"\n\n",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 4 dB steps, 20 steps, 80dB dynamic range \nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n1 min pr. dB steps.\n20 min until max level, and same timeduration for ramp down.\n\nThe PRN coded jamming will pulse with 1ms duration and appr. 10% duty cycle within the \"1 minute power step.\"\n\n",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -4774,7 +4774,7 @@
               "test_code": "1.25.4",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 2 dB increments, 30 sec pr. steps",
-              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level is reached.",
+              "description": "PRN coded jamming from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level is reached.",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -4810,7 +4810,7 @@
               "test_code": "1.25.6",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 2 dB increments, 30 sec pr. steps from 1 SDR jammer and 3 CHIRP jammers",
-              "description": "SDR jamming:\nPRN coded jamming from 1 SDR jammers from A50.\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jamming:\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. LOW PWR. The Jammers are connected to RHCP antennas to boost the power. ",
+              "description": "SDR jamming:\nPRN coded jamming from 1 SDR jammers from A50.\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jamming:\nJamming from D150, E150 and F150, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. ",
               "constellation_bands": [
                 "L1",
                 "L5"
@@ -4829,7 +4829,7 @@
               "test_code": "1.25.7",
               "version": 1,
               "name": "Circular PRN jamming power ramp with 2 dB increments, 30 sec pr. steps from 3 SDR jammer and 3 CHIRP jammers",
-              "description": "SDR jamming:\nPRN coded jamming from 1 SDR jammers from A50, B50 and C50.\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jamming:\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. LOW PWR. The Jammers are connected to RHCP antennas to boost the power. ",
+              "description": "SDR jamming:\nPRN coded jamming from 3 SDR jammers from A50, B50 and C50.\nPower ramp up and down. 2 dB steps, 40 steps, 80dB dynamic range \nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. 20 min until max power level.\n\nCHIRP jamming:\nJamming from D150, E150 and F150, with jammer H1.1, H1.4 and H1.5, L1, L2, CHIRP. HIGH PWR. The Jammers are connected to RHCP antennas to boost the power. ",
               "constellation_bands": [
                 "L1",
                 "L2"
@@ -4850,7 +4850,7 @@
               "test_code": "1.25.8",
               "version": 1,
               "name": "Circular AWGN jamming power ramp with 2 dB increments, 6 sec pr. step",
-              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dB with AWGN modulation.\nPower ramp will the be 2 dB steps every 6 sec. \nAt = 5 min. jamming J/S will be at -50dB.\n\n5 min for ramp up - 15 min at max level - 5 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
+              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \n\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dB with AWGN modulation.\nPower ramp will the be 2 dB steps every 6 sec. \nAt = 5 min. jamming J/S will be at -50dB.\n\n5 min for ramp up - 15 min at max level - 5 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -4870,7 +4870,7 @@
               "test_code": "1.25.9",
               "version": 1,
               "name": "Circular AWGN jamming power ramp with 5 dB increments, 30 sec pr. step",
-              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \nJ/S = 80dB signal above satellite reception, at -130dBm.\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dBm with AWGN modulation.\nPower ramp will the be 5 dB steps every 30 sec. \nAt = 7 min. jamming J/S will be at -50dBm.\n\n7 min for ramp up - 10 min at max level - 7 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
+              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \n\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dBm with AWGN modulation.\nPower ramp will the be 5 dB steps every 30 sec. \nAt = 7 min. jamming J/S will be at -50dBm.\n\n7 min for ramp up - 10 min at max level - 7 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -7255,7 +7255,7 @@
               "equipment": [
                 "Spoofer M1.1 Winnie-the-Spoof"
               ],
-              "min_power_w": "0.0001",
+              "min_power_w": "1.0000",
               "max_power_w": "3.0000"
             },
             {
@@ -7339,7 +7339,7 @@
                 "H1.5",
                 "M1.1 Winnie-the-Spoof"
               ],
-              "min_power_w": "0.0000",
+              "min_power_w": "1.0000",
               "max_power_w": "3.0000"
             },
             {
@@ -7347,7 +7347,7 @@
               "test_code": "2.10.6",
               "version": 1,
               "name": "Circle of 3 stationary SDR jammers (PRN) and spoofing circle (route 7), GPS L1 and Galileo E1, power ramping",
-              "description": "PRN coded jamming from SDR jammers from A50, B50 and C50, with the KASTREL system. The jammers are connected to RHCP antennas to boost the power. \n\n20min for ramp up and then 20min for ramp down of jamming. The jamming duration is 40 minutes.  The ramp up and down will be performed in 2 dB steps, 30sec pr. dB steps with an intention to have 80 dB J/S at max reception level from LOK2-ORIG.\n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing circle above position A150, B150 and C150. Spoofing signal will also perform power ramp during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes.\n\nSpoofing route 7. \"Circle of fire\"",
+              "description": "PRN coded jamming from SDR jammers from A50, B50 and C50, with the KASTREL system. The jammers are connected to RHCP antennas to boost the power. \n\n20min for ramp up and then 20min for ramp down of jamming. The jamming duration is 40 minutes.  The ramp up and down will be performed in 2 dB steps, 30sec pr. dB steps with 80 dB dynamic range.\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n\nSpoofing route will start at LOK2-ORIG, and goes out forming a spoofing circle above position A150, B150 and C150. Spoofing signal will also perform power ramp during the first 30 minutes of the test. Spoofing signals: GPS L1 C/A. Galileo E1. Spoofing route duration is 40 minutes.\n\nSpoofing route 7. \"Circle of fire\"",
               "constellation_bands": [
                 "JAM L1, L2",
                 "SPOOF L1 C/A, E1"
@@ -7358,7 +7358,7 @@
                 "F1.4 KASTREL",
                 "F1.5 KASTREL"
               ],
-              "min_power_w": "0.0000",
+              "min_power_w": "1.0000",
               "max_power_w": "3.0000"
             }
           ]
@@ -7832,7 +7832,7 @@
           "group_name": "Meaconing and spoofing from multiple transmitters",
           "description": "This test group is about transmission of a combination of meaconing and spoofing signals from several emitters, either at the same time or by switching between them. This should create a challenging signal environment for affected receivers to navigate. The participants will experience deceptive signals from multiple directions. The tests in this group are purposefully vague to allow for ad hoc tweaks and scenarios.",
           "rationale": "Meaconing is to receive live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. In addition, multiple spoofing signals will be transmitted from different directions. The objective of these tests is to observe how equipment and systems behave during combined meaconing and spoofing scenarios.",
-          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The jammer employed is F8.1 \"Porcus Maior\", see Appendix G for more information about the equipment.",
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\".The spoofer employed is the one at the community house, S. See Appendix G for more information about the equipment.",
           "tests": [
             {
               "test_id": 1,
@@ -8029,7 +8029,7 @@
               "test_code": "3.5.3",
               "version": 1,
               "name": "Power ramp meaconing, 2 dB increments, 30 sec pr. steps, with 3 background jammers (chirp)",
-              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammer H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. \n\nJamming will start together with the meaconing power ramp.\nTotal test time is 55min",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from D150, E150 and F150, with jammer H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. \n\nJamming will start together with the meaconing power ramp.\nTotal test time is 55min",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -8061,7 +8061,7 @@
               "test_code": "3.5.4",
               "version": 1,
               "name": "Power ramp meaconing, 2 dB increments, 1min pr. steps, with 3 background jammers (chirp)",
-              "description": "Power ramp meaconing test in 2 dB increments, 1min sec pr. steps.\n\n40 min for ramp up - 15 min at max level - 40 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. \n\nJamming will start together with the meaconing power ramp.\nTotal test time is 55 min.",
+              "description": "Power ramp meaconing test in 2 dB increments, 1min sec pr. steps.\n\n40 min for ramp up - 15 min at max level - 40 min for ramp down\n\nChirp jamming\nJamming from D150, E150 and F150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. \n\nJamming will start together with the meaconing power ramp.\nTotal test time is 55 min.",
               "constellation_bands": [],
               "equipment": [
                 "F5.1 JAKO",
@@ -8169,7 +8169,7 @@
               "test_code": "3.5.8",
               "version": 1,
               "name": "Power ramp meaconing, 2 dB increments, 30s pr. steps, with 3 background jammers (chirp) and 1 SDR jammer (PRN)",
-              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. \n\nSDR jammer will be at A50.\n\nPower ramp of one SDR jammer in 2 dB increments, 30 sec pr. steps.\n20 min for ramp up - 35 min at max level\n\nJamming will start together with the meaconing power ramp",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from D150, E150 and F150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. \n\nSDR jammer will be at A50.\n\nPower ramp of one SDR jammer in 2 dB increments, 30 sec pr. steps.\n20 min for ramp up - 35 min at max level\n\nJamming will start together with the meaconing power ramp",
               "constellation_bands": [],
               "equipment": [
                 "F5.1 JAKO",
@@ -8186,7 +8186,7 @@
               "test_code": "3.5.9",
               "version": 1,
               "name": "Power ramp meaconing, 2 dB increments, 30s pr. steps, with 3 background jammers (chirp) and 3 SDR jammers (PRN)",
-              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from A150, B150 and C150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. LOW PWR). The jammers are connected to RHCP antennas to boost the power. (appr. 10dBm output.)\n\n/Power ramp jamming from A50, B50 and C50 with F1.3, F1. 4 and F1.5 KASTREL (SDR jammers) in 2 dB increments, 30 sec pr. steps. 20 min for ramp up - 35 min at max level. (appr. 80dB J/S).\n\nJamming will start together with the meaconing power ramp.\nNovatel jammer will turn on and stay on for the duration of the test.\nSDR jammers will perform power ramp.\nJako will perform meaconing power ramp up and down on all GNSS bands.\n",
+              "description": "Power ramp meaconing test in 2 dB increments, 30 sec pr. steps.\n\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nChirp jamming\nJamming from D150, E150 and F150, with jammers H1.1, H1.4 and H1.5 (settings: L1, L2, CHIRP. HIGH PWR). The jammers are connected to RHCP antennas to boost the power. (appr. 10dBm output.)\n\n/Power ramp jamming from A50, B50 and C50 with F1.3, F1. 4 and F1.5 KASTREL (SDR jammers) in 2 dB increments, 30 sec pr. steps. 20 min for ramp up - 35 min at max level. (appr. 80dB J/S).\n\nJamming will start together with the meaconing power ramp.\nNovatel jammer will turn on and stay on for the duration of the test.\nSDR jammers will perform power ramp.\nJako will perform meaconing power ramp up and down on all GNSS bands.\n",
               "constellation_bands": [],
               "equipment": [
                 "F5.1 JAKO",
@@ -8231,6 +8231,61 @@
               ],
               "min_power_w": "0.0000",
               "max_power_w": "3.0000"
+            }
+          ]
+        },
+        {
+          "group_id": 6,
+          "group_name": "Meaconing from multiple transmitters",
+          "description": "This test group is about transmission of several meaconing signals from several emitters, either at the same time or by switching between them. This should create a challenging signal environment for affected receivers to navigate. The participants will experience deceptive signals from multiple directions.",
+          "rationale": "Meaconing is to receive live navigation signals and rebroadcast them with higher power to deceive GNSS receivers to take the position of the meaconing system. The objective of these tests is to observe how equipment and systems behave when exposed to deceptive signals from different directions.",
+          "comment": "The meaconing setup employed is F1.1 \"Porcellus\" and the meaconing setup at the community house, M. See Appendix G for more information about the equipment.",
+          "tests": [
+            {
+              "test_id": 1,
+              "test_code": "3.6.1",
+              "version": 1,
+              "name": "Meaconing from two emitters at two locations in sequence",
+              "description": "Meaconing from RX1, transmitter from Ramnan, combined with meaconing from RXO, transmitter from the community house. RX1-meaconing will contain both L1 and L2 bands while RXO-meaconing is all bands. The transmissions will be active one at a time. 5 minutes per emitter for 20 minutes, then 2 minutes each for the last 8 minutes. 10 second overlapping when switching emitter.",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "E5b",
+                "E6",
+                "B1I"
+              ],
+              "equipment": [
+                "F1.1",
+                "M"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "10.0000"
+            },
+            {
+              "test_id": 2,
+              "test_code": "3.6.2",
+              "version": 1,
+              "name": "Meaconing from two emitters at two locations at the same time",
+              "description": "Meaconing from RX1, transmitter from Ramnan, combined with meaconing from RXO, transmitter from the community house. RX1-meaconing will contain both L1 and L2 bands while RXO-meaconing is all bands. The transmissions will start at the same time and continue to run simultaneously.",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "G1",
+                "G2",
+                "E5b",
+                "E6",
+                "B1I"
+              ],
+              "equipment": [
+                "F1.1",
+                "M"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "10.0000"
             }
           ]
         }
