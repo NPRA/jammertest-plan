@@ -84,7 +84,7 @@
           "test_id": "3.2.11",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
-          "comment": "Meaconing from F1.1 Porcellus with increasing switching frequency between two pick-up antennas: RX1 and RX2 with jamming from the community house. The switching frequency will double every 2 minutes, starting with 1 minute switching frequency, then 30 sec., etc. Meaconing on L1 and L2, jamming on L5, G1, G2, B1I, E5b, E6 from the community house",
+          "comment": "Meaconing from F1.1 Porcellus with increasing switching frequency between two pick-up antennas: RX1 and RX2 with jamming from the community house. The switching frequency will double every 2 minutes, starting with 1 minute switching frequency, then 30 sec., etc. Meaconing on L1 and L2, jamming on L5, G1, B1I, E6 from the community house.",
           "status": "notRun"
         },
         {
