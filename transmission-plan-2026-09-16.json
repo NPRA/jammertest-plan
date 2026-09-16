@@ -22,7 +22,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. No jamming. Simulated position: 70 N, 10 E. Simulated start time: 01.10.2026 12:00. \n\nPower will be ramped up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T10:00:00",
@@ -124,8 +124,17 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-16T16:15:00",
-          "end_time": "2026-09-16T16:25:00",
+          "start_time": "2026-09-16T16:00:00",
+          "end_time": "2026-09-16T16:15:00",
+          "test_id": "2.3.18",
+          "test_contact": "Jørn Skorstad (Nkom)",
+          "power_w": 0.316,
+          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Scenario: One satellite is configured as PRN 37 from the start of the simulation and remains PRN 37 throughout the scenario. This tests receiver behaviour when a reserved PRN is present during acquisition and tracking. The simulated PRN 37 signal will be transmitted with satellite health set to healthy.",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-16T16:30:00",
+          "end_time": "2026-09-16T16:40:00",
           "test_id": "2.3.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
@@ -133,8 +142,8 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-16T16:30:00",
-          "end_time": "2026-09-16T16:40:00",
+          "start_time": "2026-09-16T16:55:00",
+          "end_time": "2026-09-16T17:05:00",
           "test_id": "2.3.10",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
@@ -142,21 +151,12 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-16T16:45:00",
-          "end_time": "2026-09-16T17:00:00",
+          "start_time": "2026-09-16T17:15:00",
+          "end_time": "2026-09-16T17:30:00",
           "test_id": "2.3.11",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Simulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-16T17:15:00",
-          "end_time": "2026-09-16T17:30:00",
-          "test_id": "2.3.18",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0.316,
-          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Scenario: One satellite is configured as PRN 37 from the start of the simulation and remains PRN 37 throughout the scenario. This tests receiver behaviour when a reserved PRN is present during acquisition and tracking. The simulated PRN 37 signal will be transmitted with satellite health set to healthy.",
           "status": "notRun"
         },
         {
@@ -208,7 +208,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 1,
           "comment": "Spoofing route 7. \"Circle of Fire\". Employing M1.1 Winnie-the-Spoof",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T10:00:00",
@@ -312,8 +312,8 @@
           "test_id": "1.11.12",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6",
-          "status": "notRun"
+          "comment": "Employing H1.6\n\nConfig:\n- high power\n- tx on\n- L1 & L2 (chirp)",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T09:30:00",
@@ -321,8 +321,8 @@
           "test_id": "1.11.13",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7",
-          "status": "notRun"
+          "comment": "Employing H1.6, H1.7\n\nConfig:\n- high power\n- tx on\n- L1 & L2 (chirp)\n\nOne at the community house and one at the crossroad.",
+          "status": "running"
         },
         {
           "start_time": "2026-09-16T10:00:00",
