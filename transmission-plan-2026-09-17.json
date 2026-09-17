@@ -13,24 +13,24 @@
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
           "comment": "MANDATORY",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-17T09:00:00",
           "end_time": "2026-09-17T09:40:00",
           "test_id": "2.5.2",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Power will be ramped up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
-          "status": "notRun"
+          "power_w": 0,
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Power will be ramped up from -45 dBm to 10 dBm in 5 dB steps, with each step lasting 3 minutes. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-17T10:00:00",
           "end_time": "2026-09-17T10:40:00",
           "test_id": "2.4.14",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Power will be ramped up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes. Time offset is - 3 minutes (180 seconds), so \"back into the past\".",
+          "power_w": 0,
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Power will be ramped up from -45 dBm to 10 dBm in 5 dB steps, with each step lasting 3 minutes. Time offset is - 3 minutes (180 seconds), so \"back into the past\".",
           "status": "notRun"
         },
         {
@@ -39,7 +39,7 @@
           "test_id": "2.4.13",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. 5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. The pseudorange error is applied to all satellites, starting five minutes after the spoofing starts (these first five minutes are \"true\". The applied error should equal a drift of 3 ns/s.",
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. 5 minutes of initial jamming (L1, G1, B1I, L2 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. The pseudorange error is applied to all satellites, starting five minutes after the spoofing starts (these first five minutes are \"true\". The applied error should equal a drift of 3 ns/s.",
           "status": "notRun"
         },
         {
@@ -48,7 +48,7 @@
           "test_id": "2.4.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. UNIX time rollover test. Starting time is 03:04:00 19.01.2038 UTC. Incoherent.",
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5A+B, E6 HAS. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Starting time is 03:04:00 19.01.2038 UTC. Incoherent. UNIX time rollover at 030417.",
           "status": "notRun"
         },
         {
@@ -66,7 +66,7 @@
           "test_id": "2.5.25",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18.",
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18.",
           "status": "notRun"
         },
         {
@@ -97,21 +97,12 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T15:20:00",
-          "end_time": "2026-09-17T16:00:00",
+          "start_time": "2026-09-17T15:25:00",
+          "end_time": "2026-09-17T16:40:00",
           "test_id": "2.5.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. No jamming. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error is gradually increased throughout the test.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-17T16:15:00",
-          "end_time": "2026-09-17T16:30:00",
-          "test_id": "2.7.17",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. UNIX time rollover, starting time 03:04:00 19.01.2038. Coherent.",
           "status": "notRun"
         },
         {
@@ -129,7 +120,7 @@
           "test_id": "2.5.28",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds.",
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds.",
           "status": "notRun"
         },
         {
@@ -162,8 +153,8 @@
           "test_id": "3.5.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \n20 min for ramp up - 15 min at max level - 20 min for ramp down",
-          "status": "notRun"
+          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nTest was started as planned at 9:00:00, but test log was started before 9:01:24.",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-17T10:00:00",
@@ -230,7 +221,7 @@
         },
         {
           "start_time": "2026-09-17T17:00:00",
-          "end_time": "2026-09-17T17:55:00",
+          "end_time": "2026-09-17T17:45:00",
           "test_id": "3.5.9",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
@@ -268,7 +259,7 @@
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
           "comment": "Employing M1.1 Winnie-the-Spoof.\nThis actual test will take 5 minutes more than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads at 09.23 which gives us a 7 minutes break instead of the regular 10 min.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-17T09:30:00",
