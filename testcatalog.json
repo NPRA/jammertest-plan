@@ -3003,7 +3003,7 @@
               "test_id": 1,
               "test_code": "1.16.1",
               "version": 1,
-              "name": "High power jamming: PNR: L1",
+              "name": "High power jamming: PRN: L1",
               "description": "High Power PRN jamming: L1",
               "constellation_bands": [
                 "L1",
@@ -3020,7 +3020,7 @@
               "test_id": 2,
               "test_code": "1.16.2",
               "version": 1,
-              "name": "High power jamming: PNR: L1, G1",
+              "name": "High power jamming: PRN: L1, G1",
               "description": "High Power PRN jamming: L1, G1",
               "constellation_bands": [
                 "L1",
@@ -3038,7 +3038,7 @@
               "test_id": 3,
               "test_code": "1.16.3",
               "version": 1,
-              "name": "High power jamming: PNR: L1, G1, L2",
+              "name": "High power jamming: PRN: L1, G1, L2",
               "description": "High Power PRN jamming: L1, G1, L2",
               "constellation_bands": [
                 "L1",
@@ -3057,7 +3057,7 @@
               "test_id": 4,
               "test_code": "1.16.4",
               "version": 1,
-              "name": "High power jamming: PNR: L1, G1, L2, L5",
+              "name": "High power jamming: PRN: L1, G1, L2, L5",
               "description": "High Power PRN jamming: L1, G1, L2, L5",
               "constellation_bands": [
                 "L1",
@@ -3079,7 +3079,7 @@
               "test_id": 5,
               "test_code": "1.16.5",
               "version": 1,
-              "name": "High power jamming: PNR: L1, G1, L2, L5, E6, from two locations",
+              "name": "High power jamming: PRN: L1, G1, L2, L5, E6, from two locations",
               "description": "High Power PRN jamming from two locations on bands: L1, G1, L2, L5, E6. One hour jamming from one emitter, then one hour jamming from both,  then last hour jamming from the second emitter only",
               "constellation_bands": [
                 "L1",
@@ -3103,7 +3103,7 @@
               "test_id": 6,
               "test_code": "1.16.6",
               "version": 1,
-              "name": "High power jamming: PNR: L1, G1, B1I, L2, L5, E5b, E6, G2, from two locations",
+              "name": "High power jamming: PRN: L1, G1, B1I, L2, L5, E5b, E6, G2, from two locations",
               "description": "High Power PRN jamming from two locations on bands: L1, G1, B1I, L2, L5, E5b, E6, G2. One hour jamming from one emitter, then one hour jamming from both,  then last hour jamming from the second emitter only",
               "constellation_bands": [
                 "L1",
@@ -3126,7 +3126,7 @@
               "test_id": 7,
               "test_code": "1.16.7",
               "version": 1,
-              "name": "High power jamming: PNR: L1, G1, B1I, L2, L5, E5b, E6, G2, Iridium STL, from two locations",
+              "name": "High power jamming: PRN: L1, G1, B1I, L2, L5, E5b, E6, G2, Iridium STL, from two locations",
               "description": "High Power PRN jamming from two locations on bands:  L1, G1, B1I, L2, L5, E5b, E6, G2, Iridium STL. One hour jamming from one emitter, then one hour jamming from both,  then last hour jamming from the second emitter only\n\nContinuous stationary high-power jamming with PRN, all GNSS bands. Periodic jamming in the Iridium band. ",
               "constellation_bands": [
                 "L1",
@@ -4439,6 +4439,26 @@
               ],
               "min_power_w": "200.0000",
               "max_power_w": "200.0000"
+            },
+            {
+              "test_id": 7,
+              "test_code": "1.21.7",
+              "version": 1,
+              "name": "Sweep and CW jamming with constant power from two transmissions",
+              "description": "Jamming of several LEO-satellites at once from two transmitters at two different locations. \n\nTX1: F8.1 at Ramnan with sweep: L1, BW: 10 MHz, sweep rate: 100 kHz\nTX2: Winnie-the-Spoof at the cemetery with CW: L1, L2, L5, 1185 MHz.\n\nTX1: 30 degrees elevation, heading NW\nTX\": heading towards Bleik \n",
+              "constellation_bands": [
+                "L1",
+                "E1",
+                "L2",
+                "L5",
+                "E5a"
+              ],
+              "equipment": [
+                "M1.1 Winnie-the-Spoof",
+                "F8.1"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "50.0000"
             }
           ]
         },
@@ -4868,9 +4888,9 @@
             {
               "test_id": 9,
               "test_code": "1.25.9",
-              "version": 1,
+              "version": 2,
               "name": "Circular AWGN jamming power ramp with 5 dB increments, 30 sec pr. step",
-              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \n\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dBm with AWGN modulation.\nPower ramp will the be 5 dB steps every 30 sec. \nAt = 7 min. jamming J/S will be at -50dBm.\n\n7 min for ramp up - 10 min at max level - 7 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
+              "description": "Additive White Gaussian Noise (AWGN jamming) from 3 directions in a circular setup (3 SDR jammers from A50, B50 and C50)\nPower ramp up and down. \n2 dB steps, 20 steps, 40dB dynamic range. \n\n\nThe test will run as follows:\nNo jamming for the 3 first minutes of the test.\nAt t = 3 min jamming J/S turn on  at -90 dBm with AWGN modulation.\nPower ramp will the be 7 dB steps every 30 sec. \nAt = 7 min. jamming J/S will be at -34dBm.\n\n7 min for ramp up - 10 min at max level - 7 min for ramp down.\n\nRamp up and ramp down will be symmetrical\n\nThe AWGN jamming will cover both GPS and Xona frequencies.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -5659,6 +5679,43 @@
               ],
               "min_power_w": "0.3160",
               "max_power_w": "0.3160"
+            },
+            {
+              "test_id": 20,
+              "test_code": "2.3.20",
+              "version": 1,
+              "name": "Large position jump with almanac corruption",
+              "description": "Signals: GPS L1 C/A, L5. Large position jump to fixed position at 55.75665142638285, 37.614228465892054. Simulated start time: Referenced to live GPS-signals. Spoofing contains almanac corrupted data. ",
+              "constellation_bands": [
+                "L1",
+                "L5"
+              ],
+              "equipment": [
+                "Winnie-the-Spoof"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "0.0000"
+            },
+            {
+              "test_id": 21,
+              "test_code": "2.3.21",
+              "version": 1,
+              "name": "Simulated driving (route 9)",
+              "description": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Starts at fixed position (60.8187630, 10.7965030) for ten minutes before moving along the road to position (60.8085369, 10.8277665). Simulated start time: Referenced to live GPS-signals.",
+              "constellation_bands": [
+                "L1",
+                "L2",
+                "L5",
+                "E1",
+                "E5a",
+                "E5b",
+                "E6"
+              ],
+              "equipment": [
+                "S"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "0.0000"
             }
           ]
         },
@@ -7956,6 +8013,20 @@
               ],
               "min_power_w": "0.0000",
               "max_power_w": "0.0000"
+            },
+            {
+              "test_id": 11,
+              "test_code": "3.4.11",
+              "version": 1,
+              "name": "Meaconing and spoofing at the same time from two different locations - horisontal",
+              "description": "Meaconing from the communit house using RXO, combined with spoofing from the cemetery, transmitting at the same time and from approximatly the same height. Meaconing will contain all bands while spoofing is L1 and L5. The spoofing will be scenario 2.3.20 (Large position jump with almanac corruption).",
+              "constellation_bands": [],
+              "equipment": [
+                "M",
+                "M1.1 Winnie-the-Spoof"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "0.0000"
             }
           ]
         },
@@ -8075,9 +8146,9 @@
             {
               "test_id": 5,
               "test_code": "3.5.5",
-              "version": 1,
+              "version": 2,
               "name": "Pulsed meaconing and jamming with 1 SDR jammer (PRN)",
-              "description": "Step 1: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 2: Meaconing is turned on at J/Smax – 60 dB attenuation for 4 min\nStep 3: No jamming for 5 min  \nStep 4: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 5: Meaconing is turned on at J/Smax – 50 dB attenuation for 4 min\nStep 6: No jamming for 5 min  \nStep 7: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 8: Meaconing is turned on at J/Smax – 40 dB attenuation for 4 min\nStep 9: No jamming for 5 min  \nStep 10: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 30 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nStep 10: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 20 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nTest time: 50 min\n\nF1.3 KASTREL (SDR jammer) will be placed at A50.\nF5.1 JAKO will perform meaconing on all GNSS bands.",
+              "description": "Step 1: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 2: Meaconing is turned on at J/Smax – 50 dB attenuation for 4 min\nStep 3: No jamming for 5 min  \nStep 4: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 5: Meaconing is turned on at J/Smax – 40 dB attenuation for 4 min\nStep 6: No jamming for 5 min  \nStep 7: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 8: Meaconing is turned on at J/Smax – 30 dB attenuation for 4 min\nStep 9: No jamming for 5 min  \nStep 10: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 20 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nStep 10: F1.3 KASTREL is turned on J/Smax for 60s and then turned off\nStep 11: Meaconing is turned on at J/Smax – 10 dB attenuation for 4 min\nStep 12: No jamming for 5 min  \nTest time: 50 min\n\nF1.3 KASTREL (SDR jammer) will be placed at A50.\nF5.1 JAKO will perform meaconing on all GNSS bands.",
               "constellation_bands": [
                 "L1",
                 "L2",
@@ -8286,6 +8357,29 @@
               ],
               "min_power_w": "0.0000",
               "max_power_w": "10.0000"
+            }
+          ]
+        },
+        {
+          "group_id": 7,
+          "group_name": "Meaconing and jamming from multiple transmitters",
+          "description": "Meaconing from one transmitter and jamming from another at the same time. ",
+          "rationale": "Explore the combinations of denial and deception signals arriving from different directions. ",
+          "comment": "",
+          "tests": [
+            {
+              "test_id": 1,
+              "test_code": "3.7.1",
+              "version": 1,
+              "name": "Meaconing and jamming at the same time from two different locations",
+              "description": "Meaconing from the community house using RX0 combined with jamming signals from the cemetery. Meaconing will contain all bands while the jamming will be PRN: L1, L2, L5",
+              "constellation_bands": [],
+              "equipment": [
+                "M",
+                "M1.1 Winnie-the-Spoof"
+              ],
+              "min_power_w": "0.0000",
+              "max_power_w": "0.0000"
             }
           ]
         }
