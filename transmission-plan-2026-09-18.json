@@ -7,6 +7,15 @@
       "location_name": "Test Area 1",
       "tests": [
         {
+          "start_time": "2026-09-18T07:00:00",
+          "end_time": "2026-09-18T07:15:00",
+          "test_id": "3.4.11",
+          "test_contact": "Jørn Skorstad (Nkom)",
+          "power_w": 0,
+          "comment": "Meaconing from the community house using RXO at -20 dBm, and spoofing from Winnie the Spoof from the cemetary at 15 dBm",
+          "status": "hasRun"
+        },
+        {
           "start_time": "2026-09-18T08:00:00",
           "end_time": "2026-09-18T08:30:00",
           "test_id": "0.0.1",
@@ -16,13 +25,13 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-18T09:00:00",
-          "end_time": "2026-09-18T09:15:00",
-          "test_id": "3.4.11",
-          "test_contact": "Jørn Skorstad (Nkom)",
+          "start_time": "2026-09-18T08:30:00",
+          "end_time": "2026-09-18T08:35:00",
+          "test_id": "0.3.1",
+          "test_contact": "",
           "power_w": 0,
-          "comment": "Meaconing from the community house using RXO at -20 dBm, and jamming from Winnie the Spoof from the cemetary at 15 dBm",
-          "status": "notRun"
+          "comment": "",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T09:25:00",
@@ -31,7 +40,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "Jamming of LEO satellites from two locations.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T10:15:00",
@@ -40,7 +49,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
           "comment": "Sequential powering on of emitters with two minute intervals: 5 small jammers at Bleik (H1.1, H1.4, H1.5, H1.6, H1.7 (L1, high power, NB)), high power from Porcus Maior, meaconing from the community house, then spoofing from Winnie the Spoof at the cemetary. Spoofing power is increased 5 dB every 5 min up to 30 dBm. \nBands affected: L1, L2, L5, G1, G2, E5b, E6, B1I. Meaconing on all bands. Spoofing data TBA.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T11:10:00",
@@ -49,7 +58,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
           "comment": "Ramping power jamming on all bands including Iridium STL",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T11:45:00",
@@ -58,16 +67,16 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
           "comment": "Spoofing to a fixed position at the road, then following the road ahead. Starting position and route TBA. (Bjor-test)",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T12:15:00",
           "end_time": "2026-09-18T12:30:00",
-          "test_id": "3.7.1",
+          "test_id": "3.4.11",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Meaconing from the community house using RXO at -10 dBm, and jamming from Winnie the Spoof from the cemetary at 20 dBm",
-          "status": "notRun"
+          "comment": "Meaconing from the community house using RXO at -20 dBm, and spoofing from Winnie the Spoof from the cemetary at 15 dBm",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T12:45:00",
@@ -76,7 +85,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.0316,
           "comment": "5 min static, then drone route spelling \"JAMMERTEST\"",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-18T13:00:00",
@@ -115,6 +124,15 @@
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
           "comment": "SITE IS CLOSED!",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-18T14:52:00",
+          "end_time": "2026-09-18T15:07:00",
+          "test_id": "2.6.9",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n18:00:00 Start\n18:15:00 Stop - rerun of previous test",
           "status": "notRun"
         }
       ]
