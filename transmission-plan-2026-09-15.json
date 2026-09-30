@@ -22,7 +22,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "PRN jamming, from F8.1 Porcus Maior (for chiprates, see Testcatalog Table 5.25), at L1 and frequency sweep jamming within the Iridium band (1626 - 1626.5 MHz) with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) and down to 7.9 µW (-21dBm) with 2 dB increments. Power level step time is 20 seconds.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T09:40:00",
@@ -31,7 +31,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "PRN jamming, from F8.1 Porcus Maior (for chiprates, see Testcatalog Table 5.25),  with a power ramp from 7.9 µW (-21dBm) to a maximum of 50 W (47dBm) and down to 7.9 µW again, with 2 dB increments, within the test bands L1, L2, L5, G1, G2, E5b, E6, B1I. Power level step time is 20 seconds",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T10:20:00",
@@ -40,7 +40,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Meaconing from F1.1 Porcellus at approximately 40 dBm from F1.1 Porcellus at Ramnan of the L1 and L2 bands using receiver RX1.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T10:45:00",
@@ -49,7 +49,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Meaconing of the L1 and L2 bands will be conducted from F1.1 Porcellus at approximately 40 dBm using receiver RX1 for 11 minutes. Prior to this, PRN jamming will be transmitted from Bleik at 30 dBm for 5 minutes (PRNs: L1, L2, L5, G1, G2, E5b, E6, and B1I). The meaconing activity will start 4 minutes after the jamming begins, resulting in a 1-minute overlap between the two activities.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T11:15:00",
@@ -58,7 +58,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Meaconing with F1.1 Porcellus using receiver RX1, with ramping power. Power is ramped up from 0.001 W to 10 W and then down again in to 0.001 W in 5 dB steps, with each step lasting for 2 minutes.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T12:00:00",
@@ -76,7 +76,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Meaconing from F1.1 Porcellus with increasing switching frequency between two antennas: RX1 and RX2. The switching frequency will double every 2 minutes. The first switching frequency will be 1 minute (between RX1 and RX2), then 30 sec, then 15 sec, etc. until the end of the test.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T14:00:00",
@@ -85,7 +85,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Meaconing from F1.1 Porcellus with increasing switching frequency between two pick-up antennas: RX1 and RX2 with jamming from the community house. The switching frequency will double every 2 minutes, starting with 1 minute switching frequency, then 30 sec., etc. Meaconing on L1 and L2, jamming on L5, G1, B1I, E6 from the community house.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T14:55:00",
@@ -94,7 +94,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T15:25:00",
@@ -103,7 +103,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T15:55:00",
@@ -112,7 +112,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50.1,
           "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T16:25:00",
@@ -121,7 +121,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "Out of and in band RFI from F8.1 Porcus Maior at Ramnan.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T17:00:00",
@@ -130,7 +130,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "5 minutes per emitter for 20 minutes, then 2 minutes each for the last 8 minutes. 10 second overlapping when switching emitter. Meaconing from Ramnan will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus using receiver RX1, while meaconing from the community house using RXO will be at 0 dBm from M. The power levels should then be comparable at the community house.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T17:45:00",
@@ -139,7 +139,16 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 10,
           "comment": "Meaconing from Ramnan and from the community house at the same time. Meaconing from Ramnan will be conducted with a power level of approximately 40 dBm from F1.1 Porcellus using receiver RX1, while meaconing from the community house using RXO will be at 0 dBm from M. The power levels should then be comparable at the community house.",
-          "status": "notRun"
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-15T18:05:00",
+          "end_time": "2026-09-15T18:45:00",
+          "test_id": "0.3.1",
+          "test_contact": "",
+          "power_w": 0,
+          "comment": "",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T18:30:00",
@@ -151,13 +160,22 @@
           "status": "notRun"
         },
         {
+          "start_time": "2026-09-15T18:45:00",
+          "end_time": "2026-09-15T18:50:00",
+          "test_id": "0.3.1",
+          "test_contact": "",
+          "power_w": 0,
+          "comment": "Intermittent jamming calibration tests",
+          "status": "notRun"
+        },
+        {
           "start_time": "2026-09-15T19:00:00",
           "end_time": "2026-09-15T22:00:00",
           "test_id": "1.16.7",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
           "comment": "One hour of high power jamming from F8.1 Porcus Maior at Ramnan, followed by one hour jamming from both F8.1 Porcus Maior and the community house (S), followed by one hour of jamming from the community house (S). Power output from the community house will be adjusted so that the field strength outside the community house is approximately equal to that from F8.1 Porcus Maior (which will be 50 W).",
-          "status": "notRun"
+          "status": "hasRun"
         }
       ]
     },
@@ -165,6 +183,15 @@
       "location_id": 2,
       "location_name": "Test Area 2",
       "tests": [
+        {
+          "start_time": "2026-09-15T07:00:00",
+          "end_time": "2026-09-15T07:55:00",
+          "test_id": "1.25.4",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 3,
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\nTest was delayed due to technical issues with jammers from FOI.",
+          "status": "hasRun"
+        },
         {
           "start_time": "2026-09-15T08:00:00",
           "end_time": "2026-09-15T08:30:00",
@@ -175,31 +202,13 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-15T09:00:00",
-          "end_time": "2026-09-15T09:55:00",
-          "test_id": "1.25.4",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T10:15:00",
-          "end_time": "2026-09-15T11:10:00",
+          "start_time": "2026-09-15T08:15:00",
+          "end_time": "2026-09-15T09:10:00",
           "test_id": "1.25.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T11:15:00",
-          "end_time": "2026-09-15T11:45:00",
-          "test_id": "1.25.5",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
-          "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
-          "status": "notRun"
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\nThere was a power outage approximately at 11:45, so this might have affected the test.",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T12:00:00",
@@ -211,13 +220,31 @@
           "status": "notRun"
         },
         {
+          "start_time": "2026-09-15T12:45:00",
+          "end_time": "2026-09-15T13:40:00",
+          "test_id": "1.25.6",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. F1.3 KASTREL is used for the ramping.\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n H1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. HIGH PWR), \nCHIRP jammers, will be on for the whole test from D150, E150 and F150.\n\nThe test was started as planned 14:45:00 as planned but the logging was started 14:15:22 by mistake.",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-15T12:50:00",
+          "end_time": "2026-09-15T13:45:00",
+          "test_id": "1.25.7",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5) Jamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\nH1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. HIGH PWR), \nCHIRP jammers, will be on for the whole test from D150, E150 and F150.\n\nJamming was started 20 seconds later than planned. Jammer on E150 was active approximately 3 seconds prior to the jamming started.",
+          "status": "hasRun"
+        },
+        {
           "start_time": "2026-09-15T13:00:00",
           "end_time": "2026-09-15T13:55:00",
           "test_id": "1.25.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
           "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down. 1 min pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T14:00:00",
@@ -226,16 +253,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
           "comment": "10 min for ramp up - 10 min at max level - 10 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)\n\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T14:45:00",
-          "end_time": "2026-09-15T15:40:00",
-          "test_id": "1.25.6",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. F1.3 KASTREL is used for the ramping.\nJamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\n H1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. HIGH PWR), \nCHIRP jammers, will be on for the whole test from D150, E150 and F150.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T16:15:00",
@@ -244,16 +262,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "7 min for ramp up - 10 min at max level - 7 min for ramp down. 30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5)",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T16:50:00",
-          "end_time": "2026-09-15T17:45:00",
-          "test_id": "1.25.7",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "20 min for ramp up - 15 min at max level - 20 min for ramp down\n30 sec pr. dB steps. Employing all three KASTREL jammers (F1.3, F1.4 and F1.5) Jamming starts at -110dBm and stops at -30dBm \n(measured power @ LOK2_origo)\n\nH1.1, H1.4 and H1.5, (setting: L1, L2, CHIRP. HIGH PWR), \nCHIRP jammers, will be on for the whole test from D150, E150 and F150.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T18:30:00",
@@ -271,6 +280,42 @@
       "location_name": "Test Area 3",
       "tests": [
         {
+          "start_time": "2026-09-15T05:00:00",
+          "end_time": "2026-09-15T05:40:00",
+          "test_id": "1.11.17",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": "Equipment:\n- H1.6 (front car)\n- H1.7 (center car)\n- H3.2 (rear car)\n\nConfig H1.6 & H1.7\n- high power\n- tx on\n- L1 & L2 (narrow band)\n\nConfig H3.2\n- ON",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-15T07:00:00",
+          "end_time": "2026-09-15T07:20:00",
+          "test_id": "1.11.12",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": "Employing H1.6\n\nConfig:\n- high power\n- tx on\n- L1 & L2 (narrow band)",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-15T07:30:00",
+          "end_time": "2026-09-15T07:50:00",
+          "test_id": "1.11.13",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": "Employing H1.6, H1.7\n\nConfig:\n- high power\n- tx on\n- L1 & L2 (narrow band)",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-15T08:00:00",
+          "end_time": "2026-09-15T08:20:00",
+          "test_id": "1.11.14",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": "Employing H1.6, H1.7 and H4.1.\n\nConfig H1.6 & H1.7:\n- high power\n- tx on\n- L1 & L2 (narrow band)\n\nConfig H4.1:\n- ON",
+          "status": "hasRun"
+        },
+        {
           "start_time": "2026-09-15T08:00:00",
           "end_time": "2026-09-15T08:30:00",
           "test_id": "0.0.1",
@@ -280,49 +325,31 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-15T09:00:00",
-          "end_time": "2026-09-15T09:20:00",
-          "test_id": "1.11.12",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Employing H1.6",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T09:30:00",
-          "end_time": "2026-09-15T09:50:00",
-          "test_id": "1.11.13",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T10:00:00",
-          "end_time": "2026-09-15T10:20:00",
-          "test_id": "1.11.14",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7 and H4.1.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T10:30:00",
-          "end_time": "2026-09-15T11:10:00",
+          "start_time": "2026-09-15T08:30:00",
+          "end_time": "2026-09-15T09:10:00",
           "test_id": "1.11.15",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6",
-          "status": "notRun"
+          "comment": "Employing H1.6\n\nConfig:\n- high power\n- tx on\n- L1 & L2 (narrow band)",
+          "status": "hasRun"
         },
         {
-          "start_time": "2026-09-15T11:20:00",
-          "end_time": "2026-09-15T12:00:00",
+          "start_time": "2026-09-15T09:20:00",
+          "end_time": "2026-09-15T10:00:00",
           "test_id": "1.11.16",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7",
-          "status": "notRun"
+          "comment": "Employing H1.6, H1.7\n\nConfig H1.6 & H1.7:\n- high power\n- tx on\n- L1 & L2 (narrow band)",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-15T10:40:00",
+          "end_time": "2026-09-15T11:30:00",
+          "test_id": "1.11.17",
+          "test_contact": "",
+          "power_w": 0.1,
+          "comment": "Equipment:\n- H6.2 (front car)\n- H6.4 (center car)\n- H3.1(rear car)\n\nConfig\nH6.2, H6.4 & H3.1: ON",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T12:00:00",
@@ -334,31 +361,22 @@
           "status": "notRun"
         },
         {
+          "start_time": "2026-09-15T12:00:00",
+          "end_time": "2026-09-15T12:40:00",
+          "test_id": "1.11.17",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": ".Equipment:\n- F6.1 (front car)\n- H6.1 (center car)\n- H1.2 (rear car)\n\nConfig\nF6.1\n- L1, L2, L3, L4 & L5 full strength\n\nH6.1 & H1.2\n- ON",
+          "status": "hasRun"
+        },
+        {
           "start_time": "2026-09-15T13:00:00",
-          "end_time": "2026-09-15T13:40:00",
-          "test_id": "1.11.17",
+          "end_time": "2026-09-15T13:30:00",
+          "test_id": "1.11.14",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T13:50:00",
-          "end_time": "2026-09-15T14:30:00",
-          "test_id": "1.11.17",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T14:40:00",
-          "end_time": "2026-09-15T15:30:00",
-          "test_id": "1.11.17",
-          "test_contact": "",
-          "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
+          "comment": "Employing H1.6, H1.7 and F6.1.\n\nConfig H1.6 & H1.7 (each end of the test area)\n- high power\n- tx on\n- L1 & L2 (narrow band)\n\nConfig (Middle, @Stave)\nF6.1\n- L1, L2, L3, L4 & L5 full strength",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-15T15:30:00",
@@ -367,15 +385,6 @@
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
           "comment": "Coffee break.\n\nWe would appreciate receiving feedback on any ad hoc tests you would like to conduct from 16:50 onwards (see the test schedule). This will help us plan for the required personnel, vehicles and equipment, so we can try to accommodate your wishes.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-15T16:00:00",
-          "end_time": "2026-09-15T16:40:00",
-          "test_id": "1.11.17",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
           "status": "notRun"
         },
         {

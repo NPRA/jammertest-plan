@@ -31,7 +31,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: Galileo E1. No jamming. Simulated position: 70 N, 10 E. Simulated start time: 01.10.2026 12:00.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T10:20:00",
@@ -40,7 +40,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A. No jamming. Simulated position: 70 N, 10 E. Simulated start time: 01.10.2026 12:00.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T10:40:00",
@@ -49,7 +49,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5a, E5b, E6. No jamming. Simulated position: 70 N, 10 E. Simulated start time: 01.10.2026 12:00.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T11:25:00",
@@ -58,7 +58,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A. Galileo E1. Simulated start position: Bleik community house parking lot. Simulated start time: 01.10.2026 12:00.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T11:45:00",
@@ -67,7 +67,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission. Simulated start position: Bleik community house parking lot. Simulated start time: 01.10.2026 12:00.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T12:00:00",
@@ -76,7 +76,16 @@
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
           "comment": "Lunch",
-          "status": "notRun"
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-16T12:05:00",
+          "end_time": "2026-09-16T12:30:00",
+          "test_id": "0.3.1",
+          "test_contact": "",
+          "power_w": 0,
+          "comment": "Adhoc test from Bleik harbour, jamming with H1.3 and H6.2",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T13:00:00",
@@ -85,7 +94,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.3162,
           "comment": "Signals: EGNOS L1. The transmission of false SBAS signals will start immediately upon test start.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T13:30:00",
@@ -94,7 +103,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.3162,
           "comment": "Signals: EGNOS L1. The transmission of false SBAS signals will start immediately upon test start. \n\nTest will also include coherent spoofing of GPS L1 C/A, L2, L5, E1 and E5 to ensure compliance between SBAS corrections and the GNSS signals. The spoofed position will be in front of the HQ.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T14:00:00",
@@ -103,7 +112,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "EGNOS test, details TBD",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T14:45:00",
@@ -112,7 +121,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Power will be ramped up from -35 dBm to 25 dBm in 5 dB steps, with each step lasting 3 minutes. Simulated position: North end of the football field - 69.27701401, 15.96932835, 45 m hae. Simulated start time: Referenced to live GPS-signals.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T15:30:00",
@@ -121,7 +130,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed.  Simulated position: North end of the football field - 69.27701401, 15.969328354, 45 m hae (Height Above Ellipsoid). Simulated start time: Referenced to live GPS-signals.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T16:00:00",
@@ -130,7 +139,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Scenario: One satellite is configured as PRN 37 from the start of the simulation and remains PRN 37 throughout the scenario. This tests receiver behaviour when a reserved PRN is present during acquisition and tracking. The simulated PRN 37 signal will be transmitted with satellite health set to healthy.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T16:30:00",
@@ -139,7 +148,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Simulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T16:55:00",
@@ -148,7 +157,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Simulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T17:15:00",
@@ -157,7 +166,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, E6, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Simulated start position: Bleik community house parking lot. Simulated start time: Referenced to live GPS-signals.",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T17:45:00",
@@ -166,7 +175,16 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "Drone \"Jammertest\" scenario. Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Simulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals. Spoofing transmission will be corrected for signal delay to simulated start position. DUTs, such as drones, at start position (victim position) should see coherent signals. Route 4 is static for 5 minutes, then followed by 10 minutes of movement.",
-          "status": "notRun"
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-16T17:53:00",
+          "end_time": "2026-09-16T18:08:00",
+          "test_id": "2.3.13",
+          "test_contact": "Jørn Skorstad (Nkom)",
+          "power_w": 0.316,
+          "comment": "Drone \"Jammertest\" scenario. Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Simulated start position: 69.277014014, 15.969328354, 40 m hae. Simulated start time: Referenced to live GPS-signals. Spoofing transmission will be corrected for signal delay to simulated start position. DUTs, such as drones, at start position (victim position) should see coherent signals. Route 4 is static for 5 minutes, then followed by 10 minutes of movement. - rerun of previous test",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T18:30:00",
@@ -184,7 +202,7 @@
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.316,
           "comment": "First hour: 5 min static, then drifting 0.1 m/s\nSecond hour: 5 min static, then drifting 3 m/s\nThird hour: 5 min static, then drifting 30 m/s",
-          "status": "notRun"
+          "status": "hasRun"
         }
       ]
     },
@@ -203,11 +221,29 @@
         },
         {
           "start_time": "2026-09-16T09:00:00",
+          "end_time": "2026-09-16T09:55:00",
+          "test_id": "2.10.5",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 3,
+          "comment": "Spoofing route 7. \"Circle of Fire\" and narrow band jamming from A150, B150 and C150. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5\n\nM.1.1 Winnie the spoof increased power levels with 6db.",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-16T09:00:00",
           "end_time": "2026-09-16T09:40:00",
           "test_id": "2.10.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 1,
           "comment": "Spoofing route 7. \"Circle of Fire\". Employing M1.1 Winnie-the-Spoof",
+          "status": "hasRun"
+        },
+        {
+          "start_time": "2026-09-16T09:05:00",
+          "end_time": "2026-09-16T09:45:00",
+          "test_id": "2.10.6",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 3,
+          "comment": "Spoofing route 7. \"Circle of Fire\" and PRN power jamming from A50, B50 and C50. 20 min ramp up and 20 min ramp down. Employing M1.1 Winnie-the-Spoof and all three KASTREL jammers F1.3, F1.4 and F1.5.\n\nM.1.1 Winnie the spoof increased power levels with 6db.\nSDR jammers continued 30 seconds after the test finished.",
           "status": "hasRun"
         },
         {
@@ -217,16 +253,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
           "comment": "Spoofing route 7. \"Circle of Fire\" and CHRIP jamming from A50, B50 and C50. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-16T11:00:00",
-          "end_time": "2026-09-16T11:55:00",
-          "test_id": "2.10.5",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
-          "comment": "Spoofing route 7. \"Circle of Fire\" and narrow band jamming from A150, B150 and C150. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5",
-          "status": "notRun"
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T12:00:00",
@@ -238,13 +265,13 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-16T13:05:00",
-          "end_time": "2026-09-16T13:45:00",
-          "test_id": "2.10.6",
+          "start_time": "2026-09-16T13:00:00",
+          "end_time": "2026-09-16T13:55:00",
+          "test_id": "2.10.2",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
-          "comment": "Spoofing route 7. \"Circle of Fire\" and PRN power jamming from A50, B50 and C50. 20 min ramp up and 20 min ramp down. Employing M1.1 Winnie-the-Spoof and all three KASTREL jammers F1.3, F1.4 and F1.5.",
-          "status": "notRun"
+          "comment": "Spoofing route 7. \"Circle of Fire\" and CHRIP jamming from A50, B50 and C50. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5\n\nM.1.1 Winnie the spoof increased power levels with 3 db.\nThe jamming and spoofing started as planned at 15:00:00, but the log was started 19 seconds too late.",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T14:00:00",
@@ -252,17 +279,17 @@
           "test_id": "2.10.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 1,
-          "comment": "Spoofing route 7. \"Circle of Fire\". Employing M1.1 Winnie-the-Spoof",
-          "status": "notRun"
+          "comment": "Spoofing route 7. \"Circle of Fire\". Employing M1.1 Winnie-the-Spoof\n\nM.1.1 Winnie the spoof increased power levels with 3 db.",
+          "status": "hasRun"
         },
         {
-          "start_time": "2026-09-16T15:00:00",
-          "end_time": "2026-09-16T15:55:00",
-          "test_id": "2.10.2",
+          "start_time": "2026-09-16T15:05:00",
+          "end_time": "2026-09-16T15:45:00",
+          "test_id": "2.10.6",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
-          "comment": "Spoofing route 7. \"Circle of Fire\" and CHRIP jamming from A50, B50 and C50. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5",
-          "status": "notRun"
+          "comment": "Spoofing route 7. \"Circle of Fire\" and PRN power jamming from A50, B50 and C50. 20 min ramp up and 20 min ramp down. Employing M1.1 Winnie-the-Spoof and all three KASTREL jammers F1.3, F1.4 and F1.5.\n\nM.1.1 Winnie the spoof increased power levels with 3 db.\nSDR jammers continued 30 seconds after the test finished.",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T16:00:00",
@@ -270,17 +297,8 @@
           "test_id": "2.10.5",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 3,
-          "comment": "Spoofing route 7. \"Circle of Fire\" and narrow band jamming from A150, B150 and C150. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-16T17:05:00",
-          "end_time": "2026-09-16T17:45:00",
-          "test_id": "2.10.6",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 3,
-          "comment": "Spoofing route 7. \"Circle of Fire\" and PRN power jamming from A50, B50 and C50. 20 min ramp up and 20 min ramp down. Employing M1.1 Winnie-the-Spoof and all three KASTREL jammers F1.3, F1.4 and F1.5.",
-          "status": "notRun"
+          "comment": "Spoofing route 7. \"Circle of Fire\" and narrow band jamming from A150, B150 and C150. Employing M1.1 Winnie-the-Spoof and H1.1, H1.4 and H1.5\n\nM.1.1 Winnie the spoof increased power levels with 3 db.",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T18:30:00",
@@ -297,6 +315,15 @@
       "location_id": 3,
       "location_name": "Test Area 3",
       "tests": [
+        {
+          "start_time": "2026-09-16T06:30:00",
+          "end_time": "2026-09-16T07:10:00",
+          "test_id": "1.11.15",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": "Employing H1.6\n\nConfig:\n- high power ( first turn on at low power, then turnd on high power after 10 seconds.\n- tx on\n- L1 & L2 (chirp)\n\nIn center",
+          "status": "hasRun"
+        },
         {
           "start_time": "2026-09-16T08:00:00",
           "end_time": "2026-09-16T08:30:00",
@@ -316,6 +343,15 @@
           "status": "hasRun"
         },
         {
+          "start_time": "2026-09-16T09:20:00",
+          "end_time": "2026-09-16T10:00:00",
+          "test_id": "1.11.16",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.1,
+          "comment": "Employing H1.6, H1.7\n\nConfig H1.6 & H1.7:\n- high power\n- tx on\n- L1 & L2 (chirp)\n\nOne in front and one in center",
+          "status": "hasRun"
+        },
+        {
           "start_time": "2026-09-16T09:30:00",
           "end_time": "2026-09-16T09:50:00",
           "test_id": "1.11.13",
@@ -330,26 +366,26 @@
           "test_id": "1.11.14",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7 and H4.1.",
-          "status": "notRun"
+          "comment": "Employing H1.6, H1.7 and H4.1.\n\nConfig H1.6 & H1.7:\n- high power\n- tx on\n- L1 & L2 (chirp)\n\nConfig H4.1:\n- ON",
+          "status": "hasRun"
         },
         {
-          "start_time": "2026-09-16T10:30:00",
-          "end_time": "2026-09-16T11:10:00",
-          "test_id": "1.11.15",
+          "start_time": "2026-09-16T10:40:00",
+          "end_time": "2026-09-16T11:30:00",
+          "test_id": "1.11.17",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6",
-          "status": "notRun"
+          "comment": "Equipment:\n- H6.6 (front car)\n- H6.4 (center car)\n- H8.1(rear car)\n\nConfig\nH6.6 H6.4 & H8.1 ON",
+          "status": "hasRun"
         },
         {
-          "start_time": "2026-09-16T11:20:00",
-          "end_time": "2026-09-16T12:00:00",
-          "test_id": "1.11.16",
+          "start_time": "2026-09-16T11:50:00",
+          "end_time": "2026-09-16T12:30:00",
+          "test_id": "1.11.17",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Employing H1.6, H1.7",
-          "status": "notRun"
+          "comment": "Equipment:\n- F6.1 (front car)  the jammer was turn on after 5-6 minutes after the test started\n- H3.3 (center car)\n- H6.5(rear car)\n\nConfig\nF6.1\n- L1, L2, L3, L4 & L5 full strength\n\nH3.3\n- ON",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T12:00:00",
@@ -366,26 +402,8 @@
           "test_id": "1.11.17",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-16T13:50:00",
-          "end_time": "2026-09-16T14:30:00",
-          "test_id": "1.11.17",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-16T14:40:00",
-          "end_time": "2026-09-16T15:30:00",
-          "test_id": "1.11.17",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
+          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.\n\nEquipment:\n- H1.7(front car)\n- H1.6(center car)\n- H6.3(rear car)\n\nConfig H1.6 & H1.7\n- high power\n- tx on\n- L1 & L2 (chirp)\n\nConfig H6.3\n- ON",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T15:30:00",
@@ -402,8 +420,8 @@
           "test_id": "1.11.17",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "Jammer-equipment will be decided on-site and made available in the test log afterwards.",
-          "status": "notRun"
+          "comment": "Equipment:\n- H3.1 (front car)\n- H6.1 (center car)\n- H1.2 (rear car)\n\nConfig\nF6.1\n- L1, L2, L3, L4 & L5 full strength\n\nH3.1 & H1.2\n- ON",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T16:50:00",
@@ -411,8 +429,8 @@
           "test_id": "0.3.1",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.1,
-          "comment": "What would you like to test? Please ask us and we will see if we can accommodate your wishes.\n\nIf there are any previous tests you would like to repeat, or if you have suggestions for new tests that could provide valuable insights, please let us know.\nSpoofing scenarios are unfortunately not available.",
-          "status": "notRun"
+          "comment": "Employing H1.6, H1.7 and F6.1.\n\nConfig H1.6 & H1.7 (each end of the test area)\n- high power\n- tx on\n- L1 & L2 (chirp)\n\nConfig (Middle, @Stave)\nF6.1\n- L1, L2, L3, L4 & L5 full strength",
+          "status": "hasRun"
         },
         {
           "start_time": "2026-09-16T18:30:00",
