@@ -13,7 +13,7 @@
           "test_contact": "Christian Skjetne (NPRA)",
           "power_w": 0,
           "comment": "MANDATORY",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T09:00:00",
@@ -21,17 +21,17 @@
           "test_id": "2.5.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Power will be ramped up from -45 dBm to 10 dBm in 5 dB steps, with each step lasting 3 minutes. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime offset is + 15 minutes (900 seconds), so \"into the future\".",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T10:00:00",
           "end_time": "2026-09-17T10:40:00",
           "test_id": "2.4.14",
           "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 0,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Power will be ramped up from -45 dBm to 10 dBm in 5 dB steps, with each step lasting 3 minutes. Time offset is - 3 minutes (180 seconds), so \"back into the past\".",
-          "status": "hasRun"
+          "power_w": 0.001,
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nTime offset is - 3 minutes (180 seconds), so \"back into the past\".",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T10:55:00",
@@ -39,8 +39,8 @@
           "test_id": "2.4.13",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. 5 minutes of initial jamming (L1, G1, B1I, L2 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. The pseudorange error is applied to all satellites, starting five minutes after the spoofing starts (these first five minutes are \"true\". The applied error should equal a drift of 3 ns/s.",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\n5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error should equal a drift of 3 ns/s.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T11:45:00",
@@ -48,8 +48,8 @@
           "test_id": "2.4.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5A+B, E6 HAS. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Starting time is 03:04:00 19.01.2038 UTC. Incoherent. UNIX time rollover at 030417.",
-          "status": "hasRun"
+          "comment": "UNIX time rollover test. Starting time 03:04:00 19.01.2038 UTC.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T12:00:00",
@@ -66,8 +66,8 @@
           "test_id": "2.5.25",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18.",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2, E5b, L5 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was 19 leap seconds instead of 18.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T14:00:00",
@@ -75,8 +75,8 @@
           "test_id": "2.5.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: Galileo E1. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
-          "status": "hasRun"
+          "comment": "Signals: Galileo E1. No jamming. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T14:20:00",
@@ -84,8 +84,8 @@
           "test_id": "2.5.4",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A. No jamming. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T14:40:00",
@@ -93,17 +93,26 @@
           "test_id": "2.5.6",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. No jamming. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. Time offset is + 15 minutes (900 seconds), so \"into the future\".",
+          "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T15:25:00",
-          "end_time": "2026-09-17T16:40:00",
+          "start_time": "2026-09-17T15:20:00",
+          "end_time": "2026-09-17T16:00:00",
           "test_id": "2.5.15",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. No jamming. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error is gradually increased throughout the test.",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. No jamming. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe pseudorange error is applied to all satellites, starting five minutes after the spoofing starts. The applied error is gradually increased throughout the test.",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T16:15:00",
+          "end_time": "2026-09-17T16:30:00",
+          "test_id": "2.7.17",
+          "test_contact": "Jørn Skorstad (Nkom)",
+          "power_w": 0.001,
+          "comment": "UNIX time rollover, starting time 03:04:00 19.01.2038. Coherent.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T16:55:00",
@@ -111,8 +120,8 @@
           "test_id": "2.5.26",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds.",
-          "status": "hasRun"
+          "comment": "Signals: GPS L1 C/A. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. \n\nThe UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T17:30:00",
@@ -120,8 +129,8 @@
           "test_id": "2.5.28",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 0.001,
-          "comment": "Signals: GPS L1 C/A, L2C, L5. Galileo E1, E5, E6. 5 minutes of initial jamming (L1, G1, B1I, L2 with 2 W) prior to spoofing transmission, then continuous on other bands than the ones spoofed. Fixed spoofed position: 69.27547832, 15.96832496, 35 m hae. The UTC-paramter nav. data manipulation consists of the spoofing signal saying that back in 2016, there was counter-factual extra amount of -127 leap seconds, which in total means that there is removed -145 leap seconds.",
-          "status": "hasRun"
+          "comment": "2.5.28 or 2.5.27 (with or without initial jamming, TBD)",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T18:30:00",
@@ -139,15 +148,6 @@
       "location_name": "Test Area 2",
       "tests": [
         {
-          "start_time": "2026-09-17T07:00:00",
-          "end_time": "2026-09-17T07:55:00",
-          "test_id": "3.5.1",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nTest was started as planned at 9:00:00, but test log was started before 9:01:24.\nSome spoofing interference from site 3.",
-          "status": "hasRun"
-        },
-        {
           "start_time": "2026-09-17T08:00:00",
           "end_time": "2026-09-17T08:30:00",
           "test_id": "0.0.1",
@@ -158,30 +158,30 @@
         },
         {
           "start_time": "2026-09-17T09:00:00",
-          "end_time": "2026-09-17T09:55:00",
-          "test_id": "3.5.7",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing all three SDR KASTREL jammers. F1.3, F1.4 and F1.5\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nPower ramp for SDR jammers:\n20 min for ramp up - 35 min at max level for the duration of the test\n\nSome spoofing interference from site 3.",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T09:00:00",
-          "end_time": "2026-09-17T09:55:00",
+          "end_time": "2026-09-17T10:00:00",
           "test_id": "3.5.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO.\n20 min for ramp up - 15 min at max level - 20 min for ramp down\n\nJamming interference from site 1. Interferance into RXF meaconing pickup antenna. Affected frequency G1 and B1I.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T10:00:00",
-          "end_time": "2026-09-17T10:55:00",
+          "end_time": "2026-09-17T11:00:00",
           "test_id": "3.5.6",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing SDR jammer F1.3 KASTREL.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp for SDR jammer:\n20 min for ramp up - 35 min at max level for the duration of the test",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T11:00:00",
+          "end_time": "2026-09-17T12:00:00",
+          "test_id": "3.5.7",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T12:00:00",
@@ -189,44 +189,53 @@
           "test_id": "0.1.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Lunch @ Stave (Site 3)",
+          "comment": "Lunch @ Grunnvatn (Site 2)",
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T12:00:00",
-          "end_time": "2026-09-17T12:50:00",
+          "start_time": "2026-09-17T13:00:00",
+          "end_time": "2026-09-17T14:00:00",
+          "test_id": "3.5.1",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T14:00:00",
+          "end_time": "2026-09-17T15:00:00",
           "test_id": "3.5.5",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing F1.3 KASTREL . Pulsed meaconing and jamming. Several pulsed steps at different output levels. \n\nSee Test Catalog (TC) for details.\n\nSome spoofing interference from site 3.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T15:00:00",
-          "end_time": "2026-09-17T15:55:00",
+          "end_time": "2026-09-17T16:00:00",
           "test_id": "3.5.3",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down.\nEmploying F5.1 JAKO and H1.1, H1.4 and H1.5. Jammers active for the whole duration of the test.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T16:00:00",
-          "end_time": "2026-09-17T16:55:00",
+          "end_time": "2026-09-17T17:00:00",
           "test_id": "3.5.8",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. Employing FF1.3 KASTREL and H1.1, H1.4 and H1.5. Jammers active for the whole duration of the test.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp from SDR jammer:\n20 min for ramp up - 35 min at max level for the duration of the test",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T17:00:00",
-          "end_time": "2026-09-17T17:45:00",
+          "end_time": "2026-09-17T18:00:00",
           "test_id": "3.5.9",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Meaconing from Bauktuva, beaming the meaconing signal towards Grunvatn. Using receiver RXF and F5.1 JAKO. \n\nEmploying all three KASTREL SDR jammers, F1.3, F1.4, F1.5. \nHandheld jammers, H1.1, H1.4 and H1.5 are active for the whole duration of the test.\nPower ramp for meaconing:\n20 min for ramp up - 15 min at max level - 20 min for ramp down\nPower ramp from SDR jammers:\n20 min for ramp up - 35 min at max level for the duration of the test",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T18:30:00",
@@ -244,42 +253,6 @@
       "location_name": "Test Area 3",
       "tests": [
         {
-          "start_time": "2026-09-17T05:00:00",
-          "end_time": "2026-09-17T05:23:00",
-          "test_id": "2.6.6",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n09:00:01 start\n09:15:18 underflow\n09:15:38 restart\n09:17:13 underflow\n09:17:32 restart\n09:20:00 End",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T05:30:00",
-          "end_time": "2026-09-17T05:50:00",
-          "test_id": "2.6.5",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n09:30:01 start\n09:37:00 -3db Due to impact on site 2\n09:50:00 stop",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T06:00:00",
-          "end_time": "2026-09-17T06:20:00",
-          "test_id": "2.6.2",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.  -3dB compared to testplan because of interference with site 2\n\n10:00:01 Start\n10:20:00 Stop",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T07:00:00",
-          "end_time": "2026-09-17T07:40:00",
-          "test_id": "2.6.10",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n11:00:00 Start\n11:40:00 Stop",
-          "status": "hasRun"
-        },
-        {
           "start_time": "2026-09-17T08:00:00",
           "end_time": "2026-09-17T08:30:00",
           "test_id": "0.0.1",
@@ -289,13 +262,31 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T08:30:00",
-          "end_time": "2026-09-17T08:50:00",
-          "test_id": "2.6.7",
+          "start_time": "2026-09-17T09:00:00",
+          "end_time": "2026-09-17T09:23:00",
+          "test_id": "2.6.6",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n10:30:00 Start\n10:50:00 Sop",
-          "status": "hasRun"
+          "comment": "NB! This actual test will take 5 minutes extra than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads 13.23 which allows us to have a 7 minute break instead of the regular 10 min.",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T09:30:00",
+          "end_time": "2026-09-17T09:50:00",
+          "test_id": "2.6.5",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T10:00:00",
+          "end_time": "2026-09-17T10:20:00",
+          "test_id": "2.6.2",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T10:30:00",
@@ -303,35 +294,17 @@
           "test_id": "2.6.7",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n14:30:00 Start\n14:38:01 Underflow\n14:38:07 Restart\n14:44:03 Underflow\n14:44:44 Restart\n14:45:22: Underflow\n14:45:31 Restart\n14:46:38 Underflow\n14:46:51 Restart\n14:48:59 Underflow\n14:48:59 Test ended prematurely because of underflow issues",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T10:50:00",
-          "end_time": "2026-09-17T11:10:00",
-          "test_id": "2.6.4",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n16:50:01 Start\n17:10:00 Stop\n\nThe start up of this test was delayed with approximately 40 minutes. This affected the schedule the rest of the day. The delay was not related to tests or equipment.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T11:00:00",
-          "end_time": "2026-09-17T11:23:00",
-          "test_id": "2.6.6",
+          "end_time": "2026-09-17T11:40:00",
+          "test_id": "2.6.10",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n13:00:00 start\n13:01:02 underflow\n13:01:22 restart\n13:04:15 L1 Jam OFF\n13:09:07 Underflow\n13:09:11 Restart\n13:23:00 End",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T11:30:00",
-          "end_time": "2026-09-17T11:50:00",
-          "test_id": "2.6.5",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n13:30:00 Start\n13:38:46 Underflow\n13:39:06 Restart\n13:50:00 Stop",
-          "status": "hasRun"
+          "comment": "The route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level is increasing. The motorcade will drive at a speed of 35km/h. \nThe estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop.\nThere will be no initial jamming during this test\nThe starting and end point is Stave",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T12:00:00",
@@ -343,31 +316,49 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T12:00:00",
-          "end_time": "2026-09-17T12:20:00",
+          "start_time": "2026-09-17T13:00:00",
+          "end_time": "2026-09-17T13:23:00",
+          "test_id": "2.6.6",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "NB! This actual test will take 5 minutes extra than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads 13.23 which allows us to have a 7 minute break instead of the regular 10 min.",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T13:30:00",
+          "end_time": "2026-09-17T13:50:00",
+          "test_id": "2.6.5",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T14:00:00",
+          "end_time": "2026-09-17T14:20:00",
           "test_id": "2.6.2",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n14:00:00 Start\n14:20:00 Stop",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T13:00:00",
-          "end_time": "2026-09-17T13:40:00",
+          "start_time": "2026-09-17T14:30:00",
+          "end_time": "2026-09-17T14:50:00",
+          "test_id": "2.6.7",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T15:00:00",
+          "end_time": "2026-09-17T15:40:00",
           "test_id": "2.6.10",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n15:00:00 Start\n15:40:00 Stop",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-17T15:15:00",
-          "end_time": "2026-09-17T15:35:00",
-          "test_id": "2.6.11",
-          "test_contact": "Jahn Erik Røhme (NPRA)",
-          "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n17:15:00 Start\n17:35:00 Stop",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-17T15:40:00",
@@ -379,21 +370,39 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T16:00:00",
-          "end_time": "2026-09-17T16:15:00",
-          "test_id": "2.6.9",
+          "start_time": "2026-09-17T16:10:00",
+          "end_time": "2026-09-17T16:30:00",
+          "test_id": "2.6.4",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\n\n18:00:00 Start\n18:15:00 Stop",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
-          "start_time": "2026-09-17T17:35:00",
-          "end_time": "2026-09-17T18:00:00",
+          "start_time": "2026-09-17T16:40:00",
+          "end_time": "2026-09-17T17:00:00",
+          "test_id": "2.6.11",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T17:00:00",
+          "end_time": "2026-09-17T17:30:00",
           "test_id": "0.1.1",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0,
-          "comment": "Used for preparations for test 2.6.9\n\nEverybody got coffee and cakes for the last time this year",
+          "comment": "Used for preparations for test 2.6.9",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-17T17:30:00",
+          "end_time": "2026-09-17T17:45:00",
+          "test_id": "2.6.9",
+          "test_contact": "Jahn Erik Røhme (NPRA)",
+          "power_w": 0.001,
+          "comment": "Warning: This test could 'brick' some equipment.",
           "status": "notRun"
         },
         {

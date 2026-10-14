@@ -7,15 +7,6 @@
       "location_name": "Test Area 1",
       "tests": [
         {
-          "start_time": "2026-09-14T09:30:00",
-          "end_time": "2026-09-14T09:45:00",
-          "test_id": "0.3.1",
-          "test_contact": "Kenneth",
-          "power_w": 0,
-          "comment": "This is just a demo",
-          "status": "hasRun"
-        },
-        {
           "start_time": "2026-09-14T11:00:00",
           "end_time": "2026-09-14T13:00:00",
           "test_id": "0.0.1",
@@ -23,15 +14,6 @@
           "power_w": 0,
           "comment": "MANDATORY",
           "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-14T12:05:00",
-          "end_time": "2026-09-14T12:15:00",
-          "test_id": "1.4.7",
-          "test_contact": "Jørn Skorstad (Nkom)",
-          "power_w": 50,
-          "comment": "PRN jamming at all GNSS bands from F8.1 Porcus Maior at Ramnan. See test catalogue for bandwidths.",
-          "status": "hasRun"
         },
         {
           "start_time": "2026-09-14T13:00:00",
@@ -48,8 +30,8 @@
           "test_id": "1.2.1",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "CW jamming at L1 from F8.1 Porcus Maior at Ramnan.",
-          "status": "hasRun"
+          "comment": "CW jamming at L1 from Porcus Major at Ramnan.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T14:25:00",
@@ -57,17 +39,17 @@
           "test_id": "1.2.6",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "CW jamming at all GNSS bands from F8.1 Porcus Maior at Ramnan.",
-          "status": "hasRun"
+          "comment": "CW jamming at all GNSS bands from Porcus Major at Ramnan.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T14:50:00",
           "end_time": "2026-09-14T15:00:00",
-          "test_id": "1.3.1",
+          "test_id": "1.3.10",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "Frequency sweep jamming at L1 from F8.1 Porcus Maior at Ramnan. For bandwidth of the specific band, see Testcatalog Table 5.25.",
-          "status": "hasRun"
+          "comment": "Jamming at L1 from Porcus Major at Ramnan.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T15:15:00",
@@ -75,8 +57,8 @@
           "test_id": "1.3.12",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "Frequency sweep jamming of all GNSS bands from F8.1 Porcus Maior at Ramnan. For bandwidths of the specific bands, see Testcatalog Table 5.25.",
-          "status": "hasRun"
+          "comment": "Jamming of all GNSS bands from Porcus Major at Ramnan. For bandwidths of the specific bands see test catalogue table 5.25.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T15:40:00",
@@ -84,8 +66,17 @@
           "test_id": "1.4.5",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "PRN jamming at L1 from F8.1 Porcus Maior at Ramnan.",
-          "status": "hasRun"
+          "comment": "PRN jamming at L1 from Porcus Major at Ramnan.",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-14T16:05:00",
+          "end_time": "2026-09-14T16:15:00",
+          "test_id": "1.4.7",
+          "test_contact": "Jørn Skorstad (Nkom)",
+          "power_w": 50,
+          "comment": "PRN jamming at all GNSS bands from Porcus Major at Ramnan.",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T16:30:00",
@@ -93,8 +84,8 @@
           "test_id": "1.8.2",
           "test_contact": "Jørn Skorstad (Nkom)",
           "power_w": 50,
-          "comment": "PRN pyramid jamming, starting with L1 from F8.1 Porcus Maior (for chiprates, see Testcatalog Table 5.25), then adding bands sequentially to G1, L2, L5, L6, B1I, E5b, G2. The test then continues by removing bands one by one in reverse order, until ending up with only L1. Each step lasts 5 minutes with 3 minutes of jamming and a 2 minutes break between each pyramid step.  In total, it will look like this: \n\nL1\nL1, G1\nL1, G1, L2\nL1, G1, L2, L5\nL1, G1, L2, L5, E6\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I, E5b, G2\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6\nL1, G1, L2, L5\nL1, G1, L2\nL1, G1\nL1",
-          "status": "hasRun"
+          "comment": "PRN pyramid jamming, starting with L1, then adding bands sequentially to G1, L2, L5, L6, B1I, E5b, G2. The test then continues by removing bands one by one in reverse order, until ending up with only L1. Each step lasts 5 minutes with 3.5 minutes of jamming and a 1.5 minute break.  In total, it will look like this: \n\nL1\nL1, G1\nL1, G1, L2\nL1, G1, L2, L5\nL1, G1, L2, L5, E6\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I, E5b, G2\nL1, G1, L2, L5, E6, B1I, E5b\nL1, G1, L2, L5, E6, B1I\nL1, G1, L2, L5, E6\nL1, G1, L2, L5\nL1, G1, L2\nL1, G1\nL1",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T18:30:00",
@@ -121,49 +112,13 @@
           "status": "notRun"
         },
         {
-          "start_time": "2026-09-14T12:16:00",
-          "end_time": "2026-09-14T12:28:00",
-          "test_id": "1.1.4",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "The jamming stopped at 14:28 as planned, but there was issues with the test system, so test log was not stopped before 14:39.",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-14T12:32:00",
-          "end_time": "2026-09-14T12:44:00",
-          "test_id": "1.1.8",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "The jamming started at 14:32 as planned, but due to issues with the test system, the test log was not started before 14:40.",
-          "status": "hasRun"
-        },
-        {
-          "start_time": "2026-09-14T12:40:00",
-          "end_time": "2026-09-14T12:52:00",
-          "test_id": "1.1.22",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "Strong interferance on the ISM-band and mobile frequencies  produced by the jammer.",
-          "status": "hasRun"
-        },
-        {
           "start_time": "2026-09-14T13:00:00",
           "end_time": "2026-09-14T14:00:00",
           "test_id": "0.1.1",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Lunch @ Stave (Site 3)",
+          "comment": "Lunch @ Grunnvatn (Site 2)",
           "status": "notRun"
-        },
-        {
-          "start_time": "2026-09-14T13:36:00",
-          "end_time": "2026-09-14T13:48:00",
-          "test_id": "1.1.18",
-          "test_contact": "Øystein Karlsen (NKOM)",
-          "power_w": 0,
-          "comment": "Jammer was turned on 7 seconds too late.",
-          "status": "hasRun"
         },
         {
           "start_time": "2026-09-14T14:00:00",
@@ -172,16 +127,25 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
-          "start_time": "2026-09-14T14:24:00",
-          "end_time": "2026-09-14T14:36:00",
-          "test_id": "1.1.21",
+          "start_time": "2026-09-14T14:16:00",
+          "end_time": "2026-09-14T14:28:00",
+          "test_id": "1.1.4",
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
-          "comment": "Strong interferance on the ISM-band produced by the jammer.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-14T14:32:00",
+          "end_time": "2026-09-14T14:44:00",
+          "test_id": "1.1.8",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T14:48:00",
@@ -190,7 +154,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T15:04:00",
@@ -199,7 +163,25 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-14T15:20:00",
+          "end_time": "2026-09-14T15:32:00",
+          "test_id": "1.1.16",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-14T15:36:00",
+          "end_time": "2026-09-14T15:48:00",
+          "test_id": "1.1.18",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T15:52:00",
@@ -208,7 +190,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T16:08:00",
@@ -217,7 +199,25 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-14T16:24:00",
+          "end_time": "2026-09-14T16:36:00",
+          "test_id": "1.1.21",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
+        },
+        {
+          "start_time": "2026-09-14T16:40:00",
+          "end_time": "2026-09-14T16:52:00",
+          "test_id": "1.1.22",
+          "test_contact": "Øystein Karlsen (NKOM)",
+          "power_w": 0,
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T16:56:00",
@@ -226,7 +226,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T17:12:00",
@@ -235,7 +235,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T17:28:00",
@@ -244,7 +244,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T17:44:00",
@@ -253,7 +253,7 @@
           "test_contact": "Øystein Karlsen (NKOM)",
           "power_w": 0,
           "comment": "",
-          "status": "hasRun"
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T18:30:00",
@@ -294,7 +294,7 @@
           "test_id": "2.6.6",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\nThis actual test will take 5 minutes more than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads 14.23 which gives us a 7 minutes break instead of the regular 10 min.",
+          "comment": "This actual test will take 5 minutes extra than the other tests, because the motorcade will stay stationary the first five minutes. We should arrive at Crossroads 14.23 which allows us to have a 7 minute break instead of the regular 10 min.",
           "status": "notRun"
         },
         {
@@ -303,8 +303,8 @@
           "test_id": "2.6.5",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T15:00:00",
@@ -312,7 +312,7 @@
           "test_id": "2.6.2",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.",
+          "comment": "",
           "status": "notRun"
         },
         {
@@ -321,8 +321,8 @@
           "test_id": "2.6.7",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T16:00:00",
@@ -330,8 +330,8 @@
           "test_id": "2.6.10",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.\nThe route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level of the spoofer is increasing. The motorcade will drive at a speed of 35km/h. The estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop. There will be no initial jamming during this test. The starting and end point is Stave",
-          "status": "hasRun"
+          "comment": "The route will run from Stave to the turning point at the Crossroads and then back to Stave. There will be no stop at the turning point, allowing the motorcade to remain in continuous movement throughout the test while the power level is increasing. The motorcade will drive at a speed of 35km/h. \nThe estimated driving time between Stave – Crossroads is 17 minutes when driving at a speed of 35km/h. The test signal will be on air for 40-minutes without any stop.\nThere will be no initial jamming during this test\nThe starting and end point is Stave",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T16:50:00",
@@ -339,8 +339,8 @@
           "test_id": "2.6.4",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T17:20:00",
@@ -348,8 +348,8 @@
           "test_id": "2.6.11",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T17:50:00",
@@ -357,8 +357,8 @@
           "test_id": "2.6.12",
           "test_contact": "Jahn Erik Røhme (NPRA)",
           "power_w": 0.001,
-          "comment": "Employing M1.1 Winnie-the-Spoof.",
-          "status": "hasRun"
+          "comment": "",
+          "status": "notRun"
         },
         {
           "start_time": "2026-09-14T18:30:00",

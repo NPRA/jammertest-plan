@@ -137,11 +137,13 @@ def printTest(testArr):
         if "full_id" not in testInfo:
             print("Cant add test "+str(test["test_id"])+" not available in catalog")
             return "{test "+str(test["test_id"])+" not found in catalog}"
-        res += f'\\normalsize{{\\textbf{{{test["start_time_t"]}-{test["end_time_t"]} - {testInfo["full_id"]} \\\\ {testInfo["testObj"]["name"]} }} }} \\\\ \n \\vspace{{1mm}} '
+        test_name = escape(testInfo["testObj"]["name"])
+        res += f'\\normalsize{{\\textbf{{{test["start_time_t"]}-{test["end_time_t"]} - {testInfo["full_id"]} \\\\ {test_name} }} }} \\\\ \n \\vspace{{1mm}} '
         if test['power_w'] > 0:
             res += f'\\footnotesize{{\\hspace{{3mm}}Power: {test["power_w"]}W }} \\\\ \n'
         if test['comment'] != '':
-            res += f'\\footnotesize{{\\hspace{{3mm}}Comment: {test["comment"]} }} \\\\ \n'
+            comment = escape(" ".join(test["comment"].split()))
+            res += f'\\footnotesize{{\\hspace{{3mm}}Comment: {comment} }} \\\\ \n'
         if test['test_contact'] != '':
             res += f'\\footnotesize{{\\hspace{{3mm}}Contact: {test["test_contact"]} }} \\\\ \n'
         if testArr[len(testArr)-1] != test:
@@ -214,17 +216,17 @@ def writeTestPlan(dayname, date, dayjson):
 json_cat = open('testcatalog.json')
 cat = json.load(json_cat)
 
-json_mon = open('plan-monday-2025-09-15.json')
-writeTestPlan('monday', '2025-09-15', json.load(json_mon))
+json_mon = open('transmission-plan-2026-09-14.json')
+writeTestPlan('monday', '2026-09-14', json.load(json_mon))
 
-json_tue = open('plan-tuesday-2025-09-16.json')
-writeTestPlan('tuesday', '2025-09-16', json.load(json_tue))
+json_tue = open('transmission-plan-2026-09-15.json')
+writeTestPlan('tuesday', '2026-09-15', json.load(json_tue))
 
-json_wed = open('plan-wednesday-2025-09-17.json')
-writeTestPlan('wednesday', '2025-09-17', json.load(json_wed))
+json_wed = open('transmission-plan-2026-09-16.json')
+writeTestPlan('wednesday', '2026-09-16', json.load(json_wed))
 
-json_thu = open('plan-thursday-2025-09-18.json')
-writeTestPlan('thursday', '2025-09-18', json.load(json_thu))
+json_thu = open('transmission-plan-2026-09-17.json')
+writeTestPlan('thursday', '2026-09-17', json.load(json_thu))
 
-json_fri = open('plan-friday-2025-09-19.json')
-writeTestPlan('friday', '2025-09-19', json.load(json_fri))
+json_fri = open('transmission-plan-2026-09-18.json')
+writeTestPlan('friday', '2026-09-18', json.load(json_fri))

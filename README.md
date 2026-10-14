@@ -15,7 +15,7 @@ This is the plan with dates and times for all the tests for this years jammertes
 **The transmission plan will not contain all the tests found in the test catalog.**
 
 Links to the transmission plan:
-- All week: [transmission-plan-2026-09-14-to-2026-09-18.pdf](https://github.com/NPRA/jammertest-plan/blob/main/transmission-plan-2026-09-14-to-2026-09-18.pdf) (PDF)
+- All week: [Transmissionplan.pdf](https://github.com/NPRA/jammertest-plan/blob/main/Transmissionplan.pdf) (PDF)
 - Monday: [transmission-plan-2026-09-14.json](https://github.com/NPRA/jammertest-plan/blob/main/transmission-plan-2026-09-14.json) (JSON) 
 - Tuesday: [transmission-plan-2025-09-15.json](https://github.com/NPRA/jammertest-plan/blob/main/transmission-plan-2025-09-15.json) (JSON) 
 - Wednesday: [transmission-plan-2025-09-16.json](https://github.com/NPRA/jammertest-plan/blob/main/transmission-plan-2025-09-16.json) (JSON) 
