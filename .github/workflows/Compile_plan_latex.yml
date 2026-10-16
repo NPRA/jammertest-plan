@@ -5,7 +5,7 @@ on: #[push]
       - ".github/workflows/Compile_plan_latex.yml"
       - ".github/workflows/create_testplan_PDF.py"
       - "Latex/transmissionplan/plan-main.tex"
-      - "plan-**.json"
+      - "transmission-plan-**.json"
 jobs:
   build_latex:
     runs-on: ubuntu-latest
